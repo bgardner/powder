@@ -119,6 +119,10 @@ ul {
 	width: auto;
 }
 
+.wp-block-post-comments-form p {
+	margin-bottom: 20px;
+}
+
 .wp-block-post-comments-form .form-submit {
 	margin-bottom: 0;
 }
@@ -173,9 +177,8 @@ ul {
 --------------------------------------------- */
 
 ol li:where(:not([class*='block'])),
-ol li:where(.wp-block-list),
 ul li:where(:not([class*='block'])),
-ul li:where(.wp-block-list) {
+.wp-block-list li {
 	margin-left: 30px;
 }
 
@@ -228,7 +231,7 @@ ul li:where(.wp-block-list) {
 --------------------------------------------- */
 
 .wp-block-post:not(:last-of-type) {
-	margin-bottom: 60px;
+	margin-bottom: var(--wp--preset--spacing--medium);
 }
 
 /* Preformatted
@@ -394,11 +397,11 @@ textarea {
 	}
 
 	.wp-block-pullquote.alignleft {
-		margin-right: 30px;
+		margin-right: 30px !important;
 	}
 
 	.wp-block-pullquote.alignright {
-		margin-left: 30px;
+		margin-left: 30px !important;
 	}
 
 }
