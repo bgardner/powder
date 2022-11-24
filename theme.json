@@ -300,7 +300,7 @@
 			"core/comments-title": {
 				"spacing": {
 					"margin": {
-						"top": "60px",
+						"top": "var(--wp--preset--spacing--medium)",
 						"bottom": "30px"
 					}
 				}
