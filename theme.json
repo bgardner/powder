@@ -64,6 +64,11 @@
 					"color": "#0000ff",
 					"name": "Primary",
 					"slug": "primary"
+				},
+				{
+					"color": "#eeeeee",
+					"name": "Neutral",
+					"slug": "neutral"
 				}
 			]
 		},

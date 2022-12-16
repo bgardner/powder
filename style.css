@@ -96,7 +96,7 @@ pre {
 }
 
 *:not(.wp-block-code) > code {
-	background-color: #eee;
+	background-color: var(--wp--preset--color--neutral);
 	font-size: var(--wp--preset--font-size--small);
 	padding: 5px 8px;
 }
@@ -327,7 +327,7 @@ ul li:where(:not([class*='block'])),
 }
 
 .wp-block-table.is-style-stripes tbody tr:nth-child(odd) {
-	background-color: #eee;
+	background-color: var(--wp--preset--color--neutral);
 }
 
 /* Theme
@@ -354,7 +354,7 @@ textarea,
 
 input:focus,
 textarea:focus {
-	background-color: #eee;
+	background-color: var(--wp--preset--color--neutral);
 	outline: none;
 }
 
