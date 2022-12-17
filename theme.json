@@ -496,10 +496,10 @@
 				},
 				"spacing": {
 					"padding": {
-						"top": "var(--wp--preset--spacing--small)",
-						"right": "var(--wp--preset--spacing--large)",
-						"bottom": "var(--wp--preset--spacing--small)",
-						"left": "var(--wp--preset--spacing--large)"
+						"top": "15px",
+						"right": "30px",
+						"bottom": "15px",
+						"left": "30px"
 					}
 				},
 				"typography": {
