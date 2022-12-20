@@ -13,7 +13,7 @@ Simple by design, Powder is a base WordPress block theme created for Full Site E
 
 = 0.6.4 =
 
-Add fluid spacing to templates.
+Add fluid spacing and neutral color.
 
 = 0.6.3 =
 
