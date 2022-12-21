@@ -10,7 +10,7 @@
 <div class="wp-block-group">
 <!-- wp:comments-query-loop -->
 <div class="wp-block-comments-query-loop">
-<!-- wp:comments-title /-->
+<!-- wp:comments-title {"level":3} /-->
 <!-- wp:group {"style":{"spacing":{"margin":{"bottom":"60px"}}}} -->
 <div class="wp-block-group" style="margin-bottom:60px">
 <!-- wp:comment-template -->

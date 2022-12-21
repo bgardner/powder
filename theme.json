@@ -308,6 +308,9 @@
 						"top": "var(--wp--preset--spacing--medium)",
 						"bottom": "30px"
 					}
+				},
+				"typography": {
+					"fontWeight": "var(--wp--custom--font-weight--regular)"
 				}
 			},
 			"core/cover": {
