@@ -62,7 +62,6 @@ function powder_register_block_styles() {
 
 	$block_styles = array(
 		'core/group' => array(
-			'full-height'  => __( 'Full-height', 'powder' ),
 			'shadow'       => __( 'Shadow', 'powder' ),
 			'shadow-solid' => __( 'Shadow Solid', 'powder' ),
 		),
