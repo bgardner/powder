@@ -38,7 +38,7 @@ function powder_theme_settings() {
 	?>
 	<div class="wrap">
 	<h1><?php echo esc_html__( 'Theme Settings', 'powder' ); ?></h1>
-	<p><?php echo esc_html__( 'Enable these patterns to display in the Site Editor and Block Inserter.', 'powder' ); ?></p>
+	<p><?php echo esc_html__( 'Enable these patterns to display in the Block Inserter and Site Editor.', 'powder' ); ?></p>
 	<form method="post" action="options.php">
 		<?php settings_fields('powder-theme-settings-group'); ?>
 		<?php do_settings_sections('powder-theme-settings-group'); ?>
