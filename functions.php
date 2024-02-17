@@ -24,6 +24,9 @@ if ( ! function_exists( 'powder_setup' ) ) {
 		// Include theme settings page.
 		require_once get_template_directory() . '/inc/theme-settings.php';
 
+		// Include support for WooCommerce.
+		require_once get_template_directory() . '/inc/woocommerce.php';
+
 		// Remove core block patterns support.
 		remove_theme_support( 'core-block-patterns' );
 
