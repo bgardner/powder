@@ -643,6 +643,11 @@
 	],
 	"customTemplates": [
 		{
+			"name": "archive-product",
+			"postTypes": [""],
+			"title": "Archive: Product"
+		},
+		{
 			"name": "page-blank",
 			"postTypes": ["page"],
 			"title": "Page: Blank"
@@ -651,6 +656,11 @@
 			"name": "page-no-title",
 			"postTypes": ["page"],
 			"title": "Page: No Title"
+		},
+		{
+			"name": "single-product",
+			"postTypes": ["product"],
+			"title": "Single: Product"
 		}
 	]
 }
