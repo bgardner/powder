@@ -15,7 +15,7 @@ if ( ! function_exists( 'powder_setup' ) ) {
 	 */
 	function powder_setup() {
 
-		// Enqueue editor style sheet.
+		// Enqueue editor stylesheet.
 		add_editor_style( get_template_directory_uri() . '/style.css' );
 
 		// Disable core block inline styles.
@@ -39,7 +39,7 @@ add_action( 'after_setup_theme', 'powder_setup' );
  */
 function powder_enqueue_styles_scripts() {
 
-	// Enqueue theme style sheet.
+	// Enqueue theme stylesheet.
 	wp_enqueue_style( 'powder', get_template_directory_uri() . '/style.css', array(), wp_get_theme( 'powder' )->get( 'Version' ) );
 
 	// Enqueue theme JavaScript.

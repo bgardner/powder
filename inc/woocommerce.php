@@ -21,7 +21,7 @@ function powder_enqueue_woocommerce_styles() {
 			// Get the version of the Powder theme.
 			$powder_version = $powder_theme->get( 'Version' );
 
-			// Enqueue the WooCommerce style sheet.
+			// Enqueue the WooCommerce stylesheet.
 			wp_enqueue_style( 'powder-woocommerce', get_template_directory_uri() . '/assets/css/woocommerce.css', array(), $powder_version );
 		}
 	}
