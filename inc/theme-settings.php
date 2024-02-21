@@ -24,15 +24,15 @@ function powder_theme_menu() {
 	);
 
 }
-add_action('admin_menu', 'powder_theme_menu');
+add_action( 'admin_menu', 'powder_theme_menu' );
 
 /**
- * Display content for theme settings page.
+ * Display content for theme settings.
  */
 function powder_theme_settings() {
 
-	if (!current_user_can('manage_options')) {
-		wp_die('You do not have sufficient permissions to access this page.');
+	if ( !current_user_can( 'manage_options' )) {
+		wp_die( 'You do not have sufficient permissions to access this page.' );
 	}
 
 	?>
@@ -111,11 +111,11 @@ function powder_theme_settings() {
 function powder_theme_admin_init(){
 
 	for ($i = 1; $i <= 9; $i++) {
-		register_setting('powder-theme-settings-group', 'powder_setting_option_' . $i, 'sanitize_powder_theme_option');
+		register_setting( 'powder-theme-settings-group', 'powder_setting_option_' . $i, 'sanitize_powder_theme_option' );
 	}
 
 }
-add_action('admin_init', 'powder_theme_admin_init');
+add_action( 'admin_init', 'powder_theme_admin_init' );
 
 /**
  * Sanitize callback function.
@@ -129,39 +129,38 @@ function sanitize_powder_theme_option($input) {
 /**
  * Unregister patterns based on settings.
  */
-add_action('init', 'conditional_powder_unregister_patterns');
+function powder_unregister_patterns() {
 
-function conditional_powder_unregister_patterns() {
-
-	if (get_option('powder_setting_option_1', '1') !== '1') {
+	if (get_option( 'powder_setting_option_1', '1' ) !== '1') {
 		powder_unregister_content_patterns();
 	}
-	if (get_option('powder_setting_option_2', '1') !== '1') {
+	if (get_option( 'powder_setting_option_2', '1' ) !== '1') {
 		powder_unregister_example_patterns();
 	}
-	if (get_option('powder_setting_option_3', '1') !== '1') {
+	if (get_option( 'powder_setting_option_3', '1' ) !== '1') {
 		powder_unregister_footer_patterns();
 	}
-	if (get_option('powder_setting_option_4', '1') !== '1') {
+	if (get_option( 'powder_setting_option_4', '1' ) !== '1') {
 		powder_unregister_header_patterns();
 	}
-	if (get_option('powder_setting_option_5', '1') !== '1') {
+	if (get_option( 'powder_setting_option_5', '1' ) !== '1') {
 		powder_unregister_hero_patterns();
 	}
-	if (get_option('powder_setting_option_6', '1') !== '1') {
+	if (get_option( 'powder_setting_option_6', '1' ) !== '1') {
 		powder_unregister_posts_patterns();
 	}
-	if (get_option('powder_setting_option_7', '1') !== '1') {
+	if (get_option( 'powder_setting_option_7', '1' ) !== '1') {
 		powder_unregister_pricing_patterns();
 	}
-	if (get_option('powder_setting_option_8', '1') !== '1') {
+	if (get_option( 'powder_setting_option_8', '1' ) !== '1') {
 		powder_unregister_template_patterns();
 	}
-	if (get_option('powder_setting_option_9', '1') !== '1') {
+	if (get_option( 'powder_setting_option_9', '1' ) !== '1') {
 		powder_unregister_testimonials_patterns();
 	}
 
 }
+add_action( 'init', 'powder_unregister_patterns' );
 
 /**
  * Unregister Content patterns.
