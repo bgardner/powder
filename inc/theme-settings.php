@@ -35,68 +35,39 @@ function powder_theme_settings() {
 		wp_die( 'You do not have sufficient permissions to access this page.' );
 	}
 
+	$settings = array(
+		'1' => 'Content',
+		'2' => 'Footers',
+		'3' => 'Headers',
+		'4' => 'Hero',
+		'5' => 'Posts',
+		'6' => 'Pricing',
+		'7' => 'Templates',
+		'8' => 'Testimonials'
+	);
+
 	?>
 	<div class="wrap">
 	<h1><?php echo esc_html__( 'Theme Settings', 'powder' ); ?></h1>
 	<p><?php echo esc_html__( 'Enable these patterns to display in the Block Inserter and Site Editor.', 'powder' ); ?></p>
 	<form method="post" action="options.php">
-		<?php settings_fields('powder-theme-settings-group'); ?>
-		<?php do_settings_sections('powder-theme-settings-group'); ?>
+		<?php settings_fields( 'powder-theme-settings-group' ); ?>
+		<?php do_settings_sections( 'powder-theme-settings-group' ); ?>
 		<table class="form-table">
-			<tr valign="top">
-				<th scope="row"><?php echo esc_html__( 'Content', 'powder' ); ?></th>
-				<td>
-					<input type="checkbox" name="powder_setting_option_1" value="1" <?php checked(1, get_option('powder_setting_option_1', '1'), true); ?>/>
-				</td>
-			</tr>
-			<tr valign="top">
-				<th scope="row"><?php echo esc_html__( 'Footers', 'powder' ); ?></th>
-				<td>
-					<input type="checkbox" name="powder_setting_option_2" value="1" <?php checked(1, get_option('powder_setting_option_2', '1'), true); ?>/>
-				</td>
-			</tr>
-			<tr valign="top">
-				<th scope="row"><?php echo esc_html__( 'Headers', 'powder' ); ?></th>
-				<td>
-					<input type="checkbox" name="powder_setting_option_3" value="1" <?php checked(1, get_option('powder_setting_option_3', '1'), true); ?>/>
-				</td>
-			</tr>
-			<tr valign="top">
-				<th scope="row"><?php echo esc_html__( 'Hero', 'powder' ); ?></th>
-				<td>
-					<input type="checkbox" name="powder_setting_option_4" value="1" <?php checked(1, get_option('powder_setting_option_4', '1'), true); ?>/>
-				</td>
-			</tr>
-			<tr valign="top">
-				<th scope="row"><?php echo esc_html__( 'Posts', 'powder' ); ?></th>
-				<td>
-					<input type="checkbox" name="powder_setting_option_5" value="1" <?php checked(1, get_option('powder_setting_option_5', '1'), true); ?>/>
-				</td>
-			</tr>
-			<tr valign="top">
-				<th scope="row"><?php echo esc_html__( 'Pricing', 'powder' ); ?></th>
-				<td>
-					<input type="checkbox" name="powder_setting_option_6" value="1" <?php checked(1, get_option('powder_setting_option_6', '1'), true); ?>/>
-				</td>
-			</tr>
-			<tr valign="top">
-				<th scope="row"><?php echo esc_html__( 'Templates', 'powder' ); ?></th>
-				<td>
-					<input type="checkbox" name="powder_setting_option_7" value="1" <?php checked(1, get_option('powder_setting_option_7', '1'), true); ?>/>
-				</td>
-			</tr>
-			<tr valign="top">
-				<th scope="row"><?php echo esc_html__( 'Testimonials', 'powder' ); ?></th>
-				<td>
-					<input type="checkbox" name="powder_setting_option_8" value="1" <?php checked(1, get_option('powder_setting_option_8', '1'), true); ?>/>
-				</td>
-			</tr>
+			<?php foreach ($settings as $key => $label): ?>
+				<tr valign="top">
+					<th scope="row"><?php echo esc_html__( $label, 'powder' ); ?></th>
+					<td>
+						<input type="checkbox" name="powder_setting_option_<?php echo $key; ?>" value="1" <?php checked(1, get_option( 'powder_setting_option_'.$key, '1' ), true); ?>/>
+					</td>
+				</tr>
+			<?php endforeach; ?>
 		</table>
-		
 		<?php submit_button(); ?>
 	</form>
 	</div>
-<?php
+	<?php
+
 }
 
 /**
