@@ -104,13 +104,6 @@ function powder_register_pattern_categories() {
 		)
 	);
 	register_block_pattern_category(
-		'powder-example',
-		array(
-			'label'       => __( 'Examples', 'powder' ),
-			'description' => __( 'A collection of example patterns for Powder.', 'powder' ),
-		)
-	);
-	register_block_pattern_category(
 		'powder-hero',
 		array(
 			'label'       => __( 'Hero', 'powder' ),
