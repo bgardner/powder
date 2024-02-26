@@ -130,7 +130,7 @@ Initial public release.
 
 == Copyright ==
 
-Powder WordPress Theme, (C) 2022-2023 Brian Gardner.
+Powder WordPress Theme, (C) 2022-2024 Brian Gardner.
 Powder is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify

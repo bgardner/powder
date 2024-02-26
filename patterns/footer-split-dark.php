@@ -115,7 +115,7 @@
 			<p> · </p>
 			<!-- /wp:paragraph -->
 			<!-- wp:paragraph -->
-			<p><a href="https://powderstudio.com/">Theme</a> by <a href="https://briangardner.com/">Brian Gardner</a></p>
+			<p><a href="https://briangardner.com/themes/powder/">Powder Theme</a> by <a href="https://briangardner.com/">Brian Gardner</a></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->
