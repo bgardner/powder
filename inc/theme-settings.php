@@ -259,8 +259,6 @@ function powder_unregister_pricing_patterns() {
 	unregister_block_pattern( 'powder/pricing-3-columns-dark' );
 	unregister_block_pattern( 'powder/pricing-4-columns' );
 	unregister_block_pattern( 'powder/pricing-4-columns-dark' );
-	unregister_block_pattern( 'powder/pricing-single' );
-	unregister_block_pattern( 'powder/pricing-single-dark' );
 
 }
 
