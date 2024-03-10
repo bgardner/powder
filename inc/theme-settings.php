@@ -92,34 +92,6 @@ function sanitize_powder_theme_option($input) {
 }
 
 /**
- * Set options to a specific value.
- */
-function powder_set_theme_options( $state ) {
-
-	for ( $i = 1; $i <= 8; $i++ ) {
-		update_option( 'powder_setting_option_' . $i, $state );
-	}
-
-}
-
-/**
- * Reset options when switching themes.
- */
-function powder_reset_theme_options() {
-
-	$theme = wp_get_theme();
-	if ( $theme->parent() ) {
-		// If a child theme is active, reset options value to '0' (false).
-		powder_set_theme_options( '0' );
-	} else {
-		// If the parent theme is active, reset options value to '1' (true).
-		powder_set_theme_options( '1' );
-	}
-
-}
-add_action( 'after_switch_theme', 'powder_reset_theme_options' );
-
-/**
  * Unregister patterns based on settings.
  */
 function powder_unregister_patterns() {
