@@ -121,13 +121,6 @@ function powder_register_pattern_categories() {
 			'description' => __( 'A collection of template patterns for Powder.', 'powder' ),
 		)
 	);
-	register_block_pattern_category(
-		'powder-testimonials',
-		array(
-			'label'       => __( 'Testimonials', 'powder' ),
-			'description' => __( 'A collection of template testimonials for Powder.', 'powder' ),
-		)
-	);
 
 }
 add_action( 'init', 'powder_register_pattern_categories' );

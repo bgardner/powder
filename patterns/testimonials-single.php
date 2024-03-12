@@ -2,7 +2,7 @@
 /**
  * Title: Single testimonial with text, image
  * Slug: powder/testimonials-single
- * Categories: powder-testimonials
+ * Categories: testimonials
  */
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|x-large","bottom":"var:preset|spacing|x-large","left":"30px","right":"30px"},"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"constrained","wideSize":"720px"},"metadata":{"name":"Testimonials"}} -->
