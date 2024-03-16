@@ -42,8 +42,9 @@ function powder_theme_settings() {
 		'4' => 'Hero',
 		'5' => 'Posts',
 		'6' => 'Pricing',
-		'7' => 'Templates',
-		'8' => 'Testimonials'
+		'7' => 'Team',
+		'8' => 'Templates',
+		'9' => 'Testimonials'
 	);
 
 	?>
@@ -75,7 +76,7 @@ function powder_theme_settings() {
  */
 function powder_theme_admin_init(){
 
-	for ($i = 1; $i <= 8; $i++) {
+	for ($i = 1; $i <= 9; $i++) {
 		register_setting( 'powder-theme-settings-group', 'powder_setting_option_' . $i, 'sanitize_powder_theme_option' );
 	}
 
@@ -115,9 +116,12 @@ function powder_unregister_patterns() {
 		powder_unregister_pricing_patterns();
 	}
 	if (get_option( 'powder_setting_option_7', '1' ) !== '1') {
-		powder_unregister_template_patterns();
+		powder_unregister_team_patterns();
 	}
 	if (get_option( 'powder_setting_option_8', '1' ) !== '1') {
+		powder_unregister_template_patterns();
+	}
+	if (get_option( 'powder_setting_option_9', '1' ) !== '1') {
 		powder_unregister_testimonials_patterns();
 	}
 
@@ -231,6 +235,16 @@ function powder_unregister_pricing_patterns() {
 	unregister_block_pattern( 'powder/pricing-3-columns-dark' );
 	unregister_block_pattern( 'powder/pricing-4-columns' );
 	unregister_block_pattern( 'powder/pricing-4-columns-dark' );
+
+}
+
+/**
+ * Unregister Team patterns.
+ */
+function powder_unregister_team_patterns() {
+
+	unregister_block_pattern( 'powder/team-four-columns' );
+	unregister_block_pattern( 'powder/team-four-columns-dark' );
 
 }
 
