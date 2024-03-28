@@ -4,7 +4,7 @@ Powder embraces the limitless potential of block-based design with WordPress. It
 
 ## Demo
 
-See the Powder theme in action at [https://briangardner.com/powder/](https://briangardner.com/powder/).
+See the Powder theme in action at [https://powder.design/](https://powder.design/).
 
 ## Requirements
 
