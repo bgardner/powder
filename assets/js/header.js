@@ -1,43 +1,37 @@
-// Add the .js-enabled class to the <body> when JavaScript is detected
+// Add 'js-enabled' class to <body> when JavaScript is detected.
 document.addEventListener('DOMContentLoaded', () => {
 	document.body.classList.add('js-enabled');
 });
 
-// Cache the header element to avoid re-querying the DOM on each scroll
+// Cache header element to reduce DOM queries.
 const powderHeader = document.querySelector(".site-header");
 
-// Initialize the last scroll top position
+// Store last scroll position.
 let powderLastScrollTop = 0;
 
-// Function to handle the scroll event
+// Handle scroll events.
 function handleScroll() {
-	if (powderHeader) { // Only proceed if the header exists
+	if (powderHeader) { 
 		const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
-		// Compare the new scroll position with the last scroll position
-		if (scrollTop > powderLastScrollTop) {
-			// If scrolling down, hide the header
-			powderHeader.style.top = "-100%";
-		} else {
-			// If scrolling up, show the header
-			powderHeader.style.top = "0";
-		}
+		// Toggle header visibility based on scroll direction.
+		powderHeader.style.top = scrollTop > powderLastScrollTop ? "-100%" : "0";
 
-		// Update the last scroll position
+		// Update last scroll position.
 		powderLastScrollTop = scrollTop;
 	}
 }
 
-// Throttle the scroll event to avoid performance issues
+// Throttle scroll event for performance.
 let isThrottled = false;
-const powderThrottleDuration = 100; // milliseconds
+const powderThrottleDuration = 100; // Throttle duration in milliseconds.
 
 window.addEventListener("scroll", () => {
 	if (!isThrottled) {
 		handleScroll();
 		isThrottled = true;
 
-		// Set a timeout to un-throttle after a certain duration
+		// Un-throttle after duration.
 		setTimeout(() => {
 			isThrottled = false;
 		}, powderThrottleDuration);
