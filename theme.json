@@ -437,6 +437,11 @@
 				"css": "& p {margin: 0;}",
 				"elements": {
 					"cite": {
+						"spacing": {
+							"margin": {
+								"top": "10px"
+							}
+						},
 						"typography": {
 							"fontSize": "var(--wp--preset--font-size--x-small)",
 							"fontStyle": "inherit"
