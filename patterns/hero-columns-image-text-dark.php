@@ -12,7 +12,7 @@
 		<!-- wp:column {"verticalAlignment":"center"} -->
 		<div class="wp-block-column is-vertically-aligned-center">
 			<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-image-light.png'; ?>" alt="Sample image"/></figure>
+			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-image-light.svg'; ?>" alt="Sample image"/></figure>
 			<!-- /wp:image -->
 		</div>
 		<!-- /wp:column -->

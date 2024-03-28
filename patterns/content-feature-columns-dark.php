@@ -44,7 +44,7 @@
 		<!-- wp:column -->
 		<div class="wp-block-column">
 			<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-image-light.png'; ?>" alt="Sample image"/></figure>
+			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-image-light.svg'; ?>" alt="Sample image"/></figure>
 			<!-- /wp:image -->
 			<!-- wp:heading {"fontSize":"medium"} -->
 			<h2 class="wp-block-heading has-medium-font-size"><?php echo esc_html__( 'Meet Powder', 'powder' ); ?></h2>
@@ -57,7 +57,7 @@
 		<!-- wp:column -->
 		<div class="wp-block-column">
 			<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-image-light.png'; ?>" alt="Sample image"/></figure>
+			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-image-light.svg'; ?>" alt="Sample image"/></figure>
 			<!-- /wp:image -->
 			<!-- wp:heading {"fontSize":"medium"} -->
 			<h2 class="wp-block-heading has-medium-font-size"><?php echo esc_html__( 'Meet Powder', 'powder' ); ?></h2>
@@ -70,7 +70,7 @@
 		<!-- wp:column -->
 		<div class="wp-block-column">
 			<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-image-light.png'; ?>" alt="Sample image"/></figure>
+			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-image-light.svg'; ?>" alt="Sample image"/></figure>
 			<!-- /wp:image -->
 			<!-- wp:heading {"fontSize":"medium"} -->
 			<h2 class="wp-block-heading has-medium-font-size"><?php echo esc_html__( 'Meet Powder', 'powder' ); ?></h2>
