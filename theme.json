@@ -423,6 +423,9 @@
 					"lineHeight": "var(--wp--custom--line-height--medium)"
 				}
 			},
+			"core/query-pagination": {
+				"css": "margin-top: var(--wp--custom--spacing--gap) !important;"
+			},
 			"core/query-title": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--large)"
