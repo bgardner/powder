@@ -40,9 +40,14 @@
 		</article>
 		<!-- /wp:group -->
 	<!-- /wp:post-template -->
-	<!-- wp:query-pagination -->
-		<!-- wp:query-pagination-previous /-->
-		<!-- wp:query-pagination-next /-->
-	<!-- /wp:query-pagination -->
+	<!-- wp:group {"layout":{"type":"default"}} -->
+	<div class="wp-block-group">
+		<!-- wp:query-pagination {"layout":{"type":"flex","justifyContent":"space-between"}} -->
+			<!-- wp:query-pagination-previous /-->
+			<!-- wp:query-pagination-numbers /-->
+			<!-- wp:query-pagination-next /-->
+		<!-- /wp:query-pagination -->
+	</div>
+	<!-- /wp:group -->
 </div>
 <!-- /wp:query -->
