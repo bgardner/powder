@@ -1,13 +1,13 @@
 <?php
 /**
  * Title: Grid of posts, 3 columns
- * Slug: powder/posts-grid
+ * Slug: powder/posts-grid-dark
  * Categories: posts
  * Block Types: core/query
  */
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"right":"30px","left":"30px"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull" style="padding-right:30px;padding-left:30px">
+<!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"spacing":{"padding":{"right":"30px","left":"30px"}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="padding-right:30px;padding-left:30px">
 	<!-- wp:query {"queryId":0,"query":{"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true,"align":"wide","layout":{"type":"default"}} -->
 	<div class="wp-block-query alignwide">
 		<!-- wp:post-template {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"layout":{"type":"grid","columnCount":3}} -->

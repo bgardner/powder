@@ -1,13 +1,13 @@
 <?php
 /**
  * Title: List of posts, 1 column
- * Slug: powder/posts
+ * Slug: powder/posts-dark
  * Categories: posts
  * Block Types: core/query
  */
 ?>
-<!-- wp:group {"align":"full","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull">
+<!-- wp:group {"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-color has-contrast-background-color has-text-color has-background has-link-color">
 	<!-- wp:query {"queryId":0,"query":{"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"layout":{"type":"constrained"}} -->
 	<div class="wp-block-query">
 		<!-- wp:post-template -->
