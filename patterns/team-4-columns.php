@@ -1,12 +1,12 @@
 <?php
 /**
  * Title: Team section with four columns
- * Slug: powder/team-four-columns-dark
+ * Slug: powder/team-4-columns
  * Categories: team
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Team Members"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|x-large","bottom":"var:preset|spacing|x-large","left":"30px","right":"30px"},"margin":{"top":"0"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="margin-top:0;padding-top:var(--wp--preset--spacing--x-large);padding-right:30px;padding-bottom:var(--wp--preset--spacing--x-large);padding-left:30px">
+<!-- wp:group {"metadata":{"name":"Team Members"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|x-large","bottom":"var:preset|spacing|x-large","left":"30px","right":"30px"},"margin":{"top":"0"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="margin-top:0;padding-top:var(--wp--preset--spacing--x-large);padding-right:30px;padding-bottom:var(--wp--preset--spacing--x-large);padding-left:30px">
 	<!-- wp:heading {"textAlign":"center","level":1,"align":"wide","fontSize":"max-36"} -->
 	<h1 class="wp-block-heading alignwide has-text-align-center has-max-36-font-size">Team Members</h1>
 	<!-- /wp:heading -->
@@ -15,7 +15,7 @@
 		<!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}}} -->
 		<div class="wp-block-column">
 			<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-image-light.svg'; ?>" alt="Sample image"/></figure>
+			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-image-dark.svg'; ?>" alt="Sample image"/></figure>
 			<!-- /wp:image -->
 			<!-- wp:heading {"textAlign":"center","style":{"typography":{"lineHeight":"1.25"}},"fontSize":"medium"} -->
 			<h2 class="wp-block-heading has-text-align-center has-medium-font-size" style="line-height:1.25"><?php echo esc_html__( 'Jennifer Kayne', 'powder' ); ?></h2>
@@ -28,7 +28,7 @@
 		<!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}}} -->
 		<div class="wp-block-column">
 			<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-image-light.svg'; ?>" alt="Sample image"/></figure>
+			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-image-dark.svg'; ?>" alt="Sample image"/></figure>
 			<!-- /wp:image -->
 			<!-- wp:heading {"textAlign":"center","style":{"typography":{"lineHeight":"1.25"}},"fontSize":"medium"} -->
 			<h2 class="wp-block-heading has-text-align-center has-medium-font-size" style="line-height:1.25"><?php echo esc_html__( 'Anthony Hawk', 'powder' ); ?></h2>
@@ -41,7 +41,7 @@
 		<!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}}} -->
 		<div class="wp-block-column">
 			<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-image-light.svg'; ?>" alt="Sample image"/></figure>
+			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-image-dark.svg'; ?>" alt="Sample image"/></figure>
 			<!-- /wp:image -->
 			<!-- wp:heading {"textAlign":"center","style":{"typography":{"lineHeight":"1.25"}},"fontSize":"medium"} -->
 			<h2 class="wp-block-heading has-text-align-center has-medium-font-size" style="line-height:1.25"><?php echo esc_html__( 'Kya Strickland', 'powder' ); ?></h2>
@@ -54,7 +54,7 @@
 		<!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}}} -->
 		<div class="wp-block-column">
 			<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-image-light.svg'; ?>" alt="Sample image"/></figure>
+			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-image-dark.svg'; ?>" alt="Sample image"/></figure>
 			<!-- /wp:image -->
 			<!-- wp:heading {"textAlign":"center","style":{"typography":{"lineHeight":"1.25"}},"fontSize":"medium"} -->
 			<h2 class="wp-block-heading has-text-align-center has-medium-font-size" style="line-height:1.25"><?php echo esc_html__( 'Noah Stone', 'powder' ); ?></h2>
@@ -71,7 +71,7 @@
 		<!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}}} -->
 		<div class="wp-block-column">
 			<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-image-light.svg'; ?>" alt="Sample image"/></figure>
+			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-image-dark.svg'; ?>" alt="Sample image"/></figure>
 			<!-- /wp:image -->
 			<!-- wp:heading {"textAlign":"center","style":{"typography":{"lineHeight":"1.25"}},"fontSize":"medium"} -->
 			<h2 class="wp-block-heading has-text-align-center has-medium-font-size" style="line-height:1.25"><?php echo esc_html__( 'Thomas Everett', 'powder' ); ?></h2>
@@ -84,7 +84,7 @@
 		<!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}}} -->
 		<div class="wp-block-column">
 			<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-image-light.svg'; ?>" alt="Sample image"/></figure>
+			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-image-dark.svg'; ?>" alt="Sample image"/></figure>
 			<!-- /wp:image -->
 			<!-- wp:heading {"textAlign":"center","style":{"typography":{"lineHeight":"1.25"}},"fontSize":"medium"} -->
 			<h2 class="wp-block-heading has-text-align-center has-medium-font-size" style="line-height:1.25"><?php echo esc_html__( 'Autumn Cole', 'powder' ); ?></h2>
@@ -97,7 +97,7 @@
 		<!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}}} -->
 		<div class="wp-block-column">
 			<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-image-light.svg'; ?>" alt="Sample image"/></figure>
+			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-image-dark.svg'; ?>" alt="Sample image"/></figure>
 			<!-- /wp:image -->
 			<!-- wp:heading {"textAlign":"center","style":{"typography":{"lineHeight":"1.25"}},"fontSize":"medium"} -->
 			<h2 class="wp-block-heading has-text-align-center has-medium-font-size" style="line-height:1.25"><?php echo esc_html__( 'Zach Marley', 'powder' ); ?></h2>
@@ -110,7 +110,7 @@
 		<!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}}} -->
 		<div class="wp-block-column">
 			<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-image-light.svg'; ?>" alt="Sample image"/></figure>
+			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-image-dark.svg'; ?>" alt="Sample image"/></figure>
 			<!-- /wp:image -->
 			<!-- wp:heading {"textAlign":"center","style":{"typography":{"lineHeight":"1.25"}},"fontSize":"medium"} -->
 			<h2 class="wp-block-heading has-text-align-center has-medium-font-size" style="line-height:1.25"><?php echo esc_html__( 'Kate Reeser', 'powder' ); ?></h2>
