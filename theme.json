@@ -160,7 +160,7 @@
 			"spacingSizes": [
 				{
 					"name": "xSmall",
-					"size": "20px",
+					"size": "clamp(10px, 2vw, 20px)",
 					"slug": "x-small"
 				},
 				{
