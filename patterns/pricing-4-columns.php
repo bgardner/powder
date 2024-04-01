@@ -61,7 +61,7 @@
 						<figure class="wp-block-image size-large is-resized is-style-display-block"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-x-light.svg'; ?>" alt="Circle x light icon" style="object-fit:cover;width:20px;height:20px" width="20" height="20"/></figure>
 						<!-- /wp:image -->
 						<!-- wp:paragraph {"fontSize":"small"} -->
-						<p class="has-small-font-size"><?php echo esc_html__( 'Figma design library', '' ); ?></p>
+						<p class="has-small-font-size"><?php echo esc_html__( 'Sample child theme', '' ); ?></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
@@ -71,7 +71,7 @@
 						<figure class="wp-block-image size-large is-resized is-style-display-block"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-x-light.svg'; ?>" alt="Circle x light icon" style="object-fit:cover;width:20px;height:20px" width="20" height="20"/></figure>
 						<!-- /wp:image -->
 						<!-- wp:paragraph {"fontSize":"small"} -->
-						<p class="has-small-font-size"><?php echo esc_html__( 'Private Slack access', '' ); ?></p>
+						<p class="has-small-font-size"><?php echo esc_html__( 'Figma design files', '' ); ?></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
@@ -95,7 +95,7 @@
 				<!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"constrained"}} -->
 				<div class="wp-block-group">
 					<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.5","textTransform":"uppercase","fontStyle":"normal","fontWeight":"400"}},"fontSize":"tiny"} -->
-					<p class="has-tiny-font-size" style="font-style:normal;font-weight:400;line-height:1.5;text-transform:uppercase"><?php echo esc_html__( 'Professional', '' ); ?></p>
+					<p class="has-tiny-font-size" style="font-style:normal;font-weight:400;line-height:1.5;text-transform:uppercase"><?php echo esc_html__( 'Premier', '' ); ?></p>
 					<!-- /wp:paragraph -->
 					<!-- wp:group {"style":{"spacing":{"blockGap":"5px"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left","verticalAlignment":"bottom"}} -->
 					<div class="wp-block-group">
@@ -140,7 +140,7 @@
 						<figure class="wp-block-image size-full is-resized is-style-display-block"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-check-light'; ?>.svg" alt="Circle check light icon" style="object-fit:cover;width:20px;height:20px" width="20" height="20"/></figure>
 						<!-- /wp:image -->
 						<!-- wp:paragraph {"fontSize":"small"} -->
-						<p class="has-small-font-size"><?php echo esc_html__( 'Figma design library', '' ); ?></p>
+						<p class="has-small-font-size"><?php echo esc_html__( 'Sample child theme', '' ); ?></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
@@ -150,7 +150,7 @@
 						<figure class="wp-block-image size-full is-resized is-style-display-block"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-check-light'; ?>.svg" alt="Circle check light icon" style="object-fit:cover;width:20px;height:20px" width="20" height="20"/></figure>
 						<!-- /wp:image -->
 						<!-- wp:paragraph {"fontSize":"small"} -->
-						<p class="has-small-font-size"><?php echo esc_html__( 'Private Slack access', '' ); ?></p>
+						<p class="has-small-font-size"><?php echo esc_html__( 'Figma design files', '' ); ?></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
@@ -159,7 +159,7 @@
 				<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|small"}}}} -->
 				<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--small)">
 					<!-- wp:button {"backgroundColor":"base","textColor":"contrast","width":100,"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}}} -->
-					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-contrast-color has-base-background-color has-text-color has-background has-link-color wp-element-button" href="#"><?php echo esc_html__( 'Get Professional →', '' ); ?></a></div>
+					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-contrast-color has-base-background-color has-text-color has-background has-link-color wp-element-button" href="#"><?php echo esc_html__( 'Get Premier →', '' ); ?></a></div>
 					<!-- /wp:button -->
 				</div>
 				<!-- /wp:buttons -->
@@ -219,7 +219,7 @@
 						<figure class="wp-block-image size-large is-resized is-style-display-block"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-check-light.svg'; ?>" alt="Circle check light icon" style="object-fit:cover;width:20px;height:20px" width="20" height="20"/></figure>
 						<!-- /wp:image -->
 						<!-- wp:paragraph {"fontSize":"small"} -->
-						<p class="has-small-font-size"><?php echo esc_html__( 'Figma design library', '' ); ?></p>
+						<p class="has-small-font-size"><?php echo esc_html__( 'Sample child theme', '' ); ?></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
@@ -229,7 +229,7 @@
 						<figure class="wp-block-image size-large is-resized is-style-display-block"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-check-light.svg'; ?>" alt="Circle check light icon" style="object-fit:cover;width:20px;height:20px" width="20" height="20"/></figure>
 						<!-- /wp:image -->
 						<!-- wp:paragraph {"fontSize":"small"} -->
-						<p class="has-small-font-size"><?php echo esc_html__( 'Private Slack access', '' ); ?></p>
+						<p class="has-small-font-size"><?php echo esc_html__( 'Figma design files', '' ); ?></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
@@ -268,7 +268,7 @@
 				</div>
 				<!-- /wp:group -->
 				<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.5"},"spacing":{"margin":{"top":"var:preset|spacing|x-small"}}},"fontSize":"x-small"} -->
-				<p class="has-x-small-font-size" style="margin-top:var(--wp--preset--spacing--x-small);line-height:1.5"><?php echo esc_html__( 'Perfect for professional WordPress agencies who wish to scale their business.', '' ); ?></p>
+				<p class="has-x-small-font-size" style="margin-top:var(--wp--preset--spacing--x-small);line-height:1.5"><?php echo esc_html__( 'Perfect for WordPress agencies who wish to grow and scale their business.', '' ); ?></p>
 				<!-- /wp:paragraph -->
 				<!-- wp:group {"style":{"spacing":{"blockGap":"20px"}},"layout":{"type":"constrained"}} -->
 				<div class="wp-block-group">
@@ -298,7 +298,7 @@
 						<figure class="wp-block-image size-large is-resized is-style-display-block"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-check-light.svg'; ?>" alt="Circle check light icon" style="object-fit:cover;width:20px;height:20px" width="20" height="20"/></figure>
 						<!-- /wp:image -->
 						<!-- wp:paragraph {"fontSize":"small"} -->
-						<p class="has-small-font-size"><?php echo esc_html__( 'Figma design library', '' ); ?></p>
+						<p class="has-small-font-size"><?php echo esc_html__( 'Sample child theme', '' ); ?></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
@@ -308,7 +308,7 @@
 						<figure class="wp-block-image size-large is-resized is-style-display-block"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-check-light.svg'; ?>" alt="Circle check light icon" style="object-fit:cover;width:20px;height:20px" width="20" height="20"/></figure>
 						<!-- /wp:image -->
 						<!-- wp:paragraph {"fontSize":"small"} -->
-						<p class="has-small-font-size"><?php echo esc_html__( 'Private Slack access', '' ); ?></p>
+						<p class="has-small-font-size"><?php echo esc_html__( 'Figma design files', '' ); ?></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
