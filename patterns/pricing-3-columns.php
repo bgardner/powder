@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Pricing table with three columns
+ * Title: Pricing table with 3 columns
  * Slug: powder/pricing-3-columns
  * Categories: powder-pricing
  */

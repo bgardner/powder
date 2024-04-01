@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Team section with four columns
+ * Title: Team section with 4 columns
  * Slug: powder/team-4-columns-dark
  * Categories: team
  */
