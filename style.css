@@ -69,8 +69,8 @@ textarea {
 	font-family: inherit;
 	font-size: var(--wp--preset--font-size--medium);
 	font-weight: var(--wp--custom--font-weight--light);
-	line-height: var(--wp--custom--line-height--body);
-	padding: 10px 20px;
+	line-height: var(--wp--custom--line-height--medium);
+	padding: 10px 15px;
 	width: 100%;
 }
 
@@ -92,6 +92,15 @@ input[type="search"],
 input[type="submit"],
 input[type="text"],
 textarea {
+	-webkit-appearance: none;
+}
+
+select {
+	background-image: url( "assets/icons/icon-arrow-dark.svg" );
+	background-position: right 10px center;
+	background-repeat: no-repeat;
+	background-size: 20px;
+	cursor: pointer;
 	-webkit-appearance: none;
 }
 
