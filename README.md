@@ -1,6 +1,6 @@
 # Powder
 
-Powder embraces the limitless potential of block-based design with WordPress. Its signature approach—inspired by the brilliant color palettes of Tailwind CSS—transcends conventional standards and provides a canvas where creativity knows no bounds. With its extensive library of wireframe patterns, style variations, and versatile templates, Powder transforms the development of WordPress websites, setting a new standard of artistic freedom within the open-source community.
+Powder reclaims its minimalist roots by embracing simplicity and focusing on the purity of form and function. Its signature approach—inspired by the vibrant color palettes of Tailwind CSS—transcends conventional design standards and provides a canvas where creativity knows no bounds. Unlock the full potential of Powder with our All-Access plan, which features an extensive library of wireframe patterns and versatile templates, streamlining the development of WordPress websites.
 
 ## Demo
 
