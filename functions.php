@@ -87,33 +87,3 @@ function powder_register_block_styles() {
 
 }
 add_action( 'init', 'powder_register_block_styles' );
-
-/**
- * Register block pattern category.
- */
-function powder_register_pattern_category( $slug, $label, $description ) {
-	register_block_pattern_category(
-		'powder-' . $slug,
-		array(
-			'label'       => __( $label, 'powder' ),
-			'description' => __( $description, 'powder' ),
-		)
-	);
-}
-
-/**
- * Register block pattern categories.
- */
-function powder_register_pattern_categories() {
-	$categories = array(
-		'content'  => array( __( 'Content', 'powder' ), __( 'A collection of content patterns for Powder.', 'powder' ) ),
-		'hero'     => array( __( 'Hero', 'powder' ), __( 'A collection of hero patterns for Powder.', 'powder' ) ),
-		'pricing'  => array( __( 'Pricing', 'powder' ), __( 'A collection of pricing patterns for Powder.', 'powder' ) ),
-		'template' => array( __( 'Templates', 'powder' ), __( 'A collection of template patterns for Powder.', 'powder' ) ),
-	);
-
-	foreach ( $categories as $slug => $details ) {
-		powder_register_pattern_category( $slug, $details[0], $details[1] );
-	}
-}
-add_action( 'init', 'powder_register_pattern_categories' );
