@@ -384,7 +384,7 @@
 				}
 			},
 			"core/post-comments-form": {
-				"css": " & input, textarea {border-color: var(--wp--preset--color--contrast); padding: 10px 20px;} & input[type=submit] {width: auto;} & label {font-size: var(--wp--preset--font-size--x-small);}"
+				"css": " & input:not([type=submit]), textarea {border-color: var(--wp--preset--color--contrast); & input[type=submit] {width: auto;} & label {font-size: var(--wp--preset--font-size--small);}",
 			},
 			"core/post-excerpt": {
 				"css": "& .wp-block-post-excerpt__more-text {margin-top: var(--wp--preset--spacing--x-small);}"
