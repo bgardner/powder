@@ -3,7 +3,7 @@ Contributors: bgardner
 Requires at least: 6.5
 Tested up to: 6.5
 Requires PHP: 7.0
-Stable tag: 1.0.4
+Stable tag: 1.1
 License: GNU General Public License v3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -11,9 +11,9 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 Powder reclaims its minimalist roots by embracing simplicity and focusing on the purity of form and function. Its signature approach—inspired by the vibrant color palettes of Tailwind CSS—transcends conventional design standards and provides a canvas where creativity knows no bounds. Unlock the full potential of Powder with our All-Access plan, which features an extensive library of wireframe patterns and versatile templates, streamlining the development of WordPress websites.
 
-= 1.0.4 =
+= 1.1 =
 
-Change theme URL. Add patterns.
+Update for WP 6.5. Change theme URL. Delete patterns.
 
 = 1.0.3 =
 
