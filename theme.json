@@ -333,7 +333,7 @@
 					}
 				},
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--x-small)"
+					"fontSize": "var(--wp--preset--font-size--tiny)"
 				}
 			},
 			"core/comment-author-name": {
@@ -411,7 +411,7 @@
 					}
 				},
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)"
+					"fontSize": "var(--wp--preset--font-size--tiny)"
 				}
 			},
 			"core/pullquote": {
