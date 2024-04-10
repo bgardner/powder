@@ -11,135 +11,6 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 Powder reclaims its minimalist roots by embracing simplicity and focusing on the purity of form and function. Its signature approach—inspired by the vibrant color palettes of Tailwind CSS—transcends conventional design standards and provides a canvas where creativity knows no bounds. Unlock the full potential of Powder with our All-Access plan, which features an extensive library of wireframe patterns and versatile templates, streamlining the development of WordPress websites.
 
-= 1.1 =
-
-Update for WP 6.5. Change theme URL. Delete patterns.
-
-= 1.0.3 =
-
-Re-enable patterns in child themes. Add patterns.
-
-= 1.0.2 =
-
-Change theme URL. Disable patterns when child theme active.
-
-= 1.0.1 =
-
-Minor edits, add pricing patterns.
-
-= 1.0 =
-
-Add back patterns, templates, parts, variations. Because.
-
-= 0.9.10 =
-
-Minor edits: theme.json, patterns, templates.
-
-= 0.9.9 =
-
-Remove patterns, templates, parts, variations. Back to simple.
-
-= 0.9.8 =
-
-New patterns, templates, style updates.
-
-= 0.9.7 =
-
-New patterns, templates, js, etc.
-
-= 0.9.6 =
-
-HTML semantic update.
-
-= 0.9.5 =
-
-Style changes, add patterns.
-
-= 0.9.4 =
-
-Minor adjustments, add patterns.
-
-= 0.9.3 =
-
-Update Powder urls, add patterns.
-
-= 0.9.2 =
-
-Oops, add back 72px font size.
-
-= 0.9.1 =
-
-Update new colors, patterns.
-
-= 0.9.0 =
-
-Set colors, prep for child themes.
-
-= 0.8.2 =
-
-Revert colors, remove style variations.
-
-= 0.8.1 =
-
-Fix Query pattern posts per page.
-
-= 0.8.0 =
-
-Major changes, add style variations, patterns.
-
-= 0.7.2 =
-
-Style sheet, patterns, theme.json optimization.
-
-= 0.7.1 =
-
-Move styles to theme.json, update theme links.
-
-= 0.7.0 =
-
-Bump for WordPress 6.2.
-
-= 0.6.6 =
-
-Minor style change, remove styles.
-
-= 0.6.5 =
-
-Reorg comments, remove unnecessary styles.
-
-= 0.6.4 =
-
-Add fluid spacing and neutral color.
-
-= 0.6.3 =
-
-Create Query pattern, consolidate templates.
-Minor style enhancements.
-
-= 0.6.2 =
-
-Add index.php to fix .org preview.
-
-= 0.6.1 =
-
-Update Outfit font slug in theme.json.
-
-= 0.6.0 =
-
-Add fluid spacing, template updates.
-
-= 0.5.2 =
-
-Bump version, add back layout code.
-
-= 0.5.1 =
-
-Temporarily revert code.
-
-= 0.5.0 =
-
-Initial public release.
-
 == Copyright ==
 
 Powder WordPress Theme, (C) 2022-2024 Brian Gardner.
@@ -167,10 +38,10 @@ Outfit Font
 The following images are self-designed and declared under GPL License, Version 3.0.
 License URL: https://www.gnu.org/licenses/gpl-3.0.html
 
-sample-avatar-dark.png
-sample-avatar-light.png
-sample-image-dark.png
-sample-image-light.png
+sample-avatar-dark.svg
+sample-avatar-light.svg
+sample-image-dark.svg
+sample-image-light.svg
 sample-logo-dark.svg
 sample-logo-light.svg
 site-logo-dark.svg
