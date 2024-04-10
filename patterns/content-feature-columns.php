@@ -21,8 +21,8 @@
 	<div class="wp-block-columns alignwide are-vertically-aligned-center" style="margin-top:var(--wp--preset--spacing--x-small)">
 		<!-- wp:column {"verticalAlignment":"center"} -->
 		<div class="wp-block-column is-vertically-aligned-center">
-			<!-- wp:heading {"style":{"typography":{"letterSpacing":"-0.5px"}},"fontSize":"max-48"} -->
-			<h2 class="wp-block-heading has-max-48-font-size" style="letter-spacing:-0.5px"><?php echo esc_html__( 'Are you ready to start designing with WordPress?', 'powder' ); ?></h2>
+			<!-- wp:heading {"fontSize":"max-48"} -->
+			<h2 class="wp-block-heading has-max-48-font-size"><?php echo esc_html__( 'Are you ready to start designing with WordPress?', 'powder' ); ?></h2>
 			<!-- /wp:heading -->
 		</div>
 		<!-- /wp:column -->

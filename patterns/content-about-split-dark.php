@@ -19,8 +19,9 @@
 	<!-- wp:columns {"verticalAlignment":"top","align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|large","left":"var:preset|spacing|large"},"margin":{"top":"var:preset|spacing|x-small"}}}} -->
 	<div class="wp-block-columns alignwide are-vertically-aligned-top" style="margin-top:var(--wp--preset--spacing--x-small)">
 		<!-- wp:column {"verticalAlignment":"top"} -->
-		<div class="wp-block-column is-vertically-aligned-top"><!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"300","letterSpacing":"-1px"}},"fontSize":"max-48"} -->
-			<h2 class="wp-block-heading has-max-48-font-size" style="font-style:normal;font-weight:300;letter-spacing:-1px"><?php echo esc_html__( 'Are you ready to start designing with WordPress?', '' ); ?></h2>
+		<div class="wp-block-column is-vertically-aligned-top">
+			<!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"300"}},"fontSize":"max-48"} -->
+			<h2 class="wp-block-heading has-max-48-font-size" style="font-style:normal;font-weight:300"><?php echo esc_html__( 'Are you ready to start designing with WordPress?', '' ); ?></h2>
 			<!-- /wp:heading -->
 			<!-- wp:buttons -->
 			<div class="wp-block-buttons">

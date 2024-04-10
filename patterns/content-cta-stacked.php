@@ -19,8 +19,8 @@
 			<!-- /wp:separator -->
 		</div>
 		<!-- /wp:group -->
-		<!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"300","letterSpacing":"-0.5px"}},"fontSize":"max-48"} -->
-		<h2 class="wp-block-heading has-max-48-font-size" style="font-style:normal;font-weight:300;letter-spacing:-0.5px"><?php echo esc_html__( 'We want to revolutionize how WordPress websites are made by embracing block-based design.', 'powder' ); ?></h2>
+		<!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"300"}},"fontSize":"max-48"} -->
+		<h2 class="wp-block-heading has-max-48-font-size" style="font-style:normal;font-weight:300"><?php echo esc_html__( 'We want to revolutionize how WordPress websites are made by embracing block-based design.', 'powder' ); ?></h2>
 		<!-- /wp:heading -->
 		<!-- wp:buttons -->
 		<div class="wp-block-buttons">

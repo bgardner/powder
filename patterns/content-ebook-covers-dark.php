@@ -12,8 +12,8 @@
 		<!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"400"}},"fontSize":"tiny"} -->
 		<p class="has-text-align-center has-tiny-font-size" style="font-style:normal;font-weight:400;text-transform:uppercase"><?php echo esc_html__( 'Meet Powder', 'powder' ); ?></p>
 		<!-- /wp:paragraph -->
-		<!-- wp:heading {"textAlign":"center","style":{"typography":{"letterSpacing":"-1px"}},"fontSize":"max-60"} -->
-		<h2 class="wp-block-heading has-text-align-center has-max-60-font-size" style="letter-spacing:-1px"><?php echo esc_html__( 'Are you ready to design with WordPress?', 'powder' ); ?></h2>
+		<!-- wp:heading {"textAlign":"center","fontSize":"max-60"} -->
+		<h2 class="wp-block-heading has-text-align-center has-max-60-font-size"><?php echo esc_html__( 'Are you ready to design with WordPress?', 'powder' ); ?></h2>
 		<!-- /wp:heading -->
 	</div>
 	<!-- /wp:group -->

@@ -9,8 +9,8 @@
 <div class="wp-block-cover alignfull is-light is-style-default" style="margin-top:0;min-height:600px"><span aria-hidden="true" class="wp-block-cover__background has-base-background-color has-background-dim-100 has-background-dim"></span><div class="wp-block-cover__inner-container">
 	<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"constrained","wideSize":"800px","justifyContent":"left"}} -->
 	<div class="wp-block-group">
-		<!-- wp:heading {"level":1,"style":{"typography":{"fontStyle":"normal","fontWeight":"300","letterSpacing":"-1px"}},"fontSize":"max-60"} -->
-		<h1 class="wp-block-heading has-max-60-font-size" style="font-style:normal;font-weight:300;letter-spacing:-1px"><?php echo esc_html__( 'World-class interior design studio based in Laguna Beach.', 'powder' ); ?></h1>
+		<!-- wp:heading {"level":1,"style":{"typography":{"fontStyle":"normal","fontWeight":"300"}},"fontSize":"max-60"} -->
+		<h1 class="wp-block-heading has-max-60-font-size" style="font-style:normal;font-weight:300"><?php echo esc_html__( 'World-class interior design studio based in Laguna Beach.', 'powder' ); ?></h1>
 		<!-- /wp:heading -->
 		<!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 		<div class="wp-block-group">
