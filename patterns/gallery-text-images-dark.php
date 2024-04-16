@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Gallery with text and images
- * Slug: powder/gallery-text-image-dark
+ * Slug: powder/gallery-text-images-dark
  * Categories: powder-gallery
  */
 ?>
