@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Page content with box shadow
+ * Title: Page with box shadow
  * Slug: powder/template-page-box-shadow
  * Categories: powder-template
  * Template Types: page

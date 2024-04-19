@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Page content with gradient cover
+ * Title: Page with gradient cover
  * Slug: powder/template-page-gradient-cover
  * Categories: powder-template
  * Template Types: page

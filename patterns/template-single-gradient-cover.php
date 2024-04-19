@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Post content with gradient cover
+ * Title: Post with gradient cover
  * Slug: powder/template-single-gradient-cover
  * Categories: powder-template
  * Template Types: single

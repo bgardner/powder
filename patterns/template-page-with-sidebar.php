@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Page content with sidebar
+ * Title: Page with sidebar
  * Slug: powder/template-page-with-sidebar
  * Categories: powder-template
  * Template Types: page
