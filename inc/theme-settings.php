@@ -1,0 +1,224 @@
+<?php
+/**
+ * Settings for the Powder WordPress theme.
+ *
+ * @package	Powder
+ * @author	Brian Gardner
+ * @license	GNU General Public License v3
+ * @link	https://powder.design/
+ */
+ 
+/**
+ * Add theme settings admin menu.
+ */
+function powder_theme_menu() {
+	add_menu_page(
+		'Theme Settings', // Page title
+		'Powder', // Menu title
+		'manage_options', // Capability
+		'powder', // Menu slug
+		'powder_theme_settings', // Function
+		'dashicons-marker', // Admin icon
+		55 // Position
+	);
+}
+add_action( 'admin_menu', 'powder_theme_menu' );
+
+/**
+ * Display content for theme settings.
+ */
+function powder_theme_settings() {
+	if ( !current_user_can( 'manage_options' )) {
+		wp_die( 'You do not have sufficient permissions to access this page.' );
+	}
+
+	$settings = array(
+		'content'	   => 'Content',
+		'footers'	   => 'Footers',
+		'gallery'	   => 'Gallery',
+		'headers'	   => 'Headers',
+		'hero'		   => 'Hero',
+		'posts'		   => 'Posts',
+		'pricing'	   => 'Pricing',
+		'team'		   => 'Team',
+		'templates'	   => 'Templates',
+		'testimonials' => 'Testimonials'
+	);
+
+	?>
+	<div class="wrap">
+		<h1><?php echo esc_html__( 'Theme Settings', 'powder' ); ?></h1>
+		<p><?php echo esc_html__( 'Enable these patterns to display in the Block Inserter and Site Editor.', 'powder' ); ?></p>
+		<form method="post" action="options.php">
+			<?php settings_fields( 'powder-theme-settings-group' ); ?>
+			<?php do_settings_sections( 'powder-theme-settings-group' ); ?>
+			<table class="form-table">
+				<?php foreach ($settings as $key => $label): ?>
+					<tr valign="top">
+						<th scope="row"><?php echo esc_html__( $label, 'powder' ); ?></th>
+						<td>
+							<input type="checkbox" name="powder_setting_option_<?php echo $key; ?>" value="1" <?php checked(1, get_option( 'powder_setting_option_'.$key, '1' ), true); ?>/>
+						</td>
+					</tr>
+				<?php endforeach; ?>
+			</table>
+			<?php submit_button(); ?>
+		</form>
+	</div>
+	<?php
+}
+
+/**
+ * Register settings with sanitization.
+ */
+function powder_theme_admin_init() {
+	$options = array(
+		'content', 
+		'footers', 
+		'gallery', 
+		'headers', 
+		'hero', 
+		'posts', 
+		'pricing', 
+		'team', 
+		'templates', 
+		'testimonials'
+	);
+	foreach ($options as $option) {
+		register_setting('powder-theme-settings-group', 'powder_setting_option_' . $option, 'sanitize_powder_theme_option');
+	}
+}
+add_action('admin_init', 'powder_theme_admin_init');
+
+/**
+ * Sanitize callback function.
+ */
+function sanitize_powder_theme_option($input) {
+	return $input === '1' ? '1' : '0';
+}
+
+/**
+ * Unregister patterns based on settings.
+ */
+function powder_unregister_patterns() {
+	$patterns = [
+		'powder_setting_option_content' => [
+			'powder/content-about-split-dark',
+			'powder/content-about-split',
+			'powder/content-cta-stacked-dark',
+			'powder/content-cta-stacked',
+			'powder/content-ebook-covers-dark',
+			'powder/content-ebook-covers',
+			'powder/content-faqs-columns-dark',
+			'powder/content-faqs-columns',
+			'powder/content-feature-boxes-dark',
+			'powder/content-feature-boxes',
+			'powder/content-feature-columns-dark',
+			'powder/content-feature-columns',
+			'powder/content-link-dark',
+			'powder/content-link',
+			'powder/content-logos-dark',
+			'powder/content-logos',
+			'powder/content-progress-bars-dark',
+			'powder/content-progress-bars',
+			'powder/content-social-numbers-dark',
+			'powder/content-social-numbers'
+		],
+		'powder_setting_option_footers' => [
+			'powder/footer-dark',
+			'powder/footer-featured-dark',
+			'powder/footer-featured',
+			'powder/footer-mega-dark',
+			'powder/footer-mega',
+			'powder/footer-small-business-dark',
+			'powder/footer-small-business',
+			'powder/footer-social-dark',
+			'powder/footer-social',
+			'powder/footer-split-dark',
+			'powder/footer-split',
+			'powder/footer-stacked-dark',
+			'powder/footer-stacked'
+		],
+		'powder_setting_option_gallery' => [
+			'powder/gallery-horizontal-row-dark',
+			'powder/gallery-horizontal-row',
+			'powder/gallery-single-multi-grid-dark',
+			'powder/gallery-single-multi-grid',
+			'powder/gallery-text-images-dark',
+			'powder/gallery-text-images'
+		],
+		'powder_setting_option_headers' => [
+			'powder/header-dark',
+			'powder/header-logo-button-dark',
+			'powder/header-logo-button',
+			'powder/header-logo-center-dark',
+			'powder/header-logo-center',
+			'powder/header-logo-social-dark',
+			'powder/header-logo-social',
+			'powder/header-title-separator-dark',
+			'powder/header-title-separator'
+		],
+		'powder_setting_option_hero' => [
+			'powder/hero-columns-image-text-dark',
+			'powder/hero-columns-image-text',
+			'powder/hero-columns-text-image-dark',
+			'powder/hero-columns-text-image',
+			'powder/hero-cover-text-buttons-dark',
+			'powder/hero-cover-text-buttons',
+			'powder/hero-gradient-image-text-dark',
+			'powder/hero-gradient-image-text',
+			'powder/hero-image-text-buttons-dark',
+			'powder/hero-image-text-buttons',
+			'powder/hero-stacked-text-image-dark',
+			'powder/hero-stacked-text-image',
+			'powder/hero-text-button-dark',
+			'powder/hero-text-button'
+		],
+		'powder_setting_option_posts' => [
+			'powder/posts-dark',
+			'powder/posts-grid-dark',
+			'powder/posts-grid',
+			'powder/posts-list-dark',
+			'powder/posts-list'
+		],
+		'powder_setting_option_pricing' => [
+			'powder/pricing-2-columns',
+			'powder/pricing-2-columns-dark',
+			'powder/pricing-3-columns',
+			'powder/pricing-3-columns-dark',
+			'powder/pricing-4-columns',
+			'powder/pricing-4-columns-dark'
+		],
+		'powder_setting_option_team' => [
+			'powder/team-4-columns-dark',
+			'powder/team-4-columns',
+			'powder/team-single-image-text-dark',
+			'powder/team-single-image-text',
+			'powder/team-single-text-image-dark',
+			'powder/team-single-text-image'
+		],
+		'powder_setting_option_templates' => [
+			'powder/template-page-box-shadow',
+			'powder/template-page-gradient-cover',
+			'powder/template-single-box-shadow',
+			'powder/template-single-gradient-cover',
+		],
+		'powder_setting_option_testimonials' => [
+			'powder/testimonials-columns-dark',
+			'powder/testimonials-columns',
+			'powder/testimonials-grid-dark',
+			'powder/testimonials-grid',
+			'powder/testimonials-single-dark',
+			'powder/testimonials-single'
+		]
+	];
+
+	foreach ($patterns as $option => $pattern_ids) {
+		if (get_option($option, '1') !== '1') {
+			foreach ($pattern_ids as $pattern_id) {
+				unregister_block_pattern($pattern_id);
+			}
+		}
+	}
+}
+add_action('init', 'powder_unregister_patterns');

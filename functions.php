@@ -24,6 +24,9 @@ if ( ! function_exists( 'powder_setup' ) ) {
 		// Include admin notice.
 		require_once get_template_directory() . '/inc/admin-notice.php';
 
+		// Include theme settings.
+		require_once get_template_directory() . '/inc/theme-settings.php';
+
 		// Remove core block patterns support.
 		remove_theme_support( 'core-block-patterns' );
 
