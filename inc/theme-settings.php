@@ -33,16 +33,17 @@ function powder_theme_settings() {
 	}
 
 	$settings = array(
-		'content'	   => 'Content',
-		'footers'	   => 'Footers',
-		'gallery'	   => 'Gallery',
-		'headers'	   => 'Headers',
-		'hero'		   => 'Hero',
-		'posts'		   => 'Posts',
-		'pricing'	   => 'Pricing',
-		'team'		   => 'Team',
-		'templates'	   => 'Templates',
-		'testimonials' => 'Testimonials'
+		'call_to_action' => 'Call to Action',
+		'content'        => 'Content',
+		'footers'        => 'Footers',
+		'gallery'        => 'Gallery',
+		'headers'        => 'Headers',
+		'hero'           => 'Hero',
+		'posts'          => 'Posts',
+		'pricing'        => 'Pricing',
+		'team'	         => 'Team',
+		'templates'      => 'Templates',
+		'testimonials'   => 'Testimonials'
 	);
 
 	?>
@@ -73,6 +74,7 @@ function powder_theme_settings() {
  */
 function powder_theme_admin_init() {
 	$options = array(
+		'call_to_action', 
 		'content', 
 		'footers', 
 		'gallery', 
@@ -102,11 +104,15 @@ function sanitize_powder_theme_option($input) {
  */
 function powder_unregister_patterns() {
 	$patterns = [
+		'powder_setting_option_call_to_action' => [
+			'powder/call-to-action-boxed-dark',
+			'powder/call-to-action-boxed',
+			'powder/call-to-action-stacked-dark',
+			'powder/call-to-action-stacked'
+		],
 		'powder_setting_option_content' => [
 			'powder/content-about-split-dark',
 			'powder/content-about-split',
-			'powder/content-cta-stacked-dark',
-			'powder/content-cta-stacked',
 			'powder/content-ebook-covers-dark',
 			'powder/content-ebook-covers',
 			'powder/content-faqs-columns-dark',

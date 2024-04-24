@@ -1,8 +1,8 @@
 <?php
 /**
- * Title: Call to action section with text, button
- * Slug: powder/content-cta-stacked-dark
- * Categories: powder-content
+ * Title: Call to action with stacked text, button
+ * Slug: powder/call-to-action-stacked-dark
+ * Categories: powder-call-to-action
  */
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|x-large","bottom":"var:preset|spacing|x-large","left":"30px","right":"30px"},"margin":{"top":"0"}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained"},"metadata":{"name":"Call to Action"}} -->
