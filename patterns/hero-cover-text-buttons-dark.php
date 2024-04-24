@@ -7,7 +7,7 @@
 ?>
 <!-- wp:cover {"overlayColor":"contrast","isUserOverlayColor":true,"minHeight":600,"align":"full","style":{"spacing":{"blockGap":"10px","margin":{"top":"0"}}},"textColor":"base","className":"is-style-default","layout":{"type":"constrained","wideSize":"1280px"}} -->
 <div class="wp-block-cover alignfull is-style-default has-base-color has-text-color" style="margin-top:0;min-height:600px"><span aria-hidden="true" class="wp-block-cover__background has-contrast-background-color has-background-dim-100 has-background-dim"></span><div class="wp-block-cover__inner-container">
-	<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"constrained","wideSize":"800px","justifyContent":"left"}} -->
+	<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"constrained","wideSize":"880px","justifyContent":"left"}} -->
 	<div class="wp-block-group">
 		<!-- wp:heading {"level":1,"style":{"typography":{"fontStyle":"normal","fontWeight":"300"}},"fontSize":"max-60"} -->
 		<h1 class="wp-block-heading has-max-60-font-size" style="font-style:normal;font-weight:300"><?php echo esc_html__( 'World-class interior design studio based in Laguna Beach.', 'powder' ); ?></h1>
