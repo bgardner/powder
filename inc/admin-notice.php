@@ -5,7 +5,7 @@
  * @package	Powder
  * @author	Brian Gardner
  * @license	GNU General Public License v3
- * @link	https://powder.design/
+ * @link	https://powderwp.com/
  */
 
 /**
@@ -17,7 +17,7 @@ function powder_admin_notice() {
 		return;
 	}
 
-	echo '<div class="notice is-dismissible notice-warning" id="powder-admin-notice"><p>' . esc_html__( 'Unlock the full potential of Powder with our', 'powder' ) . ' <a href="https://powder.design/all-access/" target="_blank">' . esc_html__( 'All-Access plan', 'powder' ) . '</a>, ' . esc_html__( 'which features an extensive library of wireframe patterns and ready-to-use child themes.', 'powder' ) . '</p></div>';
+	echo '<div class="notice is-dismissible notice-warning" id="powder-admin-notice"><p>' . esc_html__( 'Unlock the full potential of Powder with our', 'powder' ) . ' <a href="https://powderwp.com/all-access/" target="_blank">' . esc_html__( 'All-Access plan', 'powder' ) . '</a>, ' . esc_html__( 'which features an extensive library of wireframe patterns and ready-to-use child themes.', 'powder' ) . '</p></div>';
 
 	// Handle notice dismissal with Javascript.
 	?>

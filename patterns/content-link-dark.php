@@ -48,7 +48,7 @@
 		</ul>
 		<!-- /wp:social-links -->
 		<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|medium"}}},"fontSize":"x-small"} -->
-		<p class="has-text-align-center has-x-small-font-size" style="margin-top:var(--wp--preset--spacing--medium)"><a href="https://powder.design/">Made with Powder</a></p>
+		<p class="has-text-align-center has-x-small-font-size" style="margin-top:var(--wp--preset--spacing--medium)"><a href="https://powderwp.com/">Made with Powder</a></p>
 		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:group -->

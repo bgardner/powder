@@ -5,7 +5,7 @@
  * @package	Powder
  * @author	Brian Gardner
  * @license	GNU General Public License v3
- * @link	https://powder.design/
+ * @link	https://powderwp.com/
  */
  
 /**
