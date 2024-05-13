@@ -5,18 +5,6 @@
 	"description":  "Sky-based palette with four shades",
 	"settings": {
 		"color": {
-			"duotone": [
-				{
-					"name": "Black and White",
-					"slug": "black-and-white",
-					"colors": [ "#0a0a0a", "#ffffff" ]
-				},
-				{
-					"name": "Primary and White",
-					"slug": "primary-and-white",
-					"colors": [ "#0369a1", "#ffffff" ]
-				}
-			],
 			"palette": [
 				{
 					"color": "#ffffff",
