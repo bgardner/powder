@@ -59,19 +59,9 @@
 					"slug": "base-contrast"
 				},
 				{
-					"gradient": "linear-gradient(90deg, var(--wp--preset--color--base) 50%, var(--wp--preset--color--contrast) 50%)",
-					"name": "Base to Contrast",
-					"slug": "base-contrast-90"
-				},
-				{
 					"gradient": "linear-gradient(var(--wp--preset--color--contrast) 50%, var(--wp--preset--color--base) 50%)",
 					"name": "Contrast to Base",
 					"slug": "contrast-base"
-				},
-				{
-					"gradient": "linear-gradient(90deg, var(--wp--preset--color--contrast) 50%, var(--wp--preset--color--base) 50%)",
-					"name": "Contrast to Base",
-					"slug": "contrast-base-90"
 				}
 			],
 			"palette": [
