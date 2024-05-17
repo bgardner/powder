@@ -74,9 +74,15 @@
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->
-		<!-- wp:paragraph -->
-		<p><a href="https://x.com/">Twitter</a> · <a href="https://www.linkedin.com/">LinkedIn</a> · <a href="https://instagram.com/">Instagram</a></p>
-		<!-- /wp:paragraph -->
+		<!-- wp:social-links {"iconColor":"base","iconColorValue":"#ffffff","openInNewTab":true,"size":"has-small-icon-size","style":{"spacing":{"blockGap":{"left":"5px"}}},"className":"is-style-outline"} -->
+		<ul class="wp-block-social-links has-small-icon-size has-icon-color is-style-outline">
+			<!-- wp:social-link {"url":"https://x.com/","service":"x"} /-->
+			<!-- wp:social-link {"url":"https://www.linkedin.com/","service":"linkedin"} /-->
+			<!-- wp:social-link {"url":"https://instagram.com/","service":"instagram"} /-->
+			<!-- wp:social-link {"url":"https://www.facebook.com/","service":"facebook"} /-->
+			<!-- wp:social-link {"url":"https://www.threads.net/","service":"threads"} /-->
+		</ul>
+		<!-- /wp:social-links -->
 	</div>
 	<!-- /wp:group -->
 </div>

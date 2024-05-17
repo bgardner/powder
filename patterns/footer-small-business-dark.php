@@ -109,22 +109,6 @@
 	<!-- /wp:columns -->
 	<!-- wp:group {"align":"wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|medium"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"},"fontSize":"x-small"} -->
 	<div class="wp-block-group alignwide has-x-small-font-size" style="margin-top:var(--wp--preset--spacing--medium)">
-		<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-		<div class="wp-block-group">
-			<!-- wp:paragraph -->
-			<p><a href="https://x.com/">Twitter</a></p>
-			<!-- /wp:paragraph -->
-			<!-- wp:paragraph -->
-			<p><a href="https://www.linkedin.com/">LinkedIn</a></p>
-			<!-- /wp:paragraph -->
-			<!-- wp:paragraph -->
-			<p><a href="https://instagram.com/">Instagram</a></p>
-			<!-- /wp:paragraph -->
-			<!-- wp:paragraph -->
-			<p><a href="https://www.facebook.com/">Facebook</a></p>
-			<!-- /wp:paragraph -->
-		</div>
-		<!-- /wp:group -->
 		<!-- wp:group {"style":{"spacing":{"blockGap":"5px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 		<div class="wp-block-group">
 			<!-- wp:group {"style":{"spacing":{"blockGap":"5px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
@@ -143,6 +127,15 @@
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->
+		<!-- wp:social-links {"iconColor":"base","iconColorValue":"#ffffff","openInNewTab":true,"size":"has-small-icon-size","style":{"spacing":{"blockGap":{"left":"5px"}}},"className":"is-style-outline"} -->
+		<ul class="wp-block-social-links has-small-icon-size has-icon-color is-style-outline">
+			<!-- wp:social-link {"url":"https://x.com/","service":"x"} /-->
+			<!-- wp:social-link {"url":"https://www.linkedin.com/","service":"linkedin"} /-->
+			<!-- wp:social-link {"url":"https://instagram.com/","service":"instagram"} /-->
+			<!-- wp:social-link {"url":"https://www.facebook.com/","service":"facebook"} /-->
+			<!-- wp:social-link {"url":"https://www.threads.net/","service":"threads"} /-->
+		</ul>
+		<!-- /wp:social-links -->
 	</div>
 	<!-- /wp:group -->
 </div>
