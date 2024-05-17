@@ -14,7 +14,7 @@
 		<!-- wp:site-title {"level":0,"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"small"} /-->
 		<!-- wp:social-links {"iconColor":"contrast","iconColorValue":"#0a0a0a","openInNewTab":true,"size":"has-small-icon-size","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|x-small","left":"5px"}},"layout":{"selfStretch":"fixed","flexSize":"300px"}},"className":"is-style-hidden-mobile is-style-outline","layout":{"type":"flex","justifyContent":"right"}} -->
 		<ul class="wp-block-social-links has-small-icon-size has-icon-color is-style-hidden-mobile is-style-outline">
-			<!-- wp:social-link {"url":"https://twitter.com/","service":"x"} /-->
+			<!-- wp:social-link {"url":"https://x.com/","service":"x"} /-->
 			<!-- wp:social-link {"url":"https://www.linkedin.com/","service":"linkedin"} /-->
 			<!-- wp:social-link {"url":"https://instagram.com/","service":"instagram"} /-->
 			<!-- wp:social-link {"url":"https://www.facebook.com/","service":"facebook"} /-->

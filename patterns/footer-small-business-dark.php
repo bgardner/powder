@@ -112,7 +112,7 @@
 		<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 		<div class="wp-block-group">
 			<!-- wp:paragraph -->
-			<p><a href="https://twitter.com/">Twitter</a></p>
+			<p><a href="https://x.com/">Twitter</a></p>
 			<!-- /wp:paragraph -->
 			<!-- wp:paragraph -->
 			<p><a href="https://www.linkedin.com/">LinkedIn</a></p>
