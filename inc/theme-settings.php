@@ -107,6 +107,8 @@ function powder_unregister_patterns() {
 		'powder_setting_option_call_to_action' => [
 			'powder/call-to-action-boxed-dark',
 			'powder/call-to-action-boxed',
+			'powder/call-to-action-button-dark',
+			'powder/call-to-action-button',
 			'powder/call-to-action-stacked-dark',
 			'powder/call-to-action-stacked'
 		],
