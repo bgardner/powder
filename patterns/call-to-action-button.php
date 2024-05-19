@@ -9,8 +9,8 @@
 <div class="wp-block-group alignfull" style="margin-top:0px;padding-top:var(--wp--preset--spacing--medium);padding-right:30px;padding-bottom:var(--wp--preset--spacing--medium);padding-left:30px">
 	<!-- wp:group {"align":"wide","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 	<div class="wp-block-group alignwide">
-		<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.25","fontSize":"36px"}}} -->
-		<p style="font-size:36px;line-height:1.25"><?php echo esc_html__( 'Work with me and experience the magic of simple design.', 'powder' ); ?></p>
+		<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.25"}},"fontSize":"max-36"} -->
+		<p class="has-max-36-font-size" style="line-height:1.25"><?php echo esc_html__( 'Work with me and experience the magic of simple design.', 'powder' ); ?></p>
 		<!-- /wp:paragraph -->
 		<!-- wp:buttons -->
 		<div class="wp-block-buttons">
