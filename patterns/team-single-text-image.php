@@ -2,7 +2,7 @@
 /**
  * Title: Single team member with image, text
  * Slug: powder/team-single-text-image
- * Categories: team
+ * Categories: powder-team
  */
 ?>
 <!-- wp:group {"metadata":{"name":"Team Member"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|x-large","bottom":"var:preset|spacing|x-large","left":"30px","right":"30px"},"margin":{"top":"0"}}},"layout":{"type":"constrained","wideSize":"960px"}} -->

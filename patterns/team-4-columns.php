@@ -2,7 +2,7 @@
 /**
  * Title: Team section with 4 columns
  * Slug: powder/team-4-columns
- * Categories: team
+ * Categories: powder-team
  */
 ?>
 <!-- wp:group {"metadata":{"name":"Team Members"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|x-large","bottom":"var:preset|spacing|x-large","left":"30px","right":"30px"},"margin":{"top":"0"}}},"layout":{"type":"constrained"}} -->
