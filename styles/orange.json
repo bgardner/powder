@@ -5,6 +5,18 @@
 	"description":  "Orange-based palette with four shades",
 	"settings": {
 		"color": {
+			"duotone": [
+				{
+					"colors": [ "#0a0a0a", "#ffffff" ],
+					"name": "Black and White",
+					"slug": "black-and-white"
+				},
+				{
+					"colors": [ "#c2410c", "#ffffff" ],
+					"name": "Primary and White",
+					"slug": "primary-and-white"
+				}
+			],
 			"palette": [
 				{
 					"color": "#ffffff",
