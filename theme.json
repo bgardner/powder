@@ -649,12 +649,16 @@
 	"customTemplates": [
 		{
 			"name": "page-blank",
-			"postTypes": ["page"],
+			"postTypes": [
+				"page"
+			],
 			"title": "Page: Blank"
 		},
 		{
 			"name": "page-no-title",
-			"postTypes": ["page"],
+			"postTypes": [
+				"page"
+			],
 			"title": "Page: No Title"
 		}
 	]
