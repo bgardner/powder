@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Single team member with image, text
+ * Title: Team member with image, text, social icons
  * Slug: powder/team-single-text-image-dark
  * Categories: powder-team
  */
