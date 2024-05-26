@@ -11,7 +11,7 @@
 if ( ! function_exists( 'powder_setup' ) ) {
 
 	/**
-	 * Initialize theme defaults and register support for WordPress features.
+	 * Initialize theme defaults and add support for WordPress features.
 	 */
 	function powder_setup() {
 
@@ -21,7 +21,7 @@ if ( ! function_exists( 'powder_setup' ) ) {
 		// Disable core block inline styles.
 		add_filter( 'should_load_separate_core_block_assets', '__return_false' );
 
-		// Remove core block patterns support.
+		// Remove core block patterns.
 		remove_theme_support( 'core-block-patterns' );
 
 	}
@@ -29,18 +29,18 @@ if ( ! function_exists( 'powder_setup' ) ) {
 add_action( 'after_setup_theme', 'powder_setup' );
 
 /**
- * Enqueue theme styles and scripts.
+ * Enqueue theme stylesheet and script.
  */
-function powder_enqueue_styles_scripts() {
+function powder_enqueue_stylesheet_script() {
 
 	// Enqueue theme stylesheet.
 	wp_enqueue_style( 'powder', get_template_directory_uri() . '/style.css', array(), wp_get_theme( 'powder' )->get( 'Version' ) );
 
-	// Enqueue theme JavaScript.
+	// Enqueue theme script.
 	wp_enqueue_script( 'powder', get_template_directory_uri() . '/assets/js/header.js', array('jquery'), '1.0', true );
 
 }
-add_action( 'wp_enqueue_scripts', 'powder_enqueue_styles_scripts' );
+add_action( 'wp_enqueue_scripts', 'powder_enqueue_stylesheet_script' );
 
 /**
  * Register block styles.
@@ -86,7 +86,7 @@ function powder_register_block_styles() {
 add_action( 'init', 'powder_register_block_styles' );
 
 /**
- * Register block pattern category.
+ * Register pattern category.
  */
 function powder_register_pattern_category( $slug, $label, $description ) {
 	register_block_pattern_category(
@@ -99,7 +99,7 @@ function powder_register_pattern_category( $slug, $label, $description ) {
 }
 
 /**
- * Register block pattern categories.
+ * Register pattern categories.
  */
 function powder_register_pattern_categories() {
 	$categories = array(
@@ -109,6 +109,7 @@ function powder_register_pattern_categories() {
 		'hero'           => array( __( 'Hero', 'powder' ), __( 'A collection of hero patterns for Powder.', 'powder' ) ),
 		'pricing'        => array( __( 'Pricing', 'powder' ), __( 'A collection of pricing patterns for Powder.', 'powder' ) ),
 		'team'           => array( __( 'Team', 'powder' ), __( 'A collection of team patterns for Powder.', 'powder' ) ),
+		'template'       => array( __( 'Template', 'powder' ), __( 'A collection of template patterns for Powder.', 'powder' ) ),
 		'testimonials'   => array( __( 'Testimonials', 'powder' ), __( 'A collection of testimonials patterns for Powder.', 'powder' ) ),
 		'theme'          => array( __( 'Theme', 'powder' ), __( 'A collection of theme patterns for Powder.', 'powder' ) ),
 	);
