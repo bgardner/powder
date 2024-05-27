@@ -27,6 +27,7 @@
 			<!-- wp:social-link {"url":"https://www.linkedin.com/","service":"linkedin"} /-->
 			<!-- wp:social-link {"url":"https://instagram.com/","service":"instagram"} /-->
 			<!-- wp:social-link {"url":"https://www.facebook.com/","service":"facebook"} /-->
+			<!-- wp:social-link {"url":"https://www.threads.net/","service":"threads"} /-->
 		</ul>
 		<!-- /wp:social-links -->
 	</div>
