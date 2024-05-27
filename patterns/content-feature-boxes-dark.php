@@ -5,7 +5,7 @@
  * Categories: powder-content
  */
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|x-large","bottom":"var:preset|spacing|x-large","left":"30px","right":"30px"},"margin":{"top":"0"}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained"},"metadata":{"name":"Feature Boxes"}} -->
+<!-- wp:group {"metadata":{"name":"Feature Boxes"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|x-large","bottom":"var:preset|spacing|x-large","left":"30px","right":"30px"},"margin":{"top":"0"}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull has-base-color has-contrast-background-color has-text-color has-background" style="margin-top:0;padding-top:var(--wp--preset--spacing--x-large);padding-right:30px;padding-bottom:var(--wp--preset--spacing--x-large);padding-left:30px">
 	<!-- wp:heading {"textAlign":"center","level":2,"style":{"typography":{"lineHeight":"1"}},"fontSize":"max-48"} -->
 	<h2 class="wp-block-heading has-text-align-center has-max-48-font-size" style="line-height:1"><?php echo esc_html__( 'Choose Powder.', 'powder' ); ?></h2>

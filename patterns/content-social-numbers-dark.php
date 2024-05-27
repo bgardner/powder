@@ -5,7 +5,7 @@
  * Categories: powder-content
  */
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|x-large","bottom":"var:preset|spacing|x-large","right":"30px","left":"30px"},"margin":{"top":"0px"}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained","wideSize":"1080px"},"metadata":{"name":"Social Numbers"}} -->
+<!-- wp:group {"metadata":{"name":"Social Numbers"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|x-large","bottom":"var:preset|spacing|x-large","right":"30px","left":"30px"},"margin":{"top":"0px"}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained","wideSize":"1080px"}} -->
 <div class="wp-block-group alignfull has-base-color has-contrast-background-color has-text-color has-background" style="margin-top:0px;padding-top:var(--wp--preset--spacing--x-large);padding-right:30px;padding-bottom:var(--wp--preset--spacing--x-large);padding-left:30px">
 	<!-- wp:columns -->
 	<div class="wp-block-columns">
