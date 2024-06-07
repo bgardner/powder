@@ -17,6 +17,28 @@
 					"slug": "primary-and-white"
 				}
 			],
+			"gradients": [
+				{
+					"gradient": "linear-gradient(180deg, #1d4ed8 0%, #3b82f6 100%)",
+					"name": "Primary to Secondary",
+					"slug": "primary-secondary"
+				},
+				{
+					"gradient": "linear-gradient(180deg, #3b82f6 0%, #1d4ed8 100%)",
+					"name": "Secondary to Primary",
+					"slug": "secondary-primary"
+				},
+				{
+					"gradient": "linear-gradient(180deg, #93c5fd 0%, #dbeafe 100%)",
+					"name": "Tertiary to Quaternary",
+					"slug": "tertiary-quaternary"
+				},
+				{
+					"gradient": "linear-gradient(180deg, #dbeafe 0%, #93c5fd 100%)",
+					"name": "Quaternary to Tertiary",
+					"slug": "quaternary-tertiary"
+				}
+			],
 			"palette": [
 				{
 					"color": "#ffffff",
