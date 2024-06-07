@@ -25,7 +25,7 @@ if ( ! function_exists( 'powder_setup' ) ) {
 		remove_theme_support( 'core-block-patterns' );
 
 		// Include admin notice.
-		require_once get_template_directory() . '/inc/admin-notice.php';	
+		require_once get_template_directory() . '/inc/admin-notice.php';
 
 	}
 }
