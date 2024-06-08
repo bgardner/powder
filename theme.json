@@ -54,22 +54,22 @@
 			],
 			"gradients": [
 				{
-					"gradient": "linear-gradient(180deg, #6d28d9 0%, #8b5cf6 100%)",
+					"gradient": "linear-gradient(0deg, #6d28d9 0%, #8b5cf6 100%)",
 					"name": "Primary to Secondary",
 					"slug": "primary-secondary"
 				},
 				{
-					"gradient": "linear-gradient(180deg, #8b5cf6 0%, #6d28d9 100%)",
+					"gradient": "linear-gradient(0deg, #8b5cf6 0%, #6d28d9 100%)",
 					"name": "Secondary to Primary",
 					"slug": "secondary-primary"
 				},
 				{
-					"gradient": "linear-gradient(180deg, #c4b5fd 0%, #ede9fe 100%)",
+					"gradient": "linear-gradient(0deg, #c4b5fd 0%, #ede9fe 100%)",
 					"name": "Tertiary to Quaternary",
 					"slug": "tertiary-quaternary"
 				},
 				{
-					"gradient": "linear-gradient(180deg, #ede9fe 0%, #c4b5fd 100%)",
+					"gradient": "linear-gradient(0deg, #ede9fe 0%, #c4b5fd 100%)",
 					"name": "Quaternary to Tertiary",
 					"slug": "quaternary-tertiary"
 				}
