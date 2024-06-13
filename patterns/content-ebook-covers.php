@@ -9,8 +9,8 @@
 <div class="wp-block-group alignfull" style="margin-top:0;padding-top:var(--wp--preset--spacing--x-large);padding-right:30px;padding-bottom:var(--wp--preset--spacing--x-large);padding-left:30px">
 	<!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"constrained","wideSize":""}} -->
 	<div class="wp-block-group">
-		<!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"400"}},"fontSize":"tiny"} -->
-		<p class="has-text-align-center has-tiny-font-size" style="font-style:normal;font-weight:400;text-transform:uppercase"><?php echo esc_html__( 'Meet Powder', 'powder' ); ?></p>
+		<!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"400"}},"fontSize":"x-small"} -->
+		<p class="has-text-align-center has-x-small-font-size" style="font-style:normal;font-weight:400;text-transform:uppercase"><?php echo esc_html__( 'Meet Powder', 'powder' ); ?></p>
 		<!-- /wp:paragraph -->
 		<!-- wp:heading {"textAlign":"center","fontSize":"max-60"} -->
 		<h2 class="wp-block-heading has-text-align-center has-max-60-font-size"><?php echo esc_html__( 'Are you ready to design with WordPress?', 'powder' ); ?></h2>
@@ -28,8 +28,8 @@
 					<!-- wp:heading {"textAlign":"center","level":3,"style":{"typography":{"textTransform":"uppercase","lineHeight":"1.2"}},"fontSize":"x-large"} -->
 					<h3 class="wp-block-heading has-text-align-center has-x-large-font-size" style="line-height:1.2;text-transform:uppercase"><?php echo esc_html__( 'Sample Title', 'powder' ); ?></h3>
 					<!-- /wp:heading -->
-					<!-- wp:paragraph {"align":"center","fontSize":"tiny"} -->
-					<p class="has-text-align-center has-tiny-font-size"><?php echo esc_html__( 'By: Brian Gardner', 'powder' ); ?></p>
+					<!-- wp:paragraph {"align":"center","fontSize":"x-small"} -->
+					<p class="has-text-align-center has-x-small-font-size"><?php echo esc_html__( 'By: Brian Gardner', 'powder' ); ?></p>
 					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:group -->
@@ -53,8 +53,8 @@
 					<!-- wp:heading {"textAlign":"center","level":3,"style":{"typography":{"textTransform":"uppercase","lineHeight":"1.2"}},"fontSize":"x-large"} -->
 					<h3 class="wp-block-heading has-text-align-center has-x-large-font-size" style="line-height:1.2;text-transform:uppercase"><?php echo esc_html__( 'Sample Title', 'powder' ); ?></h3>
 					<!-- /wp:heading -->
-					<!-- wp:paragraph {"align":"center","fontSize":"tiny"} -->
-					<p class="has-text-align-center has-tiny-font-size"><?php echo esc_html__( 'By: Brian Gardner', 'powder' ); ?></p>
+					<!-- wp:paragraph {"align":"center","fontSize":"x-small"} -->
+					<p class="has-text-align-center has-x-small-font-size"><?php echo esc_html__( 'By: Brian Gardner', 'powder' ); ?></p>
 					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:group -->
@@ -78,8 +78,8 @@
 					<!-- wp:heading {"textAlign":"center","level":3,"style":{"typography":{"textTransform":"uppercase","lineHeight":"1.2"}},"fontSize":"x-large"} -->
 					<h3 class="wp-block-heading has-text-align-center has-x-large-font-size" style="line-height:1.2;text-transform:uppercase"><?php echo esc_html__( 'Sample Title', 'powder' ); ?></h3>
 					<!-- /wp:heading -->
-					<!-- wp:paragraph {"align":"center","fontSize":"tiny"} -->
-					<p class="has-text-align-center has-tiny-font-size"><?php echo esc_html__( 'By: Brian Gardner', 'powder' ); ?></p>
+					<!-- wp:paragraph {"align":"center","fontSize":"x-small"} -->
+					<p class="has-text-align-center has-x-small-font-size"><?php echo esc_html__( 'By: Brian Gardner', 'powder' ); ?></p>
 					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:group -->
