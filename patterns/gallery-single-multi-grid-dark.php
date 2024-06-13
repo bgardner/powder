@@ -9,8 +9,8 @@
 <div class="wp-block-group alignfull has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="margin-top:0;padding-top:var(--wp--preset--spacing--x-large);padding-right:30px;padding-bottom:var(--wp--preset--spacing--x-large);padding-left:30px">
 	<!-- wp:group {"align":"wide","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"bottom"}} -->
 	<div class="wp-block-group alignwide">
-		<!-- wp:heading {"fontSize":"max-36"} -->
-		<h2 class="wp-block-heading has-max-36-font-size"><?php echo esc_html__( 'My Images', 'powder' ); ?></h2>
+		<!-- wp:heading {"fontSize":"xx-large"} -->
+		<h2 class="wp-block-heading has-xx-large-font-size"><?php echo esc_html__( 'My Images', 'powder' ); ?></h2>
 		<!-- /wp:heading -->
 		<!-- wp:paragraph {"fontSize":"x-small"} -->
 		<p class="has-x-small-font-size"><a href="#"><?php echo esc_html__( 'Follow Me →', 'powder' ); ?></a></p>

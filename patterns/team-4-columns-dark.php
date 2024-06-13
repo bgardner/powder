@@ -7,8 +7,8 @@
 ?>
 <!-- wp:group {"metadata":{"name":"Team Members"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|x-large","bottom":"var:preset|spacing|x-large","left":"30px","right":"30px"},"margin":{"top":"0"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="margin-top:0;padding-top:var(--wp--preset--spacing--x-large);padding-right:30px;padding-bottom:var(--wp--preset--spacing--x-large);padding-left:30px">
-	<!-- wp:heading {"textAlign":"center","level":1,"align":"wide","fontSize":"max-36"} -->
-	<h1 class="wp-block-heading alignwide has-text-align-center has-max-36-font-size">Team Members</h1>
+	<!-- wp:heading {"textAlign":"center","level":1,"align":"wide","fontSize":"xx-large"} -->
+	<h1 class="wp-block-heading alignwide has-text-align-center has-xx-large-font-size">Team Members</h1>
 	<!-- /wp:heading -->
 	<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|small"},"margin":{"top":"var:preset|spacing|medium"}}}} -->
 	<div class="wp-block-columns alignwide" style="margin-top:var(--wp--preset--spacing--medium)">

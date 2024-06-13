@@ -11,8 +11,8 @@
 	<div class="wp-block-columns alignwide are-vertically-aligned-center">
 		<!-- wp:column {"verticalAlignment":"center","width":"30%","style":{"spacing":{"blockGap":"var:preset|spacing|x-small"},"typography":{"lineHeight":"1.5"}},"fontSize":"small"} -->
 		<div class="wp-block-column is-vertically-aligned-center has-small-font-size" style="line-height:1.5;flex-basis:30%">
-			<!-- wp:heading {"fontSize":"max-36"} -->
-			<h2 class="wp-block-heading has-max-36-font-size"><?php echo esc_html__( 'My Images', 'powder' ); ?></h2>
+			<!-- wp:heading {"fontSize":"xx-large"} -->
+			<h2 class="wp-block-heading has-xx-large-font-size"><?php echo esc_html__( 'My Images', 'powder' ); ?></h2>
 			<!-- /wp:heading -->
 			<!-- wp:paragraph -->
 			<p><?php echo esc_html__( 'Powder reclaims its minimalist roots by embracing simplicity and focusing on the purity of form and function. Its signature approach—inspired by the vibrant color palettes of Tailwind CSS—transcends conventional design standards and provides a canvas where creativity knows no bounds.', 'powder' ); ?></p>
