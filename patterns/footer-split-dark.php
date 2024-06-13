@@ -6,8 +6,8 @@
  * Block Types: core/template-part/footer
  */
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium","right":"30px","left":"30px"},"blockGap":"0px"},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained"},"fontSize":"tiny"} -->
-<div class="wp-block-group alignfull has-base-color has-contrast-background-color has-text-color has-background has-link-color has-tiny-font-size" style="margin-top:0;padding-top:var(--wp--preset--spacing--medium);padding-right:30px;padding-bottom:var(--wp--preset--spacing--medium);padding-left:30px">
+<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium","right":"30px","left":"30px"},"blockGap":"0px"},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained"},"fontSize":"x-small"} -->
+<div class="wp-block-group alignfull has-base-color has-contrast-background-color has-text-color has-background has-link-color has-x-small-font-size" style="margin-top:0;padding-top:var(--wp--preset--spacing--medium);padding-right:30px;padding-bottom:var(--wp--preset--spacing--medium);padding-left:30px">
 	<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"0","left":"0"},"margin":{"bottom":"var:preset|spacing|x-large"}}}} -->
 	<div class="wp-block-columns alignwide" style="margin-bottom:var(--wp--preset--spacing--x-large)">
 		<!-- wp:column {"width":"60%"} -->
@@ -26,8 +26,8 @@
 			<div class="wp-block-columns">
 				<!-- wp:column {"style":{"spacing":{"blockGap":"15px"}}} -->
 				<div class="wp-block-column">
-					<!-- wp:heading {"style":{"typography":{"lineHeight":"1.5","textTransform":"uppercase"}},"fontSize":"tiny"} -->
-					<h2 class="wp-block-heading has-tiny-font-size" style="line-height:1.5;text-transform:uppercase"><?php echo esc_html__( 'Heading', 'powder' ); ?></h2>
+					<!-- wp:heading {"style":{"typography":{"lineHeight":"1.5","textTransform":"uppercase"}},"fontSize":"x-small"} -->
+					<h2 class="wp-block-heading has-x-small-font-size" style="line-height:1.5;text-transform:uppercase"><?php echo esc_html__( 'Heading', 'powder' ); ?></h2>
 					<!-- /wp:heading -->
 					<!-- wp:list {"style":{"typography":{"lineHeight":"2"}},"className":"is-style-no-style"} -->
 					<ul class="is-style-no-style" style="line-height:2">
@@ -49,8 +49,8 @@
 				<!-- /wp:column -->
 				<!-- wp:column {"style":{"spacing":{"blockGap":"15px"}}} -->
 				<div class="wp-block-column">
-					<!-- wp:heading {"style":{"typography":{"lineHeight":"1.5","textTransform":"uppercase"}},"fontSize":"tiny"} -->
-					<h2 class="wp-block-heading has-tiny-font-size" style="line-height:1.5;text-transform:uppercase"><?php echo esc_html__( 'Heading', 'powder' ); ?></h2>
+					<!-- wp:heading {"style":{"typography":{"lineHeight":"1.5","textTransform":"uppercase"}},"fontSize":"x-small"} -->
+					<h2 class="wp-block-heading has-x-small-font-size" style="line-height:1.5;text-transform:uppercase"><?php echo esc_html__( 'Heading', 'powder' ); ?></h2>
 					<!-- /wp:heading -->
 					<!-- wp:list {"style":{"typography":{"lineHeight":"2"}},"className":"is-style-no-style"} -->
 					<ul class="is-style-no-style" style="line-height:2">
@@ -72,8 +72,8 @@
 				<!-- /wp:column -->
 				<!-- wp:column {"style":{"spacing":{"blockGap":"15px"}}} -->
 				<div class="wp-block-column">
-					<!-- wp:heading {"style":{"typography":{"lineHeight":"1.5","textTransform":"uppercase"}},"fontSize":"tiny"} -->
-					<h2 class="wp-block-heading has-tiny-font-size" style="line-height:1.5;text-transform:uppercase"><?php echo esc_html__( 'Heading', 'powder' ); ?></h2>
+					<!-- wp:heading {"style":{"typography":{"lineHeight":"1.5","textTransform":"uppercase"}},"fontSize":"x-small"} -->
+					<h2 class="wp-block-heading has-x-small-font-size" style="line-height:1.5;text-transform:uppercase"><?php echo esc_html__( 'Heading', 'powder' ); ?></h2>
 					<!-- /wp:heading -->
 					<!-- wp:list {"style":{"typography":{"lineHeight":"2"}},"className":"is-style-no-style"} -->
 					<ul class="is-style-no-style" style="line-height:2">
@@ -108,7 +108,7 @@
 				<!-- wp:paragraph -->
 				<p>&copy; <?php echo esc_html( gmdate( 'Y' ) ); ?></p>
 				<!-- /wp:paragraph -->
-				<!-- wp:site-title {"level":0,"isLink":false,"style":{"typography":{"fontStyle":"normal","fontWeight":"300"}},"fontSize":"tiny"} /-->
+				<!-- wp:site-title {"level":0,"isLink":false,"style":{"typography":{"fontStyle":"normal","fontWeight":"300"}},"fontSize":"x-small"} /-->
 			</div>
 			<!-- /wp:group -->
 			<!-- wp:paragraph -->
