@@ -18,7 +18,7 @@
 			<!-- /wp:separator -->
 		</div>
 		<!-- /wp:group -->
-		<!-- wp:navigation {"layout":{"type":"flex","setCascadingProperties":true},"style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"400"}},"fontSize":"tiny"} /-->
+		<!-- wp:navigation {"layout":{"type":"flex","setCascadingProperties":true},"style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"400"}},"fontSize":"xx-small"} /-->
 	</div>
 	<!-- /wp:group -->
 </div>
