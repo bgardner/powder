@@ -24,8 +24,8 @@
 		<!-- /wp:heading -->
 		<!-- wp:buttons -->
 		<div class="wp-block-buttons">
-			<!-- wp:button {"fontSize":"tiny"} -->
-			<div class="wp-block-button has-custom-font-size has-tiny-font-size"><a class="wp-block-button__link wp-element-button" href="#"><?php echo esc_html__( 'Learn More →', 'powder' ); ?></a></div>
+			<!-- wp:button -->
+			<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="#"><?php echo esc_html__( 'Learn More →', 'powder' ); ?></a></div>
 			<!-- /wp:button -->
 		</div>
 		<!-- /wp:buttons -->
