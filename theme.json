@@ -375,7 +375,7 @@
 				}
 			},
 			"core/post-comments-form": {
-				"css": " & input:not([type=submit]), textarea {border-color: var(--wp--preset--color--contrast); & input[type=submit] {width: auto;}"
+				"css": " & input:not([type=submit]), textarea {border-color: var(--wp--preset--color--contrast) !important; & input[type=submit] {width: auto;}"
 			},
 			"core/post-excerpt": {
 				"css": "& .wp-block-post-excerpt__more-text {margin-top: var(--wp--preset--spacing--x-small);}"
