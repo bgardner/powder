@@ -209,12 +209,6 @@
 			"fontSizes": [
 				{
 					"fluid": false,
-					"name": "Tiny",
-					"size": "14px",
-					"slug": "tiny"
-				},
-				{
-					"fluid": false,
 					"name": "xSmall",
 					"size": "16px",
 					"slug": "x-small"
@@ -333,7 +327,7 @@
 					}
 				},
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--tiny)"
+					"fontSize": "var(--wp--preset--font-size--x-small)"
 				}
 			},
 			"core/comment-author-name": {
@@ -411,7 +405,7 @@
 					}
 				},
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--tiny)"
+					"fontSize": "var(--wp--preset--font-size--x-small)"
 				}
 			},
 			"core/pullquote": {
@@ -608,7 +602,7 @@
 			},
 			"h6": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--tiny)"
+					"fontSize": "var(--wp--preset--font-size--x-small)"
 				}
 			},
 			"heading": {
