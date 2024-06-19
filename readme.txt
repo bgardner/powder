@@ -3,7 +3,7 @@ Contributors: bgardner
 Requires at least: 6.5
 Tested up to: 6.5.4
 Requires PHP: 7.0
-Stable tag: 1.1.6
+Stable tag: 1.1.7
 License: GNU General Public License v3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -52,6 +52,8 @@ site-logo-light.svg
 The following icons are available through Google Material Icons and declared under Apache Open Source License, Version 2.0.
 License URL: https://www.apache.org/licenses/LICENSE-2.0
 
+icon-arrow-dark.svg
+icon-arrow-light.svg
 icon-circle-bolt-dark.svg
 icon-circle-bolt-light.svg
 icon-circle-check-dark.svg
