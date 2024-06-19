@@ -12,11 +12,11 @@
 	<div class="wp-block-group alignwide">
 		<!-- wp:social-links {"openInNewTab":true,"size":"has-small-icon-size","style":{"layout":{"selfStretch":"fixed","flexSize":"300px"},"spacing":{"blockGap":{"left":"5px"}}},"className":"is-style-hidden-mobile is-style-outline","layout":{"type":"flex"}} -->
 		<ul class="wp-block-social-links has-small-icon-size is-style-hidden-mobile is-style-outline">
-			<!-- wp:social-link {"url":"#","service":"x"} /-->
-			<!-- wp:social-link {"url":"#","service":"linkedin"} /-->
-			<!-- wp:social-link {"url":"#","service":"instagram"} /-->
-			<!-- wp:social-link {"url":"#","service":"facebook"} /-->
-			<!-- wp:social-link {"url":"#","service":"threads"} /-->
+			<!-- wp:social-link {"url":"https://x.com/","service":"x"} /-->
+			<!-- wp:social-link {"url":"https://www.linkedin.com/","service":"linkedin"} /-->
+			<!-- wp:social-link {"url":"https://instagram.com/","service":"instagram"} /-->
+			<!-- wp:social-link {"url":"https://www.facebook.com/","service":"facebook"} /-->
+			<!-- wp:social-link {"url":"https://www.threads.net/","service":"threads"} /-->
 		</ul>
 		<!-- /wp:social-links -->
 		<!-- wp:site-title {"level":0,"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"small"} /-->
