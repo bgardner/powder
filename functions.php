@@ -18,9 +18,6 @@ if ( ! function_exists( 'powder_setup' ) ) {
 		// Enqueue editor stylesheet.
 		add_editor_style( get_template_directory_uri() . '/style.css' );
 
-		// Disable core block inline styles.
-		add_filter( 'should_load_separate_core_block_assets', '__return_false' );
-
 		// Remove core block patterns.
 		remove_theme_support( 'core-block-patterns' );
 
