@@ -40,11 +40,11 @@
 		<!-- /wp:buttons -->
 		<!-- wp:social-links {"iconColor":"base","iconColorValue":"#ffffff","openInNewTab":true,"size":"has-normal-icon-size","align":"center","className":"has-icon-base-color is-style-outline","layout":{"type":"flex","justifyContent":"center"}} -->
 		<ul class="wp-block-social-links aligncenter has-normal-icon-size has-icon-color has-icon-base-color is-style-outline">
-			<!-- wp:social-link {"url":"https://twitter.com/","service":"x"} /-->
-			<!-- wp:social-link {"url":"https://www.linkedin.com/","service":"linkedin"} /-->
-			<!-- wp:social-link {"url":"https://instagram.com/","service":"instagram"} /-->
-			<!-- wp:social-link {"url":"https://www.facebook.com/","service":"facebook"} /-->
-			<!-- wp:social-link {"url":"https://www.threads.net/","service":"threads"} /-->
+			<!-- wp:social-link {"url":"#","service":"x"} /-->
+			<!-- wp:social-link {"url":"#","service":"linkedin"} /-->
+			<!-- wp:social-link {"url":"#","service":"instagram"} /-->
+			<!-- wp:social-link {"url":"#","service":"facebook"} /-->
+			<!-- wp:social-link {"url":"#","service":"threads"} /-->
 		</ul>
 		<!-- /wp:social-links -->
 		<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|medium"}}},"fontSize":"x-small"} -->

@@ -25,10 +25,10 @@
 			<!-- /wp:paragraph -->
 			<!-- wp:social-links {"iconColor":"base","iconColorValue":"#ffffff","openInNewTab":true,"size":"has-small-icon-size","align":"center","style":{"spacing":{"blockGap":{"left":"5px"},"margin":{"top":"15px"}}},"className":"is-style-outline"} -->
 			<ul class="wp-block-social-links aligncenter has-small-icon-size has-icon-color is-style-outline" style="margin-top:15px">
-				<!-- wp:social-link {"url":"https://twitter.com/","service":"x"} /-->
-				<!-- wp:social-link {"url":"https://www.linkedin.com/","service":"linkedin"} /-->
-				<!-- wp:social-link {"url":"https://instagram.com/","service":"instagram"} /-->
-				<!-- wp:social-link {"url":"https://www.facebook.com/","service":"facebook"} /-->
+				<!-- wp:social-link {"url":"#","service":"x"} /-->
+				<!-- wp:social-link {"url":"#","service":"linkedin"} /-->
+				<!-- wp:social-link {"url":"#","service":"instagram"} /-->
+				<!-- wp:social-link {"url":"#","service":"facebook"} /-->
 			</ul>
 			<!-- /wp:social-links -->
 		</div>
@@ -46,10 +46,10 @@
 			<!-- /wp:paragraph -->
 			<!-- wp:social-links {"iconColor":"base","iconColorValue":"#ffffff","openInNewTab":true,"size":"has-small-icon-size","align":"center","style":{"spacing":{"blockGap":{"left":"5px"},"margin":{"top":"15px"}}},"className":"is-style-outline"} -->
 			<ul class="wp-block-social-links aligncenter has-small-icon-size has-icon-color is-style-outline" style="margin-top:15px">
-				<!-- wp:social-link {"url":"https://twitter.com/","service":"x"} /-->
-				<!-- wp:social-link {"url":"https://www.linkedin.com/","service":"linkedin"} /-->
-				<!-- wp:social-link {"url":"https://instagram.com/","service":"instagram"} /-->
-				<!-- wp:social-link {"url":"https://www.facebook.com/","service":"facebook"} /-->
+				<!-- wp:social-link {"url":"#","service":"x"} /-->
+				<!-- wp:social-link {"url":"#","service":"linkedin"} /-->
+				<!-- wp:social-link {"url":"#","service":"instagram"} /-->
+				<!-- wp:social-link {"url":"#","service":"facebook"} /-->
 			</ul>
 			<!-- /wp:social-links -->
 		</div>
@@ -67,10 +67,10 @@
 			<!-- /wp:paragraph -->
 			<!-- wp:social-links {"iconColor":"base","iconColorValue":"#ffffff","openInNewTab":true,"size":"has-small-icon-size","align":"center","style":{"spacing":{"blockGap":{"left":"5px"},"margin":{"top":"15px"}}},"className":"is-style-outline"} -->
 			<ul class="wp-block-social-links aligncenter has-small-icon-size has-icon-color is-style-outline" style="margin-top:15px">
-				<!-- wp:social-link {"url":"https://twitter.com/","service":"x"} /-->
-				<!-- wp:social-link {"url":"https://www.linkedin.com/","service":"linkedin"} /-->
-				<!-- wp:social-link {"url":"https://instagram.com/","service":"instagram"} /-->
-				<!-- wp:social-link {"url":"https://www.facebook.com/","service":"facebook"} /-->
+				<!-- wp:social-link {"url":"#","service":"x"} /-->
+				<!-- wp:social-link {"url":"#","service":"linkedin"} /-->
+				<!-- wp:social-link {"url":"#","service":"instagram"} /-->
+				<!-- wp:social-link {"url":"#","service":"facebook"} /-->
 			</ul>
 			<!-- /wp:social-links -->
 		</div>
@@ -88,10 +88,10 @@
 			<!-- /wp:paragraph -->
 			<!-- wp:social-links {"iconColor":"base","iconColorValue":"#ffffff","openInNewTab":true,"size":"has-small-icon-size","align":"center","style":{"spacing":{"blockGap":{"left":"5px"},"margin":{"top":"15px"}}},"className":"is-style-outline"} -->
 			<ul class="wp-block-social-links aligncenter has-small-icon-size has-icon-color is-style-outline" style="margin-top:15px">
-				<!-- wp:social-link {"url":"https://twitter.com/","service":"x"} /-->
-				<!-- wp:social-link {"url":"https://www.linkedin.com/","service":"linkedin"} /-->
-				<!-- wp:social-link {"url":"https://instagram.com/","service":"instagram"} /-->
-				<!-- wp:social-link {"url":"https://www.facebook.com/","service":"facebook"} /-->
+				<!-- wp:social-link {"url":"#","service":"x"} /-->
+				<!-- wp:social-link {"url":"#","service":"linkedin"} /-->
+				<!-- wp:social-link {"url":"#","service":"instagram"} /-->
+				<!-- wp:social-link {"url":"#","service":"facebook"} /-->
 			</ul>
 			<!-- /wp:social-links -->
 		</div>
