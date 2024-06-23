@@ -127,23 +127,6 @@ select {
 	padding: 2px;
 }
 
-/* -- Navigation Link -- */
-
-.wp-block-navigation-item.is-style-underline a::after {
-	background-color: currentcolor;
-	bottom: 0;
-	content: '';
-	height: 1px;
-	left: 0;
-	position: absolute;
-	transition: width 0.5s ease;
-	width: 0;
-}
-
-.wp-block-navigation-item.is-style-underline a:hover::after {
-	width: 100%;
-}
-
 /* -- Navigation Submenu -- */
 
 .wp-block-navigation:not(.has-background) .wp-block-navigation__responsive-container.is-menu-open,

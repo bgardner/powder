@@ -62,9 +62,6 @@ function powder_register_block_styles() {
 		'core/list' => array(
 			'no-style' => __( 'No Style', 'powder' ),
 		),
-		'core/navigation-link' => array(
-			'underline' => __( 'Underline', 'powder' )
-		),
 		'core/social-links' => array(
 			'outline' => __( 'Outline', 'powder' ),
 		),
