@@ -52,7 +52,7 @@ function powder_register_block_styles() {
 			'column-reverse' => __( 'Reverse', 'powder' ),
 		),
 		'core/cover' => array(
-			'gradient' => __( 'Gradient', 'powder' )
+			'gradient' => __( 'Gradient', 'powder' ),
 		),
 		'core/group' => array(
 			'shadow-faint' => __( 'Shadow (Faint)', 'powder' ),
