@@ -10,8 +10,8 @@
 <div class="wp-block-group alignfull has-base-background-color has-background" style="margin-top:0px;padding-top:var(--wp--preset--spacing--x-small);padding-right:30px;padding-bottom:var(--wp--preset--spacing--x-small);padding-left:30px">
 	<!-- wp:group {"align":"wide","layout":{"type":"flex","justifyContent":"space-between"}} -->
 	<div class="wp-block-group alignwide">
-		<!-- wp:social-links {"iconColor":"contrast","iconColorValue":"#0a0a0a","openInNewTab":true,"size":"has-small-icon-size","style":{"layout":{"selfStretch":"fixed","flexSize":"300px"},"spacing":{"blockGap":{"left":"5px"}}},"className":"is-style-hidden-mobile is-style-outline","layout":{"type":"flex"}} -->
-		<ul class="wp-block-social-links has-small-icon-size has-icon-color is-style-hidden-mobile is-style-outline">
+		<!-- wp:social-links {"openInNewTab":true,"size":"has-small-icon-size","style":{"layout":{"selfStretch":"fixed","flexSize":"300px"},"spacing":{"blockGap":{"left":"5px"}}},"className":"is-style-hidden-mobile is-style-outline","layout":{"type":"flex"}} -->
+		<ul class="wp-block-social-links has-small-icon-size is-style-hidden-mobile is-style-outline">
 			<!-- wp:social-link {"url":"https://x.com/","service":"x"} /-->
 			<!-- wp:social-link {"url":"https://www.linkedin.com/","service":"linkedin"} /-->
 			<!-- wp:social-link {"url":"https://instagram.com/","service":"instagram"} /-->
