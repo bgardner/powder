@@ -509,7 +509,7 @@
 				}
 			},
 			"core/social-links": {
-				"css": ".is-style-outline .wp-block-social-link {background-color: transparent !important;border: 1px solid currentColor;}",
+				"css": ".is-style-outline .wp-block-social-link {background-color: transparent !important;border: 1px solid currentColor !important;color: currentColor !important}",
 				"spacing": {
 					"blockGap": "10px"
 				}
