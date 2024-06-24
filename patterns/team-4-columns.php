@@ -23,8 +23,8 @@
 			<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"0"}}},"fontSize":"x-small"} -->
 			<p class="has-text-align-center has-x-small-font-size" style="margin-top:0"><?php echo esc_html__( 'Chief Executive Officer', 'powder' ); ?></p>
 			<!-- /wp:paragraph -->
-			<!-- wp:social-links {"iconColor":"contrast","iconColorValue":"#0a0a0a","openInNewTab":true,"size":"has-small-icon-size","align":"center","style":{"spacing":{"blockGap":{"left":"5px"},"margin":{"top":"15px"}}},"className":"is-style-outline"} -->
-			<ul class="wp-block-social-links aligncenter has-small-icon-size has-icon-color is-style-outline" style="margin-top:15px">
+			<!-- wp:social-links {"openInNewTab":true,"size":"has-small-icon-size","align":"center","className":"is-style-outline","style":{"spacing":{"blockGap":{"left":"5px"},"margin":{"top":"15px"}}}} -->
+			<ul class="wp-block-social-links aligncenter has-small-icon-size is-style-outline" style="margin-top:15px">
 				<!-- wp:social-link {"url":"https://x.com/","service":"x"} /-->
 				<!-- wp:social-link {"url":"https://www.linkedin.com/","service":"linkedin"} /-->
 				<!-- wp:social-link {"url":"https://instagram.com/","service":"instagram"} /-->
@@ -44,8 +44,8 @@
 			<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"0"}}},"fontSize":"x-small"} -->
 			<p class="has-text-align-center has-x-small-font-size" style="margin-top:0"><?php echo esc_html__( 'Chief Operations Officer', 'powder' ); ?></p>
 			<!-- /wp:paragraph -->
-			<!-- wp:social-links {"iconColor":"contrast","iconColorValue":"#0a0a0a","openInNewTab":true,"size":"has-small-icon-size","align":"center","style":{"spacing":{"blockGap":{"left":"5px"},"margin":{"top":"15px"}}},"className":"is-style-outline"} -->
-			<ul class="wp-block-social-links aligncenter has-small-icon-size has-icon-color is-style-outline" style="margin-top:15px">
+			<!-- wp:social-links {"openInNewTab":true,"size":"has-small-icon-size","align":"center","className":"is-style-outline","style":{"spacing":{"blockGap":{"left":"5px"},"margin":{"top":"15px"}}}} -->
+			<ul class="wp-block-social-links aligncenter has-small-icon-size is-style-outline" style="margin-top:15px">
 				<!-- wp:social-link {"url":"https://x.com/","service":"x"} /-->
 				<!-- wp:social-link {"url":"https://www.linkedin.com/","service":"linkedin"} /-->
 				<!-- wp:social-link {"url":"https://instagram.com/","service":"instagram"} /-->
@@ -66,8 +66,8 @@
 			<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"0"}}},"fontSize":"x-small"} -->
 			<p class="has-text-align-center has-x-small-font-size" style="margin-top:0"><?php echo esc_html__( 'Chief Marketing Officer', 'powder' ); ?></p>
 			<!-- /wp:paragraph -->
-			<!-- wp:social-links {"iconColor":"contrast","iconColorValue":"#0a0a0a","openInNewTab":true,"size":"has-small-icon-size","align":"center","style":{"spacing":{"blockGap":{"left":"5px"},"margin":{"top":"15px"}}},"className":"is-style-outline"} -->
-			<ul class="wp-block-social-links aligncenter has-small-icon-size has-icon-color is-style-outline" style="margin-top:15px">
+			<!-- wp:social-links {"openInNewTab":true,"size":"has-small-icon-size","align":"center","className":"is-style-outline","style":{"spacing":{"blockGap":{"left":"5px"},"margin":{"top":"15px"}}}} -->
+			<ul class="wp-block-social-links aligncenter has-small-icon-size is-style-outline" style="margin-top:15px">
 				<!-- wp:social-link {"url":"https://x.com/","service":"x"} /-->
 				<!-- wp:social-link {"url":"https://www.linkedin.com/","service":"linkedin"} /-->
 				<!-- wp:social-link {"url":"https://instagram.com/","service":"instagram"} /-->
@@ -87,8 +87,8 @@
 			<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"0"}}},"fontSize":"x-small"} -->
 			<p class="has-text-align-center has-x-small-font-size" style="margin-top:0"><?php echo esc_html__( 'Chief Financial Officer', 'powder' ); ?></p>
 			<!-- /wp:paragraph -->
-			<!-- wp:social-links {"iconColor":"contrast","iconColorValue":"#0a0a0a","openInNewTab":true,"size":"has-small-icon-size","align":"center","style":{"spacing":{"blockGap":{"left":"5px"},"margin":{"top":"15px"}}},"className":"is-style-outline"} -->
-			<ul class="wp-block-social-links aligncenter has-small-icon-size has-icon-color is-style-outline" style="margin-top:15px">
+			<!-- wp:social-links {"openInNewTab":true,"size":"has-small-icon-size","align":"center","className":"is-style-outline","style":{"spacing":{"blockGap":{"left":"5px"},"margin":{"top":"15px"}}}} -->
+			<ul class="wp-block-social-links aligncenter has-small-icon-size is-style-outline" style="margin-top:15px">
 				<!-- wp:social-link {"url":"#","service":"x"} /-->
 				<!-- wp:social-link {"url":"#","service":"linkedin"} /-->
 				<!-- wp:social-link {"url":"#","service":"instagram"} /-->
