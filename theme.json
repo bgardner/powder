@@ -54,14 +54,19 @@
 			],
 			"gradients": [
 				{
+					"gradient": "linear-gradient(var(--wp--preset--color--base) 50%, var(--wp--preset--color--contrast) 50%)",
+					"name": "Base to Contrast",
+					"slug": "base-contrast"
+				},
+				{
+					"gradient": "linear-gradient(var(--wp--preset--color--contrast) 50%, var(--wp--preset--color--base) 50%)",
+					"name": "Contrast to Base",
+					"slug": "contrast-base"
+				},
+				{
 					"gradient": "linear-gradient(0deg, #6d28d9 0%, #8b5cf6 100%)",
 					"name": "Primary to Secondary",
 					"slug": "primary-secondary"
-				},
-				{
-					"gradient": "linear-gradient(0deg, #8b5cf6 0%, #6d28d9 100%)",
-					"name": "Secondary to Primary",
-					"slug": "secondary-primary"
 				},
 				{
 					"gradient": "linear-gradient(0deg, #c4b5fd 0%, #ede9fe 100%)",
