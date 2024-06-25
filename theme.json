@@ -69,6 +69,11 @@
 					"slug": "primary-secondary"
 				},
 				{
+					"gradient": "linear-gradient(0deg, #8b5cf6 0%, #6d28d9 100%)",
+					"name": "Primary to Secondary",
+					"slug": "secondary-primary"
+				},
+				{
 					"gradient": "linear-gradient(0deg, #c4b5fd 0%, #ede9fe 100%)",
 					"name": "Tertiary to Quaternary",
 					"slug": "tertiary-quaternary"
