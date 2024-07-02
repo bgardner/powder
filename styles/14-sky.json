@@ -27,16 +27,6 @@
 					"gradient": "linear-gradient(180deg, #0ea5e9 0%, #0369a1 100%)",
 					"name": "Secondary to Primary",
 					"slug": "secondary-primary"
-				},
-				{
-					"gradient": "linear-gradient(180deg, #7dd3fc 0%, #e0f2fe 100%)",
-					"name": "Tertiary to Quaternary",
-					"slug": "tertiary-quaternary"
-				},
-				{
-					"gradient": "linear-gradient(180deg, #e0f2fe 0%, #7dd3fc 100%)",
-					"name": "Quaternary to Tertiary",
-					"slug": "quaternary-tertiary"
 				}
 			],
 			"palette": [

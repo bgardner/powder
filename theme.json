@@ -72,16 +72,6 @@
 					"gradient": "linear-gradient(0deg, #8b5cf6 0%, #6d28d9 100%)",
 					"name": "Primary to Secondary",
 					"slug": "secondary-primary"
-				},
-				{
-					"gradient": "linear-gradient(0deg, #c4b5fd 0%, #ede9fe 100%)",
-					"name": "Tertiary to Quaternary",
-					"slug": "tertiary-quaternary"
-				},
-				{
-					"gradient": "linear-gradient(0deg, #ede9fe 0%, #c4b5fd 100%)",
-					"name": "Quaternary to Tertiary",
-					"slug": "quaternary-tertiary"
 				}
 			],
 			"palette": [
@@ -525,7 +515,6 @@
 				}
 			},
 			"core/table": {
-				"css": "th {border-color: var(--wp--preset--color--contrast) !important;} & td {border-color: var(--wp--preset--color--contrast) !important;}",
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--small)"
 				}
