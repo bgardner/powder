@@ -9,7 +9,7 @@
 <div class="wp-block-group alignfull" style="margin-top:0;padding-top:var(--wp--preset--spacing--x-large);padding-right:30px;padding-bottom:var(--wp--preset--spacing--x-large);padding-left:30px">
 	<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"15px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 	<div class="wp-block-group alignwide"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"400"}},"fontSize":"x-small"} -->
-		<p class="has-x-small-font-size" style="font-style:normal;font-weight:400;text-transform:uppercase"><?php echo esc_html__( 'Meet Powder', '' ); ?></p>
+		<p class="has-x-small-font-size" style="font-style:normal;font-weight:400;text-transform:uppercase"><?php echo esc_html__( 'Meet Powder', 'powder' ); ?></p>
 		<!-- /wp:paragraph -->
 		<!-- wp:separator {"style":{"spacing":{"margin":{"top":"0px"}}}} -->
 		<hr class="wp-block-separator has-alpha-channel-opacity" style="margin-top:0px"/>
@@ -21,12 +21,12 @@
 		<!-- wp:column {"verticalAlignment":"top"} -->
 		<div class="wp-block-column is-vertically-aligned-top">
 			<!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"300"}},"fontSize":"max-48"} -->
-			<h2 class="wp-block-heading has-max-48-font-size" style="font-style:normal;font-weight:300"><?php echo esc_html__( 'Are you ready to start designing with WordPress?', '' ); ?></h2>
+			<h2 class="wp-block-heading has-max-48-font-size" style="font-style:normal;font-weight:300"><?php echo esc_html__( 'Are you ready to start designing with WordPress?', 'powder' ); ?></h2>
 			<!-- /wp:heading -->
 			<!-- wp:buttons -->
 			<div class="wp-block-buttons">
 				<!-- wp:button  -->
-				<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="#"><?php echo esc_html__( 'Learn More →', '' ); ?></a></div>
+				<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="#"><?php echo esc_html__( 'Learn More →', 'powder' ); ?></a></div>
 				<!-- /wp:button -->
 			</div>
 			<!-- /wp:buttons -->
@@ -35,7 +35,7 @@
 		<!-- wp:column {"verticalAlignment":"top"} -->
 		<div class="wp-block-column is-vertically-aligned-top">
 			<!-- wp:paragraph -->
-			<p><?php echo esc_html__( 'We want to revolutionize how beautiful WordPress websites are made by embracing the power and flexibility of block-based design. Our approach transcends conventional standards and provides an innovative and imaginative canvas where creativity has no limits.', '' ); ?></p>
+			<p><?php echo esc_html__( 'We want to revolutionize how beautiful WordPress websites are made by embracing the power and flexibility of block-based design. Our approach transcends conventional standards and provides an innovative and imaginative canvas where creativity has no limits.', 'powder' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->
