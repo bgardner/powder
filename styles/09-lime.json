@@ -2,7 +2,7 @@
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 2,
 	"title": "Lime",
-	"description":  "Lime-based palette with four shades",
+	"description":  "Lime-based palette with three shades",
 	"settings": {
 		"color": {
 			"duotone": [
@@ -12,19 +12,19 @@
 					"slug": "black-and-white"
 				},
 				{
-					"colors": [ "#4d7c0f", "#ffffff" ],
+					"colors": [ "#365314", "#ffffff" ],
 					"name": "Primary and White",
 					"slug": "primary-and-white"
 				}
 			],
 			"gradients": [
 				{
-					"gradient": "linear-gradient(180deg, #4d7c0f 0%, #84cc16 100%)",
+					"gradient": "linear-gradient(180deg, #365314 0%, #4d7c0f 100%)",
 					"name": "Primary to Secondary",
 					"slug": "primary-secondary"
 				},
 				{
-					"gradient": "linear-gradient(180deg, #84cc16 0%, #4d7c0f 100%)",
+					"gradient": "linear-gradient(180deg, #4d7c0f 0%, #365314 100%)",
 					"name": "Secondary to Primary",
 					"slug": "secondary-primary"
 				}
@@ -41,24 +41,24 @@
 					"slug": "contrast"
 				},
 				{
-					"color": "#4d7c0f",
+					"color": "#365314",
 					"name": "Primary",
 					"slug": "primary"
 				},
 				{
-					"color": "#84cc16",
+					"color": "#4d7c0f",
 					"name": "Secondary",
 					"slug": "secondary"
 				},
 				{
-					"color": "#bef264",
+					"color": "#84cc16",
 					"name": "Tertiary",
 					"slug": "tertiary"
 				},
 				{
-					"color": "#ecfccb",
-					"name": "Quaternary",
-					"slug": "quaternary"
+					"color": "#f5f5f5",
+					"name": "Neutral",
+					"slug": "neutral"
 				}
 			]
 		}

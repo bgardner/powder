@@ -2,7 +2,7 @@
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 2,
 	"title": "Gray",
-	"description":  "Gray-based palette with four shades",
+	"description":  "Gray-based palette with three shades",
 	"settings": {
 		"color": {
 			"duotone": [
@@ -19,12 +19,12 @@
 			],
 			"gradients": [
 				{
-					"gradient": "linear-gradient(180deg, #374151 0%, #6b7280 100%)",
+					"gradient": "linear-gradient(180deg, #374151 0%, #4b5563 100%)",
 					"name": "Primary to Secondary",
 					"slug": "primary-secondary"
 				},
 				{
-					"gradient": "linear-gradient(180deg, #6b7280 0%, #374151 100%)",
+					"gradient": "linear-gradient(180deg, #4b5563 0%, #374151 100%)",
 					"name": "Secondary to Primary",
 					"slug": "secondary-primary"
 				}
@@ -46,19 +46,19 @@
 					"slug": "primary"
 				},
 				{
-					"color": "#6b7280",
+					"color": "#4b5563",
 					"name": "Secondary",
 					"slug": "secondary"
 				},
 				{
-					"color": "#d1d5db",
+					"color": "#6b7280",
 					"name": "Tertiary",
 					"slug": "tertiary"
 				},
 				{
-					"color": "#f3f4f6",
-					"name": "Quaternary",
-					"slug": "quaternary"
+					"color": "#f5f5f5",
+					"name": "Neutral",
+					"slug": "neutral"
 				}
 			]
 		}

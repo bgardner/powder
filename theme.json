@@ -47,7 +47,7 @@
 					"slug": "black-and-white"
 				},
 				{
-					"colors": [ "#6d28d9", "#ffffff" ],
+					"colors": [ "#4c1d95", "#ffffff" ],
 					"name": "Primary and White",
 					"slug": "primary-and-white"
 				}
@@ -64,13 +64,13 @@
 					"slug": "contrast-base"
 				},
 				{
-					"gradient": "linear-gradient(0deg, #6d28d9 0%, #8b5cf6 100%)",
+					"gradient": "linear-gradient(0deg, #4c1d95 0%, #6d28d9 100%)",
 					"name": "Primary to Secondary",
 					"slug": "primary-secondary"
 				},
 				{
-					"gradient": "linear-gradient(0deg, #8b5cf6 0%, #6d28d9 100%)",
-					"name": "Primary to Secondary",
+					"gradient": "linear-gradient(0deg, #6d28d9 0%, #4c1d95 100%)",
+					"name": "Secondary to Primary",
 					"slug": "secondary-primary"
 				}
 			],
@@ -86,24 +86,24 @@
 					"slug": "contrast"
 				},
 				{
-					"color": "#6d28d9",
+					"color": "#4c1d95",
 					"name": "Primary",
 					"slug": "primary"
 				},
 				{
-					"color": "#8b5cf6",
+					"color": "#6d28d9",
 					"name": "Secondary",
 					"slug": "secondary"
 				},
 				{
-					"color": "#c4b5fd",
+					"color": "#8b5cf6",
 					"name": "Tertiary",
 					"slug": "tertiary"
 				},
 				{
-					"color": "#ede9fe",
-					"name": "Quaternary",
-					"slug": "quaternary"
+					"color": "#f5f5f5",
+					"name": "Neutral",
+					"slug": "neutral"
 				}
 			]
 		},

@@ -2,7 +2,7 @@
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 2,
 	"title": "Stone",
-	"description":  "Stone-based palette with four shades",
+	"description":  "Stone-based palette with three shades",
 	"settings": {
 		"color": {
 			"duotone": [
@@ -19,12 +19,12 @@
 			],
 			"gradients": [
 				{
-					"gradient": "linear-gradient(180deg, #44403c 0%, #78716c 100%)",
+					"gradient": "linear-gradient(180deg, #44403c 0%, #57534e 100%)",
 					"name": "Primary to Secondary",
 					"slug": "primary-secondary"
 				},
 				{
-					"gradient": "linear-gradient(180deg, #78716c 0%, #44403c 100%)",
+					"gradient": "linear-gradient(180deg, #57534e 0%, #44403c 100%)",
 					"name": "Secondary to Primary",
 					"slug": "secondary-primary"
 				}
@@ -46,19 +46,19 @@
 					"slug": "primary"
 				},
 				{
-					"color": "#78716c",
+					"color": "#57534e",
 					"name": "Secondary",
 					"slug": "secondary"
 				},
 				{
-					"color": "#d6d3d1",
+					"color": "#78716c",
 					"name": "Tertiary",
 					"slug": "tertiary"
 				},
 				{
-					"color": "#f5f5f4",
-					"name": "Quaternary",
-					"slug": "quaternary"
+					"color": "#f5f5f5",
+					"name": "Neutral",
+					"slug": "neutral"
 				}
 			]
 		}

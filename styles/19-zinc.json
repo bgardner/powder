@@ -2,7 +2,7 @@
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 2,
 	"title": "Zinc",
-	"description":  "Zinc-based palette with four shades",
+	"description":  "Zinc-based palette with three shades",
 	"settings": {
 		"color": {
 			"duotone": [
@@ -19,12 +19,12 @@
 			],
 			"gradients": [
 				{
-					"gradient": "linear-gradient(180deg, #3f3f46 0%, #71717a 100%)",
+					"gradient": "linear-gradient(180deg, #3f3f46 0%, #52525b 100%)",
 					"name": "Primary to Secondary",
 					"slug": "primary-secondary"
 				},
 				{
-					"gradient": "linear-gradient(180deg, #71717a 0%, #3f3f46 100%)",
+					"gradient": "linear-gradient(180deg, #52525b 0%, #3f3f46 100%)",
 					"name": "Secondary to Primary",
 					"slug": "secondary-primary"
 				}
@@ -46,19 +46,19 @@
 					"slug": "primary"
 				},
 				{
-					"color": "#71717a",
+					"color": "#52525b",
 					"name": "Secondary",
 					"slug": "secondary"
 				},
 				{
-					"color": "#d4d4d8",
+					"color": "#71717a",
 					"name": "Tertiary",
 					"slug": "tertiary"
 				},
 				{
-					"color": "#f4f4f5",
-					"name": "Quaternary",
-					"slug": "quaternary"
+					"color": "#f5f5f5",
+					"name": "Neutral",
+					"slug": "neutral"
 				}
 			]
 		}
