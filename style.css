@@ -166,6 +166,10 @@ select {
 
 /* -- Box Shadow -- */
 
+.is-style-shadow-faint {
+	box-shadow: var(--wp--preset--shadow--faint);
+}
+
 .is-style-shadow-light {
 	box-shadow: var(--wp--preset--shadow--light);
 }
