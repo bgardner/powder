@@ -1,6 +1,6 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
-	"version": 2,
+	"version": 3,
 	"settings": {
 		"appearanceTools": true,
 		"blocks": {
@@ -144,6 +144,7 @@
 			]
 		},
 		"spacing": {
+			"defaultSpacingSizes": false,
 			"spacingSizes": [
 				{
 					"name": "xSmall",
@@ -174,6 +175,7 @@
 			"units": [ "%", "px", "em", "rem", "vh", "vw" ]
 		},
 		"typography": {
+			"defaultFontSizes": false,
 			"dropCap": false,
 			"fluid": {
 				"maxViewportWidth": "1280px",
