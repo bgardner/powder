@@ -40,7 +40,7 @@ th {
 }
 
 *:not(.wp-block-code) > code {
-	background-color: var(--wp--preset--color--quaternary);
+	background-color: var(--wp--preset--color--neutral);
 	font-family: inherit;
 	font-size: var(--wp--preset--font-size--small);
 	font-weight: var(--wp--custom--font-weight--regular);
