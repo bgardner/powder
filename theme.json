@@ -152,29 +152,39 @@
 			"defaultSpacingSizes": false,
 			"spacingSizes": [
 				{
-					"name": "xSmall",
-					"size": "clamp(10px, 2vw, 20px)",
-					"slug": "x-small"
+					"name": "20",
+					"size": "clamp(15px, 2vw, 20px)",
+					"slug": "20"
 				},
 				{
-					"name": "Small",
+					"name": "30",
+					"size": "clamp(25px, 3vw, 30px)",
+					"slug": "30"
+				},
+				{
+					"name": "40",
 					"size": "clamp(30px, 4vw, 40px)",
-					"slug": "small"
+					"slug": "40"
 				},
 				{
-					"name": "Medium",
+					"name": "50",
+					"size": "clamp(35px, 5vw, 50px)",
+					"slug": "50"
+				},
+				{
+					"name": "60",
 					"size": "clamp(40px, 6vw, 60px)",
-					"slug": "medium"
+					"slug": "60"
 				},
 				{
-					"name": "Large",
-					"size": "clamp(50px, 8vw, 80px)",
-					"slug": "large"
+					"name": "70",
+					"size": "clamp(50px, 7vw, 70px)",
+					"slug": "70"
 				},
 				{
-					"name": "xLarge",
-					"size": "clamp(60px, 10vw, 100px)",
-					"slug": "x-large"
+					"name": "80",
+					"size": "clamp(60px, 8vw, 80px)",
+					"slug": "80"
 				}
 			],
 			"units": [ "%", "px", "em", "rem", "vh", "vw" ]
