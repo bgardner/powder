@@ -1,8 +1,8 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 3,
-	"slug": "section-1",
 	"title": "Contrast",
+	"slug": "section-1",
 	"blockTypes": [ "core/group" ],
 	"styles": {
 		"color": {

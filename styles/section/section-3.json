@@ -1,8 +1,8 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 3,
-	"slug": "section-3",
 	"title": "Neutral",
+	"slug": "section-3",
 	"blockTypes": [ "core/group" ],
 	"styles": {
 		"color": {
