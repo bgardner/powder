@@ -196,18 +196,6 @@ select {
 	z-index: 99;
 }
 
-/* Effects
----------------------------------------- */
-
-/* -- Header -- */
-
-.js-enabled .site-header {
-	position: sticky;
-	top: 0;
-	transition: top 0.5s;
-	z-index: 100;
-}
-
 /* Media Queries
 ---------------------------------------- */
 
