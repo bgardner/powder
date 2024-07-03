@@ -7,6 +7,11 @@
 		"color": {
 			"duotone": [
 				{
+					"colors": [ "#ffffff", "#ffffff" ],
+					"name": "White and White",
+					"slug": "white-and-white"
+				},
+				{
 					"colors": [ "#0a0a0a", "#ffffff" ],
 					"name": "Black and White",
 					"slug": "black-and-white"
@@ -15,9 +20,29 @@
 					"colors": [ "#334155", "#ffffff" ],
 					"name": "Primary and White",
 					"slug": "primary-and-white"
+				},
+				{
+					"colors": [ "#475569", "#ffffff" ],
+					"name": "Secondary and White",
+					"slug": "secondary-and-white"
+				},
+				{
+					"colors": [ "#64748b", "#ffffff" ],
+					"name": "Tertiary and White",
+					"slug": "tertiary-and-white"
 				}
 			],
 			"gradients": [
+				{
+					"gradient": "linear-gradient(var(--wp--preset--color--base) 50%, var(--wp--preset--color--contrast) 50%)",
+					"name": "Base to Contrast",
+					"slug": "base-contrast"
+				},
+				{
+					"gradient": "linear-gradient(var(--wp--preset--color--contrast) 50%, var(--wp--preset--color--base) 50%)",
+					"name": "Contrast to Base",
+					"slug": "contrast-base"
+				},
 				{
 					"gradient": "linear-gradient(180deg, #334155 0%, #475569 100%)",
 					"name": "Primary to Secondary",
