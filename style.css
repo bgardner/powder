@@ -15,6 +15,18 @@ Tags: block-patterns, block-styles, custom-colors, custom-logo, custom-menu, e-c
 */
 
 
+/* Legacy Spacing (Do not remove)
+---------------------------------------- */
+
+:root {
+	--wp--preset--spacing--x-small: clamp(10px, 2vw, 20px);
+	--wp--preset--spacing--small: clamp(30px, 4vw, 40px);
+	--wp--preset--spacing--medium: clamp(40px, 6vw, 60px);
+	--wp--preset--spacing--large: clamp(50px, 8vw, 80px);
+	--wp--preset--spacing--x-large: clamp(60px, 10vw, 100px);
+}
+
+
 /* Defaults
 ---------------------------------------- */
 
