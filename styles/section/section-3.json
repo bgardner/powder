@@ -1,28 +1,39 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 3,
-	"title": "Neutral",
+	"title": "Primary",
 	"slug": "section-3",
 	"blockTypes": [ "core/group" ],
 	"styles": {
+		"blocks": {
+			"core/site-title": {
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var(--wp--preset--color--base)"
+						}
+					}
+				}
+			}
+		},
 		"color": {
-			"background": "var(--wp--preset--color--neutral)",
-			"text": "var(--wp--preset--color--contrast)"
+			"background": "var(--wp--preset--color--primary)",
+			"text": "var(--wp--preset--color--base)"
 		},
 		"elements": {
 			"button": {
 				"color": {
-					"background": "var(--wp--preset--color--primary)",
-					"text": "var(--wp--preset--color--base)"
+					"background": "var(--wp--preset--color--base)",
+					"text": "var(--wp--preset--color--contrast)"
 				}
 			},
 			"link": {
 				"color": {
-					"text": "var(--wp--preset--color--primary)"
+					"text": "var(--wp--preset--color--base)"
 				},
 				":hover": {
 					"color": {
-						"text": "var(--wp--preset--color--contrast)"
+						"text": "var(--wp--preset--color--base)"
 					}
 				}
 			}
