@@ -21,6 +21,9 @@ if ( ! function_exists( 'powder_setup' ) ) {
 		// Remove core block patterns.
 		remove_theme_support( 'core-block-patterns' );
 
+		// Include theme settings.
+		require_once get_template_directory() . '/inc/theme-settings.php';
+
 	}
 }
 add_action( 'after_setup_theme', 'powder_setup' );
