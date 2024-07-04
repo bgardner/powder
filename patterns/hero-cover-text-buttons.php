@@ -5,12 +5,12 @@
  * Categories: powder-hero
  */
 ?>
-<!-- wp:cover {"overlayColor":"base","isUserOverlayColor":true,"minHeight":600,"isDark":false,"align":"full","style":{"spacing":{"blockGap":"10px","margin":{"top":"0"}}},"className":"is-style-default","layout":{"type":"constrained","wideSize":"1280px"}} -->
+<!-- wp:cover {"metadata":{"name":"Hero Cover"},"overlayColor":"base","isUserOverlayColor":true,"minHeight":600,"isDark":false,"align":"full","className":"is-style-default","style":{"spacing":{"blockGap":"10px","margin":{"top":"0"}}},"layout":{"type":"constrained","wideSize":"1280px"}} -->
 <div class="wp-block-cover alignfull is-light is-style-default" style="margin-top:0;min-height:600px"><span aria-hidden="true" class="wp-block-cover__background has-base-background-color has-background-dim-100 has-background-dim"></span><div class="wp-block-cover__inner-container">
-	<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}},"layout":{"type":"constrained","wideSize":"880px","justifyContent":"left"}} -->
+	<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained","wideSize":"880px","justifyContent":"left"}} -->
 	<div class="wp-block-group">
-		<!-- wp:heading {"level":1,"style":{"typography":{"fontStyle":"normal","fontWeight":"300"}},"fontSize":"max-60"} -->
-		<h1 class="wp-block-heading has-max-60-font-size" style="font-style:normal;font-weight:300"><?php echo esc_html__( 'World-class interior design studio based in Laguna Beach.', 'powder' ); ?></h1>
+		<!-- wp:heading {"level":1,"style":{"typography":{"fontStyle":"normal","fontWeight":"300","fontSize":"60px"}}} -->
+		<h1 class="wp-block-heading" style="font-size:60px;font-style:normal;font-weight:300"><?php echo esc_html__( 'World-class interior design studio based in Laguna Beach.', 'powder' ); ?></h1>
 		<!-- /wp:heading -->
 		<!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 		<div class="wp-block-group">
@@ -22,8 +22,8 @@
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->
-		<!-- wp:buttons {"layout":{"type":"flex"},"style":{"spacing":{"margin":{"top":"var:preset|spacing|medium"}}}} -->
-		<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--medium)">
+		<!-- wp:buttons {"layout":{"type":"flex"},"style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}}} -->
+		<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--60)">
 			<!-- wp:button -->
 			<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="#"><?php echo esc_html__( 'Start Project →', 'powder' ); ?></a></div>
 			<!-- /wp:button -->

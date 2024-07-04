@@ -177,8 +177,6 @@ function powder_unregister_patterns() {
 			'powder/hero-columns-text-image',
 			'powder/hero-cover-text-buttons-dark',
 			'powder/hero-cover-text-buttons',
-			'powder/hero-gradient-image-text-dark',
-			'powder/hero-gradient-image-text',
 			'powder/hero-image-text-buttons-dark',
 			'powder/hero-image-text-buttons',
 			'powder/hero-stacked-text-image-dark',
