@@ -6,6 +6,9 @@
 	"blockTypes": [ "core/group" ],
 	"styles": {
 		"blocks": {
+			"core/image": {
+				"css": "&.is-style-filter-invert {filter: invert(0);}"
+			},
 			"core/post-title": {
 				"elements": {
 					"link": {
