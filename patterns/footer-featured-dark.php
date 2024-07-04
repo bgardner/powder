@@ -6,8 +6,8 @@
  * Block Types: core/template-part/footer
  */
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0"},"padding":{"right":"30px","left":"30px","top":"var:preset|spacing|large","bottom":"var:preset|spacing|small"},"blockGap":"var:preset|spacing|x-large"},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="margin-top:0;padding-top:var(--wp--preset--spacing--large);padding-right:30px;padding-bottom:var(--wp--preset--spacing--small);padding-left:30px">
+<!-- wp:group {"metadata":{"name":"Footer"},"align":"full","className":"is-style-section-2","style":{"spacing":{"margin":{"top":"0"},"blockGap":"var:preset|spacing|80","padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|40"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull is-style-section-2" style="margin-top:0;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--40)">
 	<!-- wp:columns {"verticalAlignment":"center","align":"wide","className":"is-style-column-reverse"} -->
 	<div class="wp-block-columns alignwide are-vertically-aligned-center is-style-column-reverse">
 		<!-- wp:column {"verticalAlignment":"center","width":""} -->
@@ -28,13 +28,13 @@
 					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:group -->
-				<!-- wp:heading {"fontSize":"max-60"} -->
-				<h2 class="wp-block-heading has-max-60-font-size"><?php echo esc_html__( 'Are you ready to start designing with WordPress?', 'powder' ); ?></h2>
+				<!-- wp:heading {"style":{"typography":{"fontSize":"60px"}}} -->
+				<h2 class="wp-block-heading" style="font-size:60px"><?php echo esc_html__( 'Are you ready to start designing with WordPress?', 'powder' ); ?></h2>
 				<!-- /wp:heading -->
-				<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|small"}}}} -->
-				<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--small)">
-					<!-- wp:button {"backgroundColor":"base","textColor":"contrast","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}}} -->
-					<div class="wp-block-button"><a class="wp-block-button__link has-contrast-color has-base-background-color has-text-color has-background has-link-color wp-element-button" href="#"><?php echo esc_html__( 'Call to Action', 'powder' ); ?></a></div>
+				<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40"}}}} -->
+				<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--40)">
+					<!-- wp:button -->
+					<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="#"><?php echo esc_html__( 'Call to Action', 'powder' ); ?></a></div>
 					<!-- /wp:button -->
 					<!-- wp:button {"className":"is-style-outline"} -->
 					<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button"><?php echo esc_html__( 'Learn More', 'powder' ); ?></a></div>
