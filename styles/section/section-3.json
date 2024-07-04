@@ -11,6 +11,11 @@
 					"link": {
 						"color": {
 							"text": "var(--wp--preset--color--base)"
+						},
+						":hover": {
+							"color": {
+								"text": "var(--wp--preset--color--base)"
+							}
 						}
 					}
 				}
