@@ -1,14 +1,14 @@
 <?php
 /**
- * Title: Call to action with stacked text, button
+ * Title: Call to action with text, button
  * Slug: powder/call-to-action-stacked
  * Categories: powder-call-to-action
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Call to Action"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|x-large","bottom":"var:preset|spacing|x-large","left":"30px","right":"30px"},"margin":{"top":"0"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull" style="margin-top:0;padding-top:var(--wp--preset--spacing--x-large);padding-right:30px;padding-bottom:var(--wp--preset--spacing--x-large);padding-left:30px">
-	<!-- wp:group {"align":"wide","layout":{"type":"constrained","wideSize":"1080px","justifyContent":"left"}} -->
-	<div class="wp-block-group alignwide">
+<!-- wp:group {"metadata":{"name":"Call to Action"},"align":"full","className":"is-style-section-1","style":{"spacing":{"margin":{"top":"0px"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull is-style-section-1" style="margin-top:0px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
+	<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"right":"0","left":"0"}}},"layout":{"type":"constrained","wideSize":"1080px","justifyContent":"left"}} -->
+	<div class="wp-block-group alignwide" style="padding-right:0;padding-left:0">
 		<!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 		<div class="wp-block-group">
 			<!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"400","lineHeight":"1"}},"fontSize":"x-small"} -->
@@ -19,8 +19,8 @@
 			<!-- /wp:separator -->
 		</div>
 		<!-- /wp:group -->
-		<!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"300"}},"fontSize":"max-48"} -->
-		<h2 class="wp-block-heading has-max-48-font-size" style="font-style:normal;font-weight:300"><?php echo esc_html__( 'We want to revolutionize how WordPress websites are made by embracing block-based design.', 'powder' ); ?></h2>
+		<!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"300","fontSize":"48px"}}} -->
+		<h2 class="wp-block-heading" style="font-size:48px;font-style:normal;font-weight:300"><?php echo esc_html__( 'We want to revolutionize how WordPress websites are made by embracing block-based design.', 'powder' ); ?></h2>
 		<!-- /wp:heading -->
 		<!-- wp:buttons -->
 		<div class="wp-block-buttons">
