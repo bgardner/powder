@@ -1,13 +1,13 @@
 <?php
 /**
- * Title: List of posts, 1 column
+ * Title: List of posts
  * Slug: powder/posts
  * Categories: posts
  * Block Types: core/query
  */
 ?>
-<!-- wp:group {"align":"full","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull">
+<!-- wp:group {"metadata":{"name":"Posts"},"align":"full","className":"is-style-section-1","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull is-style-section-1">
 	<!-- wp:query {"queryId":0,"query":{"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"layout":{"type":"constrained"}} -->
 	<div class="wp-block-query">
 		<!-- wp:post-template -->

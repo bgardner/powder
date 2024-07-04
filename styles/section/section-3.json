@@ -6,6 +6,15 @@
 	"blockTypes": [ "core/group" ],
 	"styles": {
 		"blocks": {
+			"core/post-title": {
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var(--wp--preset--color--base)"
+						}
+					}
+				}
+			},
 			"core/site-title": {
 				"elements": {
 					"link": {

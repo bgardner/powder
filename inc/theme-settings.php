@@ -185,9 +185,7 @@ function powder_unregister_patterns() {
 		'powder_setting_option_posts' => [
 			'powder/posts-dark',
 			'powder/posts-grid-dark',
-			'powder/posts-grid',
-			'powder/posts-list-dark',
-			'powder/posts-list'
+			'powder/posts-grid'
 		],
 		'powder_setting_option_pricing' => [
 			'powder/pricing-2-columns-dark',
