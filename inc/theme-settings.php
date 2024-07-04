@@ -190,12 +190,10 @@ function powder_unregister_patterns() {
 			'powder/posts-list'
 		],
 		'powder_setting_option_pricing' => [
-			'powder/pricing-2-columns',
 			'powder/pricing-2-columns-dark',
-			'powder/pricing-3-columns',
+			'powder/pricing-2-columns',
 			'powder/pricing-3-columns-dark',
-			'powder/pricing-4-columns',
-			'powder/pricing-4-columns-dark'
+			'powder/pricing-3-columns'
 		],
 		'powder_setting_option_team' => [
 			'powder/team-4-columns-dark',
