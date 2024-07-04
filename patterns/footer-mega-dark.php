@@ -6,8 +6,8 @@
  * Block Types: core/template-part/footer
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Footer"},"align":"full","className":"is-style-section-2","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","right":"30px","left":"30px"},"blockGap":"0px"}},"fontSize":"x-small","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull is-style-section-2 has-x-small-font-size" style="margin-top:0;padding-top:var(--wp--preset--spacing--80);padding-right:30px;padding-bottom:var(--wp--preset--spacing--80);padding-left:30px">
+<!-- wp:group {"metadata":{"name":"Footer"},"align":"full","className":"is-style-section-2","style":{"spacing":{"margin":{"top":"0"},"blockGap":"0px","padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"fontSize":"x-small","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull is-style-section-2 has-x-small-font-size" style="margin-top:0;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
 	<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"10px","padding":{"bottom":"var(--wp--preset--spacing--60)"}}}} -->
 	<div class="wp-block-group alignwide" style="padding-bottom:var(--wp--preset--spacing--60)">
 		<!-- wp:image {"align":"center","width":40,"height":40,"sizeSlug":"full","linkDestination":"custom"} -->
