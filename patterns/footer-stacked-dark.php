@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Stacked footer with call to action
- * Slug: powder-studio/footer-stacked-dark
+ * Slug: powder/footer-stacked-dark
  * Categories: footer
  * Block Types: core/template-part/footer
  */
@@ -24,7 +24,8 @@
 	<!-- wp:group {"style":{"spacing":{"blockGap":"5px"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"},"fontSize":"x-small"} -->
 	<div class="wp-block-group has-x-small-font-size">
 		<!-- wp:group {"style":{"spacing":{"blockGap":"5px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-		<div class="wp-block-group"><!-- wp:paragraph -->
+		<div class="wp-block-group">
+			<!-- wp:paragraph -->
 			<p>&copy; <?php echo esc_html( gmdate( 'Y' ) ); ?></p>
 			<!-- /wp:paragraph -->
 			<!-- wp:site-title {"level":0,"isLink":false,"style":{"typography":{"fontStyle":"normal","fontWeight":"300"}},"fontSize":"x-small"} /-->
