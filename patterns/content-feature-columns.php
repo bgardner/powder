@@ -1,12 +1,12 @@
 <?php
 /**
- * Title: Feature columns section with image and text
+ * Title: Feature columns with image and text
  * Slug: powder/content-feature-columns
  * Categories: powder-content
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Feature Columns"},"align":"full","style":{"spacing":{"padding":{"right":"30px","left":"30px","top":"var:preset|spacing|x-large","bottom":"var:preset|spacing|x-large"},"margin":{"top":"0"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull" style="margin-top:0;padding-top:var(--wp--preset--spacing--x-large);padding-right:30px;padding-bottom:var(--wp--preset--spacing--x-large);padding-left:30px">
+<!-- wp:group {"metadata":{"name":"Feature Columns"},"align":"full","className":"is-style-section-1","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull is-style-section-1" style="margin-top:0;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
 	<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"15px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 	<div class="wp-block-group alignwide">
 		<!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"400"}},"fontSize":"x-small"} -->
@@ -17,12 +17,12 @@
 		<!-- /wp:separator -->
 	</div>
 	<!-- /wp:group -->
-	<!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|large","left":"var:preset|spacing|large"},"margin":{"top":"var:preset|spacing|x-small"}}}} -->
+	<!-- wp:columns {"verticalAlignment":"center","align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|80","left":"var:preset|spacing|80"},"margin":{"top":"var:preset|spacing|x-small"}}}} -->
 	<div class="wp-block-columns alignwide are-vertically-aligned-center" style="margin-top:var(--wp--preset--spacing--x-small)">
 		<!-- wp:column {"verticalAlignment":"center"} -->
 		<div class="wp-block-column is-vertically-aligned-center">
-			<!-- wp:heading {"fontSize":"max-48"} -->
-			<h2 class="wp-block-heading has-max-48-font-size"><?php echo esc_html__( 'Are you ready to start designing with WordPress?', 'powder' ); ?></h2>
+			<!-- wp:heading {"style":{"typography":{"fontSize":"48px"}}} -->
+			<h2 class="wp-block-heading" style="font-size:48px"><?php echo esc_html__( 'Are you ready to start designing with WordPress?', 'powder' ); ?></h2>
 			<!-- /wp:heading -->
 		</div>
 		<!-- /wp:column -->
@@ -39,8 +39,8 @@
 		<!-- /wp:column -->
 	</div>
 	<!-- /wp:columns -->
-	<!-- wp:columns {"align":"wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|large"},"blockGap":{"left":"var:preset|spacing|small"}}}} -->
-	<div class="wp-block-columns alignwide" style="margin-top:var(--wp--preset--spacing--large)">
+	<!-- wp:columns {"align":"wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|80"},"blockGap":{"left":"var:preset|spacing|40"}}}} -->
+	<div class="wp-block-columns alignwide" style="margin-top:var(--wp--preset--spacing--80)">
 		<!-- wp:column -->
 		<div class="wp-block-column">
 			<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->

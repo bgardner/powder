@@ -5,8 +5,8 @@
  * Categories: powder-content
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Logos"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|x-large","bottom":"var:preset|spacing|x-large","right":"30px","left":"30px"},"margin":{"top":"0"}}},"backgroundColor":"contrast","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-contrast-background-color has-background" style="margin-top:0;padding-top:var(--wp--preset--spacing--x-large);padding-right:30px;padding-bottom:var(--wp--preset--spacing--x-large);padding-left:30px">
+<!-- wp:group {"metadata":{"name":"Logos"},"align":"full","className":"is-style-section-2","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull is-style-section-2" style="margin-top:0;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
 	<!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|small"}},"typography":{"textTransform":"uppercase"}},"textColor":"base","className":"wp-block-heading","fontSize":"small"} -->
 	<h2 class="wp-block-heading has-text-align-center has-base-color has-text-color has-small-font-size" style="margin-bottom:var(--wp--preset--spacing--small);text-transform:uppercase"><?php echo esc_html__( 'Our Clients', 'powder' ); ?></h2>
 	<!-- /wp:heading -->
