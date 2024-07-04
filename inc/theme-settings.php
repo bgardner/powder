@@ -194,8 +194,8 @@ function powder_unregister_patterns() {
 			'powder/pricing-3-columns'
 		],
 		'powder_setting_option_team' => [
-			'powder/team-4-columns-dark',
-			'powder/team-4-columns',
+			'powder/team-columns-dark',
+			'powder/team-columns',
 			'powder/team-single-image-text-dark',
 			'powder/team-single-image-text',
 			'powder/team-single-text-image-dark',

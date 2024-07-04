@@ -5,9 +5,9 @@
  * Categories: powder-team
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Team Member"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|x-large","bottom":"var:preset|spacing|x-large","left":"30px","right":"30px"},"margin":{"top":"0"}}},"layout":{"type":"constrained","wideSize":"960px"}} -->
-<div class="wp-block-group alignfull" style="margin-top:0;padding-top:var(--wp--preset--spacing--x-large);padding-right:30px;padding-bottom:var(--wp--preset--spacing--x-large);padding-left:30px">
-	<!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|medium"}}}} -->
+<!-- wp:group {"metadata":{"name":"Team Member"},"align":"full","className":"is-style-section-1","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained","wideSize":"960px"}} -->
+<div class="wp-block-group alignfull is-style-section-1" style="margin-top:0;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
+	<!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|60"}}}} -->
 	<div class="wp-block-columns are-vertically-aligned-center">
 		<!-- wp:column {"verticalAlignment":"center","width":"300px"} -->
 		<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:300px">
@@ -16,7 +16,7 @@
 			<!-- /wp:image -->
 		</div>
 		<!-- /wp:column -->
-		<!-- wp:column {"verticalAlignment":"center","style":{"spacing":{"blockGap":"var:preset|spacing|x-small"}}} -->
+		<!-- wp:column {"verticalAlignment":"center","style":{"spacing":{"blockGap":"var:preset|spacing|20"}}} -->
 		<div class="wp-block-column is-vertically-aligned-center">
 			<!-- wp:heading {"fontSize":"x-large"} -->
 			<h2 class="wp-block-heading has-x-large-font-size"><?php echo esc_html__( 'Jennifer Kayne', 'powder' ); ?></h2>

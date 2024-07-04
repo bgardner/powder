@@ -1,21 +1,21 @@
 <?php
 /**
- * Title: Team section with 4 columns
- * Slug: powder/team-4-columns
+ * Title: Team members in columns view
+ * Slug: powder/team-columns-dark
  * Categories: powder-team
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Team Members"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|x-large","bottom":"var:preset|spacing|x-large","left":"30px","right":"30px"},"margin":{"top":"0"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull" style="margin-top:0;padding-top:var(--wp--preset--spacing--x-large);padding-right:30px;padding-bottom:var(--wp--preset--spacing--x-large);padding-left:30px">
+<!-- wp:group {"metadata":{"name":"Team Members"},"align":"full","className":"is-style-section-2","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull is-style-section-2" style="margin-top:0;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
 	<!-- wp:heading {"textAlign":"center","level":1,"align":"wide","fontSize":"xx-large"} -->
 	<h1 class="wp-block-heading alignwide has-text-align-center has-xx-large-font-size">Team Members</h1>
 	<!-- /wp:heading -->
-	<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|small"},"margin":{"top":"var:preset|spacing|medium"}}}} -->
-	<div class="wp-block-columns alignwide" style="margin-top:var(--wp--preset--spacing--medium)">
+	<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|40"},"margin":{"top":"var:preset|spacing|60"}}}} -->
+	<div class="wp-block-columns alignwide" style="margin-top:var(--wp--preset--spacing--60)">
 		<!-- wp:column -->
 		<div class="wp-block-column">
 			<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-image-dark.svg'; ?>" alt="Sample image"/></figure>
+			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-image-light.svg'; ?>" alt="Sample image"/></figure>
 			<!-- /wp:image -->
 			<!-- wp:heading {"textAlign":"center","fontSize":"medium"} -->
 			<h2 class="wp-block-heading has-text-align-center has-medium-font-size"><?php echo esc_html__( 'Jennifer Kayne', 'powder' ); ?></h2>
@@ -36,7 +36,7 @@
 		<!-- wp:column -->
 		<div class="wp-block-column">
 			<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-image-dark.svg'; ?>" alt="Sample image"/></figure>
+			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-image-light.svg'; ?>" alt="Sample image"/></figure>
 			<!-- /wp:image -->
 			<!-- wp:heading {"textAlign":"center","fontSize":"medium"} -->
 			<h2 class="wp-block-heading has-text-align-center has-medium-font-size"><?php echo esc_html__( 'Anthony Hawk', 'powder' ); ?></h2>
@@ -52,13 +52,12 @@
 				<!-- wp:social-link {"url":"https://www.facebook.com/","service":"facebook"} /-->
 			</ul>
 			<!-- /wp:social-links -->
-
 		</div>
 		<!-- /wp:column -->
 		<!-- wp:column -->
 		<div class="wp-block-column">
 			<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-image-dark.svg'; ?>" alt="Sample image"/></figure>
+			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-image-light.svg'; ?>" alt="Sample image"/></figure>
 			<!-- /wp:image -->
 			<!-- wp:heading {"textAlign":"center","fontSize":"medium"} -->
 			<h2 class="wp-block-heading has-text-align-center has-medium-font-size"><?php echo esc_html__( 'Autumn Cole', 'powder' ); ?></h2>
@@ -79,7 +78,7 @@
 		<!-- wp:column -->
 		<div class="wp-block-column">
 			<!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
-			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-image-dark.svg'; ?>" alt="Sample image"/></figure>
+			<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-image-light.svg'; ?>" alt="Sample image"/></figure>
 			<!-- /wp:image -->
 			<!-- wp:heading {"textAlign":"center","fontSize":"medium"} -->
 			<h2 class="wp-block-heading has-text-align-center has-medium-font-size"><?php echo esc_html__( 'Zach Marley', 'powder' ); ?></h2>
@@ -89,10 +88,10 @@
 			<!-- /wp:paragraph -->
 			<!-- wp:social-links {"openInNewTab":true,"size":"has-small-icon-size","align":"center","className":"is-style-outline","style":{"spacing":{"blockGap":{"left":"5px"},"margin":{"top":"15px"}}}} -->
 			<ul class="wp-block-social-links aligncenter has-small-icon-size is-style-outline" style="margin-top:15px">
-				<!-- wp:social-link {"url":"#","service":"x"} /-->
-				<!-- wp:social-link {"url":"#","service":"linkedin"} /-->
-				<!-- wp:social-link {"url":"#","service":"instagram"} /-->
-				<!-- wp:social-link {"url":"#","service":"facebook"} /-->
+				<!-- wp:social-link {"url":"https://x.com/","service":"x"} /-->
+				<!-- wp:social-link {"url":"https://www.linkedin.com/","service":"linkedin"} /-->
+				<!-- wp:social-link {"url":"https://instagram.com/","service":"instagram"} /-->
+				<!-- wp:social-link {"url":"https://www.facebook.com/","service":"facebook"} /-->
 			</ul>
 			<!-- /wp:social-links -->
 		</div>
