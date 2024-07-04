@@ -546,6 +546,9 @@
 			"core/site-title": {
 				"elements": {
 					"link": {
+						"color": {
+							"text": "var(--wp--preset--color--contrast)"
+						},
 						"typography": {
 							"textDecoration": "none"
 						}
@@ -586,7 +589,7 @@
 					"radius": "0"
 				},
 				"color": {
-					"background": "var(--wp--preset--color--contrast)",
+					"background": "var(--wp--preset--color--primary)",
 					"text": "var(--wp--preset--color--base)"
 				},
 				"spacing": {
@@ -652,7 +655,7 @@
 			},
 			"link": {
 				"color": {
-					"text": "var(--wp--preset--color--contrast)"
+					"text": "var(--wp--preset--color--primary)"
 				},
 				":hover": {
 					"color": {
