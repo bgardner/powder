@@ -148,10 +148,10 @@ function powder_unregister_patterns() {
 			'powder/footer-stacked'
 		],
 		'powder_setting_option_gallery' => [
-			'powder/gallery-horizontal-row-dark',
-			'powder/gallery-horizontal-row',
-			'powder/gallery-single-multi-grid-dark',
-			'powder/gallery-single-multi-grid',
+			'powder/gallery-grid-dark',
+			'powder/gallery-grid',
+			'powder/gallery-row-dark',
+			'powder/gallery-row',
 			'powder/gallery-text-images-dark',
 			'powder/gallery-text-images'
 		],
