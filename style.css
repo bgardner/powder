@@ -15,8 +15,10 @@ Tags: block-patterns, block-styles, custom-colors, custom-logo, custom-menu, e-c
 */
 
 
-/* Legacy Spacing (Do not remove)
+/* Legacy Styles (Do not remove)
 ---------------------------------------- */
+
+/* -- Spacing -- */
 
 :root {
 	--wp--preset--spacing--x-small: clamp(10px, 2vw, 20px);
@@ -26,6 +28,15 @@ Tags: block-patterns, block-styles, custom-colors, custom-logo, custom-menu, e-c
 	--wp--preset--spacing--x-large: clamp(60px, 10vw, 100px);
 }
 
+/* -- Font Size -- */
+
+.has-max-48-font-size {
+	font-size: clamp(30px, 4vw, 48px);
+}
+
+.has-max-60-font-size {
+	font-size: clamp(36px, 5vw, 60px);
+}
 
 /* Defaults
 ---------------------------------------- */

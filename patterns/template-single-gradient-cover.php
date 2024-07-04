@@ -20,7 +20,7 @@
 			<!-- wp:post-author-name {"isLink":true} /-->
 		</div>
 		<!-- /wp:group -->
-		<!-- wp:post-title {"textAlign":"center","level":1,"style":{"typography":{"fontStyle":"normal","fontWeight":"300"}},"fontSize":"max-60"} /-->
+		<!-- wp:post-title {"textAlign":"center","level":1,"style":{"typography":{"fontStyle":"normal","fontWeight":"300","fontSize":"48px"}}} /-->
 	</div>
 	<!-- /wp:group -->
 </div></div>
