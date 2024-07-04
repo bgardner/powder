@@ -208,6 +208,8 @@ function powder_unregister_patterns() {
 			'powder/template-single-gradient-cover',
 		],
 		'powder_setting_option_testimonials' => [
+			'powder/testimonials-bold-dark',
+			'powder/testimonials-bold',
 			'powder/testimonials-columns-dark',
 			'powder/testimonials-columns',
 			'powder/testimonials-grid-dark',
