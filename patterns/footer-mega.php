@@ -36,7 +36,7 @@
 			<!-- wp:column {"verticalAlignment":"center","width":"40%"} -->
 			<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:40%">
 				<!-- wp:group {"style":{"spacing":{"blockGap":"0"},"border":{"left":{"width":"1px","style":"dotted"},"top":{},"right":{"width":"1px","style":"dotted"},"bottom":{}}}} -->
-				<div class="wp-block-group" style="border-right-style:dotted;border-right-width:1px;border-left-style:dotted;border-left-width:1px"><
+				<div class="wp-block-group" style="border-right-style:dotted;border-right-width:1px;border-left-style:dotted;border-left-width:1px">
 					<!-- wp:paragraph {"align":"center"} -->
 					<p class="has-text-align-center"><?php echo esc_html__( '“If you can dream it, you can do it.”', 'powder' ); ?></p>
 					<!-- /wp:paragraph -->
