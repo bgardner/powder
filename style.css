@@ -207,12 +207,6 @@ select {
 	position: relative;
 }
 
-/* -- Pull -- */
-
-.is-style-pull-100 {
-	margin-top: -100px !important;
-}
-
 /* -- Z-Index -- */
 
 .is-style-negative-zindex {
