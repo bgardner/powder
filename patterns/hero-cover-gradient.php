@@ -1,14 +1,14 @@
 <?php
 /**
- * Title: Section with image, text, buttons
- * Slug: powder/hero-gradient-image-text-dark
+ * Title: Cover gradient with text, buttons
+ * Slug: powder/hero-cover-gradient
  * Categories: powder-hero
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Hero Section"},"align":"full","style":{"spacing":{"margin":{"top":"0"}}},"layout":{"type":"constrained"}} -->
+<!-- wp:group {"metadata":{"name":"Hero Cover"},"align":"full","style":{"spacing":{"margin":{"top":"0"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull" style="margin-top:0">
-	<!-- wp:cover {"isUserOverlayColor":true,"gradient":"contrast-base","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"0","right":"0"}}}} -->
-	<div class="wp-block-cover alignfull" style="padding-top:var(--wp--preset--spacing--80);padding-right:0;padding-bottom:var(--wp--preset--spacing--80);padding-left:0"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim has-background-gradient has-contrast-base-gradient-background"></span><div class="wp-block-cover__inner-container">
+	<!-- wp:cover {"isUserOverlayColor":true,"gradient":"base-contrast","align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"0","right":"0"}}}} -->
+	<div class="wp-block-cover alignfull" style="padding-top:var(--wp--preset--spacing--80);padding-right:0;padding-bottom:var(--wp--preset--spacing--80);padding-left:0"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim has-background-gradient has-base-contrast-gradient-background"></span><div class="wp-block-cover__inner-container">
 		<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0"}}},"layout":{"type":"constrained","wideSize":"960px"}} -->
 		<div class="wp-block-group alignfull" style="margin-top:0">
 			<!-- wp:image {"aspectRatio":"16/9","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"border":{"width":"20px"},"shadow":"var:preset|shadow|light"},"borderColor":"base"} -->
@@ -18,8 +18,8 @@
 		<!-- /wp:group -->
 	</div></div>
 	<!-- /wp:cover -->
-	<!-- wp:group {"align":"full","className":"is-style-section-1","style":{"spacing":{"margin":{"top":"0"},"padding":{"bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
-	<div class="wp-block-group alignfull is-style-section-1" style="margin-top:0;padding-bottom:var(--wp--preset--spacing--80)">
+	<!-- wp:group {"align":"full","className":"is-style-section-2","style":{"spacing":{"margin":{"top":"0"},"padding":{"bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
+	<div class="wp-block-group alignfull is-style-section-2" style="margin-top:0;padding-bottom:var(--wp--preset--spacing--80)">
 		<!-- wp:heading {"textAlign":"center","level":1,"style":{"typography":{"fontSize":"48px"}}} -->
 		<h1 class="wp-block-heading has-text-align-center" style="font-size:48px"><?php echo esc_html__( 'Meet Powder.', 'powder' ); ?></h1>
 		<!-- /wp:heading -->
