@@ -51,6 +51,9 @@ function powder_register_block_styles() {
 		'core/cover' => array(
 			'gradient' => __( 'Gradient', 'powder' ),
 		),
+		'core/group' => array(
+			'shadow-light' => __( 'Shadow', 'powder' ),
+		),
 		'core/list' => array(
 			'no-style' => __( 'No Style', 'powder' ),
 		),
