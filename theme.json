@@ -157,6 +157,11 @@
 					"name": "Light",
 					"shadow": "0 0 10px rgb(10, 10, 10, 0.1)",
 					"slug": "light"
+				},
+				{
+					"name": "Solid",
+					"shadow": "6px 6px 0 currentColor",
+					"slug": "solid"
 				}
 			]
 		},
