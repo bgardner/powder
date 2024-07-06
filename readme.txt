@@ -54,9 +54,6 @@ License URL: https://www.apache.org/licenses/LICENSE-2.0
 
 icon-arrow-dark.svg
 icon-arrow-light.svg
-icon-circle-bolt-dark.svg
-icon-circle-bolt-light.svg
-icon-circle-check-dark.svg
-icon-circle-check-light.svg
-icon-circle-x-dark.svg
-icon-circle-x-light.svg
+icon-circle-bolt.svg
+icon-circle-check.svg
+icon-circle-x.svg
