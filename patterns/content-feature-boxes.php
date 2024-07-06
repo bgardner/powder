@@ -10,10 +10,10 @@
 	<!-- wp:group {"style":{"spacing":{"blockGap":"10px","margin":{"bottom":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
 	<div class="wp-block-group" style="margin-bottom:var(--wp--preset--spacing--60)">
 		<!-- wp:heading {"textAlign":"center","style":{"typography":{"fontSize":"48px"}}} -->
-		<h2 class="wp-block-heading has-text-align-center" style="font-size:48px">Meet Powder.</h2>
+		<h2 class="wp-block-heading has-text-align-center" style="font-size:48px"><?php echo esc_html__( 'Meet Powder', 'powder' ); ?></h2>
 		<!-- /wp:heading -->
 		<!-- wp:paragraph {"align":"center"} -->
-		<p class="has-text-align-center">Redefine your space with a stylish, modern design.</p>
+		<p class="has-text-align-center"><?php echo esc_html__( 'Redefine your space with a stylish, modern design.', 'powder' ); ?></p>
 		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:group -->
