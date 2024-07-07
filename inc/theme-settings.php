@@ -154,8 +154,8 @@ function powder_unregister_patterns() {
 			'powder/footer-stacked'
 		],
 		'powder_setting_option_gallery' => [
-			'powder/gallery-grid-dark',
-			'powder/gallery-grid',
+			'powder/gallery-grid-multi-dark',
+			'powder/gallery-grid-multi',
 			'powder/gallery-row-dark',
 			'powder/gallery-row',
 			'powder/gallery-text-images-dark',
