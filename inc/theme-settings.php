@@ -111,6 +111,8 @@ function powder_unregister_patterns() {
 			'powder/call-to-action-button',
 			'powder/call-to-action-centered-dark',
 			'powder/call-to-action-centered',
+			'powder/call-to-action-outline-dark',
+			'powder/call-to-action-outline',
 			'powder/call-to-action-promo-dark',
 			'powder/call-to-action-promo',
 			'powder/call-to-action-stacked-dark',
