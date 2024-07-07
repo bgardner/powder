@@ -156,6 +156,8 @@ function powder_unregister_patterns() {
 		'powder_setting_option_gallery' => [
 			'powder/gallery-grid-multi-dark',
 			'powder/gallery-grid-multi',
+			'powder/gallery-grid-square-dark',
+			'powder/gallery-grid-square',
 			'powder/gallery-row-dark',
 			'powder/gallery-row',
 			'powder/gallery-text-images-dark',
