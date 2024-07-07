@@ -13,7 +13,7 @@
 		<h2 class="wp-block-heading has-xx-large-font-size"><?php echo esc_html__( 'My Images', 'powder' ); ?></h2>
 		<!-- /wp:heading -->
 		<!-- wp:paragraph {"fontSize":"x-small"} -->
-		<p class="has-x-small-font-size"><a href="#"><?php echo esc_html__( 'Follow Me →', 'powder' ); ?></a></p>
+		<p class="has-x-small-font-size"><a href="#"><?php echo esc_html__( 'View Gallery →', 'powder' ); ?></a></p>
 		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:group -->

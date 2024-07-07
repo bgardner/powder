@@ -18,7 +18,7 @@
 			<p><?php echo esc_html__( 'Powder reclaims its minimalist roots by embracing simplicity and focusing on the purity of form and function. Its signature approach—inspired by the vibrant color palettes of Tailwind CSS—transcends conventional design standards and provides a canvas where creativity knows no bounds.', 'powder' ); ?></p>
 			<!-- /wp:paragraph -->
 			<!-- wp:paragraph -->
-			<p><a href="#"><?php echo esc_html__( 'Follow Me →', 'powder' ); ?></a></p>
+			<p><a href="#"><?php echo esc_html__( 'View Gallery →', 'powder' ); ?></a></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->
