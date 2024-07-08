@@ -1,7 +1,7 @@
 === Powder ===
 Contributors: bgardner
-Requires at least: 6.5
-Tested up to: 6.5.5
+Requires at least: 6.6
+Tested up to: 6.6
 Requires PHP: 7.0
 Stable tag: 1.1.9
 License: GNU General Public License v3
@@ -52,8 +52,7 @@ site-logo-light.svg
 The following icons are available through Google Material Icons and declared under Apache Open Source License, Version 2.0.
 License URL: https://www.apache.org/licenses/LICENSE-2.0
 
-icon-arrow-dark.svg
-icon-arrow-light.svg
+icon-arrow.svg
 icon-circle-bolt.svg
 icon-circle-check.svg
 icon-circle-x.svg
