@@ -90,7 +90,7 @@ function powder_theme_admin_init() {
 		register_setting('powder-theme-settings-group', 'powder_setting_option_' . $option, 'sanitize_powder_theme_option');
 	}
 }
-add_action('admin_init', 'powder_theme_admin_init');
+add_action( 'admin_init', 'powder_theme_admin_init' );
 
 /**
  * Sanitize callback function.
@@ -237,4 +237,4 @@ function powder_unregister_patterns() {
 		}
 	}
 }
-add_action('init', 'powder_unregister_patterns');
+add_action( 'init', 'powder_unregister_patterns' );
