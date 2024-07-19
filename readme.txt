@@ -3,7 +3,7 @@ Contributors: bgardner
 Requires at least: 6.6
 Tested up to: 6.6
 Requires PHP: 7.0
-Stable tag: 1.1.9
+Stable tag: 1.2
 License: GNU General Public License v3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -26,11 +26,12 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
-== Font ==
+== Fonts ==
 
-The included font is licensed under the SIL Open Font License, Version 1.1.
+The included fonts are licensed under the SIL Open Font License, Version 1.1.
 License URL: https://scripts.sil.org/OFL
 
+Figtree Font
 Outfit Font
 
 == Sample Images ==
