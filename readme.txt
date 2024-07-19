@@ -39,6 +39,8 @@ Outfit Font
 The following images are self-designed and declared under GPL License, Version 3.0.
 License URL: https://www.gnu.org/licenses/gpl-3.0.html
 
+icon-quote-bottom.svg
+icon-quote-top.svg
 sample-avatar-dark.svg
 sample-avatar-light.svg
 sample-image-dark.svg
