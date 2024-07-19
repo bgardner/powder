@@ -6,6 +6,9 @@
 	"blockTypes": [ "core/group" ],
 	"styles": {
 		"blocks": {
+			"core/image": {
+				"css": "&.is-style-icon {filter: invert(1);}"
+			},
 			"core/post-title": {
 				"elements": {
 					"link": {

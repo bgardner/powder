@@ -21,8 +21,8 @@
 	<div class="wp-block-group alignwide">
 		<!-- wp:group {"className":"is-style-section-4","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained"}} -->
 		<div class="wp-block-group is-style-section-4" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--40)">
-			<!-- wp:image {"width":"30px","height":"30px","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center","style":{"color":{"duotone":"var:preset|duotone|primary-and-white"}}} -->
-			<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-bolt-dark.svg'; ?>" alt="Circle bolt icon" style="object-fit:cover;width:30px;height:30px"/></figure>
+			<!-- wp:image {"width":"30px","height":"30px","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center","className":"is-style-icon"} -->
+<figure class="wp-block-image aligncenter size-full is-resized is-style-icon"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-bolt.svg'; ?>" alt="Circle bolt icon" style="object-fit:cover;width:30px;height:30px"/></figure>
 			<!-- /wp:image -->
 			<!-- wp:heading {"textAlign":"center","style":{"typography":{"textTransform":"uppercase"}},"fontSize":"x-small"} -->
 			<h2 class="wp-block-heading has-text-align-center has-x-small-font-size" style="text-transform:uppercase"><?php echo esc_html__( 'Feature Headline', 'powder' ); ?></h2>
@@ -34,8 +34,8 @@
 		<!-- /wp:group -->
 		<!-- wp:group {"className":"is-style-section-4","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained"}} -->
 		<div class="wp-block-group is-style-section-4" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--40)">
-			<!-- wp:image {"width":"30px","height":"30px","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center","style":{"color":{"duotone":"var:preset|duotone|primary-and-white"}}} -->
-			<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-bolt-dark.svg'; ?>" alt="Circle bolt icon" style="object-fit:cover;width:30px;height:30px"/></figure>
+			<!-- wp:image {"width":"30px","height":"30px","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center","className":"is-style-icon"} -->
+<figure class="wp-block-image aligncenter size-full is-resized is-style-icon"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-bolt.svg'; ?>" alt="Circle bolt icon" style="object-fit:cover;width:30px;height:30px"/></figure>
 			<!-- /wp:image -->
 			<!-- wp:heading {"textAlign":"center","style":{"typography":{"textTransform":"uppercase"}},"fontSize":"x-small"} -->
 			<h2 class="wp-block-heading has-text-align-center has-x-small-font-size" style="text-transform:uppercase"><?php echo esc_html__( 'Feature Headline', 'powder' ); ?></h2>
@@ -47,8 +47,8 @@
 		<!-- /wp:group -->
 		<!-- wp:group {"className":"is-style-section-4","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained"}} -->
 		<div class="wp-block-group is-style-section-4" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--40)">
-			<!-- wp:image {"width":"30px","height":"30px","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center","style":{"color":{"duotone":"var:preset|duotone|primary-and-white"}}} -->
-			<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-bolt-dark.svg'; ?>" alt="Circle bolt icon" style="object-fit:cover;width:30px;height:30px"/></figure>
+			<!-- wp:image {"width":"30px","height":"30px","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center","className":"is-style-icon"} -->
+<figure class="wp-block-image aligncenter size-full is-resized is-style-icon"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-bolt.svg'; ?>" alt="Circle bolt icon" style="object-fit:cover;width:30px;height:30px"/></figure>
 			<!-- /wp:image -->
 			<!-- wp:heading {"textAlign":"center","style":{"typography":{"textTransform":"uppercase"}},"fontSize":"x-small"} -->
 			<h2 class="wp-block-heading has-text-align-center has-x-small-font-size" style="text-transform:uppercase"><?php echo esc_html__( 'Feature Headline', 'powder' ); ?></h2>
@@ -60,8 +60,8 @@
 		<!-- /wp:group -->
 		<!-- wp:group {"className":"is-style-section-4","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained"}} -->
 		<div class="wp-block-group is-style-section-4" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--40)">
-			<!-- wp:image {"width":"30px","height":"30px","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center","style":{"color":{"duotone":"var:preset|duotone|primary-and-white"}}} -->
-			<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-bolt-dark.svg'; ?>" alt="Circle bolt icon" style="object-fit:cover;width:30px;height:30px"/></figure>
+			<!-- wp:image {"width":"30px","height":"30px","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center","className":"is-style-icon"} -->
+<figure class="wp-block-image aligncenter size-full is-resized is-style-icon"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-bolt.svg'; ?>" alt="Circle bolt icon" style="object-fit:cover;width:30px;height:30px"/></figure>
 			<!-- /wp:image -->
 			<!-- wp:heading {"textAlign":"center","style":{"typography":{"textTransform":"uppercase"}},"fontSize":"x-small"} -->
 			<h2 class="wp-block-heading has-text-align-center has-x-small-font-size" style="text-transform:uppercase"><?php echo esc_html__( 'Feature Headline', 'powder' ); ?></h2>
@@ -73,8 +73,8 @@
 		<!-- /wp:group -->
 		<!-- wp:group {"className":"is-style-section-4","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained"}} -->
 		<div class="wp-block-group is-style-section-4" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--40)">
-			<!-- wp:image {"width":"30px","height":"30px","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center","style":{"color":{"duotone":"var:preset|duotone|primary-and-white"}}} -->
-			<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-bolt-dark.svg'; ?>" alt="Circle bolt icon" style="object-fit:cover;width:30px;height:30px"/></figure>
+			<!-- wp:image {"width":"30px","height":"30px","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center","className":"is-style-icon"} -->
+<figure class="wp-block-image aligncenter size-full is-resized is-style-icon"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-bolt.svg'; ?>" alt="Circle bolt icon" style="object-fit:cover;width:30px;height:30px"/></figure>
 			<!-- /wp:image -->
 			<!-- wp:heading {"textAlign":"center","style":{"typography":{"textTransform":"uppercase"}},"fontSize":"x-small"} -->
 			<h2 class="wp-block-heading has-text-align-center has-x-small-font-size" style="text-transform:uppercase"><?php echo esc_html__( 'Feature Headline', 'powder' ); ?></h2>
@@ -86,8 +86,8 @@
 		<!-- /wp:group -->
 		<!-- wp:group {"className":"is-style-section-4","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained"}} -->
 		<div class="wp-block-group is-style-section-4" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--40)">
-			<!-- wp:image {"width":"30px","height":"30px","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center","style":{"color":{"duotone":"var:preset|duotone|primary-and-white"}}} -->
-			<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-bolt-dark.svg'; ?>" alt="Circle bolt icon" style="object-fit:cover;width:30px;height:30px"/></figure>
+			<!-- wp:image {"width":"30px","height":"30px","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center","className":"is-style-icon"} -->
+<figure class="wp-block-image aligncenter size-full is-resized is-style-icon"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-bolt.svg'; ?>" alt="Circle bolt icon" style="object-fit:cover;width:30px;height:30px"/></figure>
 			<!-- /wp:image -->
 			<!-- wp:heading {"textAlign":"center","style":{"typography":{"textTransform":"uppercase"}},"fontSize":"x-small"} -->
 			<h2 class="wp-block-heading has-text-align-center has-x-small-font-size" style="text-transform:uppercase"><?php echo esc_html__( 'Feature Headline', 'powder' ); ?></h2>
