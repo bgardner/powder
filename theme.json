@@ -405,9 +405,6 @@
 			"core/post-comments-form": {
 				"css": " & input:not([type=submit]), textarea {border-color: var(--wp--preset--color--contrast); & input[type=submit] {width: auto;}"
 			},
-			"core/post-excerpt": {
-				"css": "& .wp-block-post-excerpt__more-text {margin-top: var(--wp--preset--spacing--20);}"
-			},
 			"core/post-template": {
 				"spacing": {
 					"blockGap": "var(--wp--preset--spacing--60);"
