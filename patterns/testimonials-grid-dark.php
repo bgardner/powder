@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Testimonials in gird view
+ * Title: Testimonials in grid view
  * Slug: powder/testimonials-grid-dark
  * Categories: powder-testimonials
  */
