@@ -26,12 +26,11 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
-== Fonts ==
+== Font ==
 
-The included fonts are licensed under the SIL Open Font License, Version 1.1.
+The included font is licensed under the SIL Open Font License, Version 1.1.
 License URL: https://scripts.sil.org/OFL
 
-Figtree Font
 Outfit Font
 
 == Sample Images ==

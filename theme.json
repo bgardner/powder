@@ -253,33 +253,6 @@
 					"fontFamily": "Outfit, sans-serif",
 					"name": "Outfit",
 					"slug": "outfit"
-				},
-				{
-					"fontFace": [
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Figtree",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "300 900",
-							"src": [
-								"file:./assets/fonts/figtree/Figtree-Variable.woff2"
-							]
-						},
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Figtree",
-							"fontStretch": "normal",
-							"fontStyle": "italic",
-							"fontWeight": "300 900",
-							"src": [
-								"file:./assets/fonts/figtree/Figtree-Italic-Variable.woff2"
-							]
-						}
-					],
-					"fontFamily": "Figtree, sans-serif",
-					"name": "Figtree",
-					"slug": "figtree"
 				}
 			],
 			"fontSizes": [
