@@ -42,27 +42,42 @@
 			"defaultPalette": false,
 			"duotone": [
 				{
-					"colors": [ "#ffffff", "#ffffff" ],
+					"colors": [
+						"#ffffff",
+						"#ffffff"
+					],
 					"name": "White and White",
 					"slug": "white-and-white"
 				},
 				{
-					"colors": [ "#0a0a0a", "#ffffff" ],
+					"colors": [
+						"#0a0a0a",
+						"#ffffff"
+					],
 					"name": "Contrast and White",
 					"slug": "contrast-and-white"
 				},
 				{
-					"colors": [ "#4c1d95", "#ffffff" ],
+					"colors": [
+						"#4c1d95",
+						"#ffffff"
+					],
 					"name": "Primary and White",
 					"slug": "primary-and-white"
 				},
 				{
-					"colors": [ "#6d28d9", "#ffffff" ],
+					"colors": [
+						"#6d28d9",
+						"#ffffff"
+					],
 					"name": "Secondary and White",
 					"slug": "secondary-and-white"
 				},
 				{
-					"colors": [ "#8b5cf6", "#ffffff" ],
+					"colors": [
+						"#8b5cf6",
+						"#ffffff"
+					],
 					"name": "Tertiary and White",
 					"slug": "tertiary-and-white"
 				}
