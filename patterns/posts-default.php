@@ -15,7 +15,7 @@
 			<article class="wp-block-group">
 				<!-- wp:group {"tagName":"header","style":{"spacing":{"blockGap":"10px"}},"className":"entry-header","layout":{"type":"constrained"}} -->
 				<header class="wp-block-group entry-header">
-					<!-- wp:post-title {"level":1,"isLink":true} /-->
+					<!-- wp:post-title {"isLink":true} /-->
 					<!-- wp:pattern {"slug":"powder/post-meta"} /-->
 				</header>
 				<!-- /wp:group -->
