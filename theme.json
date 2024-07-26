@@ -402,9 +402,6 @@
 					"fontSize": "var(--wp--preset--font-size--x-small)"
 				}
 			},
-			"core/post-comments-form": {
-				"css": " & input:not([type=submit]), textarea {border-color: var(--wp--preset--color--contrast); & input[type=submit] {width: auto;}"
-			},
 			"core/post-template": {
 				"spacing": {
 					"blockGap": "var(--wp--preset--spacing--60);"
@@ -589,6 +586,7 @@
 					"background": "var(--wp--preset--color--primary)",
 					"text": "var(--wp--preset--color--base)"
 				},
+				"css": "{width: auto;}",
 				"spacing": {
 					"padding": {
 						"top": "15px",
