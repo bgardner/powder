@@ -238,9 +238,6 @@
 			},
 			"fontFamilies": [
 				{
-					"fontFamily": "Outfit, sans-serif",
-					"name": "Outfit",
-					"slug": "outfit",
 					"fontFace": [
 						{
 							"fontDisplay": "block",
@@ -248,14 +245,16 @@
 							"fontStretch": "normal",
 							"fontStyle": "normal",
 							"fontWeight": "100 900",
-							"src": [ "file:./assets/fonts/outfit/Outfit-Variable.woff2" ]
+							"src": [
+								"file:./assets/fonts/outfit/Outfit-Variable.woff2"
+							]
 						}
-					]
+					],
+					"fontFamily": "Outfit, sans-serif",
+					"name": "Outfit",
+					"slug": "outfit"
 				},
 				{
-					"fontFamily": "Figtree, sans-serif",
-					"name": "Figtree",
-					"slug": "figtree",
 					"fontFace": [
 						{
 							"fontDisplay": "block",
@@ -263,24 +262,24 @@
 							"fontStretch": "normal",
 							"fontStyle": "normal",
 							"fontWeight": "300 900",
-							"src": [ "file:./assets/fonts/figtree/Figtree-Variable.woff2" ]
-						}
-					]
-				},
-				{
-					"fontFamily": "Figtree, sans-serif",
-					"name": "Figtree",
-					"slug": "figtree",
-					"fontFace": [
+							"src": [
+								"file:./assets/fonts/figtree/Figtree-Variable.woff2"
+							]
+						},
 						{
 							"fontDisplay": "block",
 							"fontFamily": "Figtree",
 							"fontStretch": "normal",
 							"fontStyle": "italic",
 							"fontWeight": "300 900",
-							"src": [ "file:./assets/fonts/figtree/Figtree-Italic-Variable.woff2" ]
+							"src": [
+								"file:./assets/fonts/figtree/Figtree-Italic-Variable.woff2"
+							]
 						}
-					]
+					],
+					"fontFamily": "Figtree, sans-serif",
+					"name": "Figtree",
+					"slug": "figtree"
 				}
 			],
 			"fontSizes": [
