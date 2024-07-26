@@ -220,7 +220,14 @@
 					"slug": "80"
 				}
 			],
-			"units": [ "%", "px", "em", "rem", "vh", "vw" ]
+			"units": [
+				"%",
+				"px",
+				"em",
+				"rem",
+				"vh",
+				"vw"
+			]
 		},
 		"typography": {
 			"defaultFontSizes": false,
