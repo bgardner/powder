@@ -396,6 +396,9 @@
 					"fontSize": "var(--wp--preset--font-size--x-small)"
 				}
 			},
+			"core/post-comments-form": {
+				"css": " & .form-submit {margin-bottom: 0;}"
+			},
 			"core/post-template": {
 				"spacing": {
 					"blockGap": "var(--wp--preset--spacing--60);"
