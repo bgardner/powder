@@ -43,14 +43,6 @@
 			"duotone": [
 				{
 					"colors": [
-						"#ffffff",
-						"#ffffff"
-					],
-					"name": "White and White",
-					"slug": "white-and-white"
-				},
-				{
-					"colors": [
 						"#0a0a0a",
 						"#ffffff"
 					],
