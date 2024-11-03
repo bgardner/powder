@@ -45,9 +45,6 @@ function powder_register_block_styles() {
 		'core/columns' => array(
 			'column-reverse' => __( 'Reverse', 'powder' ),
 		),
-		'core/cover' => array(
-			'gradient' => __( 'Gradient', 'powder' ),
-		),
 		'core/list' => array(
 			'no-style' => __( 'No Style', 'powder' ),
 		),
