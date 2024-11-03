@@ -116,15 +116,6 @@ textarea {
 	-webkit-appearance: none;
 }
 
-select {
-	background-image: url( "assets/icons/icon-arrow-dark.svg" );
-	background-position: right 12px center;
-	background-repeat: no-repeat;
-	background-size: 12px;
-	cursor: pointer;
-	-webkit-appearance: none;
-}
-
 ::placeholder {
 	color: var(--wp--preset--color--contrast);
 	font-size: var(--wp--preset--font-size--small);
