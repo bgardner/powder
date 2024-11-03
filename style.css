@@ -178,20 +178,6 @@ textarea {
 /* Utility
 ---------------------------------------- */
 
-/* -- Box Shadow -- */
-
-.is-style-shadow-faint {
-	box-shadow: var(--wp--preset--shadow--faint);
-}
-
-.is-style-shadow-light {
-	box-shadow: var(--wp--preset--shadow--light);
-}
-
-.is-style-shadow-solid {
-	box-shadow: var(--wp--preset--shadow--solid);
-}
-
 /* -- Position -- */
 
 .is-style-position-fixed {
