@@ -40,18 +40,6 @@
 			"defaultDuotone": false,
 			"defaultGradients": false,
 			"defaultPalette": false,
-			"gradients": [
-				{
-					"gradient": "linear-gradient(0deg, #4c1d95 0%, #6d28d9 100%)",
-					"name": "Primary to Secondary",
-					"slug": "primary-secondary"
-				},
-				{
-					"gradient": "linear-gradient(0deg, #6d28d9 0%, #4c1d95 100%)",
-					"name": "Secondary to Primary",
-					"slug": "secondary-primary"
-				}
-			],
 			"palette": [
 				{
 					"color": "#ffffff",
