@@ -609,21 +609,5 @@
 			"name": "footer",
 			"title": "Footer"
 		}
-	],
-	"customTemplates": [
-		{
-			"name": "page-blank",
-			"postTypes": [
-				"page"
-			],
-			"title": "Page: Blank"
-		},
-		{
-			"name": "page-no-title",
-			"postTypes": [
-				"page"
-			],
-			"title": "Page: No Title"
-		}
 	]
 }
