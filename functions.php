@@ -69,33 +69,6 @@ function powder_register_block_styles() {
 add_action( 'init', 'powder_register_block_styles' );
 
 /**
- * Register pattern category.
- */
-function powder_register_pattern_category( $slug, $label, $description ) {
-	register_block_pattern_category(
-		'powder-' . $slug,
-		array(
-			'label'       => __( $label, 'powder' ),
-			'description' => __( $description, 'powder' ),
-		)
-	);
-}
-
-/**
- * Register pattern categories.
- */
-function powder_register_pattern_categories() {
-	$categories = array(
-		'theme'          => array( __( 'Theme', 'powder' ), __( 'A collection of theme patterns for Powder.', 'powder' ) ),
-	);
-
-	foreach ( $categories as $slug => $details ) {
-		powder_register_pattern_category( $slug, $details[0], $details[1] );
-	}
-}
-add_action( 'init', 'powder_register_pattern_categories' );
-
-/**
  * Check for theme updates.
  */
 function powder_theme_updates( $transient ) {
