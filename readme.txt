@@ -48,18 +48,3 @@ sample-logo-dark.svg
 sample-logo-light.svg
 site-logo-dark.svg
 site-logo-light.svg
-
-== Sample Icons ==
-
-The following icons are available through Google Material Icons and declared under Apache Open Source License, Version 2.0.
-License URL: https://www.apache.org/licenses/LICENSE-2.0
-
-icon-circle-bolt.svg
-icon-circle-bolt-dark.svg
-icon-circle-bolt-light.svg
-icon-circle-check.svg
-icon-circle-check-dark.svg
-icon-circle-check-light.svg
-icon-circle-x.svg
-icon-circle-x-dark.svg
-icon-circle-x-light.svg
