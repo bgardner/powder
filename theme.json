@@ -40,6 +40,40 @@
 			"defaultDuotone": false,
 			"defaultGradients": false,
 			"defaultPalette": false,
+			"duotone": [
+				{
+					"colors": [ "#0a0a0a", "#ffffff" ],
+					"name": "Contrast and White",
+					"slug": "contrast-and-white"
+				},
+				{
+					"colors": [ "#4c1d95", "#ffffff" ],
+					"name": "Primary and White",
+					"slug": "primary-and-white"
+				},
+				{
+					"colors": [ "#6d28d9", "#ffffff" ],
+					"name": "Secondary and White",
+					"slug": "secondary-and-white"
+				},
+				{
+					"colors": [ "#8b5cf6", "#ffffff" ],
+					"name": "Tertiary and White",
+					"slug": "tertiary-and-white"
+				}
+			],
+			"gradients": [
+				{
+					"gradient": "linear-gradient(0deg, #4c1d95 0%, #6d28d9 100%)",
+					"name": "Primary to Secondary",
+					"slug": "primary-secondary"
+				},
+				{
+					"gradient": "linear-gradient(0deg, #6d28d9 0%, #4c1d95 100%)",
+					"name": "Secondary to Primary",
+					"slug": "secondary-primary"
+				}
+			],
 			"palette": [
 				{
 					"color": "#ffffff",
@@ -101,9 +135,19 @@
 			"defaultPresets": false,
 			"presets": [
 				{
+					"name": "Faint",
+					"shadow": "0 2px 4px rgb(10, 10, 10, 0.1)",
+					"slug": "faint"
+				},
+				{
 					"name": "Light",
 					"shadow": "0 0 10px rgb(10, 10, 10, 0.1)",
 					"slug": "light"
+				},
+				{
+					"name": "Solid",
+					"shadow": "6px 6px 0 currentColor",
+					"slug": "solid"
 				}
 			]
 		},
@@ -608,6 +652,22 @@
 			"area": "footer",
 			"name": "footer",
 			"title": "Footer"
+		}
+	],
+	"customTemplates": [
+		{
+			"name": "page-blank",
+			"postTypes": [
+				"page"
+			],
+			"title": "Page: Blank"
+		},
+		{
+			"name": "page-no-title",
+			"postTypes": [
+				"page"
+			],
+			"title": "Page: No Title"
 		}
 	]
 }

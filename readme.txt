@@ -1,7 +1,7 @@
 === Powder ===
 Contributors: bgardner
 Requires at least: 6.6
-Tested up to: 6.6.1
+Tested up to: 6.6.2
 Requires PHP: 7.0
 Stable tag: 1.2.2
 License: GNU General Public License v3
@@ -32,3 +32,38 @@ The included font is licensed under the SIL Open Font License, Version 1.1.
 License URL: https://scripts.sil.org/OFL
 
 Outfit Font
+
+== Sample Images ==
+
+The following images are self-designed and declared under GPL License, Version 3.0.
+License URL: https://www.gnu.org/licenses/gpl-3.0.html
+
+sample-avatar-dark.svg
+sample-avatar-light.svg
+sample-image-dark.svg
+sample-image-light.svg
+sample-logo-dark.svg
+sample-logo-light.svg
+site-logo-dark.svg
+site-logo-light.svg
+
+== Sample Icons ==
+
+The following icons are available through Google Material Icons and declared under Apache Open Source License, Version 2.0.
+License URL: https://www.apache.org/licenses/LICENSE-2.0
+
+icon-circle-bolt-dark.svg
+icon-circle-bolt-light.svg
+icon-circle-bolt.svg
+icon-circle-check-dark.svg
+icon-circle-check-light.svg
+icon-circle-check.svg
+icon-circle-x-dark.svg
+icon-circle-x-light.svg
+icon-circle-x.svg
+icon-quote-bottom-dark.svg
+icon-quote-bottom-light.svg
+icon-quote-bottom.svg
+icon-quote-top-dark.svg
+icon-quote-top-light.svg
+icon-quote-top.svg

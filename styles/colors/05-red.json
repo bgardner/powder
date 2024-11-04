@@ -1,0 +1,76 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Red",
+	"description":  "Red-based palette with three shades",
+	"settings": {
+		"color": {
+			"duotone": [
+				{
+					"colors": [ "#0a0a0a", "#ffffff" ],
+					"name": "Contrast and White",
+					"slug": "contrast-and-white"
+				},
+				{
+					"colors": [ "#7f1d1d", "#ffffff" ],
+					"name": "Primary and White",
+					"slug": "primary-and-white"
+				},
+				{
+					"colors": [ "#b91c1c", "#ffffff" ],
+					"name": "Secondary and White",
+					"slug": "secondary-and-white"
+				},
+				{
+					"colors": [ "#ef4444", "#ffffff" ],
+					"name": "Tertiary and White",
+					"slug": "tertiary-and-white"
+				}
+			],
+			"gradients": [
+				{
+					"gradient": "linear-gradient(180deg, #7f1d1d 0%, #b91c1c 100%)",
+					"name": "Primary to Secondary",
+					"slug": "primary-secondary"
+				},
+				{
+					"gradient": "linear-gradient(180deg, #b91c1c 0%, #7f1d1d 100%)",
+					"name": "Secondary to Primary",
+					"slug": "secondary-primary"
+				}
+			],
+			"palette": [
+				{
+					"color": "#ffffff",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#0a0a0a",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#7f1d1d",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#b91c1c",
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
+					"color": "#ef4444",
+					"name": "Tertiary",
+					"slug": "tertiary"
+				},
+				{
+					"color": "#f5f5f5",
+					"name": "Neutral",
+					"slug": "neutral"
+				}
+			]
+		}
+	}
+}

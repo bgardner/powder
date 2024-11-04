@@ -5,13 +5,13 @@ Author: Brian Gardner
 Author URI: https://briangardner.com/
 Description: Powder reclaims its minimalist roots by embracing simplicity and focusing on the purity of form and function. Its signature approach—inspired by the vibrant color palettes of Tailwind CSS—transcends conventional design standards and provides a canvas where creativity knows no bounds. Unlock the full potential of Powder with our All-Access plan, which features an extensive library of wireframe patterns and versatile templates, streamlining the development of WordPress websites.
 Requires at least: 6.6
-Tested up to: 6.6.1
+Tested up to: 6.6.2
 Requires PHP: 7.0
 Version: 1.2.2
 License: GNU General Public License v3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: powder
-Tags: block-patterns, block-styles, custom-colors, custom-logo, custom-menu, editor-style, full-site-editing, one-column, translation-ready, wide-blocks
+Tags: block-patterns, block-styles, custom-colors, custom-logo, custom-menu, editor-style, full-site-editing, one-column, style-variations, translation-ready, wide-blocks
 */
 
 
@@ -125,6 +125,14 @@ textarea {
 /* Blocks
 ---------------------------------------- */
 
+/* -- Cover -- */
+
+.wp-block-cover.is-style-gradient .has-background-dim:not([class*=-background-color]) {
+	background-color: transparent;
+	background-image: linear-gradient(to top, rgba(10,10,10,0.8), rgba(10,10,10,1));
+	opacity: 1;
+}
+
 /* -- Navigation -- */
 
 .wp-block-navigation__responsive-container.is-menu-open {
@@ -177,6 +185,20 @@ textarea {
 
 /* Utility
 ---------------------------------------- */
+
+/* -- Box Shadow -- */
+
+.is-style-shadow-faint {
+	box-shadow: var(--wp--preset--shadow--faint);
+}
+
+.is-style-shadow-light {
+	box-shadow: var(--wp--preset--shadow--light);
+}
+
+.is-style-shadow-solid {
+	box-shadow: var(--wp--preset--shadow--solid);
+}
 
 /* -- Position -- */
 
