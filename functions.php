@@ -90,7 +90,6 @@ function powder_register_pattern_categories() {
 		'hero'           => array( __( 'Hero', 'powder' ), __( 'A collection of hero patterns for Powder.', 'powder' ) ),
 		'pricing'        => array( __( 'Pricing', 'powder' ), __( 'A collection of pricing patterns for Powder.', 'powder' ) ),
 		'team'           => array( __( 'Team', 'powder' ), __( 'A collection of team patterns for Powder.', 'powder' ) ),
-		'testimonials'   => array( __( 'Testimonials', 'powder' ), __( 'A collection of testimonials patterns for Powder.', 'powder' ) ),
 		'theme'          => array( __( 'Theme', 'powder' ), __( 'A collection of theme patterns for Powder.', 'powder' ) ),
 	);
 
