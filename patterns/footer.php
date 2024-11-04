@@ -6,8 +6,8 @@
  * Block Types: core/template-part/footer
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Footer"},"align":"full","className":"is-style-section-1","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"fontSize":"x-small","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull is-style-section-1 has-x-small-font-size" style="margin-top:0;padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)">
+<!-- wp:group {"metadata":{"name":"Footer"},"align":"full","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"fontSize":"x-small","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-x-small-font-size" style="margin-top:0;padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)">
 	<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"flex","allowOrientation":false,"justifyContent":"space-between"}} -->
 	<div class="wp-block-group alignwide">
 		<!-- wp:group {"style":{"spacing":{"blockGap":"5px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
@@ -28,9 +28,15 @@
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->
-		<!-- wp:paragraph -->
-		<p><a href="https://www.linkedin.com/">LinkedIn</a> · <a href="https://instagram.com/">Instagram</a> · <a href="https://www.facebook.com/">Facebook</a></p>
-		<!-- /wp:paragraph -->
+		<!-- wp:social-links {"openInNewTab":true,"size":"has-small-icon-size","className":"is-style-outline","style":{"spacing":{"blockGap":{"left":"5px"}}}} -->
+		<ul class="wp-block-social-links has-small-icon-size is-style-outline">
+			<!-- wp:social-link {"url":"https://x.com/","service":"x"} /-->
+			<!-- wp:social-link {"url":"https://www.linkedin.com/","service":"linkedin"} /-->
+			<!-- wp:social-link {"url":"https://instagram.com/","service":"instagram"} /-->
+			<!-- wp:social-link {"url":"https://www.facebook.com/","service":"facebook"} /-->
+			<!-- wp:social-link {"url":"https://www.threads.net/","service":"threads"} /-->
+		</ul>
+		<!-- /wp:social-links -->
 	</div>
 	<!-- /wp:group -->
 </div>
