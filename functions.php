@@ -86,7 +86,6 @@ function powder_register_pattern_category( $slug, $label, $description ) {
  */
 function powder_register_pattern_categories() {
 	$categories = array(
-		'hero'           => array( __( 'Hero', 'powder' ), __( 'A collection of hero patterns for Powder.', 'powder' ) ),
 		'theme'          => array( __( 'Theme', 'powder' ), __( 'A collection of theme patterns for Powder.', 'powder' ) ),
 	);
 
