@@ -2,7 +2,7 @@
 /**
  * Title: Testimonials in grid view
  * Slug: powder/testimonials-grid-dark
- * Categories: powder-testimonials
+ * Categories: testimonials
  */
 ?>
 <!-- wp:group {"metadata":{"name":"Testimonials"},"align":"full","className":"is-style-section-2","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->

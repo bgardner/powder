@@ -2,7 +2,7 @@
 /**
  * Title: Gallery with text and images
  * Slug: powder/gallery-text-images
- * Categories: powder-gallery
+ * Categories: gallery
  */
 ?>
 <!-- wp:group {"metadata":{"name":"Gallery"},"align":"full","className":"is-style-section-1","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->

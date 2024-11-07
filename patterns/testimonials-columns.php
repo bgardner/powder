@@ -2,7 +2,7 @@
 /**
  * Title: Testimonials section with text, image
  * Slug: powder/testimonials-columns
- * Categories: powder-testimonials
+ * Categories: testimonials
  */
 ?>
 <!-- wp:group {"metadata":{"name":"Testimonials"},"align":"full","className":"is-style-section-1","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
