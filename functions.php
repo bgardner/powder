@@ -45,9 +45,6 @@ function powder_register_block_styles() {
 		'core/columns' => array(
 			'column-reverse' => __( 'Reverse', 'powder' ),
 		),
-		'core/cover' => array(
-			'gradient' => __( 'Gradient', 'powder' ),
-		),
 		'core/list' => array(
 			'no-style' => __( 'No Style', 'powder' ),
 		),
@@ -92,7 +89,6 @@ function powder_register_pattern_categories() {
 		'content'        => array( __( 'Content', 'powder' ), __( 'A collection of content patterns for Powder.', 'powder' ) ),
 		'hero'           => array( __( 'Hero', 'powder' ), __( 'A collection of hero patterns for Powder.', 'powder' ) ),
 		'pricing'        => array( __( 'Pricing', 'powder' ), __( 'A collection of pricing patterns for Powder.', 'powder' ) ),
-		'template'       => array( __( 'Template', 'powder' ), __( 'A collection of template patterns for Powder.', 'powder' ) ),
 	);
 
 	foreach ( $categories as $slug => $details ) {
