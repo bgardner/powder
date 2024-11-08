@@ -15,38 +15,6 @@
 					"colors": [ "#064e3b", "#ffffff" ],
 					"name": "Primary and White",
 					"slug": "primary-and-white"
-				},
-				{
-					"colors": [ "#047857", "#ffffff" ],
-					"name": "Secondary and White",
-					"slug": "secondary-and-white"
-				},
-				{
-					"colors": [ "#10b981", "#ffffff" ],
-					"name": "Tertiary and White",
-					"slug": "tertiary-and-white"
-				}
-			],
-			"gradients": [
-				{
-					"gradient": "linear-gradient(var(--wp--preset--color--base) 50%, var(--wp--preset--color--contrast) 50%)",
-					"name": "Base to Contrast",
-					"slug": "base-contrast"
-				},
-				{
-					"gradient": "linear-gradient(var(--wp--preset--color--contrast) 50%, var(--wp--preset--color--base) 50%)",
-					"name": "Contrast to Base",
-					"slug": "contrast-base"
-				},
-				{
-					"gradient": "linear-gradient(180deg, #064e3b 0%, #047857 100%)",
-					"name": "Primary to Secondary",
-					"slug": "primary-secondary"
-				},
-				{
-					"gradient": "linear-gradient(180deg, #047857 0%, #064e3b 100%)",
-					"name": "Secondary to Primary",
-					"slug": "secondary-primary"
 				}
 			],
 			"palette": [

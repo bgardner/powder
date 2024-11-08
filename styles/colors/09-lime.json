@@ -15,16 +15,6 @@
 					"colors": [ "#365314", "#ffffff" ],
 					"name": "Primary and White",
 					"slug": "primary-and-white"
-				},
-				{
-					"colors": [ "#4d7c0f", "#ffffff" ],
-					"name": "Secondary and White",
-					"slug": "secondary-and-white"
-				},
-				{
-					"colors": [ "#84cc16", "#ffffff" ],
-					"name": "Tertiary and White",
-					"slug": "tertiary-and-white"
 				}
 			],
 			"palette": [
