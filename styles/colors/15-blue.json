@@ -27,28 +27,6 @@
 					"slug": "tertiary-and-white"
 				}
 			],
-			"gradients": [
-				{
-					"gradient": "linear-gradient(var(--wp--preset--color--base) 50%, var(--wp--preset--color--contrast) 50%)",
-					"name": "Base to Contrast",
-					"slug": "base-contrast"
-				},
-				{
-					"gradient": "linear-gradient(var(--wp--preset--color--contrast) 50%, var(--wp--preset--color--base) 50%)",
-					"name": "Contrast to Base",
-					"slug": "contrast-base"
-				},
-				{
-					"gradient": "linear-gradient(180deg, #1e3a8a 0%, #1d4ed8 100%)",
-					"name": "Primary to Secondary",
-					"slug": "primary-secondary"
-				},
-				{
-					"gradient": "linear-gradient(180deg, #1d4ed8 0%, #1e3a8a 100%)",
-					"name": "Secondary to Primary",
-					"slug": "secondary-primary"
-				}
-			],
 			"palette": [
 				{
 					"color": "#ffffff",
