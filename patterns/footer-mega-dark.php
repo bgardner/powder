@@ -2,7 +2,7 @@
 /**
  * Title: Footer with text, buttons, social icons
  * Slug: powder/footer-mega-dark
- * Categories: footer
+ * Categories: powder-footer
  * Block Types: core/template-part/footer
  */
 ?>

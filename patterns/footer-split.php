@@ -2,7 +2,7 @@
 /**
  * Title: Split footer with logo and links
  * Slug: powder/footer-split
- * Categories: footer
+ * Categories: powder-footer
  * Block Types: core/template-part/footer
  */
 ?>

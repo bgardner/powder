@@ -2,7 +2,7 @@
 /**
  * Title: Header with site title, separator
  * Slug: powder/header-title-separator-dark
- * Categories: header
+ * Categories: powder-header
  * Block Types: core/template-part/header
  */
 ?>

@@ -2,7 +2,7 @@
 /**
  * Title: Default footer
  * Slug: powder/footer-dark
- * Categories: footer
+ * Categories: powder-footer
  * Block Types: core/template-part/footer
  */
 ?>

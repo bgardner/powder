@@ -2,7 +2,7 @@
 /**
  * Title: Gallery with square grid of images
  * Slug: powder/gallery-grid-square
- * Categories: gallery
+ * Categories: powder-gallery
  */
 ?>
 <!-- wp:group {"metadata":{"name":"Gallery"},"align":"full","className":"is-style-section-1","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->

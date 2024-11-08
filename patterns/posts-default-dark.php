@@ -2,7 +2,7 @@
 /**
  * Title: List of posts
  * Slug: powder/posts-dark
- * Categories: posts
+ * Categories: powder-posts
  * Block Types: core/query
  */
 ?>

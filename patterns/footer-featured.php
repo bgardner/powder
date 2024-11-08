@@ -2,7 +2,7 @@
 /**
  * Title: Featured footer with call to action
  * Slug: powder/footer-featured
- * Categories: footer
+ * Categories: powder-footer
  * Block Types: core/template-part/footer
  */
 ?>

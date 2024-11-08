@@ -2,7 +2,7 @@
 /**
  * Title: Multi-column footer with text, social icons.
  * Slug: powder/footer-multi-column-dark
- * Categories: footer
+ * Categories: powder-footer
  * Block Types: core/template-part/footer
  */
 ?>

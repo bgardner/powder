@@ -2,7 +2,7 @@
 /**
  * Title: Team members in columns view
  * Slug: powder/team-columns-dark
- * Categories: team
+ * Categories: powder-team
  */
 ?>
 <!-- wp:group {"metadata":{"name":"Team Members"},"align":"full","className":"is-style-section-2","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->

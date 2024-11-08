@@ -2,7 +2,7 @@
 /**
  * Title: Bold testimonial with text, images
  * Slug: powder/testimonials-bold-dark
- * Categories: testimonials
+ * Categories: powder-testimonials
  */
 ?>
 <!-- wp:group {"metadata":{"name":"Testimonial"},"align":"full","className":"is-style-section-2","style":{"spacing":{"margin":{"top":"0"}}},"layout":{"type":"constrained","wideSize":"1280px"}} -->

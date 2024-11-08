@@ -2,7 +2,7 @@
 /**
  * Title: Grid of posts
  * Slug: powder/posts-grid-dark
- * Categories: posts
+ * Categories: powder-posts
  * Block Types: core/query
  */
 ?>

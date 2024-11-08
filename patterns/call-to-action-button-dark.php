@@ -2,7 +2,7 @@
 /**
  * Title: Call to action with text, button
  * Slug: powder/call-to-action-button-dark
- * Categories: call-to-action
+ * Categories: powder-call-to-action
  */
 ?>
 <!-- wp:group {"metadata":{"name":"Call to Action"},"align":"full","className":"is-style-section-2","style":{"spacing":{"margin":{"top":"0px"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->

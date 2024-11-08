@@ -2,7 +2,7 @@
 /**
  * Title: Stacked footer with call to action
  * Slug: powder/footer-stacked-dark
- * Categories: footer
+ * Categories: powder-footer
  * Block Types: core/template-part/footer
  */
 ?>

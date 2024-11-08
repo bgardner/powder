@@ -2,7 +2,7 @@
 /**
  * Title: Header with site logo, social icons
  * Slug: powder/header-logo-social-dark
- * Categories: header
+ * Categories: powder-header
  * Block Types: core/template-part/header
  */
 ?>
