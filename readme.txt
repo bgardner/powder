@@ -52,18 +52,8 @@ site-logo-light.svg
 The following icons are available through Google Material Icons and declared under Apache Open Source License, Version 2.0.
 License URL: https://www.apache.org/licenses/LICENSE-2.0
 
-icon-circle-bolt-dark.svg
-icon-circle-bolt-light.svg
 icon-circle-bolt.svg
-icon-circle-check-dark.svg
-icon-circle-check-light.svg
 icon-circle-check.svg
-icon-circle-x-dark.svg
-icon-circle-x-light.svg
 icon-circle-x.svg
-icon-quote-bottom-dark.svg
-icon-quote-bottom-light.svg
 icon-quote-bottom.svg
-icon-quote-top-dark.svg
-icon-quote-top-light.svg
 icon-quote-top.svg
