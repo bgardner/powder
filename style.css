@@ -156,12 +156,6 @@ textarea {
 /* Utility
 ---------------------------------------- */
 
-/* -- Box Shadow -- */
-
-.is-style-shadow-light {
-	box-shadow: var(--wp--preset--shadow--light);
-}
-
 /* -- Position -- */
 
 .is-style-position-fixed {
