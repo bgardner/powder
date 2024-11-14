@@ -21,8 +21,8 @@
 				<!-- wp:group {"tagName":"header","style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 				<header class="wp-block-group">
 					<!-- wp:avatar {"size":48,"style":{"border":{"radius":"24px"}}} /-->
-					<!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"default"}} -->
-					<div class="wp-block-group">
+					<!-- wp:group {"style":{"spacing":{"blockGap":"0"},"typography":{"lineHeight":"1.5"}},"fontSize":"x-small","layout":{"type":"default"}} -->
+					<div class="wp-block-group has-x-small-font-size" style="line-height:1.5">
 						<!-- wp:comment-author-name /-->
 						<!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex"}} -->
 						<div class="wp-block-group">

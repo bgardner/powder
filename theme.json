@@ -290,24 +290,6 @@
 					"fontSize": "var(--wp--preset--font-size--x-small)"
 				}
 			},
-			"core/comment-author-name": {
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--x-small)",
-					"lineHeight": "var(--wp--custom--line-height--medium)"
-				}
-			},
-			"core/comment-date": {
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--x-small)",
-					"lineHeight": "var(--wp--custom--line-height--medium)"
-				}
-			},
-			"core/comment-edit-link": {
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--x-small)",
-					"lineHeight": "var(--wp--custom--line-height--medium)"
-				}
-			},
 			"core/cover": {
 				"spacing": {
 					"padding": {
