@@ -15,6 +15,6 @@ See the Powder theme in action at [https://powderwp.com/demo/](https://powderwp.
 ## Getting Started
 
 1. Set up a local WordPress development environment, we recommend using [Local](https://localwp.com/).
-2. Ensure you are using WordPress 6.6+.
+2. Ensure you are using WordPress 6.7+.
 3. Clone / download this repository into the `/wp-content/themes/` directory of your new WordPress instance.
 4. In the WordPress admin, use the Appearance > Themes screen to activate Powder.
