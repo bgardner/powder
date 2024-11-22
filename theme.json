@@ -42,12 +42,12 @@
 			"defaultPalette": false,
 			"duotone": [
 				{
-					"colors": [ "#0a0a0a", "#ffffff" ],
+					"colors": [ "#000000", "#ffffff" ],
 					"name": "Contrast and White",
 					"slug": "contrast-and-white"
 				},
 				{
-					"colors": [ "#4c1d95", "#ffffff" ],
+					"colors": [ "#400080", "#ffffff" ],
 					"name": "Primary and White",
 					"slug": "primary-and-white"
 				}
@@ -59,24 +59,14 @@
 					"slug": "base"
 				},
 				{
-					"color": "#0a0a0a",
+					"color": "#000000",
 					"name": "Contrast",
 					"slug": "contrast"
 				},
 				{
-					"color": "#4c1d95",
+					"color": "#400080",
 					"name": "Primary",
 					"slug": "primary"
-				},
-				{
-					"color": "#6d28d9",
-					"name": "Secondary",
-					"slug": "secondary"
-				},
-				{
-					"color": "#8b5cf6",
-					"name": "Tertiary",
-					"slug": "tertiary"
 				},
 				{
 					"color": "#f5f5f5",
@@ -114,7 +104,7 @@
 			"presets": [
 				{
 					"name": "Light",
-					"shadow": "0 0 10px rgb(10, 10, 10, 0.1)",
+					"shadow": "0 0 10px rgb(0, 0, 0, 0.1)",
 					"slug": "light"
 				}
 			]
@@ -500,7 +490,7 @@
 					"radius": "0"
 				},
 				"color": {
-					"background": "var(--wp--preset--color--contrast)",
+					"background": "var(--wp--preset--color--primary)",
 					"text": "var(--wp--preset--color--base)"
 				},
 				"css": "{width: auto;}",
