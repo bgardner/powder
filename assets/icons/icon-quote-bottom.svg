@@ -1,6 +1,1 @@
-<svg width="160" height="120" viewBox="0 0 160 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="30" cy="30" r="29.5" transform="rotate(-180 30 30)" fill="#0A0A0A" stroke="#0A0A0A"/>
-<line x1="80.8745" y1="0.485026" x2="14.8745" y2="119.485" stroke="#0A0A0A" stroke-width="2"/>
-<circle cx="108" cy="30" r="29.5" transform="rotate(-180 108 30)" fill="#0A0A0A" stroke="#0A0A0A"/>
-<line x1="158.875" y1="0.485019" x2="92.8745" y2="119.485" stroke="#0A0A0A" stroke-width="2"/>
-</svg>
+<svg width="160" height="120" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#a)" stroke="#000"><path d="M30 .5C13.708.5.5 13.708.5 30S13.708 59.5 30 59.5 59.5 46.292 59.5 30 46.292.5 30 .5Z" fill="#000"/><path d="m80.874.485-66 119" stroke-width="2"/><path d="M108 .5C91.708.5 78.5 13.708 78.5 30S91.708 59.5 108 59.5s29.5-13.208 29.5-29.5S124.292.5 108 .5Z" fill="#000"/><path d="m158.875.485-66 119" stroke-width="2"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h160v120H0z"/></clipPath></defs></svg>
