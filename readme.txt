@@ -9,7 +9,7 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
 
-Powder reclaims its minimalist roots by embracing simplicity and focusing on the purity of form and function. Its signature approach—inspired by the vibrant color palettes of Tailwind CSS—transcends conventional design standards and provides a canvas where creativity knows no bounds. Unlock the full potential of Powder with our All-Access plan, which features an extensive library of wireframe patterns and versatile templates, streamlining the development of WordPress websites.
+Powder reclaims its minimalist roots by embracing simplicity and the purity of form and function. Its signature approach transcends conventional WordPress design standards, offering a canvas where creativity flourishes. Experience the full potential of Powder with our All-Access plan, which features an extensive library of starter themes, wireframe patterns, and versatile templates.
 
 == Copyright ==
 
