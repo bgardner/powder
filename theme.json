@@ -596,18 +596,20 @@
 	],
 	"customTemplates": [
 		{
-			"name": "page-blank",
+			"name": "blank",
 			"postTypes": [
-				"page"
+				"page",
+				"post"
 			],
-			"title": "Page: Blank"
+			"title": "Blank"
 		},
 		{
-			"name": "page-no-title",
+			"name": "no-title",
 			"postTypes": [
-				"page"
+				"page",
+				"post"
 			],
-			"title": "Page: No Title"
+			"title": "No Title"
 		}
 	]
 }
