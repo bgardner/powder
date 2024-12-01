@@ -240,7 +240,7 @@
 		"blocks": {
 			"core/button": {
 				"variations": {
-					"outline" : {
+					"outline": {
 						"border": {
 							"color": "currentColor",
 							"style": "solid",
