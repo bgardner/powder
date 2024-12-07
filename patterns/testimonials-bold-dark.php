@@ -5,10 +5,10 @@
  * Categories: powder-testimonials
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Testimonial"},"align":"full","className":"is-style-section-2","style":{"spacing":{"margin":{"top":"0"}}},"layout":{"type":"constrained","wideSize":"1280px"}} -->
-<div class="wp-block-group alignfull is-style-section-2" style="margin-top:0">
-	<!-- wp:image {"width":"60px","sizeSlug":"full","linkDestination":"none","align":"center","className":"is-style-icon"} -->
-	<figure class="wp-block-image aligncenter size-full is-resized is-style-icon"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-quote-top.svg'; ?>" alt="Quote top icon" style="width:60px"/></figure>
+<!-- wp:group {"metadata":{"name":"Testimonial"},"align":"full","style":{"spacing":{"margin":{"top":"0"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained","wideSize":"1280px"}} -->
+<div class="wp-block-group alignfull has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="margin-top:0">
+	<!-- wp:image {"width":"60px","sizeSlug":"full","linkDestination":"none","align":"center","className":"is-style-invert"} -->
+	<figure class="wp-block-image aligncenter size-full is-resized is-style-invert"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-quote-top.svg'; ?>" alt="Quote top icon" style="width:60px"/></figure>
 	<!-- /wp:image -->
 	<!-- wp:group {"style":{"spacing":{"margin":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|20"}},"layout":{"type":"default"}} -->
 	<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--80);margin-bottom:var(--wp--preset--spacing--80)">
@@ -20,8 +20,8 @@
 		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:group -->
-	<!-- wp:image {"width":"60px","sizeSlug":"full","linkDestination":"none","align":"center","className":"is-style-icon"} -->
-	<figure class="wp-block-image aligncenter size-full is-resized is-style-icon"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-quote-bottom.svg'; ?>" alt="Quote bottom icon" style="width:60px"/></figure>
+	<!-- wp:image {"width":"60px","sizeSlug":"full","linkDestination":"none","align":"center","className":"is-style-invert"} -->
+	<figure class="wp-block-image aligncenter size-full is-resized is-style-invert"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-quote-bottom.svg'; ?>" alt="Quote bottom icon" style="width:60px"/></figure>
 	<!-- /wp:image -->
 </div>
 <!-- /wp:group -->
