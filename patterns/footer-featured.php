@@ -6,8 +6,8 @@
  * Block Types: core/template-part/footer
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Footer"},"align":"full","className":"is-style-section-1","style":{"spacing":{"margin":{"top":"0"},"blockGap":"var:preset|spacing|80","padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|40"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull is-style-section-1" style="margin-top:0;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--40)">
+<!-- wp:group {"metadata":{"name":"Footer"},"align":"full","style":{"spacing":{"margin":{"top":"0"},"blockGap":"var:preset|spacing|80","padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|40"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="margin-top:0;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--40)">
 	<!-- wp:columns {"verticalAlignment":"center","align":"wide","className":"is-style-column-reverse"} -->
 	<div class="wp-block-columns alignwide are-vertically-aligned-center is-style-column-reverse">
 		<!-- wp:column {"verticalAlignment":"center","width":""} -->
