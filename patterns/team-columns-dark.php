@@ -5,10 +5,10 @@
  * Categories: powder-team
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Team Members"},"align":"full","className":"is-style-section-2","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull is-style-section-2" style="margin-top:0;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
+<!-- wp:group {"metadata":{"name":"Team Members"},"align":"full","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="margin-top:0;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
 	<!-- wp:heading {"textAlign":"center","level":1,"align":"wide","fontSize":"xx-large"} -->
-	<h1 class="wp-block-heading alignwide has-text-align-center has-xx-large-font-size">Team Members</h1>
+	<h1 class="wp-block-heading alignwide has-text-align-center has-xx-large-font-size"><?php echo esc_html__( 'Team Members', 'powder' ); ?></h1>
 	<!-- /wp:heading -->
 	<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|40"},"margin":{"top":"var:preset|spacing|60"}}}} -->
 	<div class="wp-block-columns alignwide" style="margin-top:var(--wp--preset--spacing--60)">
