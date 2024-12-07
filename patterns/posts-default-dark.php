@@ -6,8 +6,8 @@
  * Block Types: core/query
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Posts"},"align":"full","className":"is-style-section-2","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull is-style-section-2">
+<!-- wp:group {"metadata":{"name":"Posts"},"align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-color has-contrast-background-color has-text-color has-background has-link-color">
 	<!-- wp:query {"queryId":0,"query":{"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"layout":{"type":"constrained"}} -->
 	<div class="wp-block-query">
 		<!-- wp:post-template -->
