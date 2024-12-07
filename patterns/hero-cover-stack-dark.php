@@ -5,8 +5,8 @@
  * Categories: powder-hero
  */
 ?>
-<!-- wp:cover {"metadata":{"name":"Hero Cover"},"overlayColor":"contrast","isUserOverlayColor":true,"minHeight":600,"align":"full","className":"is-style-default","style":{"spacing":{"blockGap":"10px","margin":{"top":"0"}}},"textColor":"base","layout":{"type":"constrained","wideSize":"1280px"}} -->
-<div class="wp-block-cover alignfull is-style-default has-base-color has-text-color" style="margin-top:0;min-height:600px"><span aria-hidden="true" class="wp-block-cover__background has-contrast-background-color has-background-dim-100 has-background-dim"></span><div class="wp-block-cover__inner-container">
+<!-- wp:cover {"metadata":{"name":"Hero Cover"},"overlayColor":"contrast","isUserOverlayColor":true,"minHeight":600,"align":"full","style":{"spacing":{"blockGap":"10px","margin":{"top":"0"}}},"textColor":"base","layout":{"type":"constrained","wideSize":"1280px"}} -->
+<div class="wp-block-cover alignfull has-base-color has-text-color" style="margin-top:0;min-height:600px"><span aria-hidden="true" class="wp-block-cover__background has-contrast-background-color has-background-dim-100 has-background-dim"></span><div class="wp-block-cover__inner-container">
 	<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained","wideSize":"880px","justifyContent":"left"}} -->
 	<div class="wp-block-group">
 		<!-- wp:heading {"level":1,"style":{"typography":{"fontStyle":"normal","fontWeight":"300","fontSize":"60px"}}} -->
