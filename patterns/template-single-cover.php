@@ -3,7 +3,7 @@
  * Title: Post with cover image
  * Slug: powder/template-single-cover
  * Categories: powder-template
- * Template Types: page
+ * Template Types: single
  */
 ?>
 <!-- wp:template-part {"slug":"header","tagName":"header","className":"site-header"} /-->
