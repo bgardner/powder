@@ -5,7 +5,7 @@
  * @package	Powder
  * @author	Brian Gardner
  * @license	GNU General Public License v3
- * @link	https://powderwp.com/
+ * @link	https://briangardner.com/powder/
  */
 
 if ( ! function_exists( 'powder_setup' ) ) {

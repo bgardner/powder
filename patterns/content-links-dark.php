@@ -48,7 +48,7 @@
 		</ul>
 		<!-- /wp:social-links -->
 		<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}},"fontSize":"x-small"} -->
-		<p class="has-text-align-center has-x-small-font-size" style="margin-top:var(--wp--preset--spacing--60)"><a href="https://powderwp.com/">Made with Powder</a></p>
+		<p class="has-text-align-center has-x-small-font-size" style="margin-top:var(--wp--preset--spacing--60)"><a href="https://briangardner.com/powder/">Made with Powder</a></p>
 		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:group -->

@@ -4,7 +4,7 @@ Powder reclaims its minimalist roots by embracing simplicity and the purity of f
 
 ## Demo
 
-See the Powder theme in action at [https://powderwp.com/demo/](https://powderwp.com/demo/).
+See the Powder theme in action at [https://briangardner.com/powder/demo/](https://briangardner.com/powder/demo/).
 
 ## Requirements
 
