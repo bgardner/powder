@@ -18,6 +18,10 @@ Tags: block-patterns, block-styles, custom-colors, custom-logo, custom-menu, edi
 /* Defaults
 ---------------------------------------- */
 
+html {
+	scroll-behavior: smooth;
+}
+
 a,
 button,
 input,
