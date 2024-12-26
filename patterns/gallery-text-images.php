@@ -15,7 +15,7 @@
 			<h2 class="wp-block-heading has-xx-large-font-size"><?php echo esc_html__( 'My Images', 'powder' ); ?></h2>
 			<!-- /wp:heading -->
 			<!-- wp:paragraph -->
-			<p><?php echo esc_html__( 'Powder reclaims its minimalist roots by embracing simplicity and focusing on the purity of form and function. Its signature approach—inspired by the vibrant color palettes of Tailwind CSS—transcends conventional design standards and provides a canvas where creativity knows no bounds.', 'powder' ); ?></p>
+			<p><?php echo esc_html__( 'Powder reclaims its minimalist roots by embracing simplicity and the purity of form and function. Its signature approach transcends conventional design standards, offering a canvas where creativity flourishes.', 'powder' ); ?></p>
 			<!-- /wp:paragraph -->
 			<!-- wp:paragraph -->
 			<p><a href="#"><?php echo esc_html__( 'View Gallery →', 'powder' ); ?></a></p>
