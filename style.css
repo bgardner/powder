@@ -43,9 +43,7 @@ th {
 	font-weight: var(--wp--custom--font-weight--medium);
 }
 
-*:not(.wp-block-code) > code {
-	background-color: var(--wp--preset--color--neutral);
-	font-family: inherit;
+mark {
 	font-size: var(--wp--preset--font-size--small);
 	font-weight: var(--wp--custom--font-weight--regular);
 	padding: 5px 8px;
