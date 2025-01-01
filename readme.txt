@@ -13,7 +13,7 @@ Powder reclaims its minimalist roots by embracing simplicity and the purity of f
 
 == Copyright ==
 
-Powder WordPress Theme, (C) 2022-2024 Brian Gardner.
+Powder WordPress Theme, (C) 2006-2025 Brian Gardner.
 Powder is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
