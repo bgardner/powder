@@ -415,24 +415,6 @@
 						"bottom": "var(--wp--preset--spacing--40)",
 						"left": "var(--wp--preset--spacing--40)"
 					}
-				},
-				"variations": {
-					"plain" : {
-						"border": {
-							"style": "none"
-						},
-						"typography": {
-							"fontStyle": "italic"
-						},
-						"spacing": {
-							"padding": {
-								"top": "0",
-								"right": "0",
-								"bottom": "0",
-								"left": "0"
-							}
-						}
-					}
 				}
 			},
 			"core/search": {
