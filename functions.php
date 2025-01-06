@@ -1,6 +1,6 @@
 <?php
 /**
- * Functions for the Powder WordPress theme.
+ * Functions for the Powder theme for WordPress.
  *
  * @package	Powder
  * @author	Brian Gardner
