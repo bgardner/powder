@@ -2,14 +2,6 @@
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 3,
 	"settings": {
-	    "patterns": {
-	      "categories": {
-	        "powder-social": {
-	          "label": "Powder Social",
-	          "description": "A collection of patterns specifically designed for this theme."
-	        }
-	      }
-	    },
 		"appearanceTools": true,
 		"blocks": {
 			"core/button": {
