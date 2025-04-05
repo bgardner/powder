@@ -8,7 +8,7 @@ See the Powder theme in action at [https://briangardner.com/powder/demo/](https:
 
 ## Requirements
 
-- WordPress 6.87+
+- WordPress 6.7+
 - PHP 7.2+
 - License: [GNU General Public License v3](https://www.gnu.org/licenses/gpl-3.0.html)
 
