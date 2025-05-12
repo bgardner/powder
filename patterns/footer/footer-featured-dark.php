@@ -29,7 +29,7 @@
 				</div>
 				<!-- /wp:group -->
 				<!-- wp:heading {"style":{"typography":{"fontSize":"60px"}}} -->
-				<h2 class="wp-block-heading" style="font-size:60px"><?php echo esc_html__( 'Are you ready to start designing with WordPress?', 'powder' ); ?></h2>
+				<h2 class="wp-block-heading" style="font-size:60px"><?php echo esc_html__( 'Design and build stunning websites with Powder.', 'powder' ); ?></h2>
 				<!-- /wp:heading -->
 				<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40"}}}} -->
 				<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--40)">

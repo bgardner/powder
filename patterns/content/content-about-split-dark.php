@@ -21,7 +21,7 @@
 		<!-- wp:column {"verticalAlignment":"top"} -->
 		<div class="wp-block-column is-vertically-aligned-top">
 			<!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"300","fontSize":"48px"}}} -->
-			<h2 class="wp-block-heading" style="font-size:48px;font-style:normal;font-weight:300"><?php echo esc_html__( 'Are you ready to start designing with WordPress?', 'powder' ); ?></h2>
+			<h2 class="wp-block-heading" style="font-size:48px;font-style:normal;font-weight:300"><?php echo esc_html__( 'Design and build stunning websites with Powder.', 'powder' ); ?></h2>
 			<!-- /wp:heading -->
 			<!-- wp:buttons -->
 			<div class="wp-block-buttons">

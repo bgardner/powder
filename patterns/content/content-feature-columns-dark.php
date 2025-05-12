@@ -22,7 +22,7 @@
 		<!-- wp:column {"verticalAlignment":"center"} -->
 		<div class="wp-block-column is-vertically-aligned-center">
 			<!-- wp:heading {"style":{"typography":{"fontSize":"48px"}}} -->
-			<h2 class="wp-block-heading" style="font-size:48px"><?php echo esc_html__( 'Are you ready to start designing with WordPress?', 'powder' ); ?></h2>
+			<h2 class="wp-block-heading" style="font-size:48px"><?php echo esc_html__( 'Design and build stunning websites with Powder.', 'powder' ); ?></h2>
 			<!-- /wp:heading -->
 		</div>
 		<!-- /wp:column -->
