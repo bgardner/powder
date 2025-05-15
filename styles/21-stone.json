@@ -1,0 +1,69 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Stone",
+	"description": "Stone-based palette with four shades",
+	"settings": {
+		"color": {
+			"duotone": [
+				{
+					"colors": [ "#292524", "#ffffff" ],
+					"name": "Primary and White",
+					"slug": "primary-and-white"
+				},
+				{
+					"colors": [ "#57534d", "#ffffff" ],
+					"name": "Secondary and White",
+					"slug": "secondary-and-white"
+				},
+				{
+					"colors": [ "#0a0a0a", "#ffffff" ],
+					"name": "Contrast and White",
+					"slug": "contrast-and-white"
+				},
+				{
+					"colors": [ "#0a0a0a", "#a6a09b" ],
+					"name": "Contrast and Tertiary",
+					"slug": "contrast-and-tertiary"
+				},
+				{
+					"colors": [ "#0a0a0a", "#e7e5e4" ],
+					"name": "Contrast and Quaternary",
+					"slug": "contrast-and-quaternary"
+				}
+			],
+			"palette": [
+				{
+					"color": "#292524",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#57534d",
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
+					"color": "#a6a09b",
+					"name": "Tertiary",
+					"slug": "tertiary"
+				},
+				{
+					"color": "#e7e5e4",
+					"name": "Quaternary",
+					"slug": "quaternary"
+				},
+				{
+					"color": "#ffffff",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#0a0a0a",
+					"name": "Contrast",
+					"slug": "contrast"
+				}
+			]
+		}
+	}
+}

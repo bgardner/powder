@@ -18,6 +18,16 @@ Tags: block-patterns, block-styles, custom-colors, custom-logo, custom-menu, edi
 /* Legacy Styles (Do not remove)
 ---------------------------------------- */
 
+/* -- Colors -- */
+
+:root {
+	--wp--preset--color--neutral: #f5f5f5;
+}
+
+.has-neutral-background-color {
+	background-color: var(--wp--preset--color--neutral) !important;
+}
+
 /* -- Spacing -- */
 
 :root {
