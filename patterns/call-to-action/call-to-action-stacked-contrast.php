@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Call to action with text, button
- * Slug: powder/call-to-action-stacked-dark
+ * Slug: powder/call-to-action-stacked-contrast
  * Categories: powder-call-to-action
  */
 ?>
