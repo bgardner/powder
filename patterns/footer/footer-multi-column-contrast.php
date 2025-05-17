@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Multi-column footer with text, social icons.
- * Slug: powder/footer-multi-column-dark
+ * Slug: powder/footer-multi-column-contrast
  * Categories: powder-footer
  * Block Types: core/template-part/footer
  */

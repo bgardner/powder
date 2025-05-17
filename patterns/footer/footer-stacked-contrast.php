@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Stacked footer with call to action
- * Slug: powder/footer-stacked-dark
+ * Slug: powder/footer-stacked-contrast
  * Categories: powder-footer
  * Block Types: core/template-part/footer
  */
