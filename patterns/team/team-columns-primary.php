@@ -1,12 +1,12 @@
 <?php
 /**
  * Title: Team members in columns view
- * Slug: powder/team-columns-dark
+ * Slug: powder/team-columns-primary
  * Categories: powder-team
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Team Members"},"align":"full","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="margin-top:0;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
+<!-- wp:group {"metadata":{"name":"Team Members"},"align":"full","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"primary","textColor":"base","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-base-color has-primary-background-color has-text-color has-background has-link-color" style="margin-top:0;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
 	<!-- wp:heading {"textAlign":"center","level":1,"align":"wide","fontSize":"xx-large"} -->
 	<h1 class="wp-block-heading alignwide has-text-align-center has-xx-large-font-size"><?php echo esc_html__( 'Team Members', 'powder' ); ?></h1>
 	<!-- /wp:heading -->
