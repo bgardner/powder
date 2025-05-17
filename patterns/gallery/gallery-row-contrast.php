@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Gallery with row of images
- * Slug: powder/gallery-row-dark
+ * Slug: powder/gallery-row-contrast
  * Categories: powder-gallery
  */
 ?>
