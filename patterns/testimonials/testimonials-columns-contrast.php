@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Testimonials section with text, image
- * Slug: powder/testimonials-columns-dark
+ * Slug: powder/testimonials-columns-contrast
  * Categories: powder-testimonials
  */
 ?>

@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Bold testimonial with text, images
- * Slug: powder/testimonials-bold-dark
+ * Slug: powder/testimonials-bold-contrast
  * Categories: powder-testimonials
  */
 ?>
