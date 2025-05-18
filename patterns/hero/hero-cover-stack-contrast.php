@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Cover section with text, buttons
- * Slug: powder/hero-cover-stack-dark
+ * Slug: powder/hero-cover-stack-contrast
  * Categories: powder-hero
  */
 ?>

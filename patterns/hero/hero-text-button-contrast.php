@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Section with text, button
- * Slug: powder/hero-text-button-dark
+ * Slug: powder/hero-text-button-contrast
  * Categories: powder-hero
  */
 ?>
