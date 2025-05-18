@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Section with text, button
- * Slug: powder/hero-text-button-quaternary
+ * Slug: powder/hero-basic-text-button-quaternary
  * Categories: powder-hero
  */
 ?>
