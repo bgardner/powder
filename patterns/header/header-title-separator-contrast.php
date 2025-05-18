@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Header with site logo
- * Slug: powder/header-site-logo-dark
+ * Title: Header with site title, separator
+ * Slug: powder/header-title-separator-contrast
  * Categories: powder-header
  * Block Types: core/template-part/header
  */
@@ -10,10 +10,12 @@
 <div class="wp-block-group alignfull has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="margin-top:0px;padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)">
 	<!-- wp:group {"align":"wide","layout":{"type":"flex","justifyContent":"space-between"}} -->
 	<div class="wp-block-group alignwide">
-		<!-- wp:group {"style":{"spacing":{"blockGap":"10px"},"layout":{"selfStretch":"fixed","flexSize":"200px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+		<!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 		<div class="wp-block-group">
-			<!-- wp:site-logo {"width":30} /-->
-			<!-- wp:site-title {"level":0} /-->
+			<!-- wp:site-title {"level":0,"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"small"} /-->
+			<!-- wp:separator -->
+			<hr class="wp-block-separator has-alpha-channel-opacity"/>
+			<!-- /wp:separator -->
 		</div>
 		<!-- /wp:group -->
 		<!-- wp:navigation {"layout":{"type":"flex","setCascadingProperties":true}} /-->

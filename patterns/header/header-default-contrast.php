@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Default header
- * Slug: powder/header-dark
+ * Slug: powder/header-contrast
  * Categories: powder-header
  * Block Types: core/template-part/header
  */
