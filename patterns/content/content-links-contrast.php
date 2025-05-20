@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Section with image, links, social icons
- * Slug: powder/content-links-dark
+ * Slug: powder/content-links-contrast
  * Categories: powder-content
  */
 ?>

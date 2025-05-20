@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: About section half-width
- * Slug: powder/content-about-half
- * Categories: powder-content
+ * Slug: powder/about-half
+ * Categories: powder-about
  */
 ?>
 <!-- wp:group {"metadata":{"name":"About Half-width"},"align":"full","style":{"spacing":{"blockGap":"var:preset|spacing|20","padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->

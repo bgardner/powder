@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Logo section with images
- * Slug: powder/content-logos-dark
+ * Slug: powder/content-logos-contrast
  * Categories: powder-content
  */
 ?>

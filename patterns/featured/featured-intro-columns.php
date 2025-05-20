@@ -1,11 +1,11 @@
 <?php
 /**
- * Title: Feature about section
- * Slug: powder/content-feature-about
- * Categories: powder-content
+ * Title: Section with intro, columns of text
+ * Slug: powder/featured-intro-columns
+ * Categories: powder-featured
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Feature About"},"align":"full","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
+<!-- wp:group {"metadata":{"name":"Featured Intro"},"align":"full","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull" style="margin-top:0;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
 	<!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
 	<div class="wp-block-group alignwide">

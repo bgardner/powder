@@ -1,12 +1,12 @@
 <?php
 /**
  * Title: Social media followers
- * Slug: powder/content-social-numbers
+ * Slug: powder/content-social-numbers-primary
  * Categories: powder-content
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Social Numbers"},"align":"full","style":{"spacing":{"margin":{"top":"0px"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained","wideSize":"1080px"}} -->
-<div class="wp-block-group alignfull" style="margin-top:0px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
+<!-- wp:group {"metadata":{"name":"Social Numbers"},"align":"full","style":{"spacing":{"margin":{"top":"0px"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"primary","textColor":"base","layout":{"type":"constrained","wideSize":"1080px"}} -->
+<div class="wp-block-group alignfull has-base-color has-primary-background-color has-text-color has-background has-link-color" style="margin-top:0px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
 	<!-- wp:columns -->
 	<div class="wp-block-columns">
 		<!-- wp:column {"style":{"spacing":{"blockGap":"10px"}}} -->

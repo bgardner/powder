@@ -1,12 +1,12 @@
 <?php
 /**
  * Title: Social media followers
- * Slug: powder/content-social-numbers-dark
+ * Slug: powder/content-social-numbers-quaternary.
  * Categories: powder-content
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Social Numbers"},"align":"full","style":{"spacing":{"margin":{"top":"0px"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained","wideSize":"1080px"}} -->
-<div class="wp-block-group alignfull has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="margin-top:0px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
+<!-- wp:group {"metadata":{"name":"Social Numbers"},"align":"full","style":{"spacing":{"margin":{"top":"0px"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"backgroundColor":"quaternary","layout":{"type":"constrained","wideSize":"1080px"}} -->
+<div class="wp-block-group alignfull has-quaternary-background-color has-background" style="margin-top:0px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
 	<!-- wp:columns -->
 	<div class="wp-block-columns">
 		<!-- wp:column {"style":{"spacing":{"blockGap":"10px"}}} -->
@@ -35,7 +35,7 @@
 			<p class="has-text-align-center" style="font-size:48px;line-height:1">30K</p>
 			<!-- /wp:paragraph -->
 			<!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":"1"}},"fontSize":"x-small"} -->
-			<p class="has-text-align-center has-x-small-font-size" style="line-height:1"><?php echo esc_html__( 'Twitter Followers', 'powder' ); ?></p>
+			<p class="has-text-align-center has-x-small-font-size" style="line-height:1"><?php echo esc_html__( 'X / Twitter Followers', 'powder' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->
