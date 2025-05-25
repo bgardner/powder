@@ -52,19 +52,26 @@
 					"slug": "secondary-and-white"
 				},
 				{
-					"colors": [ "#0a0a0a", "#ffffff" ],
+					"colors": [ "#000000", "#ffffff" ],
 					"name": "Contrast and White",
 					"slug": "contrast-and-white"
 				},
 				{
-					"colors": [ "#0a0a0a", "#c4b4ff" ],
+					"colors": [ "#000000", "#c4b4ff" ],
 					"name": "Contrast and Tertiary",
 					"slug": "contrast-and-tertiary"
 				},
 				{
-					"colors": [ "#0a0a0a", "#ede9fe" ],
+					"colors": [ "#000000", "#ede9fe" ],
 					"name": "Contrast and Quaternary",
 					"slug": "contrast-and-quaternary"
+				}
+			],
+			"gradients": [
+				{
+					"gradient": "linear-gradient(0deg, var(--wp--preset--color--primary) 0%, var(--wp--preset--color--contrast) 100%)",
+					"name": "Primary to Contrast",
+					"slug": "primary-contrast"
 				}
 			],
 			"palette": [
@@ -94,7 +101,7 @@
 					"slug": "base"
 				},
 				{
-					"color": "#0a0a0a",
+					"color": "#000000",
 					"name": "Contrast",
 					"slug": "contrast"
 				}

@@ -17,17 +17,17 @@
 					"slug": "secondary-and-white"
 				},
 				{
-					"colors": [ "#0a0a0a", "#ffffff" ],
+					"colors": [ "#000000", "#ffffff" ],
 					"name": "Contrast and White",
 					"slug": "contrast-and-white"
 				},
 				{
-					"colors": [ "#0a0a0a", "#8ec5ff" ],
+					"colors": [ "#000000", "#8ec5ff" ],
 					"name": "Contrast and Tertiary",
 					"slug": "contrast-and-tertiary"
 				},
 				{
-					"colors": [ "#0a0a0a", "#dbeafe" ],
+					"colors": [ "#000000", "#dbeafe" ],
 					"name": "Contrast and Quaternary",
 					"slug": "contrast-and-quaternary"
 				}
@@ -59,7 +59,7 @@
 					"slug": "base"
 				},
 				{
-					"color": "#0a0a0a",
+					"color": "#000000",
 					"name": "Contrast",
 					"slug": "contrast"
 				}
