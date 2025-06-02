@@ -1,6 +1,6 @@
 <?php
 /**
- * Functions for the Powder theme for WordPress.
+ * Functions for the Powder WordPress theme.
  *
  * @package	Powder
  * @author	Brian Gardner
@@ -11,7 +11,7 @@
 if ( ! function_exists( 'powder_setup' ) ) {
 
 	/**
-	 * Initialize theme defaults and add support for WordPress features.
+	 * Initialize theme styles and support.
 	 */
 	function powder_setup() {
 

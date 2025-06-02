@@ -1,10 +1,10 @@
 # Powder
 
-Powder reclaims its minimalist roots by embracing simplicity and the purity of form and function. Its signature approach transcends conventional WordPress design standards, offering a canvas where creativity flourishes. Experience the full potential of Powder, which features an extensive library of patterns and versatile templates.
+Powder returns to its minimalist roots, embracing simplicity through clarity and balance. Thoughtfully optimized for the block editor, it offers a flexible canvas where ideas take shape. With an extensive library of patterns, versatile templates, and Tailwind-inspired color palettes, Powder empowers designers and developers to build beautiful, custom sites—fast.
 
 ## Demo
 
-See the Powder theme in action at [https://briangardner.com/powder/demo/](https://briangardner.com/powder/demo/).
+See Powder in action at [https://briangardner.com/powder/demo/](https://briangardner.com/powder/demo/).
 
 ## Requirements
 

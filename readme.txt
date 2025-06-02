@@ -9,11 +9,11 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
 
-Powder reclaims its minimalist roots by embracing simplicity and the purity of form and function. Its signature approach transcends conventional WordPress design standards, offering a canvas where creativity flourishes. Experience the full potential of Powder, which features an extensive library of patterns and versatile templates.
+Powder returns to its minimalist roots, embracing simplicity through clarity and balance. Thoughtfully optimized for the block editor, it offers a flexible canvas where ideas take shape. With an extensive library of patterns, versatile templates, and Tailwind-inspired color palettes, Powder empowers designers and developers to build beautiful, custom sites—fast.
 
 == Copyright ==
 
-Powder theme for WordPress, (C) 2006-2025 Brian Gardner.
+Powder WordPress theme, (C) 2006-2025 Brian Gardner.
 Powder is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
