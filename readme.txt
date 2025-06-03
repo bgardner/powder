@@ -3,7 +3,7 @@ Contributors: bgardner
 Requires at least: 6.8
 Tested up to: 6.8
 Requires PHP: 7.2
-Stable tag: 1.4.3
+Stable tag: 1.5
 License: GNU General Public License v3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
