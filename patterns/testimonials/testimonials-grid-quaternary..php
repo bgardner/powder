@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Testimonials in grid view
- * Slug: powder/testimonials-grid-quaternary.
+ * Slug: powder/testimonials-grid-quaternary
  * Categories: powder-testimonials
  */
 ?>

@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Single testimonial with text, image
- * Slug: powder/testimonials-single-quaternary.
+ * Slug: powder/testimonials-single-quaternary
  * Categories: powder-testimonials
  */
 ?>
