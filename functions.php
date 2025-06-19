@@ -5,7 +5,7 @@
  * @package	Powder
  * @author	Brian Gardner
  * @license	GNU General Public License v3
- * @link	https://briangardner.com/powder/
+ * @link	https://powder.design/
  */
 
 if ( ! function_exists( 'powder_setup' ) ) {
@@ -128,7 +128,7 @@ function powder_theme_updates( $transient ) {
         $transient->response['powder'] = array(
             'theme'       => 'powder',
             'new_version' => $data->version,
-            'url'         => 'https://briangardner.com/powder/changelog/',
+            'url'         => 'https://powder.design/changelog/',
             'package'     => $data->download_url,
         );
     }

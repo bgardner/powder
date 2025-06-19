@@ -24,7 +24,7 @@
 			<p> · </p>
 			<!-- /wp:paragraph -->
 			<!-- wp:paragraph -->
-			<p><a href="https://briangardner.com/powder/">Powder Theme</a> by <a href="https://briangardner.com/">Brian Gardner</a></p>
+			<p><a href="https://powder.design/">Powder Theme</a> by <a href="https://briangardner.com/">Brian Gardner</a></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->
