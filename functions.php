@@ -109,7 +109,7 @@ add_action( 'init', 'powder_register_pattern_categories' );
  * Check for theme updates.
  */
 function powder_theme_updates( $transient ) {
-    $update_url = 'https://briangardner.com/powder-updates.json';
+    $update_url = 'https://powder.design/powder-updates.json';
 
     $response = wp_remote_get( $update_url );
     if ( is_wp_error( $response ) ) {
