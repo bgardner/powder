@@ -411,7 +411,7 @@
 				}
 			},
 			"core/query-pagination": {
-				"css": "margin-top: {var(--wp--preset--spacing--30) !important;}"
+				"css": "margin-top: var(--wp--preset--spacing--30) !important;"
 			},
 			"core/query-title": {
 				"typography": {
