@@ -15,7 +15,7 @@ if ( ! function_exists( 'powder_setup' ) ) {
 	 */
 	function powder_setup() {
 
-		// Enqueue editor stylesheet.
+		// Enqueue editor style sheet.
 		add_editor_style( get_template_directory_uri() . '/style.css' );
 
 		// Remove core block patterns.
@@ -26,15 +26,14 @@ if ( ! function_exists( 'powder_setup' ) ) {
 add_action( 'after_setup_theme', 'powder_setup' );
 
 /**
- * Enqueue theme stylesheet and script.
+ * Enqueue theme style sheet.
  */
-function powder_enqueue_stylesheet_script() {
+function powder_enqueue_style_sheet() {
 
-	// Enqueue theme stylesheet.
 	wp_enqueue_style( 'powder', get_template_directory_uri() . '/style.css', array(), wp_get_theme( 'powder' )->get( 'Version' ) );
 
 }
-add_action( 'wp_enqueue_scripts', 'powder_enqueue_stylesheet_script' );
+add_action( 'wp_enqueue_scripts', 'powder_enqueue_style_sheet' );
 
 /**
  * Register block styles.
