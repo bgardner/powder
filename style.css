@@ -119,6 +119,24 @@ textarea {
 /* Blocks
 ---------------------------------------- */
 
+/* -- Group -- */
+
+.wp-block-group.is-style-fadeinup {
+	opacity: 1;
+	transform: none;
+	transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.js-enabled .wp-block-group.is-style-fadeinup {
+	opacity: 0;
+	transform: translateY(20px);
+}
+
+.js-enabled .wp-block-group.is-style-fadeinup.fadeinup--active {
+	opacity: 1;
+	transform: none;
+}
+
 /* -- Navigation -- */
 
 .wp-block-navigation__responsive-container.is-menu-open {

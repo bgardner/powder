@@ -41,6 +41,9 @@ add_action( 'wp_enqueue_scripts', 'powder_enqueue_style_sheet' );
 function powder_register_block_styles() {
 
 	$block_styles = array(
+		'core/group' => array(
+			'fadeinup' => __( 'Fade In Up', 'powder' ),
+		),
 		'core/list' => array(
 			'no-style' => __( 'No Style', 'powder' ),
 		),
@@ -63,6 +66,22 @@ function powder_register_block_styles() {
 
 }
 add_action( 'init', 'powder_register_block_styles' );
+
+/**
+ * Enqueue assets for Fade In Up block style.
+ */
+function powder_fadeinup_assets() {
+
+	if (
+		is_singular()
+		&& has_block( 'core/group', get_post() )
+		&& strpos( get_post()->post_content, 'is-style-fadeinup' ) !== false
+	) {
+		wp_enqueue_script( 'powder-fadeinup', get_template_directory_uri() . '/assets/js/fadeinup.js', [], '1.0', true );
+	}
+
+}
+add_action( 'wp_enqueue_scripts', 'powder_fadeinup_assets' );
 
 /**
  * Register pattern category.
