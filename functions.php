@@ -41,6 +41,9 @@ add_action( 'wp_enqueue_scripts', 'powder_enqueue_style_sheet' );
 function powder_register_block_styles() {
 
 	$block_styles = array(
+		'core/cover' => array(
+			'gradient' => __( 'Gradient', 'powder' ),
+		),
 		'core/group' => array(
 			'fadeinup' => __( 'Fade In Up', 'powder' ),
 		),
