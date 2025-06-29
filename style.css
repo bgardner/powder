@@ -123,7 +123,7 @@ textarea {
 
 .wp-block-cover.is-style-gradient .has-background-dim:not([class*=-background-color]) {
 	background-color: transparent;
-	background-image: linear-gradient(to top, rgba(0,0,0,0.6), rgba(0,0,0,1));
+	background-image: linear-gradient(to top, rgba(0,0,0,0.75), rgba(0,0,0,1));
 	opacity: 1;
 }
 
@@ -143,6 +143,19 @@ textarea {
 .js-enabled .wp-block-group.is-style-fadeinup.fadeinup--active {
 	opacity: 1;
 	transform: none;
+}
+
+.js-enabled .wp-block-group.is-style-fadeinup.fadeinup--in-viewport {
+	animation: fadeinup-animation 0.5s ease-out forwards;
+	opacity: 0;
+	transform: translateY(20px);
+}
+
+@keyframes fadeinup-animation {
+	to {
+		opacity: 1;
+		transform: none;
+	}
 }
 
 /* -- Navigation -- */

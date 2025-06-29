@@ -14,8 +14,20 @@ document.addEventListener( 'DOMContentLoaded', () => {
 		threshold: 0.1
 	} );
 
-	// Observe each styled Group block.
-	document
-		.querySelectorAll( '.wp-block-group.is-style-fadeinup' )
-		.forEach( el => io.observe( el ) );
+	// Get all fadeinup elements.
+	const fadeinupElements = document.querySelectorAll( '.wp-block-group.is-style-fadeinup' );
+
+	// Check for elements in viewport.
+	fadeinupElements.forEach( el => {
+		const rect = el.getBoundingClientRect();
+		const isVisible = rect.top < window.innerHeight && rect.bottom > 0;
+		
+		if ( isVisible ) {
+			// Add class for elements in viewport.
+			el.classList.add( 'fadeinup--in-viewport' );
+		} else {
+			// Observe elements that are not visible.
+			io.observe( el );
+		}
+	} );
 } );
