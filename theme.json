@@ -67,6 +67,13 @@
 					"slug": "contrast-and-quaternary"
 				}
 			],
+			"gradients": [
+				{
+					"gradient": "linear-gradient(0deg, #4d179a 0%, #000000 100%)",
+					"name": "Primary to Contrast",
+					"slug": "primary-contrast"
+				}
+			],
 			"palette": [
 				{
 					"color": "#4d179a",
