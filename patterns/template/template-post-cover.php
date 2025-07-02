@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Post with cover image
- * Slug: powder/template-single-cover
+ * Slug: powder/template-s-cover
  * Categories: powder-template
  * Template Types: single
  */

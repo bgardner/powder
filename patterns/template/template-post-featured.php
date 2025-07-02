@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Post with featured image
- * Slug: powder/template-single-featured
+ * Slug: powder/template-post-featured
  * Categories: powder-template
  * Template Types: single
  */
