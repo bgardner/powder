@@ -615,6 +615,11 @@
 			"area": "footer",
 			"name": "footer",
 			"title": "Footer"
+		},
+		{
+			"area": "sidebar",
+			"name": "sidebar",
+			"title": "Sidebar"
 		}
 	],
 	"customTemplates": [
