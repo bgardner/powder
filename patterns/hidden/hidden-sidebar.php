@@ -6,8 +6,8 @@
  * Inserter: no
  */
 ?>
-<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20","padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|60","right":"var:preset|spacing|60"}}},"fontSize":"x-small","layout":{"type":"constrained","contentSize":"300px","justifyContent":"left"}} -->
-<div class="wp-block-group has-x-small-font-size" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)">
+<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20","padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}},"border":{"width":"1px","style":"dotted"}},"fontSize":"small","borderColor":"contrast","layout":{"type":"constrained","contentSize":"320px","justifyContent":"left"}} -->
+<div class="wp-block-group has-border-color has-contrast-border-color has-small-font-size" style="border-style:dotted;border-width:1px;padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)">
 	<!-- wp:heading {"fontSize":"medium"} -->
 	<h2 class="wp-block-heading has-medium-font-size"><?php echo esc_html__( 'About Powder', 'powder' ); ?></h2>
 	<!-- /wp:heading -->

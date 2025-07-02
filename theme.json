@@ -638,6 +638,20 @@
 				"post"
 			],
 			"title": "No Title"
+		},
+		{
+			"name": "page-with-sidebar",
+			"postTypes": [
+				"page"
+			],
+			"title": "Page (with Sidebar)"
+		},
+		{
+			"name": "post-with-sidebar",
+			"postTypes": [
+				"post"
+			],
+			"title": "Post (with Sidebar)"
 		}
 	]
 }
