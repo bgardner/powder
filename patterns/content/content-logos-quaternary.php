@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Logo section with images
- * Slug: powder/content-logos-quaternary.
+ * Slug: powder/content-logos-quaternary
  * Categories: powder-content
  */
 ?>

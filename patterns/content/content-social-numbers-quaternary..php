@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Social media followers
- * Slug: powder/content-social-numbers-quaternary.
+ * Slug: powder/content-social-numbers-quaternary
  * Categories: powder-content
  */
 ?>
