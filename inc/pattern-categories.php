@@ -31,6 +31,7 @@ function powder_register_pattern_categories() {
 		'team'           => array( __( 'Team', 'powder' ), __( 'A collection of team patterns for Powder.', 'powder' ) ),
 		'template'       => array( __( 'Template', 'powder' ), __( 'A collection of template patterns for Powder.', 'powder' ) ),
 		'testimonials'   => array( __( 'Testimonials', 'powder' ), __( 'A collection of testimonials patterns for Powder.', 'powder' ) ),
+		'theme'          => array( __( 'Theme', 'powder' ), __( 'A collection of patterns for Powder starter themes.', 'powder' ) ),
 	);
 
 	foreach ( $categories as $slug => $details ) {
