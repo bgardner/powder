@@ -638,34 +638,6 @@
 				"post"
 			],
 			"title": "No Title"
-		},
-		{
-			"name": "page-with-featured",
-			"postTypes": [
-				"page"
-			],
-			"title": "Page (with Featured)"
-		},
-		{
-			"name": "page-with-sidebar",
-			"postTypes": [
-				"page"
-			],
-			"title": "Page (with Sidebar)"
-		},
-		{
-			"name": "post-with-featured",
-			"postTypes": [
-				"post"
-			],
-			"title": "Post (with Featured)"
-		},
-		{
-			"name": "post-with-sidebar",
-			"postTypes": [
-				"post"
-			],
-			"title": "Post (with Sidebar)"
 		}
 	]
 }
