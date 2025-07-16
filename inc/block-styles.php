@@ -10,9 +10,6 @@ function powder_register_block_styles() {
 		'core/cover' => array(
 			'gradient' => __( 'Gradient', 'powder' ),
 		),
-		'core/group' => array(
-			'fadeinup' => __( 'Fade In Up', 'powder' ),
-		),
 		'core/list' => array(
 			'no-style' => __( 'No Style', 'powder' ),
 		),
