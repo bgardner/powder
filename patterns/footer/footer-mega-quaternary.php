@@ -24,7 +24,7 @@
 		<div class="wp-block-columns are-vertically-aligned-center">
 			<!-- wp:column {"verticalAlignment":"center","width":"30%"} -->
 			<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:30%">
-				<!-- wp:buttons -->
+				<!-- wp:buttons {"layout":{"type":"flex","orientation":"horizontal","justifyContent":"center"}} -->
 				<div class="wp-block-buttons">
 					<!-- wp:button {"align":"center"} -->
 					<div class="wp-block-button aligncenter"><a class="wp-block-button__link wp-element-button" href="#"><?php echo esc_html__( 'Call to Action', 'powder' ); ?></a></div>
@@ -49,7 +49,7 @@
 			<!-- /wp:column -->
 			<!-- wp:column {"verticalAlignment":"center","width":"30%"} -->
 			<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:30%">
-				<!-- wp:buttons -->
+				<!-- wp:buttons {"layout":{"type":"flex","orientation":"horizontal","justifyContent":"center"}} -->
 				<div class="wp-block-buttons">
 					<!-- wp:button {"align":"center"} -->
 					<div class="wp-block-button aligncenter"><a class="wp-block-button__link wp-element-button" href="#"><?php echo esc_html__( 'Call to Action', 'powder' ); ?></a></div>
