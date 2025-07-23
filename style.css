@@ -128,37 +128,6 @@ textarea {
 	opacity: 1;
 }
 
-/* -- Group -- */
-
-.wp-block-group.is-style-fadeinup {
-	opacity: 1;
-	transform: none;
-	transition: opacity 0.5s ease-out, transform 0.5s ease-out;
-}
-
-.js-enabled .wp-block-group.is-style-fadeinup {
-	opacity: 0;
-	transform: translateY(20px);
-}
-
-.js-enabled .wp-block-group.is-style-fadeinup.fadeinup--active {
-	opacity: 1;
-	transform: none;
-}
-
-.js-enabled .wp-block-group.is-style-fadeinup.fadeinup--in-viewport {
-	animation: fadeinup-animation 0.5s ease-out forwards;
-	opacity: 0;
-	transform: translateY(20px);
-}
-
-@keyframes fadeinup-animation {
-	to {
-		opacity: 1;
-		transform: none;
-	}
-}
-
 /* -- Navigation -- */
 
 .wp-block-navigation__responsive-container.is-menu-open {
