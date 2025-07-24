@@ -11,6 +11,11 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 Powder embraces its minimalist roots with clarity and balance. Optimized for the WordPress block editor, it features an extensive pattern library, versatile templates, and tailored color palettes—empowering designers and developers to create stunning websites.
 
+== Community ==
+
+For WordPress designers and developers using the Powder block theme. Share tips, find tutorials, and learn how to build stunning, high-performance websites.
+Join the community: https://www.reddit.com/r/PowderTheme/
+
 == Copyright ==
 
 Powder WordPress theme, (C) 2006-2025 Brian Gardner.
