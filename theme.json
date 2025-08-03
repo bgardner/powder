@@ -327,6 +327,9 @@
 					}
 				}
 			},
+			"core/heading": {
+				"css": "&.is-style-balanced {text-wrap: balance;}"
+			},
 			"core/image": {
 				"css": "&.is-style-invert {filter: invert(1);}"
 			},
