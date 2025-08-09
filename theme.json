@@ -634,24 +634,21 @@
 		{
 			"name": "blank",
 			"postTypes": [
-				"page",
-				"post"
+				"page"
 			],
 			"title": "Blank"
 		},
 		{
 			"name": "no-title",
 			"postTypes": [
-				"page",
-				"post"
+				"page"
 			],
 			"title": "No Title"
 		},
 		{
 			"name": "no-title-alt",
 			"postTypes": [
-				"page",
-				"post"
+				"page"
 			],
 			"title": "No Title (Alt)"
 		}
