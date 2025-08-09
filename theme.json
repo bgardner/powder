@@ -615,6 +615,11 @@
 			"title": "Header"
 		},
 		{
+			"area": "header",
+			"name": "header-alt",
+			"title": "Header (Alt)"
+		},
+		{
 			"area": "footer",
 			"name": "footer",
 			"title": "Footer"
@@ -641,6 +646,14 @@
 				"post"
 			],
 			"title": "No Title"
+		},
+		{
+			"name": "no-title-alt",
+			"postTypes": [
+				"page",
+				"post"
+			],
+			"title": "No Title (Alt)"
 		}
 	]
 }
