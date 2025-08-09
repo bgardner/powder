@@ -117,6 +117,25 @@ textarea {
 	opacity: 0.5;
 }
 
+/* Site Header
+---------------------------------------- */
+
+.site-header {
+	background-color: var(--wp--preset--color--base);
+	position: sticky;
+	top: 0;
+	transition: transform 0.5s ease;
+	z-index: 1000;
+}
+
+body.scroll-down .site-header {
+	transform: translateY(-100%);
+}
+
+body.scroll-up .site-header {
+	transform: translateY(0);
+}
+
 /* Blocks
 ---------------------------------------- */
 
