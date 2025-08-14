@@ -69,7 +69,7 @@
 			],
 			"gradients": [
 				{
-					"gradient": "linear-gradient(0deg, #4d179a 0%, #000000 100%)",
+					"gradient": "linear-gradient(0deg, var(--wp--preset--color--primary) 0%, var(--wp--preset--color--contrast) 100%)",
 					"name": "Primary to Contrast",
 					"slug": "primary-contrast"
 				}
