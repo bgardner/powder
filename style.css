@@ -168,7 +168,7 @@ body.scroll-up .site-header {
 
 .wp-block-navigation__submenu-container {
 	border-color: currentColor !important;
-	min-width: 180px !important;
+	min-width: 150px !important;
 	padding: 10px !important;
 }
 
