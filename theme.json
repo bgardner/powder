@@ -509,7 +509,6 @@
 			"background": "var(--wp--preset--color--base)",
 			"text": "var(--wp--preset--color--contrast)"
 		},
-		"css": "::selection { background-color: var(--wp--preset--color--quaternary); color: var(--wp--preset--color--contrast); }",
 		"elements": {
 			"button": {
 				"border": {
