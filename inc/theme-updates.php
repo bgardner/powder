@@ -3,7 +3,7 @@
  * Check for theme updates.
  */
 function powder_theme_updates( $transient ) {
-    $update_url = 'https://powder.design/powder-updates.json';
+    $update_url = 'https://briangardner.com/powder-updates.json';
 
     $response = wp_remote_get( $update_url );
     if ( is_wp_error( $response ) ) {
@@ -22,7 +22,7 @@ function powder_theme_updates( $transient ) {
         $transient->response['powder'] = array(
             'theme'       => 'powder',
             'new_version' => $data->version,
-            'url'         => 'https://powder.design/changelog/',
+            'url'         => 'https://briangardner.com/powder/changelog/',
             'package'     => $data->download_url,
         );
     }
