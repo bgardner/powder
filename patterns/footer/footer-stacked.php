@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Stacked footer with call to action
+ * Title: Footer - stacked
  * Slug: powder/footer-stacked
  * Categories: powder-footer
  * Block Types: core/template-part/footer

@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Multi-column footer with text, social icons.
+ * Title: Footer - multi-column
  * Slug: powder/footer-multi-column
  * Categories: powder-footer
  * Block Types: core/template-part/footer
