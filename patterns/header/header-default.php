@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Default header
+ * Title: Header - site title
  * Slug: powder/header
  * Categories: powder-header
  * Block Types: core/template-part/header

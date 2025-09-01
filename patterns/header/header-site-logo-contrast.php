@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Header with site logo
+ * Title: Header - site logo
  * Slug: powder/header-site-logo-contrast
  * Categories: powder-header
  * Block Types: core/template-part/header
@@ -13,7 +13,6 @@
 		<!-- wp:group {"style":{"spacing":{"blockGap":"10px"},"layout":{"selfStretch":"fixed","flexSize":"200px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 		<div class="wp-block-group">
 			<!-- wp:site-logo {"width":30} /-->
-			<!-- wp:site-title {"level":0} /-->
 		</div>
 		<!-- /wp:group -->
 		<!-- wp:navigation {"layout":{"type":"flex","setCascadingProperties":true}} /-->
