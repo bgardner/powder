@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Section with columns of image, heading, text
- * Slug: powder/featured-columns
- * Categories: powder-featured
+ * Slug: powder/content-columns
+ * Categories: powder-content
  */
 ?>
 <!-- wp:group {"metadata":{"name":"Feature Columns"},"align":"full","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->

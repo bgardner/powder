@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Section with intro, columns of text
- * Slug: powder/featured-intro-columns-contrast
- * Categories: powder-featured
+ * Slug: powder/content-intro-columns-contrast
+ * Categories: powder-content
  */
 ?>
 <!-- wp:group {"metadata":{"name":"Featured Intro"},"align":"full","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained"}} -->

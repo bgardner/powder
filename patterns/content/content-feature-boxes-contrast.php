@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Section with content boxes
- * Slug: powder/featured-content-boxes-contrast
- * Categories: powder-featured
+ * Slug: powder/content-feature-boxes-contrast
+ * Categories: powder-content
  */
 ?>
 <!-- wp:group {"metadata":{"name":"Feature Boxes"},"align":"full","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained"}} -->
