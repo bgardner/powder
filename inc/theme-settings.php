@@ -10,11 +10,9 @@ $powder_color_options = array(
 );
 
 $powder_category_options = array(
-	'about'          => 'About',
 	'call_to_action' => 'Call to Action',
 	'content'        => 'Content',
 	'faq'            => 'FAQs',
-	'featured'       => 'Featured',
 	'footer'         => 'Footer',
 	'gallery'        => 'Gallery',
 	'header'         => 'Header',
@@ -151,21 +149,21 @@ function sanitize_powder_theme_option( $input ) {
 add_action( 'init', function() {
 	$patterns = [
 		'powder_setting_option_base' => [
-			'powder/about-half',
-			'powder/about-split',
 			'powder/call-to-action-button',
 			'powder/call-to-action-centered',
 			'powder/call-to-action-outline',
 			'powder/call-to-action-promo',
 			'powder/call-to-action-stacked',
+			'powder/content-about-half',
+			'powder/content-about-split',
+			'powder/content-columns',
+			'powder/content-feature-boxes',
+			'powder/content-intro-columns',
 			'powder/content-links',
 			'powder/content-logos',
 			'powder/content-social-numbers',
 			'powder/faq-columns',
 			'powder/faq-stacked',
-			'powder/featured-columns',
-			'powder/featured-content-boxes',
-			'powder/featured-intro-columns',
 			'powder/footer-mega',
 			'powder/footer-multi-column',
 			'powder/footer-split',
@@ -204,21 +202,21 @@ add_action( 'init', function() {
 			'powder/testimonials-single'
 		],
 		'powder_setting_option_contrast' => [
-			'powder/about-half-contrast',
-			'powder/about-split-contrast',
 			'powder/call-to-action-button-contrast',
 			'powder/call-to-action-centered-contrast',
 			'powder/call-to-action-outline-contrast',
 			'powder/call-to-action-promo-contrast',
 			'powder/call-to-action-stacked-contrast',
+			'powder/content-about-half-contrast',
+			'powder/content-about-split-contrast',
+			'powder/content-columns-contrast',
+			'powder/content-feature-boxes-contrast',
+			'powder/content-intro-columns-contrast',
 			'powder/content-links-contrast',
 			'powder/content-logos-contrast',
 			'powder/content-social-numbers-contrast',
 			'powder/faq-columns-contrast',
 			'powder/faq-stacked-contrast',
-			'powder/featured-columns-contrast',
-			'powder/featured-content-boxes-contrast',
-			'powder/featured-intro-columns-contrast',
 			'powder/footer-contrast',
 			'powder/footer-mega-contrast',
 			'powder/footer-multi-column-contrast',
@@ -253,12 +251,6 @@ add_action( 'init', function() {
 			'powder/testimonials-grid-contrast',
 			'powder/testimonials-single-contrast'
 		],
-		'powder_setting_option_about' => [
-			'powder/about-half-contrast',
-			'powder/about-half',
-			'powder/about-split-contrast',
-			'powder/about-split'
-		],
 		'powder_setting_option_call_to_action' => [
 			'powder/call-to-action-button-contrast',
 			'powder/call-to-action-button',
@@ -272,6 +264,16 @@ add_action( 'init', function() {
 			'powder/call-to-action-stacked'
 		],
 		'powder_setting_option_content' => [
+			'powder/content-about-half-contrast',
+			'powder/content-about-half',
+			'powder/content-about-split-contrast',
+			'powder/content-about-split',
+			'powder/content-columns-contrast',
+			'powder/content-columns',
+			'powder/content-feature-boxes-contrast',
+			'powder/content-feature-boxes',
+			'powder/content-intro-columns-contrast',
+			'powder/content-intro-columns',
 			'powder/content-links-contrast',
 			'powder/content-links',
 			'powder/content-logos-contrast',
@@ -284,14 +286,6 @@ add_action( 'init', function() {
 			'powder/faq-columns',
 			'powder/faq-stacked-contrast',
 			'powder/faq-stacked'
-		],
-		'powder_setting_option_featured' => [
-			'powder/featured-columns-contrast',
-			'powder/featured-columns',
-			'powder/featured-content-boxes-contrast',
-			'powder/featured-content-boxes',
-			'powder/featured-intro-columns-contrast',
-			'powder/featured-intro-columns'
 		],
 		'powder_setting_option_footer' => [
 			'powder/footer-contrast',
