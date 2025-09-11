@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: About section with columns
- * Slug: powder/about-split-contrast
- * Categories: powder-about
+ * Slug: powder/content-about-split-contrast
+ * Categories: powder-content
  */
 ?>
 <!-- wp:group {"metadata":{"name":"About Split"},"align":"full","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained"}} -->

@@ -17,7 +17,6 @@ function powder_register_pattern_category( $slug, $label, $description ) {
  */
 function powder_register_pattern_categories() {
 	$categories = array(
-		'about'          => array( __( 'About', 'powder' ), __( 'A collection of about patterns for Powder.', 'powder' ) ),
 		'call-to-action' => array( __( 'Call to Action', 'powder' ), __( 'A collection of call to action patterns for Powder.', 'powder' ) ),
 		'content'        => array( __( 'Content', 'powder' ), __( 'A collection of content patterns for Powder.', 'powder' ) ),
 		'faq'            => array( __( 'FAQs', 'powder' ), __( 'A collection of FAQ patterns for Powder.', 'powder' ) ),
