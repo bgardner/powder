@@ -34,8 +34,8 @@
 	<!-- /wp:column -->
 	<!-- wp:column {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}}} -->
 	<div class="wp-block-column">
-		<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}}},"backgroundColor":"quaternary","layout":{"type":"constrained"}} -->
-		<div class="wp-block-group has-quaternary-background-color has-background" style="padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--30)">
+		<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}}},"backgroundColor":"neutral","layout":{"type":"constrained"}} -->
+		<div class="wp-block-group has-neutral-background-color has-background" style="padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--30)">
 			<!-- wp:details {"style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"spacing":{"blockGap":"var:preset|spacing|x-small"}}} -->
 			<details class="wp-block-details" style="font-style:normal;font-weight:400">
 				<summary><?php echo esc_html__( 'Why should I purchase the All-Access plan?', 'powder' ); ?></summary>
@@ -46,8 +46,8 @@
 			<!-- /wp:details -->
 		</div>
 		<!-- /wp:group -->
-		<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}}},"backgroundColor":"quaternary","layout":{"type":"constrained"}} -->
-		<div class="wp-block-group has-quaternary-background-color has-background" style="padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--30)">
+		<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}}},"backgroundColor":"neutral","layout":{"type":"constrained"}} -->
+		<div class="wp-block-group has-neutral-background-color has-background" style="padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--30)">
 			<!-- wp:details {"style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"spacing":{"blockGap":"var:preset|spacing|x-small"}}} -->
 			<details class="wp-block-details" style="font-style:normal;font-weight:400">
 				<summary><?php echo esc_html__( 'Why should I purchase the All-Access plan?', 'powder' ); ?></summary>
@@ -58,8 +58,8 @@
 			<!-- /wp:details -->
 		</div>
 		<!-- /wp:group -->
-		<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}}},"backgroundColor":"quaternary","layout":{"type":"constrained"}} -->
-		<div class="wp-block-group has-quaternary-background-color has-background" style="padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--30)">
+		<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}}},"backgroundColor":"neutral","layout":{"type":"constrained"}} -->
+		<div class="wp-block-group has-neutral-background-color has-background" style="padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--30)">
 			<!-- wp:details {"style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"spacing":{"blockGap":"var:preset|spacing|x-small"}}} -->
 			<details class="wp-block-details" style="font-style:normal;font-weight:400">
 				<summary><?php echo esc_html__( 'Why should I purchase the All-Access plan?', 'powder' ); ?></summary>
@@ -70,8 +70,8 @@
 			<!-- /wp:details -->
 		</div>
 		<!-- /wp:group -->
-		<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}}},"backgroundColor":"quaternary","layout":{"type":"constrained"}} -->
-		<div class="wp-block-group has-quaternary-background-color has-background" style="padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--30)">
+		<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}}},"backgroundColor":"neutral","layout":{"type":"constrained"}} -->
+		<div class="wp-block-group has-neutral-background-color has-background" style="padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--30)">
 			<!-- wp:details {"style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"spacing":{"blockGap":"var:preset|spacing|x-small"}}} -->
 			<details class="wp-block-details" style="font-style:normal;font-weight:400">
 				<summary><?php echo esc_html__( 'Why should I purchase the All-Access plan?', 'powder' ); ?></summary>
@@ -82,8 +82,8 @@
 			<!-- /wp:details -->
 		</div>
 		<!-- /wp:group -->
-		<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}}},"backgroundColor":"quaternary","layout":{"type":"constrained"}} -->
-		<div class="wp-block-group has-quaternary-background-color has-background" style="padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--30)">
+		<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20","left":"var:preset|spacing|30","right":"var:preset|spacing|30"}}},"backgroundColor":"neutral","layout":{"type":"constrained"}} -->
+		<div class="wp-block-group has-neutral-background-color has-background" style="padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--30)">
 			<!-- wp:details {"style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"spacing":{"blockGap":"var:preset|spacing|x-small"}}} -->
 			<details class="wp-block-details" style="font-style:normal;font-weight:400">
 				<summary><?php echo esc_html__( 'Why should I purchase the All-Access plan?', 'powder' ); ?></summary>

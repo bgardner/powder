@@ -19,8 +19,8 @@
 	<!-- /wp:group -->
 	<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"grid","minimumColumnWidth":"300px"}} -->
 	<div class="wp-block-group alignwide">
-		<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|20"}},"backgroundColor":"quaternary","layout":{"type":"constrained"}} -->
-		<div class="wp-block-group has-quaternary-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--40)">
+		<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|20"}},"backgroundColor":"neutral","layout":{"type":"constrained"}} -->
+		<div class="wp-block-group has-neutral-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--40)">
 			<!-- wp:image {"width":"30px","height":"30px","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center"} -->
 <figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-bolt.svg'; ?>" alt="Circle bolt icon" style="object-fit:cover;width:30px;height:30px"/></figure>
 			<!-- /wp:image -->
@@ -32,8 +32,8 @@
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->
-		<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|20"}},"backgroundColor":"quaternary","layout":{"type":"constrained"}} -->
-		<div class="wp-block-group has-quaternary-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--40)">
+		<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|20"}},"backgroundColor":"neutral","layout":{"type":"constrained"}} -->
+		<div class="wp-block-group has-neutral-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--40)">
 			<!-- wp:image {"width":"30px","height":"30px","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center"} -->
 <figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-bolt.svg'; ?>" alt="Circle bolt icon" style="object-fit:cover;width:30px;height:30px"/></figure>
 			<!-- /wp:image -->
@@ -45,8 +45,8 @@
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->
-		<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|20"}},"backgroundColor":"quaternary","layout":{"type":"constrained"}} -->
-		<div class="wp-block-group has-quaternary-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--40)">
+		<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|20"}},"backgroundColor":"neutral","layout":{"type":"constrained"}} -->
+		<div class="wp-block-group has-neutral-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--40)">
 			<!-- wp:image {"width":"30px","height":"30px","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center"} -->
 <figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-bolt.svg'; ?>" alt="Circle bolt icon" style="object-fit:cover;width:30px;height:30px"/></figure>
 			<!-- /wp:image -->
@@ -58,8 +58,8 @@
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->
-		<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|20"}},"backgroundColor":"quaternary","layout":{"type":"constrained"}} -->
-		<div class="wp-block-group has-quaternary-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--40)">
+		<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|20"}},"backgroundColor":"neutral","layout":{"type":"constrained"}} -->
+		<div class="wp-block-group has-neutral-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--40)">
 			<!-- wp:image {"width":"30px","height":"30px","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center"} -->
 <figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-bolt.svg'; ?>" alt="Circle bolt icon" style="object-fit:cover;width:30px;height:30px"/></figure>
 			<!-- /wp:image -->
@@ -71,8 +71,8 @@
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->
-		<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|20"}},"backgroundColor":"quaternary","layout":{"type":"constrained"}} -->
-		<div class="wp-block-group has-quaternary-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--40)">
+		<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|20"}},"backgroundColor":"neutral","layout":{"type":"constrained"}} -->
+		<div class="wp-block-group has-neutral-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--40)">
 			<!-- wp:image {"width":"30px","height":"30px","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center"} -->
 <figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-bolt.svg'; ?>" alt="Circle bolt icon" style="object-fit:cover;width:30px;height:30px"/></figure>
 			<!-- /wp:image -->
@@ -84,8 +84,8 @@
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->
-		<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|20"}},"backgroundColor":"quaternary","layout":{"type":"constrained"}} -->
-		<div class="wp-block-group has-quaternary-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--40)">
+		<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"blockGap":"var:preset|spacing|20"}},"backgroundColor":"neutral","layout":{"type":"constrained"}} -->
+		<div class="wp-block-group has-neutral-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--40)">
 			<!-- wp:image {"width":"30px","height":"30px","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center"} -->
 <figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-bolt.svg'; ?>" alt="Circle bolt icon" style="object-fit:cover;width:30px;height:30px"/></figure>
 			<!-- /wp:image -->

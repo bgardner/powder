@@ -12,47 +12,17 @@
 					"slug": "primary-and-white"
 				},
 				{
-					"colors": [ "#009689", "#ffffff" ],
-					"name": "Secondary and White",
-					"slug": "secondary-and-white"
+					"colors": [ "#000000", "#46ecd5" ],
+					"name": "Contrast and Secondary",
+					"slug": "contrast-and-secondary"
 				},
 				{
 					"colors": [ "#000000", "#ffffff" ],
 					"name": "Contrast and White",
 					"slug": "contrast-and-white"
-				},
-				{
-					"colors": [ "#000000", "#46ecd5" ],
-					"name": "Contrast and Tertiary",
-					"slug": "contrast-and-tertiary"
-				},
-				{
-					"colors": [ "#000000", "#cbfbf1" ],
-					"name": "Contrast and Quaternary",
-					"slug": "contrast-and-quaternary"
 				}
 			],
 			"palette": [
-				{
-					"color": "#0b4f4a",
-					"name": "Primary",
-					"slug": "primary"
-				},
-				{
-					"color": "#009689",
-					"name": "Secondary",
-					"slug": "secondary"
-				},
-				{
-					"color": "#46ecd5",
-					"name": "Tertiary",
-					"slug": "tertiary"
-				},
-				{
-					"color": "#cbfbf1",
-					"name": "Quaternary",
-					"slug": "quaternary"
-				},
 				{
 					"color": "#ffffff",
 					"name": "Base",
@@ -62,6 +32,21 @@
 					"color": "#000000",
 					"name": "Contrast",
 					"slug": "contrast"
+				},
+				{
+					"color": "#0b4f4a",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#46ecd5",
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
+					"color": "#f5f5f5",
+					"name": "Neutral",
+					"slug": "neutral"
 				}
 			]
 		}
