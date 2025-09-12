@@ -655,13 +655,6 @@
 				"page"
 			],
 			"title": "No Title"
-		},
-		{
-			"name": "no-title-alt",
-			"postTypes": [
-				"page"
-			],
-			"title": "No Title (Alt)"
 		}
 	]
 }
