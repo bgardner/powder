@@ -341,9 +341,6 @@
 			"core/heading": {
 				"css": "&.is-style-balanced {text-wrap: balance;}"
 			},
-			"core/image": {
-				"css": "&.is-style-invert {filter: invert(1);}"
-			},
 			"core/list": {
 				"css": "&.is-style-no-style {list-style-type: none; padding-left: 0;}",
 				"spacing": {
