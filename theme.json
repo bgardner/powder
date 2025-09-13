@@ -623,11 +623,6 @@
 			"title": "Header"
 		},
 		{
-			"area": "header",
-			"name": "header-alt",
-			"title": "Header (Alt)"
-		},
-		{
 			"area": "footer",
 			"name": "footer",
 			"title": "Footer"
