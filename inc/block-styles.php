@@ -17,6 +17,9 @@ function powder_register_block_styles() {
 		'core/list' => array(
 			'no-style' => __( 'No Style', 'powder' ),
 		),
+		'core/paragraph' => array(
+			'balanced' => __( 'Balanced', 'powder' ),
+		),
 		'core/social-links' => array(
 			'outline' => __( 'Outline', 'powder' ),
 		),

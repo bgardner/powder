@@ -357,6 +357,9 @@
 					"fontSize": "var(--wp--preset--font-size--x-small)"
 				}
 			},
+			"core/paragraph": {
+				"css": "&.is-style-balanced {text-wrap: balance;}"
+			},
 			"core/post-comments-form": {
 				"css": " & .form-submit {margin-bottom: 0;}"
 			},
