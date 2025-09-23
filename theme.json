@@ -188,21 +188,9 @@
 			},
 			"fontFamilies": [
 				{
-					"fontFace": [
-						{
-							"fontDisplay": "block",
-							"fontFamily": "Outfit",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "100 900",
-							"src": [
-								"file:./assets/fonts/outfit/OutfitVariable.woff2"
-							]
-						}
-					],
-					"fontFamily": "Outfit, sans-serif",
-					"name": "Outfit",
-					"slug": "outfit"
+					"fontFamily": "-apple-system, system-ui, sans-serif",
+					"name": "System",
+					"slug": "system"
 				}
 			],
 			"fontSizes": [
@@ -613,7 +601,7 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--outfit)",
+			"fontFamily": "var(--wp--preset--font-family--system)",
 			"fontSize": "var(--wp--preset--font-size--medium)",
 			"fontWeight": "var(--wp--custom--font-weight--light)",
 			"lineHeight": "var(--wp--custom--line-height--large)"

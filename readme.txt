@@ -31,13 +31,6 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
-== Font ==
-
-The included font is licensed under the SIL Open Font License, Version 1.1.
-License URL: https://scripts.sil.org/OFL
-
-Outfit Font
-
 == Sample Images ==
 
 The following images are self-designed and declared under GPL License, Version 3.0.
