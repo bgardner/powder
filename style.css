@@ -60,7 +60,7 @@ textarea {
 	box-sizing: border-box;
 	color: var(--wp--preset--color--contrast);
 	font-family: inherit;
-	font-size: var(--wp--preset--font-size--medium);
+	font-size: var(--wp--preset--font-size--small);
 	font-weight: var(--wp--custom--font-weight--light);
 	line-height: var(--wp--custom--line-height--medium);
 	padding: 10px 15px;
