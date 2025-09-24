@@ -351,6 +351,9 @@
 			"core/post-comments-form": {
 				"css": " & .form-submit {margin-bottom: 0;}"
 			},
+			"core/post-content": {
+				"css": ".is-style-indent p:not(:first-of-type) {text-indent: var(--wp--preset--spacing--20);}"
+			},
 			"core/post-template": {
 				"spacing": {
 					"blockGap": "var(--wp--preset--spacing--60);"

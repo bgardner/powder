@@ -20,6 +20,9 @@ function powder_register_block_styles() {
 		'core/paragraph' => array(
 			'balanced' => __( 'Balanced', 'powder' ),
 		),
+		'core/post-content' => array(
+			'indent' => __( 'Indent', 'powder' ),
+		),
 		'core/social-links' => array(
 			'outline' => __( 'Outline', 'powder' ),
 		),
