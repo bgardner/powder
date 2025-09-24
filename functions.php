@@ -7,10 +7,10 @@
  * @license	GNU General Public License v3
  * @link	https://powder.design/
  */
-
+ 
 /**
- * Auto-load PHP files.
+ * Initialize theme features.
  */
-foreach ( glob( __DIR__ . '/inc/*.php' ) as $file ) {
-	require_once $file;
-}
+require get_template_directory() . '/inc/setup.php';
+require get_template_directory() . '/inc/editor.php';
+require get_template_directory() . '/inc/updates.php';
