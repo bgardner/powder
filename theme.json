@@ -521,6 +521,12 @@
 					"background": "var(--wp--preset--color--contrast)",
 					"text": "var(--wp--preset--color--base)"
 				},
+				":hover": {
+					"color": {
+						"background": "var(--wp--preset--color--primary)",
+						"text": "var(--wp--preset--color--base)"
+					}
+				},
 				"css": "{width: auto;}",
 				"spacing": {
 					"padding": {
