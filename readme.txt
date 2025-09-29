@@ -9,7 +9,7 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
 
-Powder embraces its minimalist roots with clarity and balance, offering a resilient base for infinite creativity.
+Powder embraces its minimalist roots with clarity and balance. Optimized for the WordPress block editor, it features an extensive pattern library, versatile templates, and tailored color palettes—empowering designers and developers to create stunning websites.
 
 == Community ==
 
@@ -30,6 +30,13 @@ This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
+
+== Font ==
+
+The included font is licensed under the SIL Open Font License, Version 1.1.
+License URL: https://scripts.sil.org/OFL
+
+Outfit Font
 
 == Sample Images ==
 

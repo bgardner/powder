@@ -3,7 +3,7 @@ Theme Name: Powder
 Theme URI: https://powder.design/
 Author: Brian Gardner
 Author URI: https://briangardner.com/
-Description: Powder embraces its minimalist roots with clarity and balance, offering a resilient base for infinite creativity.
+Description: Powder embraces its minimalist roots with clarity and balance. Optimized for the WordPress block editor, it features an extensive pattern library, versatile templates, and tailored color palettes—empowering designers and developers to create stunning websites.
 Version: 1.7
 Requires at least: 6.8
 Tested up to: 6.8
@@ -60,7 +60,7 @@ textarea {
 	box-sizing: border-box;
 	color: var(--wp--preset--color--contrast);
 	font-family: inherit;
-	font-size: var(--wp--preset--font-size--small);
+	font-size: var(--wp--preset--font-size--medium);
 	font-weight: var(--wp--custom--font-weight--light);
 	line-height: var(--wp--custom--line-height--medium);
 	padding: 10px 15px;
