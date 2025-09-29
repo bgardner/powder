@@ -4,6 +4,7 @@
  * Slug: powder/posts
  * Categories: powder-posts
  * Block Types: core/query
+ * Inserter: no
  */
 ?>
 <!-- wp:group {"metadata":{"name":"Posts"},"align":"full","layout":{"type":"constrained"}} -->
