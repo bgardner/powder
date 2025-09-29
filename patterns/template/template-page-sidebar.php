@@ -1,8 +1,8 @@
 <?php
 /**
- * Title: Post with sidebar (right)
- * Slug: powder/template-post-sidebar-right
- * Template Types: single
+ * Title: Page with sidebar
+ * Slug: powder/template-page-sidebar
+ * Template Types: page
  * Inserter: no
  */
 ?>
@@ -17,8 +17,6 @@
 			<article class="wp-block-group" style="padding-top:var(--wp--preset--spacing--40)">
 				<!-- wp:post-title {"level":1} /-->
 				<!-- wp:post-content {"layout":{"type":"constrained"}} /-->
-				<!-- wp:pattern {"slug":"powder/post-terms"} /-->
-				<!-- wp:pattern {"slug":"powder/comments"} /-->
 			</article>
 			<!-- /wp:group -->
 		</div>
