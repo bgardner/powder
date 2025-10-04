@@ -24,10 +24,13 @@ html {
 
 a,
 button,
-input,
-textarea,
 .wp-element-button {
-	transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+	transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+input,
+textarea {
+	transition: filter 0.2s ease-in-out;
 }
 
 b,
