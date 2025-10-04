@@ -599,11 +599,23 @@
 				"color": {
 					"text": "var(--wp--preset--color--primary)"
 				},
+				"typography": {
+					"textDecoration": "underline"
+				},
 				":hover": {
 					"color": {
 						"text": "var(--wp--preset--color--contrast)"
 					}
-				}
+				},
+				":focus": {
+					"outline": {
+						"color": "currentColor",
+						"offset": "1px",
+						"style": "solid",
+						"width": "1px"
+					}
+				},
+				"css": "a, a:not(.wp-element-button) {text-decoration-thickness: 1px; text-underline-offset: 1px;}"
 			}
 		},
 		"spacing": {

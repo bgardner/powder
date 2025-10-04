@@ -27,14 +27,7 @@ button,
 input,
 textarea,
 .wp-element-button {
-	transition: all 0.2s ease-in-out;
-}
-
-a,
-a:focus,
-a:hover,
-a:not(.wp-element-button) {
-	text-decoration-thickness: 1px;
+	transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
 b,
