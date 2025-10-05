@@ -95,40 +95,18 @@ textarea {
 
 /* -- Navigation -- */
 
-.wp-block-navigation__responsive-container-close,
-.wp-block-navigation__responsive-container-open {
-	border: 1px solid currentColor;
-	padding: 2px;
-}
-
 .wp-block-navigation__responsive-container.is-menu-open {
-	padding: var(--wp--preset--spacing--30) var(--wp--preset--spacing--40);
+	padding: var(--wp--preset--spacing--30);
 }
 
 /* -- Navigation Submenu -- */
 
-.wp-block-navigation__responsive-container.is-menu-open,
-.wp-block-navigation-submenu {
-	color: currentColor !important;
-}
-
 .wp-block-navigation__submenu-container {
-	border-color: currentColor !important;
 	min-width: 150px !important;
 	padding: 10px !important;
 }
 
-.has-base-background-color .wp-block-navigation__responsive-container,
-.has-base-background-color .wp-block-navigation-submenu {
-	background-color: var(--wp--preset--color--base) !important;
-}
-
-.has-contrast-background-color .wp-block-navigation__responsive-container,
-.has-contrast-background-color .wp-block-navigation-submenu {
-	background-color: var(--wp--preset--color--contrast) !important;
-}
-
-.wp-block-navigation :where(.wp-block-navigation__submenu-container) .wp-block-navigation-item__content {
+.wp-block-navigation .wp-block-navigation__submenu-container .wp-block-navigation-item__content {
 	padding: 2px 10px !important;
 }
 
