@@ -63,7 +63,7 @@ textarea {
 	width: 100%;
 }
 
-input:focus,
+input[type="text"]:focus,
 textarea:focus {
 	border-color: var(--wp--preset--color--primary);
 	outline: 1px solid var(--wp--preset--color--primary);
