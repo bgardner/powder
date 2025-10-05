@@ -65,7 +65,7 @@ textarea {
 
 input:focus,
 textarea:focus {
-	filter: brightness(95%);
+	border-color: var(--wp--preset--color--primary);
 	outline: none;
 }
 
