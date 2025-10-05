@@ -555,6 +555,14 @@
 					"fontSize": "var(--wp--preset--font-size--x-small)",
 					"fontWeight": "var(--wp--custom--font-weight--regular)",
 					"lineHeight": "var(--wp--custom--line-height--medium)"
+				},
+				":focus": {
+					"outline": {
+						"color": "var(--wp--preset--color--primary)",
+						"offset": "1px",
+						"style": "solid",
+						"width": "2px"
+					}
 				}
 			},
 			"caption": {
