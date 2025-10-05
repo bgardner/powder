@@ -65,7 +65,8 @@ textarea {
 
 input:focus,
 textarea:focus {
-	outline: 1px solid currentColor;
+	border-color: var(--wp--preset--color--primary);
+	outline: 1px solid var(--wp--preset--color--primary);
 }
 
 input[type="checkbox"],
