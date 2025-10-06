@@ -558,7 +558,7 @@
 				},
 				":focus": {
 					"outline": {
-						"color": "var(--wp--preset--color--primary)",
+						"color": "var(--wp--preset--color--secondary)",
 						"offset": "1px",
 						"style": "solid",
 						"width": "2px"
