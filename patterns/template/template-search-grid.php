@@ -1,8 +1,8 @@
 <?php
 /**
- * Title: Archive page with grid of posts
- * Slug: powder/template-archive-grid
- * Template Types: archive, author, category, date, tag
+ * Title: Search page with grid of posts
+ * Slug: powder/template-search-grid
+ * Template Types: search
  * Inserter: no
  */
 ?>
@@ -11,8 +11,7 @@
 <main class="wp-block-group" style="margin-top:0;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)">
 	<!-- wp:group {"align":"wide","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"},"blockGap":"10px"}}} -->
 	<div class="wp-block-group alignwide" style="margin-bottom:var(--wp--preset--spacing--60)">
-		<!-- wp:query-title {"type":"archive","textAlign":"center","showPrefix":false} /-->
-		<!-- wp:term-description {"textAlign":"center"} /-->
+		<!-- wp:query-title {"type":"search","textAlign":"center"} /-->
 	</div>
 	<!-- /wp:group -->
 	<!-- wp:group {"align":"full","layout":{"type":"constrained"}} -->

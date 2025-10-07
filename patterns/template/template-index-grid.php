@@ -1,20 +1,14 @@
 <?php
 /**
- * Title: Archive page with grid of posts
- * Slug: powder/template-archive-grid
- * Template Types: archive, author, category, date, tag
+ * Title: Index page with grid of posts
+ * Slug: powder/template-index-grid
+ * Template Types: front-page, home, index
  * Inserter: no
  */
 ?>
 <!-- wp:template-part {"slug":"header","tagName":"header","className":"site-header"} /-->
 <!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"layout":{"type":"constrained"}} -->
 <main class="wp-block-group" style="margin-top:0;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)">
-	<!-- wp:group {"align":"wide","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|60"},"blockGap":"10px"}}} -->
-	<div class="wp-block-group alignwide" style="margin-bottom:var(--wp--preset--spacing--60)">
-		<!-- wp:query-title {"type":"archive","textAlign":"center","showPrefix":false} /-->
-		<!-- wp:term-description {"textAlign":"center"} /-->
-	</div>
-	<!-- /wp:group -->
 	<!-- wp:group {"align":"full","layout":{"type":"constrained"}} -->
 	<div class="wp-block-group alignfull">
 		<!-- wp:query {"queryId":0,"query":{"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true,"align":"wide","layout":{"type":"default"}} -->
