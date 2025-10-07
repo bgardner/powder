@@ -353,9 +353,7 @@
 				"css": "& .wp-block-navigation__responsive-container-open, .wp-block-navigation__responsive-container-close {border: 1px solid currentColor; padding: 2px;}",
 				"spacing": {
 					"blockGap": "var(--wp--preset--spacing--20)"
-				}
-			},
-			"core/navigation-link": {
+				},
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--x-small)",
 					"lineHeight": "var(--wp--custom--line-height--medium)"
