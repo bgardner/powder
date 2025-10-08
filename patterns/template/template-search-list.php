@@ -18,15 +18,9 @@
 	<div class="wp-block-group alignfull">
 		<!-- wp:query {"queryId":0,"query":{"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true,"align":"wide","layout":{"type":"default"}} -->
 		<div class="wp-block-query alignwide">
-			<!-- wp:post-template {"layout":{"type":"default"}} -->
-				<!-- wp:separator {"opacity":"css","className":"is-style-wide"} -->
-				<hr class="wp-block-separator has-css-opacity is-style-wide"/>
-				<!-- /wp:separator -->
-				<!-- wp:spacer {"height":"30px"} -->
-				<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
-				<!-- /wp:spacer -->
-				<!-- wp:columns {"style":{"spacing":{"margin":{"bottom":"0px"}}}} -->
-				<div class="wp-block-columns" style="margin-bottom:0px">
+			<!-- wp:post-template {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"default"}} -->
+				<!-- wp:columns {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40"}},"border":{"top":{"color":"var:preset|color|contrast","width":"1px"}}}} -->
+				<div class="wp-block-columns" style="border-top-color:var(--wp--preset--color--contrast);border-top-width:1px;padding-top:var(--wp--preset--spacing--40)">
 					<!-- wp:column {"width":"25%"} -->
 					<div class="wp-block-column" style="flex-basis:25%">
 						<!-- wp:post-date {"fontSize":"x-small"} /-->
@@ -35,12 +29,12 @@
 					<!-- wp:column {"width":"50%","className":"is-style-no-margin"} -->
 					<div class="wp-block-column is-style-no-margin" style="flex-basis:50%">
 						<!-- wp:post-title {"isLink":true,"style":{"spacing":{"margin":{"bottom":"10px"}}},"fontSize":"medium"} /-->
-						<!-- wp:post-excerpt {"moreText":"","showMoreOnNewLine":false,"excerptLength":20,"fontSize":"x-small"} /-->
+						<!-- wp:post-excerpt {"moreText":"","showMoreOnNewLine":false,"excerptLength":20,"style":{"spacing":{"margin":{"top":"var:preset|spacing|20"}}},"fontSize":"x-small"} /-->
 					</div>
 					<!-- /wp:column -->
 					<!-- wp:column {"width":"25%"} -->
 					<div class="wp-block-column" style="flex-basis:25%">
-						<!-- wp:post-terms {"term":"post_tag","textAlign":"right"} /-->
+						<!-- wp:post-terms {"term":"post_tag","textAlign":"right","fontSize":"x-small"} /-->
 					</div>
 					<!-- /wp:column -->
 				</div>
