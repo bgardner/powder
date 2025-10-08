@@ -21,7 +21,7 @@
 		<!-- /wp:button -->
 	</div>
 	<!-- /wp:buttons -->
-	<!-- wp:group {"style":{"spacing":{"blockGap":"5px"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"},"fontSize":"x-small"} -->
+	<!-- wp:group {"style":{"spacing":{"blockGap":"5px"}},"fontSize":"x-small","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
 	<div class="wp-block-group has-x-small-font-size">
 		<!-- wp:group {"style":{"spacing":{"blockGap":"5px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 		<div class="wp-block-group">
@@ -35,7 +35,7 @@
 		<p> · </p>
 		<!-- /wp:paragraph -->
 		<!-- wp:paragraph -->
-		<p><?php echo esc_html__( 'All Rights Reserved', 'powder' ); ?></p>
+		<p><a href="https://powder.design/">Powder Theme</a> by <a href="https://briangardner.com/">Brian Gardner</a></p>
 		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:group -->
