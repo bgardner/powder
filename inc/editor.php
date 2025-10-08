@@ -27,7 +27,6 @@ function powder_register_block_styles() {
 	$block_styles = [
 		'core/button' => array(
 			'light'  => __( 'Light', 'powder' ),
-			'shadow' => __( 'Shadow', 'powder' ),
 		),
 		'core/columns' => array(
 			'column-reverse' => __( 'Reverse', 'powder' ),

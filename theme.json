@@ -282,26 +282,6 @@
 								"left": "29px"
 							}
 						}
-					},
-					"shadow": {
-						"border": {
-							"color": "currentColor",
-							"style": "solid",
-							"width": "1px"
-						},
-						"color": {
-							"background": "inherit",
-							"text": "var(--wp--preset--color--contrast)"
-						},
-						"shadow": "var(--wp--preset--shadow--solid)",
-						"spacing": {
-							"padding": {
-								"top": "14px",
-								"right": "29px",
-								"bottom": "14px",
-								"left": "29px"
-							}
-						}
 					}
 				}
 			},
