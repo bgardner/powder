@@ -3,7 +3,6 @@
  * Title: Stack of posts
  * Slug: powder/posts
  * Categories: powder-posts
- * Block Types: core/query
  * Inserter: no
  */
 ?>
