@@ -9,7 +9,7 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
 
-Powder embraces its minimalist roots with purpose and style. Built for the WordPress block editor, it offers an extensive pattern library, versatile templates, and tailored color palettes—giving designers and developers a solid foundation for infinite creativity.
+Powder is a statement of restraint—a foundation that celebrates simplicity, purpose, and style. Through its abundance of patterns, versatile templates, and tailored color palettes, it becomes a canvas for thoughtful expression that adds depth to every design.
 
 == Community ==
 
