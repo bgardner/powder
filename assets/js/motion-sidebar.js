@@ -9,9 +9,12 @@
 	const { InspectorControls } = wp.blockEditor || wp.editor;
 	const { PanelBody, ToggleControl, RangeControl, SelectControl } = wp.components;
 
-	// Add custom motion attributes to the Group block.
+	// Supported block types for motion.
+	const supportedBlocks = [ 'core/group', 'core/columns', 'core/column', 'core/image' ];
+
+	// Add custom motion attributes to supported blocks.
 	function addMotionAttributes(settings, name) {
-		if (name !== 'core/group') return settings; // Apply only to Group block.
+		if (!supportedBlocks.includes(name)) return settings; // Apply only to supported blocks.
 
 		settings.attributes = Object.assign({}, settings.attributes, {
 			powderMotion: { type: 'boolean', default: false }, // Toggle motion on/off.
@@ -25,7 +28,7 @@
 	// Create sidebar controls for motion settings.
 	const withMotionControls = hoc(function (BlockEdit) {
 		return function (props) {
-			if (props.name !== 'core/group') return el(BlockEdit, props); // Limit to Group block.
+			if (!supportedBlocks.includes(props.name)) return el(BlockEdit, props); // Limit to supported blocks.
 			const { attributes, setAttributes, isSelected } = props;
 			const { powderMotion, powderMotionEffect = 'fadeInUp' } = attributes;
 			let powderOffset = Number(attributes.powderOffset || 0);
@@ -74,7 +77,7 @@
 
 	// Add data attributes to block output when motion is active.
 	function applyExtraProps(extraProps, blockType, attributes) {
-		if (blockType.name !== 'core/group' || !attributes?.powderMotion) return extraProps; // Skip unrelated blocks.
+		if (!supportedBlocks.includes(blockType.name) || !attributes?.powderMotion) return extraProps; // Skip unrelated blocks.
 
 		extraProps['data-motion'] = attributes.powderMotionEffect || 'fadeInUp'; // Assign motion type.
 		if (attributes.powderOffset) extraProps['data-offset'] = attributes.powderOffset; // Assign delay if set.
@@ -82,4 +85,4 @@
 		return extraProps;
 	}
 	addFilter('blocks.getSaveContent.extraProps', 'powder/motion/save-props', applyExtraProps);
-})(window.wp || {}); // Run safely within W
+})(window.wp || {}); // Run safely within WordPress environment.

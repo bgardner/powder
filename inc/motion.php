@@ -50,7 +50,7 @@ add_filter( 'render_block', function( $content, $block ) {
 
 	if (
 		! empty( $block['blockName'] )
-		&& $block['blockName'] === 'core/group'
+		&& in_array( $block['blockName'], array( 'core/group', 'core/columns', 'core/column' ), true )
 		&& ! empty( $block['attrs']['powderMotion'] )
 		&& (
 			empty( $block['attrs']['powderMotionEffect'] )
