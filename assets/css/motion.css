@@ -1,4 +1,4 @@
-/* Defaults
+/* Motion Effetcs
 ---------------------------------------- */
 
 .js [data-motion="fadeIn"]:not(.motion-fadeIn),
@@ -7,19 +7,13 @@
 	opacity: 0;
 }
 
-.js [data-motion="fadeInUp"]:not(.motion-fadeInUp) {
-	transform: translateY(20px);
-}
-
-.js [data-motion="fadeInDown"]:not(.motion-fadeInDown) {
-	transform: translateY(-20px);
-}
-
 /* Fade In
 ---------------------------------------- */
 
 .motion-fadeIn {
-	animation: fadeIn 0.5s ease-out forwards;
+	animation-name: fadeIn;
+	animation-timing-function: ease-out;
+	animation-fill-mode: forwards;
 }
 
 @keyframes fadeIn {
@@ -31,22 +25,38 @@
 ---------------------------------------- */
 
 .motion-fadeInUp {
-	animation: fadeInUp 0.5s ease-out forwards;
+	animation-name: fadeInUp;
+	animation-timing-function: ease-out;
+	animation-fill-mode: forwards;
 }
 
 @keyframes fadeInUp {
-	from { opacity: 0; transform: translateY(20px); }
-	to { opacity: 1; transform: translateY(0); }
+	from {
+		opacity: 0;
+		transform: translateY(var(--powder-motion-distance, 20px));
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
 }
 
 /* Fade In Down
 ---------------------------------------- */
 
 .motion-fadeInDown {
-	animation: fadeInDown 0.5s ease-out forwards;
+	animation-name: fadeInDown;
+	animation-timing-function: ease-out;
+	animation-fill-mode: forwards;
 }
 
 @keyframes fadeInDown {
-	from { opacity: 0; transform: translateY(-20px); }
-	to { opacity: 1; transform: translateY(0); }
+	from {
+		opacity: 0;
+		transform: translateY(calc(var(--powder-motion-distance, 20px) * -1));
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
 }

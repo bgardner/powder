@@ -19,7 +19,9 @@
 		settings.attributes = Object.assign({}, settings.attributes, {
 			powderMotion: { type: 'boolean', default: false }, // Toggle motion on/off.
 			powderMotionEffect: { type: 'string', default: 'fadeIn' }, // Default motion type.
-			powderOffset: { type: 'string', default: '' } // Optional delay (seconds).
+			powderOffset: { type: 'string', default: '' }, // Optional delay (seconds).
+			powderDuration: { type: 'number', default: 0.5 }, // Animation duration (seconds).
+			powderMotionDistance: { type: 'string', default: '20' } // Distance (px) for directional motion.
 		});
 		return settings;
 	}
@@ -29,28 +31,52 @@
 	const withMotionControls = hoc(function (BlockEdit) {
 		return function (props) {
 			if (!supportedBlocks.includes(props.name)) return el(BlockEdit, props); // Limit to supported blocks.
+
 			const { attributes, setAttributes, isSelected } = props;
-			const { powderMotion, powderMotionEffect = 'fadeInUp' } = attributes;
-			let powderOffset = Number(attributes.powderOffset || 0);
-			if (Number.isNaN(powderOffset)) powderOffset = 0; // Sanitize invalid values.
+			const {
+				powderMotion,
+				powderMotionEffect = 'fadeInUp',
+				powderOffset,
+				powderDuration,
+				powderMotionDistance = '20'
+			} = attributes;
+
+			let offsetVal = Number(powderOffset || 0);
+			if (Number.isNaN(offsetVal)) offsetVal = 0;
+
+			let distanceVal = parseInt(powderMotionDistance, 10);
+			if (Number.isNaN(distanceVal)) distanceVal = 20;
 
 			return el(
 				Fragment,
 				null,
-				el(BlockEdit, props), // Render default block editor UI.
-				isSelected && el( // Display panel only when block is selected.
+				el(BlockEdit, props),
+				isSelected && el(
 					InspectorControls,
 					null,
 					el(
 						PanelBody,
 						{ title: 'Motion', initialOpen: false },
 						el(ToggleControl, {
-							label: 'Enable motion', // Main on/off toggle.
+							label: 'Enable motion',
 							checked: !!powderMotion,
-							onChange: (val) => setAttributes({ powderMotion: !!val })
+							onChange: (val) => {
+								if (!val) {
+									// Reset all motion-related attributes when toggled off.
+									setAttributes({
+										powderMotion: false,
+										powderMotionEffect: 'fadeIn',
+										powderOffset: '0',
+										powderDuration: 0.5,
+										powderMotionDistance: '20'
+									});
+								} else {
+									setAttributes({ powderMotion: true });
+								}
+							}
 						}),
 						powderMotion && el(SelectControl, {
-							label: 'Effect', // Dropdown for motion type.
+							label: 'Effect',
 							value: powderMotionEffect,
 							options: [
 								{ label: 'Fade In', value: 'fadeIn' },
@@ -60,12 +86,28 @@
 							onChange: (val) => setAttributes({ powderMotionEffect: val })
 						}),
 						powderMotion && el(RangeControl, {
-							label: 'Offset (seconds)', // Slider for animation delay.
-							value: powderOffset,
+							label: 'Offset (seconds)',
+							value: offsetVal,
 							onChange: (val) => setAttributes({ powderOffset: String(val) }),
 							min: 0,
 							max: 0.5,
 							step: 0.05
+						}),
+						powderMotion && el(RangeControl, {
+							label: 'Duration (seconds)',
+							value: powderDuration,
+							onChange: (val) => setAttributes({ powderDuration: val }),
+							min: 0,
+							max: 1.0,
+							step: 0.1
+						}),
+						powderMotion && (powderMotionEffect === 'fadeInUp' || powderMotionEffect === 'fadeInDown') && el(RangeControl, {
+							label: 'Distance (px)',
+							value: distanceVal,
+							onChange: (val) => setAttributes({ powderMotionDistance: String(val) }),
+							min: 20,
+							max: 60,
+							step: 10
 						})
 					)
 				)
@@ -77,12 +119,15 @@
 
 	// Add data attributes to block output when motion is active.
 	function applyExtraProps(extraProps, blockType, attributes) {
-		if (!supportedBlocks.includes(blockType.name) || !attributes?.powderMotion) return extraProps; // Skip unrelated blocks.
+		if (!supportedBlocks.includes(blockType.name) || !attributes?.powderMotion) return extraProps;
 
-		extraProps['data-motion'] = attributes.powderMotionEffect || 'fadeInUp'; // Assign motion type.
-		if (attributes.powderOffset) extraProps['data-offset'] = attributes.powderOffset; // Assign delay if set.
+		extraProps['data-motion'] = attributes.powderMotionEffect || 'fadeInUp';
+		if (attributes.powderOffset) extraProps['data-offset'] = attributes.powderOffset;
+		if (attributes.powderDuration) extraProps['data-duration'] = attributes.powderDuration;
+		if (attributes.powderMotionDistance) extraProps['data-distance'] = attributes.powderMotionDistance;
 
 		return extraProps;
 	}
 	addFilter('blocks.getSaveContent.extraProps', 'powder/motion/save-props', applyExtraProps);
-})(window.wp || {}); // Run safely within WordPress environment.
+
+})(window.wp || {});

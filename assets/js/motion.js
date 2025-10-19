@@ -11,35 +11,42 @@ document.documentElement.classList.add('js');
 		: fn();
 
 	onReady(() => {
-		const els = document.querySelectorAll('[data-motion]'); // Select all elements with motion data attribute.
-		if (!els.length) return; // Exit if no motion elements exist.
+		const els = document.querySelectorAll('[data-motion]');
+		if (!els.length) return;
 
 		// Create observer to trigger animations when elements enter viewport.
 		const io = new IntersectionObserver((entries) => {
 			for (const entry of entries) {
-				if (!entry.isIntersecting) continue; // Ignore elements not visible yet.
+				if (!entry.isIntersecting) continue;
 
 				const el = entry.target;
-				const motion = el.getAttribute('data-motion') || 'fadeInUp'; // Get motion type or default.
-				const delay = Math.max(0, (parseFloat(el.getAttribute('data-offset')) || 0) * 1000); // Convert delay (sec → ms).
+				const motion = el.getAttribute('data-motion') || 'fadeInUp';
+				const delay = Math.max(0, (parseFloat(el.getAttribute('data-offset')) || 0) * 1000);
+				const duration = Math.max(0, parseFloat(el.getAttribute('data-duration')) || 0.5);
+
+				// Apply inline animation duration.
+				el.style.animationDuration = `${duration}s`;
 
 				// Apply motion class after optional delay.
 				setTimeout(() => el.classList.add('motion-' + motion), delay);
 
-				io.unobserve(el); // Stop observing once animation starts.
+				io.unobserve(el);
 			}
-		}, { threshold: 0.15 }); // Trigger when 15% of element is visible.
+		}, { threshold: 0.15 });
 
-		// Prepare each element with initial opacity and position.
+		// Prepare each element with initial state and CSS variables.
 		els.forEach((el) => {
 			const motion = el.getAttribute('data-motion') || 'fadeInUp';
-			el.style.opacity = '0'; // Hide until animated.
+			const distance = parseInt(el.getAttribute('data-distance') || 20, 10);
 
-			// Set starting transform for directional effects.
-			if (motion === 'fadeInUp') el.style.transform = 'translateY(20px)';
-			if (motion === 'fadeInDown') el.style.transform = 'translateY(-20px)';
+			// Hide element until animation begins.
+			el.style.opacity = '0';
 
-			io.observe(el); // Begin observing each motion element.
+			// Set CSS variable for dynamic distance (used by keyframes).
+			el.style.setProperty('--powder-motion-distance', `${distance}px`);
+
+			// Observe element for intersection trigger.
+			io.observe(el);
 		});
 	});
 })();
