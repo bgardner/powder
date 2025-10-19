@@ -22,24 +22,13 @@ add_action( 'enqueue_block_editor_assets', function() {
  * Register front-end assets (not enqueued yet).
  */
 add_action( 'wp_enqueue_scripts', function() {
-	if ( is_admin() ) {
-		return;
-	}
+	if ( is_admin() ) return;
 
-	wp_register_style(
-		'powder-motion',
-		get_template_directory_uri() . '/assets/css/motion.css',
-		array(),
-		'1.0'
-	);
+	$theme   = wp_get_theme( get_template() ); // Get current theme object.
+	$version = $theme->get( 'Version' ); // Read version from style.css.
 
-	wp_register_script(
-		'powder-motion',
-		get_template_directory_uri() . '/assets/js/motion.js',
-		array(),
-		'1.0',
-		true
-	);
+	wp_register_style( 'powder-motion', get_template_directory_uri() . '/assets/css/motion.css', array(), $version );
+	wp_register_script( 'powder-motion', get_template_directory_uri() . '/assets/js/motion.js', array(), $version, true );
 }, 5 );
 
 /**
