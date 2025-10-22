@@ -36,6 +36,35 @@
 				}
 			}
 		},
+		"border": {
+			"radiusSizes": [
+				{
+					"name": "xSmall",
+					"size": "4px",
+					"slug": "x-small"
+				},
+				{
+					"name": "Small",
+					"size": "8px",
+					"slug": "small"
+				},
+				{
+					"name": "Medium",
+					"size": "12px",
+					"slug": "medium"
+				},
+				{
+					"name": "Large",
+					"size": "20px",
+					"slug": "large"
+				},
+				{
+					"name": "xLarge",
+					"size": "40px",
+					"slug": "x-large"
+				}
+			]
+		},
 		"color": {
 			"defaultDuotone": false,
 			"defaultGradients": false,
