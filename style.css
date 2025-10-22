@@ -36,12 +36,12 @@ textarea {
 b,
 strong,
 th {
-	font-weight: var(--wp--custom--font-weight--medium);
+	font-weight: 500;
 }
 
 mark {
 	font-size: var(--wp--preset--font-size--small);
-	font-weight: var(--wp--custom--font-weight--regular);
+	font-weight: 400;
 	padding: 5px 8px;
 }
 
@@ -57,7 +57,7 @@ textarea {
 	color: var(--wp--preset--color--contrast);
 	font-family: inherit;
 	font-size: var(--wp--preset--font-size--medium);
-	font-weight: var(--wp--custom--font-weight--light);
+	font-weight: 300;
 	line-height: var(--wp--custom--line-height--medium);
 	padding: 10px 15px;
 	width: 100%;
