@@ -9,7 +9,7 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
 
-Powder is a statement of restraint—a foundation that celebrates simplicity, purpose, and style. Through its abundance of patterns, versatile templates, and tailored color palettes, it becomes a canvas for thoughtful expression that adds depth to every design.
+Powder is a statement of restraint—a foundation that celebrates simplicity, purpose, and style. Through its abundance of patterns, versatile templates, and tailored color palettes, it becomes a foundation for expression, created for designers and agencies.
 
 == Community ==
 
