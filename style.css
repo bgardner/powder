@@ -41,8 +41,7 @@ th {
 
 mark {
 	font-size: var(--wp--preset--font-size--small);
-	font-weight: 400;
-	padding: 5px 8px;
+	padding: 4px 8px;
 }
 
 /* -- Forms -- */
@@ -51,13 +50,13 @@ input,
 select,
 textarea {
 	background-color: var(--wp--preset--color--base);
-	border: 1px solid var(--wp--preset--color--contrast);
+	border: 1px solid currentColor;
 	border-radius: 0;
 	box-sizing: border-box;
-	color: var(--wp--preset--color--contrast);
+	color: inherit;
 	font-family: inherit;
-	font-size: var(--wp--preset--font-size--medium);
-	font-weight: 300;
+	font-size: inherit;
+	font-weight: inherit;
 	line-height: var(--wp--custom--line-height--medium);
 	padding: 10px 15px;
 	width: 100%;
