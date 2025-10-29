@@ -9,7 +9,7 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
 
-Powder is a statement of refinement—a framework that celebrates simplicity, purpose, and style. Through its abundance of patterns, versatile templates, and tailored color palettes, it offers WordPress designers and agencies a foundation for creative expression and structural clarity.
+Powder is rooted in simplicity and driven by purpose. It brings an abundance of patterns, versatile templates, and tailored color palettes to WordPress designers and agencies.
 
 == Community ==
 
