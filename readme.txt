@@ -9,7 +9,7 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
 
-Powder is rooted in simplicity and driven by purpose. It brings an abundance of patterns, versatile templates, and tailored color palettes to WordPress designers and agencies.
+Powder is rooted in simplicity and built with purpose. It brings an abundance of patterns, versatile templates, and tailored color palettes to designers and agencies around the world.
 
 == Community ==
 
