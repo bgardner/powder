@@ -218,6 +218,12 @@
 			"fontSizes": [
 				{
 					"fluid": false,
+					"name": "xxSmall",
+					"size": "14px",
+					"slug": "xx-small"
+				},
+				{
+					"fluid": false,
 					"name": "xSmall",
 					"size": "16px",
 					"slug": "x-small"
@@ -478,7 +484,7 @@
 					"style": "solid",
 					"width": "1px 0 0"
 				},
-				"css": ":not(.is-style-wide):not(.is-style-dots) {width: 80px;}"
+				"css": ":not(.is-style-wide):not(.is-style-dots) {width: 180px;}"
 			},
 			"core/site-title": {
 				"elements": {
