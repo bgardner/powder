@@ -40,7 +40,7 @@
 			<details class="wp-block-details" style="font-style:normal;font-weight:400">
 				<summary><?php echo esc_html__( 'Why should I purchase the All-Access plan?', 'powder' ); ?></summary>
 				<!-- wp:paragraph {"placeholder":"Type / to add a hidden block","style":{"typography":{"fontStyle":"normal","fontWeight":"300"}}} -->
-				<p style="font-style:normal;font-weight:300"><?php echo esc_html__( 'Powder is the the premier block theme for WordPress designers and developers, featuring an extensive library of wireframe patterns and versatile templates.', 'powder' ); ?></p>
+				<p style="font-style:normal;font-weight:300"><?php echo esc_html__( 'Powder is the the premier block theme for WordPress designers and agencies, featuring an extensive library of wireframe patterns and versatile templates.', 'powder' ); ?></p>
 				<!-- /wp:paragraph -->
 			</details>
 			<!-- /wp:details -->
@@ -52,7 +52,7 @@
 			<details class="wp-block-details" style="font-style:normal;font-weight:400">
 				<summary><?php echo esc_html__( 'Why should I purchase the All-Access plan?', 'powder' ); ?></summary>
 				<!-- wp:paragraph {"placeholder":"Type / to add a hidden block","style":{"typography":{"fontStyle":"normal","fontWeight":"300"}}} -->
-				<p style="font-style:normal;font-weight:300"><?php echo esc_html__( 'Powder is the the premier block theme for WordPress designers and developers, featuring an extensive library of wireframe patterns and versatile templates.', 'powder' ); ?></p>
+				<p style="font-style:normal;font-weight:300"><?php echo esc_html__( 'Powder is the the premier block theme for WordPress designers and agencies, featuring an extensive library of wireframe patterns and versatile templates.', 'powder' ); ?></p>
 				<!-- /wp:paragraph -->
 			</details>
 			<!-- /wp:details -->
@@ -64,7 +64,7 @@
 			<details class="wp-block-details" style="font-style:normal;font-weight:400">
 				<summary><?php echo esc_html__( 'Why should I purchase the All-Access plan?', 'powder' ); ?></summary>
 				<!-- wp:paragraph {"placeholder":"Type / to add a hidden block","style":{"typography":{"fontStyle":"normal","fontWeight":"300"}}} -->
-				<p style="font-style:normal;font-weight:300"><?php echo esc_html__( 'Powder is the the premier block theme for WordPress designers and developers, featuring an extensive library of wireframe patterns and versatile templates.', 'powder' ); ?></p>
+				<p style="font-style:normal;font-weight:300"><?php echo esc_html__( 'Powder is the the premier block theme for WordPress designers and agencies, featuring an extensive library of wireframe patterns and versatile templates.', 'powder' ); ?></p>
 				<!-- /wp:paragraph -->
 			</details>
 			<!-- /wp:details -->
@@ -76,7 +76,7 @@
 			<details class="wp-block-details" style="font-style:normal;font-weight:400">
 				<summary><?php echo esc_html__( 'Why should I purchase the All-Access plan?', 'powder' ); ?></summary>
 				<!-- wp:paragraph {"placeholder":"Type / to add a hidden block","style":{"typography":{"fontStyle":"normal","fontWeight":"300"}}} -->
-				<p style="font-style:normal;font-weight:300"><?php echo esc_html__( 'Powder is the the premier block theme for WordPress designers and developers, featuring an extensive library of wireframe patterns and versatile templates.', 'powder' ); ?></p>
+				<p style="font-style:normal;font-weight:300"><?php echo esc_html__( 'Powder is the the premier block theme for WordPress designers and agencies, featuring an extensive library of wireframe patterns and versatile templates.', 'powder' ); ?></p>
 				<!-- /wp:paragraph -->
 			</details>
 			<!-- /wp:details -->
@@ -88,7 +88,7 @@
 			<details class="wp-block-details" style="font-style:normal;font-weight:400">
 				<summary><?php echo esc_html__( 'Why should I purchase the All-Access plan?', 'powder' ); ?></summary>
 				<!-- wp:paragraph {"placeholder":"Type / to add a hidden block","style":{"typography":{"fontStyle":"normal","fontWeight":"300"}}} -->
-				<p style="font-style:normal;font-weight:300"><?php echo esc_html__( 'Powder is the the premier block theme for WordPress designers and developers, featuring an extensive library of wireframe patterns and versatile templates.', 'powder' ); ?></p>
+				<p style="font-style:normal;font-weight:300"><?php echo esc_html__( 'Powder is the the premier block theme for WordPress designers and agencies, featuring an extensive library of wireframe patterns and versatile templates.', 'powder' ); ?></p>
 				<!-- /wp:paragraph -->
 			</details>
 			<!-- /wp:details -->

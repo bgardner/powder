@@ -15,7 +15,7 @@
 			<p class="has-small-font-size">★ ★ ★ ★ ★</p>
 			<!-- /wp:paragraph -->
 			<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"10px"}}}} -->
-			<p style="margin-top:10px"><?php echo esc_html__( '“Powder is the premier block theme for WordPress designers and developers, offering an extensive library of patterns.”', 'powder' ); ?></p>
+			<p style="margin-top:10px"><?php echo esc_html__( '“Powder is the premier block theme for WordPress designers and agencies, offering an extensive library of patterns.”', 'powder' ); ?></p>
 			<!-- /wp:paragraph -->
 			<!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 			<div class="wp-block-group">
@@ -35,7 +35,7 @@
 			<p class="has-small-font-size">★ ★ ★ ★ ★</p>
 			<!-- /wp:paragraph -->
 			<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"10px"}}}} -->
-			<p style="margin-top:10px"><?php echo esc_html__( '“Powder is the premier block theme for WordPress designers and developers, offering an extensive library of patterns.”', 'powder' ); ?></p>
+			<p style="margin-top:10px"><?php echo esc_html__( '“Powder is the premier block theme for WordPress designers and agencies, offering an extensive library of patterns.”', 'powder' ); ?></p>
 			<!-- /wp:paragraph -->
 			<!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 			<div class="wp-block-group">
@@ -55,7 +55,7 @@
 			<p class="has-small-font-size">★ ★ ★ ★ ★</p>
 			<!-- /wp:paragraph -->
 			<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"10px"}}}} -->
-			<p style="margin-top:10px"><?php echo esc_html__( '“Powder is the premier block theme for WordPress designers and developers, offering an extensive library of patterns.”', 'powder' ); ?></p>
+			<p style="margin-top:10px"><?php echo esc_html__( '“Powder is the premier block theme for WordPress designers and agencies, offering an extensive library of patterns.”', 'powder' ); ?></p>
 			<!-- /wp:paragraph -->
 			<!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 			<div class="wp-block-group">

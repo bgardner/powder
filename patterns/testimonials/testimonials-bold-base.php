@@ -13,7 +13,7 @@
 	<!-- wp:group {"style":{"spacing":{"margin":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"},"blockGap":"var:preset|spacing|20"}},"layout":{"type":"default"}} -->
 	<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--80);margin-bottom:var(--wp--preset--spacing--80)">
 		<!-- wp:paragraph {"align":"center","style":{"typography":{"lineHeight":"1","fontSize":"60px"}}} -->
-		<p class="has-text-align-center" style="font-size:60px;line-height:1"><?php echo esc_html__( 'Powder is the premier block theme for WordPress designers and developers, offering an extensive library of stylish patterns.', 'powder' ); ?></p>
+		<p class="has-text-align-center" style="font-size:60px;line-height:1"><?php echo esc_html__( 'Powder is the premier block theme for WordPress designers and agencies, offering an extensive library of stylish patterns.', 'powder' ); ?></p>
 		<!-- /wp:paragraph -->
 		<!-- wp:paragraph {"align":"center"} -->
 		<p class="has-text-align-center"><?php echo esc_html__( 'Jennifer Kayne, Designer', 'powder' ); ?></p>
