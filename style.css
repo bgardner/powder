@@ -49,16 +49,11 @@ mark {
 input,
 select,
 textarea {
-	background-color: var(--wp--preset--color--base);
-	border: 1px solid currentColor;
-	border-radius: 0;
 	box-sizing: border-box;
-	color: inherit;
 	font-family: inherit;
 	font-size: inherit;
 	font-weight: inherit;
 	line-height: var(--wp--custom--line-height--medium);
-	padding: 10px 15px;
 	width: 100%;
 }
 

@@ -627,6 +627,26 @@
 					}
 				},
 				"css": "a, a:not(.wp-element-button) {text-decoration-thickness: 1px; text-underline-offset: 1px;}"
+			},
+			"textInput": {
+				"border": {
+					"color": "currentColor",
+					"radius": "0",
+					"style": "solid",
+					"width": "1px"
+				},
+				"color": {
+					"background": "var(--wp--preset--color--base)",
+					"text": "inherit"
+				},
+				"spacing": {
+					"padding": {
+						"top": "10px",
+						"right": "15px",
+						"bottom": "15px",
+						"left": "15px"
+					}
+				}
 			}
 		},
 		"spacing": {
