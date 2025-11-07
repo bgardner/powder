@@ -34,8 +34,7 @@ textarea {
 }
 
 b,
-strong,
-th {
+strong {
 	font-weight: 500;
 }
 
@@ -65,7 +64,7 @@ input[type="radio"] {
 }
 
 ::placeholder {
-	color: var(--wp--preset--color--contrast);
+	color: inherit;
 	font-size: var(--wp--preset--font-size--small);
 	opacity: 0.5;
 }
