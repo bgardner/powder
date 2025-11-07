@@ -69,15 +69,6 @@ input[type="radio"] {
 	width: auto;
 }
 
-input[type="button"],
-input[type="email"],
-input[type="search"],
-input[type="submit"],
-input[type="text"],
-textarea {
-	-webkit-appearance: none;
-}
-
 ::placeholder {
 	color: var(--wp--preset--color--contrast);
 	font-size: var(--wp--preset--font-size--small);
