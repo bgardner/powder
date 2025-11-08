@@ -43,11 +43,16 @@ strong {
 input,
 select,
 textarea {
+	background-color: var(--wp--preset--color--base); /* -- Remove when WP 6.9 releases -- */
+	border: 1px solid var(--wp--preset--color--contrast); /* -- Remove when WP 6.9 releases -- */
+	border-radius: 0; /* -- Remove when WP 6.9 releases -- */
 	box-sizing: border-box;
+	color: inherit; /* -- Remove when WP 6.9 releases -- */
 	font-family: inherit;
 	font-size: inherit;
 	font-weight: inherit;
 	line-height: var(--wp--custom--line-height--medium);
+	padding: 10px 15px; /* -- Remove when WP 6.9 releases -- */
 	width: 100%;
 }
 
