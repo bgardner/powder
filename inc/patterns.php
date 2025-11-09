@@ -1,6 +1,6 @@
 <?php
 /**
- * Register theme pttern categories.
+ * Register theme pattern categories.
  *
  * @package Powder
  */
