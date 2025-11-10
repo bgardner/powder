@@ -300,12 +300,6 @@
 		"blocks": {
 			"core/button": {
 				"variations": {
-					"light": {
-						"color": {
-							"background": "var(--wp--preset--color--secondary)",
-							"text": "var(--wp--preset--color--contrast)"
-						}
-					},
 					"outline": {
 						"border": {
 							"color": "currentColor",
