@@ -148,6 +148,13 @@ return [
 	],
 
 	/**
+	 * Category: Example
+	 */
+	'powder_setting_option_example' => [
+		'powder/example-powder-social',
+	],
+
+	/**
 	 * Category: FAQs
 	 */
 	'powder_setting_option_faq' => [
