@@ -25,6 +25,10 @@ add_filter( 'default_wp_template_part_areas', 'powder_template_parts' );
  */
 function powder_register_block_styles() {
 	$block_styles = [
+		'core/button' => array(
+			'primary'   => __( 'Primary', 'powder' ),
+			'secondary' => __( 'Secondary', 'powder' ),
+		),
 		'core/columns' => array(
 			'column-reverse' => __( 'Reverse', 'powder' ),
 		),
