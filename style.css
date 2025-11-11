@@ -101,6 +101,12 @@ input[type="radio"] {
 /* Utility
 ---------------------------------------- */
 
+/* -- Overflow -- */
+
+.is-style-overflow-hidden {
+	overflow: hidden;
+}
+
 /* -- Position -- */
 
 .is-style-position-fixed {
