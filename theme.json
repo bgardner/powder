@@ -554,7 +554,7 @@
 			"background": "var(--wp--preset--color--base)",
 			"text": "var(--wp--preset--color--contrast)"
 		},
-		"css": "::selection {background-color: var(--wp--preset--color--secondary); color: var(--wp--preset--color--contrast);}",
+		"css": "::selection {background-color: var(--wp--preset--color--primary); color: var(--wp--preset--color--base);}",
 		"elements": {
 			"button": {
 				"border": {
