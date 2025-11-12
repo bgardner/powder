@@ -62,18 +62,44 @@ function powder_theme_settings() {
 	?>
 	<div class="wrap">
 		<h1><?php esc_html_e( 'Theme Settings', 'powder' ); ?></h1>
-		<p>
-			<?php
-			echo esc_html__( 'Enable these patterns ', 'powder' );
-			echo '<strong>' . esc_html__( 'by color', 'powder' ) . '</strong> ';
-			echo esc_html__( 'to display in the Block Inserter and Site Editor.', 'powder' );
-			?>
-		</p>
+
 		<form method="post" action="options.php">
 			<?php
 			settings_fields( 'powder-theme-settings-group' );
 			do_settings_sections( 'powder-theme-settings-group' );
 			?>
+
+			<!-- ANIMATION OPTION -->
+			<p style="max-width:880px;">
+				<?php esc_html_e( 'Enable animation on page scroll up and down.', 'powder' ); ?>
+			</p>
+			
+			<div style="max-width:880px; width:100%; margin-bottom:24px;">
+				<table class="form-table" style="width:880px; min-width:880px;">
+					<tr valign="top">
+						<td style="width:220px; vertical-align:middle;">
+							<label style="font-weight:normal;">
+								<input type="checkbox"
+									name="powder_setting_option_header_animation"
+									value="1"
+									<?php checked( 1, get_option( 'powder_setting_option_header_animation', '1' ), true ); ?>
+									style="margin-right:6px;" />
+								<?php esc_html_e( 'Header', 'powder' ); ?>
+							</label>
+						</td>
+					</tr>
+				</table>
+			</div>
+			
+			<hr style="max-width:880px; margin:24px 0; border:none; border-top:1px solid #ccd0d4;">
+
+			<p>
+				<?php
+				echo esc_html__( 'Enable patterns ', 'powder' );
+				echo '<strong>' . esc_html__( 'by color', 'powder' ) . '</strong> ';
+				echo esc_html__( 'to display in the Block Inserter and Site Editor.', 'powder' );
+				?>
+			</p>
 
 			<!-- COLOR OPTIONS -->
 			<div style="max-width:880px; width:100%;">
@@ -104,16 +130,16 @@ function powder_theme_settings() {
 					</tr>
 				</table>
 			</div>
-			
+
 			<hr style="max-width:880px; margin:16px 0 32px 0; border:none; border-top:1px solid #ccd0d4;">
 			<p style="max-width:880px;">
 				<?php
-				echo esc_html__( 'Enable these patterns ', 'powder' );
+				echo esc_html__( 'Enable patterns ', 'powder' );
 				echo '<strong>' . esc_html__( 'by category', 'powder' ) . '</strong> ';
 				echo esc_html__( 'to display in the Block Inserter and Site Editor.', 'powder' );
 				?>
 			</p>
-			
+
 			<!-- CATEGORY OPTIONS -->
 			<div style="max-width:880px; width:100%;">
 				<table class="form-table" style="width:880px; min-width:880px;">
@@ -156,6 +182,14 @@ function powder_theme_settings() {
  * Register settings and sanitize.
  */
 add_action( 'admin_init', function() use ( $powder_all_options ) {
+	// Register animation setting
+	register_setting(
+		'powder-theme-settings-group',
+		'powder_setting_option_header_animation',
+		'sanitize_powder_theme_option'
+	);
+
+	// Register pattern-related options
 	foreach ( $powder_all_options as $option ) {
 		register_setting(
 			'powder-theme-settings-group',

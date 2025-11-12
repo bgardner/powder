@@ -138,7 +138,7 @@ input[type="radio"] {
 
 	/* -- Header -- */
 
-	.site-header {
+	.has-animation .site-header {
 		background-color: var(--wp--preset--color--base);
 		position: sticky;
 		top: 0;
@@ -146,11 +146,11 @@ input[type="radio"] {
 		z-index: 1000;
 	}
 	
-	body.scroll-down .site-header {
+	.has-animation body.scroll-down .site-header {
 		transform: translateY(-100%);
 	}
 	
-	body.scroll-up .site-header {
+	.has-animation body.scroll-up .site-header {
 		transform: translateY(0);
 	}
 
