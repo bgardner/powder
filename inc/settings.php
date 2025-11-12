@@ -69,9 +69,9 @@ function powder_theme_settings() {
 			do_settings_sections( 'powder-theme-settings-group' );
 			?>
 
-			<!-- ANIMATION OPTION -->
+			<!-- MOTION OPTION -->
 			<p style="max-width:880px;">
-				<?php esc_html_e( 'Enable animation on page scroll up and down.', 'powder' ); ?>
+				<?php esc_html_e( 'Enable motion on page scroll up and down.', 'powder' ); ?>
 			</p>
 			
 			<div style="max-width:880px; width:100%; margin-bottom:24px;">
@@ -80,9 +80,9 @@ function powder_theme_settings() {
 						<td style="width:220px; vertical-align:middle;">
 							<label style="font-weight:normal;">
 								<input type="checkbox"
-									name="powder_setting_option_header_animation"
+									name="powder_setting_option_header_motion"
 									value="1"
-									<?php checked( 1, get_option( 'powder_setting_option_header_animation', '1' ), true ); ?>
+									<?php checked( 1, get_option( 'powder_setting_option_header_motion', '1' ), true ); ?>
 									style="margin-right:6px;" />
 								<?php esc_html_e( 'Header', 'powder' ); ?>
 							</label>
@@ -182,10 +182,10 @@ function powder_theme_settings() {
  * Register settings and sanitize.
  */
 add_action( 'admin_init', function() use ( $powder_all_options ) {
-	// Register animation setting
+	// Register motion setting
 	register_setting(
 		'powder-theme-settings-group',
-		'powder_setting_option_header_animation',
+		'powder_setting_option_header_motion',
 		'sanitize_powder_theme_option'
 	);
 

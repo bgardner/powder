@@ -23,8 +23,8 @@ function powder_enqueue_style_sheet() {
 
 	wp_enqueue_style( 'powder', get_template_directory_uri() . '/style.css', [], $version );
 
-	// Conditionally load header animation script.
-	if ( get_option( 'powder_setting_option_header_animation', '1' ) === '1' ) {
+	// Conditionally load header motion script.
+	if ( get_option( 'powder_setting_option_header_motion', '1' ) === '1' ) {
 		wp_enqueue_script( 'powder-header', get_template_directory_uri() . '/assets/js/header.js', [], $version, true );
 	}
 }

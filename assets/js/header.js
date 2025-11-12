@@ -1,6 +1,6 @@
 (function () {
 	// Add feature flag class to <html>.
-	document.documentElement.classList.add('has-animation');
+	document.documentElement.classList.add('has-motion');
 
 	// Store the last scroll position.
 	let lastScrollTop = 0;
