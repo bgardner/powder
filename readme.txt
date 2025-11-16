@@ -1,7 +1,7 @@
 === Powder ===
 Contributors: bgardner
-Requires at least: 6.8
-Tested up to: 6.8
+Requires at least: 6.9
+Tested up to: 6.9
 Requires PHP: 7.2
 Stable tag: 1.7.2
 License: GNU General Public License v3
