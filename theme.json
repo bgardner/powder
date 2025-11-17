@@ -76,14 +76,9 @@
 					"slug": "black-and-white"
 				},
 				{
-					"colors": [ "#4d179a", "#ffffff" ],
+					"colors": [ "#440099", "#ffffff" ],
 					"name": "Primary and White",
 					"slug": "primary-and-white"
-				},
-				{
-					"colors": [ "#000000", "#c4b4ff" ],
-					"name": "Black and Secondary",
-					"slug": "black-and-secondary"
 				}
 			],
 			"gradients": [
@@ -110,14 +105,9 @@
 					"slug": "contrast"
 				},
 				{
-					"color": "#4d179a",
+					"color": "#440099",
 					"name": "Primary",
 					"slug": "primary"
-				},
-				{
-					"color": "#c4b4ff",
-					"name": "Secondary",
-					"slug": "secondary"
 				},
 				{
 					"color": "#f5f5f5",
