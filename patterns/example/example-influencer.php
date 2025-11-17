@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Powder Social example page
- * Slug: powder/example-powder-social
+ * Title: Influencer example home page
+ * Slug: powder/example-influencer
  * Categories: powder-example
  */
 ?>
