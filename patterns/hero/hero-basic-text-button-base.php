@@ -13,7 +13,7 @@
 		<h1 class="wp-block-heading has-text-align-center" style="font-size:60px"><?php echo esc_html__( 'The premier block theme for WordPress designers and agencies', 'powder' ); ?></h1>
 		<!-- /wp:heading -->
 		<!-- wp:paragraph {"align":"center"} -->
-		<p class="has-text-align-center"><?php echo esc_html__( 'Extensive pattern library. Versatile templates. Tailored color palettes.', 'powder' ); ?></p>
+		<p class="has-text-align-center"><?php echo esc_html__( 'Extensive pattern library. Versatile templates. Tailored color palette.', 'powder' ); ?></p>
 		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:group -->

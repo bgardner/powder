@@ -27,14 +27,14 @@
 			<!-- wp:column -->
 			<div class="wp-block-column">
 				<!-- wp:paragraph {"fontSize":"small"} -->
-				<p class="has-small-font-size"><?php echo esc_html__( 'Rooted in simplicity and built with purpose, Powder brings an abundance of patterns, versatile templates, and tailored color palettes to designers and agencies.', 'powder' ); ?></p>
+				<p class="has-small-font-size"><?php echo esc_html__( 'Rooted in simplicity and built with purpose, Powder brings an abundance of patterns, versatile templates, and a tailored color palette to designers and agencies.', 'powder' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:column -->
 			<!-- wp:column -->
 			<div class="wp-block-column">
 				<!-- wp:paragraph {"fontSize":"small"} -->
-				<p class="has-small-font-size"><?php echo esc_html__( 'Rooted in simplicity and built with purpose, Powder brings an abundance of patterns, versatile templates, and tailored color palettes to designers and agencies.', 'powder' ); ?></p>
+				<p class="has-small-font-size"><?php echo esc_html__( 'Rooted in simplicity and built with purpose, Powder brings an abundance of patterns, versatile templates, and a tailored color palette to designers and agencies.', 'powder' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:column -->
