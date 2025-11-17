@@ -13,8 +13,8 @@
 		<!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 		<div class="wp-block-group">
 			<!-- wp:site-title {"level":0,"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"small"} /-->
-			<!-- wp:separator -->
-			<hr class="wp-block-separator has-alpha-channel-opacity"/>
+			<!-- wp:separator {"backgroundColor":"contrast"} -->
+			<hr class="wp-block-separator has-text-color has-contrast-color has-alpha-channel-opacity has-contrast-background-color has-background"/>
 			<!-- /wp:separator -->
 		</div>
 		<!-- /wp:group -->

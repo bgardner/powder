@@ -462,7 +462,7 @@
 					"style": "solid",
 					"width": "1px 0 0"
 				},
-				"css": ":not(.is-style-wide):not(.is-style-dots) {width: 180px;}"
+				"css": ":not(.is-style-wide):not(.is-style-dots) {width: 80px;} &.is-style-extended {width: 180px;}"
 			},
 			"core/site-title": {
 				"elements": {

@@ -14,8 +14,8 @@
 		<!-- /wp:heading -->
 		<!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 		<div class="wp-block-group">
-			<!-- wp:separator -->
-			<hr class="wp-block-separator has-alpha-channel-opacity"/>
+			<!-- wp:separator {"backgroundColor":"contrast"} -->
+			<hr class="wp-block-separator has-text-color has-contrast-color has-alpha-channel-opacity has-contrast-background-color has-background"/>
 			<!-- /wp:separator -->
 			<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1"}}} -->
 			<p style="line-height:1"><?php echo esc_html__( 'Transform your space with our stylish design solutions.', 'powder' ); ?></p>

@@ -40,6 +40,9 @@ function powder_register_block_styles() {
 		'core/post-content' => array(
 			'indent' => __( 'Indent', 'powder' ),
 		),
+		'core/separator' => array(
+			'extended' => __( 'Extended', 'powder' ),
+		),
 		'core/social-links' => array(
 			'outline' => __( 'Outline', 'powder' ),
 		),

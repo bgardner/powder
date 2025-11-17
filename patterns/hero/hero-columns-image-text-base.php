@@ -23,8 +23,8 @@
 				<!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"400","lineHeight":"1"}},"fontSize":"x-small"} -->
 				<p class="has-x-small-font-size" style="font-style:normal;font-weight:400;line-height:1;text-transform:uppercase"><?php echo esc_html__( 'Meet Powder', 'powder' ); ?></p>
 				<!-- /wp:paragraph -->
-				<!-- wp:separator -->
-				<hr class="wp-block-separator has-alpha-channel-opacity"/>
+				<!-- wp:separator {"backgroundColor":"contrast"} -->
+				<hr class="wp-block-separator has-text-color has-contrast-color has-alpha-channel-opacity has-contrast-background-color has-background"/>
 				<!-- /wp:separator -->
 			</div>
 			<!-- /wp:group -->
