@@ -614,7 +614,7 @@
 						"width": "1px"
 					}
 				},
-				"css": "a, a:not(.wp-element-button) {text-decoration-thickness: 1px; text-underline-offset: 1px;}"
+				"css": "a, a:not(.wp-element-button) {text-decoration-thickness: 1px; text-underline-offset: 2px;}"
 			},
 			"textInput": {
 				"border": {
