@@ -26,7 +26,6 @@ function powder_register_pattern_categories() {
 		'call-to-action' => array( __( 'Call to Action', 'powder' ), __( 'A collection of call to action patterns for Powder.', 'powder' ) ),
 		'content'        => array( __( 'Content', 'powder' ), __( 'A collection of content patterns for Powder.', 'powder' ) ),
 		'example'        => array( __( 'Example', 'powder' ), __( 'A collection of example patterns for Powder.', 'powder' ) ),
-		'faq'            => array( __( 'FAQs', 'powder' ), __( 'A collection of FAQ patterns for Powder.', 'powder' ) ),
 		'footer'         => array( __( 'Footer', 'powder' ), __( 'A collection of footer patterns for Powder.', 'powder' ) ),
 		'gallery'        => array( __( 'Gallery', 'powder' ), __( 'A collection of gallery patterns for Powder.', 'powder' ) ),
 		'header'         => array( __( 'Header', 'powder' ), __( 'A collection of header patterns for Powder.', 'powder' ) ),

@@ -21,7 +21,6 @@ $powder_category_options = [
 	'call_to_action' => 'Call to Action',
 	'content'        => 'Content',
 	'example'        => 'Example',
-	'faq'            => 'FAQs',
 	'footer'         => 'Footer',
 	'gallery'        => 'Gallery',
 	'header'         => 'Header',

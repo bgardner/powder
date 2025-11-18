@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: FAQ section
- * Slug: powder/faq-stacked
- * Categories: powder-faq
+ * Slug: powder/content-faq-stacked
+ * Categories: powder-content
  */
 ?>
 <!-- wp:group {"metadata":{"name":"FAQs"},"align":"full","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
