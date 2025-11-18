@@ -29,6 +29,8 @@ return [
 		'powder/content-links',
 		'powder/content-logos',
 		'powder/content-social-numbers',
+		'powder/example-architect',
+		'powder/example-influencer',
 		'powder/footer-mega',
 		'powder/footer-multi-column',
 		'powder/footer-split',
@@ -41,6 +43,7 @@ return [
 		'powder/header-site-logo',
 		'powder/header-site-title-site-logo',
 		'powder/header-social-icons',
+		'powder/header-stacked',
 		'powder/header-title-separator',
 		'powder/hero-basic-text-button',
 		'powder/hero-columns-image-text',
@@ -92,6 +95,7 @@ return [
 		'powder/header-site-logo-contrast',
 		'powder/header-site-title-site-logo-contrast',
 		'powder/header-social-icons-contrast',
+		'powder/header-stacked-contrast',
 		'powder/header-title-separator-contrast',
 		'powder/hero-basic-text-button-contrast',
 		'powder/hero-columns-image-text-contrast',
@@ -155,7 +159,8 @@ return [
 	 * Category: Example
 	 */
 	'powder_setting_option_example' => [
-		'powder/example-powder-social',
+		'powder/example-architect',
+		'powder/example-influencer',
 	],
 
 	/**
@@ -200,6 +205,8 @@ return [
 		'powder/header-site-title-site-logo',
 		'powder/header-social-icons-contrast',
 		'powder/header-social-icons',
+		'powder/header-stacked-contrast',
+		'powder/header-stacked',
 		'powder/header-title-separator-contrast',
 		'powder/header-title-separator',
 	],
