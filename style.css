@@ -122,10 +122,6 @@ input[type="radio"] {
 	z-index: 99;
 }
 
-.is-style-positive-plus-zindex {
-	z-index: 100;
-}
-
 /* Media Queries
 ---------------------------------------- */
 
