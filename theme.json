@@ -144,7 +144,7 @@
 				},
 				{
 					"name": "Deep",
-					"shadow": "0 0 40px rgb(0, 0, 0, 0.4)",
+					"shadow": "0 0 40px rgb(0, 0, 0, 0.2)",
 					"slug": "deep"
 				},
 				{
