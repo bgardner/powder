@@ -16,8 +16,8 @@
 		<p class="has-text-align-center has-xx-small-font-size" style="letter-spacing:1px;text-transform:uppercase"><?php echo esc_html__( 'Designed by Brian Gardner', 'powder' ); ?></p>
 		<!-- /wp:paragraph -->
 		
-		<!-- wp:heading {"textAlign":"center","level":1,"style":{"typography":{"fontSize":"48px","lineHeight":"1.2","fontStyle":"normal","fontWeight":"300"},"spacing":{"margin":{"top":"var:preset|spacing|20"}}}} -->
-		<h1 class="wp-block-heading has-text-align-center" style="margin-top:var(--wp--preset--spacing--20);font-size:48px;font-style:normal;font-weight:300;line-height:1.2"><?php echo esc_html__( 'The premier block theme for professional WordPress designers &amp; agencies', 'powder' ); ?></h1>
+		<!-- wp:heading {"textAlign":"center","level":1,"style":{"typography":{"fontSize":"48px","lineHeight":"1.2","fontStyle":"normal","fontWeight":"400"},"spacing":{"margin":{"top":"var:preset|spacing|20"}}}} -->
+		<h1 class="wp-block-heading has-text-align-center" style="margin-top:var(--wp--preset--spacing--20);font-size:48px;font-style:normal;font-weight:400;line-height:1.2"><?php echo esc_html__( 'The premier block theme for professional WordPress designers &amp; agencies', 'powder' ); ?></h1>
 		<!-- /wp:heading -->
 		<!-- wp:separator {"className":"is-style-extended","backgroundColor":"base"} -->
 		<hr class="wp-block-separator has-text-color has-base-color has-alpha-channel-opacity has-base-background-color has-background is-style-extended"/>
