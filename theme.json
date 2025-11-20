@@ -478,7 +478,7 @@
 				},
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--large)",
-					"fontWeight": "500",
+					"fontWeight": "400",
 					"lineHeight": "var(--wp--custom--line-height--x-small)"
 				}
 			},
@@ -549,6 +549,12 @@
 					"fontSize": "var(--wp--preset--font-size--x-small)"
 				}
 			},
+			"heading": {
+				"typography": {
+					"fontWeight": "400",
+					"lineHeight": "var(--wp--custom--line-height--x-small)"
+				}
+			},
 			"h1": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--x-large)"
@@ -577,12 +583,6 @@
 			"h6": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--x-small)"
-				}
-			},
-			"heading": {
-				"typography": {
-					"fontWeight": "500",
-					"lineHeight": "var(--wp--custom--line-height--x-small)"
 				}
 			},
 			"link": {
