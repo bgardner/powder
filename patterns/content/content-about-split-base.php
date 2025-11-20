@@ -20,8 +20,8 @@
 	<div class="wp-block-columns alignwide are-vertically-aligned-top" style="margin-top:var(--wp--preset--spacing--20)">
 		<!-- wp:column {"verticalAlignment":"top"} -->
 		<div class="wp-block-column is-vertically-aligned-top">
-			<!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"300","fontSize":"48px"}}} -->
-			<h2 class="wp-block-heading" style="font-size:48px;font-style:normal;font-weight:300"><?php echo esc_html__( 'Design and build stunning websites with Powder.', 'powder' ); ?></h2>
+			<!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"400","fontSize":"48px"}}} -->
+			<h2 class="wp-block-heading" style="font-size:48px;font-style:normal;font-weight:400"><?php echo esc_html__( 'Design and build stunning websites with Powder.', 'powder' ); ?></h2>
 			<!-- /wp:heading -->
 			<!-- wp:buttons -->
 			<div class="wp-block-buttons">
