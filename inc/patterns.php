@@ -31,6 +31,7 @@ return [
 		'powder/content-social-numbers',
 		'powder/example-architect',
 		'powder/example-influencer',
+		'powder/example-powder',
 		'powder/footer-mega',
 		'powder/footer-multi-column',
 		'powder/footer-split',
@@ -161,6 +162,7 @@ return [
 	'powder_setting_option_example' => [
 		'powder/example-architect',
 		'powder/example-influencer',
+		'powder/example-powder',
 	],
 
 	/**
