@@ -10,7 +10,7 @@
 <div class="wp-block-group alignfull has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="margin-top:0px">
 	<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}}},"layout":{"type":"default"}} -->
 	<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20)">
-		<!-- wp:site-title {"level":0,"textAlign":"center","style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.02em","lineHeight":"1.25"}}} /-->
+		<!-- wp:site-title {"level":0,"textAlign":"center","style":{"typography":{"textTransform":"uppercase"}}} /-->
 	</div>
 	<!-- /wp:group -->
 	<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"},"blockGap":"0","margin":{"top":"0"}},"border":{"bottom":{"color":"var:preset|color|base","style":"dotted","width":"1px"},"top":{"color":"var:preset|color|base","style":"dotted","width":"1px"}}},"layout":{"type":"default"}} -->
