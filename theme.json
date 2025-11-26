@@ -100,7 +100,7 @@
 				{
 					"gradient": "linear-gradient(90deg, var(--wp--preset--color--contrast) 50%, var(--wp--preset--color--base) 50%)",
 					"name": "Contrast to Base (90)",
-					"slug": "contrast-base"
+					"slug": "contrast-base-90"
 				}
 			],
 			"palette": [
