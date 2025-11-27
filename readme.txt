@@ -36,7 +36,8 @@ GNU General Public License for more details.
 The included font is licensed under the SIL Open Font License, Version 1.1.
 License URL: https://scripts.sil.org/OFL
 
-Outfit Font
+Google Sans Font
+https://fonts.google.com/specimen/Google+Sans+Flex
 
 == Sample Images ==
 

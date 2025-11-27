@@ -65,7 +65,7 @@ input[type="radio"] {
 
 ::placeholder {
 	color: inherit;
-	font-size: var(--wp--preset--font-size--small);
+	font-size: var(--wp--preset--font-size--x-small);
 	opacity: 0.5;
 }
 
