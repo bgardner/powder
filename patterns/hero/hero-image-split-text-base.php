@@ -12,8 +12,8 @@
 	<!-- /wp:image -->
 	<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"default"}} -->
 	<div class="wp-block-group alignwide">
-		<!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase","letterSpacing":"1px","fontStyle":"normal","fontWeight":"500"}},"fontSize":"xx-small"} -->
-		<p class="has-text-align-center has-xx-small-font-size" style="font-style:normal;font-weight:500;letter-spacing:1px;text-transform:uppercase"><?php echo esc_html__( 'Designed by Brian Gardner', 'powder' ); ?></p>
+		<!-- wp:paragraph {"align":"center","style":{"typography":{"textTransform":"uppercase"}},"fontSize":"xx-small"} -->
+		<p class="has-text-align-center has-xx-small-font-size" style="text-transform:uppercase"><?php echo esc_html__( 'Designed by Brian Gardner', 'powder' ); ?></p>
 		<!-- /wp:paragraph -->
 		<!-- wp:heading {"textAlign":"center","level":1,"style":{"typography":{"fontSize":"48px","lineHeight":"1.2"},"spacing":{"margin":{"top":"var:preset|spacing|20"}}}} -->
 		<h1 class="wp-block-heading has-text-align-center" style="margin-top:var(--wp--preset--spacing--20);font-size:48px;line-height:1.2"><?php echo esc_html__( 'The premier block theme for professional WordPress designers &amp; agencies', 'powder' ); ?></h1>
