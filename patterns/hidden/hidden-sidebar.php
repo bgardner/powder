@@ -15,7 +15,7 @@
 	<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/sample-image-dark.svg'; ?>" alt="Sample image" style="aspect-ratio:16/9;object-fit:cover"/></figure>
 	<!-- /wp:image -->
 	<!-- wp:paragraph -->
-	<p><?php echo esc_html__( 'Powder is the premier block theme for WordPress designers and developers, offering an extensive library of patterns.', 'powder' ); ?></p>
+	<p><?php echo esc_html__( 'Powder is the premier block theme for WordPress designers and agencies, offering an extensive library of patterns.', 'powder' ); ?></p>
 	<!-- /wp:paragraph -->
 	<!-- wp:paragraph -->
 	<p><a href="#"><?php echo esc_html__( 'Learn more about Powder →', 'powder' ); ?></a></p>
