@@ -14,7 +14,7 @@
 		<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 		<div class="wp-block-group">
 			<!-- wp:query-title {"type":"archive","showPrefix":false,"fontSize":"xx-large"} /-->
-			<!-- wp:term-description {"fontSize":"small"} /-->
+			<!-- wp:term-description {"fontSize":"x-small"} /-->
 		</div>
 		<!-- /wp:group -->
 	</header>
