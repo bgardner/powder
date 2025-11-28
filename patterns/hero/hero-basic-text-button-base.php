@@ -5,12 +5,12 @@
  * Categories: powder-hero
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Hero Section"},"align":"full","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained","contentSize":"960px"}} -->
+<!-- wp:group {"metadata":{"name":"Hero Section"},"align":"full","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained","contentSize":"1280px"}} -->
 <div class="wp-block-group alignfull" style="margin-top:0;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
 	<!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"default"}} -->
 	<div class="wp-block-group">
-		<!-- wp:heading {"textAlign":"center","level":1,"style":{"typography":{"fontSize":"60px"}}} -->
-		<h1 class="wp-block-heading has-text-align-center" style="font-size:60px"><?php echo esc_html__( 'The premier block theme for WordPress designers and agencies', 'powder' ); ?></h1>
+		<!-- wp:heading {"textAlign":"center","level":1,"className":"is-style-balanced","style":{"typography":{"fontSize":"60px"}}} -->
+		<h1 class="wp-block-heading has-text-align-center is-style-balanced" style="font-size:60px"><?php echo esc_html__( 'The premier block theme for WordPress designers and agencies', 'powder' ); ?></h1>
 		<!-- /wp:heading -->
 		<!-- wp:paragraph {"align":"center"} -->
 		<p class="has-text-align-center"><?php echo esc_html__( 'Extensive pattern library. Versatile templates. Tailored color palette.', 'powder' ); ?></p>

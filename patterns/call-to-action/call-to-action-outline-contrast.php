@@ -9,8 +9,8 @@
 <div class="wp-block-group alignfull has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="margin-top:0px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
 	<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|80","right":"var:preset|spacing|80"}},"border":{"width":"1px"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 	<div class="wp-block-group alignwide" style="border-width:1px;padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--80)">
-		<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.25"},"layout":{"selfStretch":"fixed","flexSize":"680px"}},"fontSize":"x-large"} -->
-		<p class="has-x-large-font-size" style="line-height:1.25"><?php echo esc_html__( 'We want to revolutionize how WordPress websites are made by embracing block-based design.', 'powder' ); ?></p>
+		<!-- wp:paragraph {"className":"is-style-balanced","style":{"typography":{"lineHeight":"1.25"},"layout":{"selfStretch":"fixed","flexSize":"800px"}},"fontSize":"x-large"} -->
+		<p class="is-style-balanced has-x-large-font-size" style="line-height:1.25"><?php echo esc_html__( 'We want to revolutionize how WordPress websites are made by embracing block-based design.', 'powder' ); ?></p>
 		<!-- /wp:paragraph -->
 		<!-- wp:buttons -->
 		<div class="wp-block-buttons">
