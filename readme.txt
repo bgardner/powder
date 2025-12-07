@@ -9,7 +9,7 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
 
-Powder is rooted in simplicity and built with purpose. It brings an abundance of patterns, versatile templates, and a tailored color palette to designers and agencies around the world.
+Powder is a theme rooted in simplicity and built with purpose. It brings designers and agencies a thoughtfully curated set of patterns, templates, and a tailored color palette.
 
 == Community ==
 
