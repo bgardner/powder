@@ -1,273 +1,63 @@
 <?php
 /**
- * Map for unregistering theme patterns.
+ * Register theme pattern categories.
  *
  * @package Powder
  */
 
-if ( ! defined( 'ABSPATH' ) ) {
-	exit;
-}
+add_action( 'init', function() {
 
-return [
+	$categories = [
+		'call-to-action' => [
+			'Call to Action',
+			'A collection of call to action patterns for Powder.',
+		],
+		'content' => [
+			'Content',
+			'A collection of content patterns for Powder.',
+		],
+		'example' => [
+			'Example',
+			'A collection of example patterns for Powder.',
+		],
+		'footer' => [
+			'Footer',
+			'A collection of footer patterns for Powder.',
+		],
+		'gallery' => [
+			'Gallery',
+			'A collection of gallery patterns for Powder.',
+		],
+		'header' => [
+			'Header',
+			'A collection of header patterns for Powder.',
+		],
+		'hero' => [
+			'Hero',
+			'A collection of hero patterns for Powder.',
+		],
+		'pricing' => [
+			'Pricing',
+			'A collection of pricing patterns for Powder.',
+		],
+		'team' => [
+			'Team',
+			'A collection of team patterns for Powder.',
+		],
+		'testimonials' => [
+			'Testimonials',
+			'A collection of testimonial patterns for Powder.',
+		],
+	];
 
-	/**
-	 * Color: Base
-	 */
-	'powder_setting_option_base' => [
-		'powder/call-to-action-button',
-		'powder/call-to-action-centered',
-		'powder/call-to-action-outline',
-		'powder/call-to-action-promo',
-		'powder/call-to-action-stacked',
-		'powder/content-about-split',
-		'powder/content-columns',
-		'powder/content-faq-columns',
-		'powder/content-faq-stacked',
-		'powder/content-feature-boxes',
-		'powder/content-intro-columns',
-		'powder/content-links',
-		'powder/content-logos',
-		'powder/content-social-numbers',
-		'powder/example-architect',
-		'powder/example-influencer',
-		'powder/example-powder',
-		'powder/footer-mega',
-		'powder/footer-multi-column',
-		'powder/footer-split',
-		'powder/footer-stacked',
-		'powder/gallery-grid-multi',
-		'powder/gallery-grid-square',
-		'powder/gallery-mosaic',
-		'powder/gallery-row',
-		'powder/gallery-text-images',
-		'powder/header-site-logo',
-		'powder/header-site-title-site-logo',
-		'powder/header-social-icons',
-		'powder/header-stacked',
-		'powder/header-title-separator',
-		'powder/hero-basic-text-button',
-		'powder/hero-columns-image-text',
-		'powder/hero-columns-text-image',
-		'powder/hero-cover-stack',
-		'powder/hero-image-text-buttons',
-		'powder/hero-split-text',
-		'powder/hero-stacked-text-image',
-		'powder/pricing-2-columns',
-		'powder/pricing-3-columns',
-		'powder/team-columns',
-		'powder/team-single-image-text',
-		'powder/team-single-text-image',
-		'powder/testimonials-bold',
-		'powder/testimonials-columns',
-		'powder/testimonials-grid',
-		'powder/testimonials-single',
-	],
+	foreach ( $categories as $slug => [ $label, $description ] ) {
+		register_block_pattern_category(
+			'powder-' . $slug,
+			[
+				'label'       => __( $label, 'powder' ),
+				'description' => __( $description, 'powder' ),
+			]
+		);
+	}
 
-	/**
-	 * Color: Contrast
-	 */
-	'powder_setting_option_contrast' => [
-		'powder/call-to-action-button-contrast',
-		'powder/call-to-action-centered-contrast',
-		'powder/call-to-action-outline-contrast',
-		'powder/call-to-action-promo-contrast',
-		'powder/call-to-action-stacked-contrast',
-		'powder/content-about-split-contrast',
-		'powder/content-columns-contrast',
-		'powder/content-faq-columns-contrast',
-		'powder/content-faq-stacked-contrast',
-		'powder/content-feature-boxes-contrast',
-		'powder/content-intro-columns-contrast',
-		'powder/content-links-contrast',
-		'powder/content-logos-contrast',
-		'powder/content-social-numbers-contrast',
-		'powder/footer-contrast',
-		'powder/footer-mega-contrast',
-		'powder/footer-multi-column-contrast',
-		'powder/footer-split-contrast',
-		'powder/footer-stacked-contrast',
-		'powder/gallery-grid-multi-contrast',
-		'powder/gallery-grid-square-contrast',
-		'powder/gallery-mosaic-contrast',
-		'powder/gallery-row-contrast',
-		'powder/gallery-text-images-contrast',
-		'powder/header-contrast',
-		'powder/header-site-logo-contrast',
-		'powder/header-site-title-site-logo-contrast',
-		'powder/header-social-icons-contrast',
-		'powder/header-stacked-contrast',
-		'powder/header-title-separator-contrast',
-		'powder/hero-basic-text-button-contrast',
-		'powder/hero-columns-image-text-contrast',
-		'powder/hero-columns-text-image-contrast',
-		'powder/hero-cover-stack-contrast',
-		'powder/hero-image-text-buttons-contrast',
-		'powder/hero-split-text-contrast',
-		'powder/hero-stacked-text-image-contrast',
-		'powder/pricing-2-columns-contrast',
-		'powder/pricing-3-columns-contrast',
-		'powder/team-columns-contrast',
-		'powder/team-single-image-text-contrast',
-		'powder/team-single-text-image-contrast',
-		'powder/testimonials-bold-contrast',
-		'powder/testimonials-columns-contrast',
-		'powder/testimonials-grid-contrast',
-		'powder/testimonials-single-contrast',
-	],
-
-	/**
-	 * Category: Call to Action
-	 */
-	'powder_setting_option_call_to_action' => [
-		'powder/call-to-action-button-contrast',
-		'powder/call-to-action-button',
-		'powder/call-to-action-centered-contrast',
-		'powder/call-to-action-centered',
-		'powder/call-to-action-outline-contrast',
-		'powder/call-to-action-outline',
-		'powder/call-to-action-promo-contrast',
-		'powder/call-to-action-promo',
-		'powder/call-to-action-stacked-contrast',
-		'powder/call-to-action-stacked',
-	],
-
-	/**
-	 * Category: Content
-	 */
-	'powder_setting_option_content' => [
-		'powder/content-about-split-contrast',
-		'powder/content-about-split',
-		'powder/content-columns-contrast',
-		'powder/content-columns',
-		'powder/content-faq-columns-contrast',
-		'powder/content-faq-columns',
-		'powder/content-faq-stacked-contrast',
-		'powder/content-faq-stacked',
-		'powder/content-feature-boxes-contrast',
-		'powder/content-feature-boxes',
-		'powder/content-intro-columns-contrast',
-		'powder/content-intro-columns',
-		'powder/content-links-contrast',
-		'powder/content-links',
-		'powder/content-logos-contrast',
-		'powder/content-logos',
-		'powder/content-social-numbers-contrast',
-		'powder/content-social-numbers',
-	],
-
-	/**
-	 * Category: Example
-	 */
-	'powder_setting_option_example' => [
-		'powder/example-architect',
-		'powder/example-influencer',
-		'powder/example-powder',
-	],
-
-	/**
-	 * Category: Footer
-	 */
-	'powder_setting_option_footer' => [
-		'powder/footer-contrast',
-		'powder/footer-mega-contrast',
-		'powder/footer-mega',
-		'powder/footer-multi-column-contrast',
-		'powder/footer-multi-column',
-		'powder/footer-split-contrast',
-		'powder/footer-split',
-		'powder/footer-stacked-contrast',
-		'powder/footer-stacked',
-	],
-
-	/**
-	 * Category: Gallery
-	 */
-	'powder_setting_option_gallery' => [
-		'powder/gallery-grid-multi-contrast',
-		'powder/gallery-grid-multi',
-		'powder/gallery-grid-square-contrast',
-		'powder/gallery-grid-square',
-		'powder/gallery-mosaic-contrast',
-		'powder/gallery-mosaic',
-		'powder/gallery-row-contrast',
-		'powder/gallery-row',
-		'powder/gallery-text-images-contrast',
-		'powder/gallery-text-images',
-	],
-
-	/**
-	 * Category: Header
-	 */
-	'powder_setting_option_header' => [
-		'powder/header-contrast',
-		'powder/header-site-logo-contrast',
-		'powder/header-site-logo',
-		'powder/header-site-title-site-logo-contrast',
-		'powder/header-site-title-site-logo',
-		'powder/header-social-icons-contrast',
-		'powder/header-social-icons',
-		'powder/header-stacked-contrast',
-		'powder/header-stacked',
-		'powder/header-title-separator-contrast',
-		'powder/header-title-separator',
-	],
-
-	/**
-	 * Category: Hero
-	 */
-	'powder_setting_option_hero' => [
-		'powder/hero-basic-text-button-contrast',
-		'powder/hero-basic-text-button',
-		'powder/hero-columns-image-text-contrast',
-		'powder/hero-columns-image-text',
-		'powder/hero-columns-text-image-contrast',
-		'powder/hero-columns-text-image',
-		'powder/hero-cover-stack-contrast',
-		'powder/hero-cover-stack',
-		'powder/hero-image-split-text',
-		'powder/hero-image-text-buttons-contrast',
-		'powder/hero-image-text-buttons',
-		'powder/hero-split-text-contrast',
-		'powder/hero-split-text',
-		'powder/hero-stacked-text-image-contrast',
-		'powder/hero-stacked-text-image',
-	],
-
-	/**
-	 * Category: Pricing
-	 */
-	'powder_setting_option_pricing' => [
-		'powder/pricing-2-columns-contrast',
-		'powder/pricing-2-columns',
-		'powder/pricing-3-columns-contrast',
-		'powder/pricing-3-columns',
-	],
-
-	/**
-	 * Category: Team
-	 */
-	'powder_setting_option_team' => [
-		'powder/team-columns-contrast',
-		'powder/team-columns',
-		'powder/team-single-image-text-contrast',
-		'powder/team-single-image-text',
-		'powder/team-single-text-image-contrast',
-		'powder/team-single-text-image',
-	],
-
-	/**
-	 * Category: Testimonials
-	 */
-	'powder_setting_option_testimonials' => [
-		'powder/testimonials-bold-contrast',
-		'powder/testimonials-bold',
-		'powder/testimonials-columns-contrast',
-		'powder/testimonials-columns',
-		'powder/testimonials-grid-contrast',
-		'powder/testimonials-grid',
-		'powder/testimonials-single-contrast',
-		'powder/testimonials-single',
-	],
-
-];
+} );
