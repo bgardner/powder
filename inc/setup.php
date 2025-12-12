@@ -22,10 +22,6 @@ function powder_enqueue_style_sheet() {
 	$version = $theme->get( 'Version' ); // Read version from style.css.
 
 	wp_enqueue_style( 'powder', get_template_directory_uri() . '/style.css', [], $version );
-
-	// Conditionally load header motion script.
-	if ( get_option( 'powder_setting_option_header_motion', '1' ) === '1' ) {
-		wp_enqueue_script( 'powder-header', get_template_directory_uri() . '/assets/js/header.js', [], $version, true );
-	}
+	wp_enqueue_script( 'powder-header', get_template_directory_uri() . '/assets/js/header.js', [], $version, true );
 }
 add_action( 'wp_enqueue_scripts', 'powder_enqueue_style_sheet' );

@@ -11,10 +11,8 @@
 /**
  * Initialize theme features.
  */
-require get_template_directory() . '/inc/categories.php';
 require get_template_directory() . '/inc/editor.php';
 require get_template_directory() . '/inc/motion.php';
 require get_template_directory() . '/inc/patterns.php';
-require get_template_directory() . '/inc/settings.php';
 require get_template_directory() . '/inc/setup.php';
 require get_template_directory() . '/inc/updates.php';
