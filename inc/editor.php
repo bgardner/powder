@@ -1,14 +1,16 @@
 <?php
 /**
- * Editor customizations.
+ * Customize the block editor experience.
  *
  * @package Powder
  */
 
 /**
- * Register Sidebar template part.
+ * Define custom template part areas.
  */
 function powder_template_parts( array $areas ) {
+
+	// Add Sidebar template area.
 	$areas[] = [
 		'area'        => 'sidebar',
 		'area_tag'    => 'section',
@@ -16,39 +18,44 @@ function powder_template_parts( array $areas ) {
 		'description' => __( 'The Sidebar template defines a page area that typically contains secondary content, navigation, or social icons.', 'powder' ),
 		'icon'        => 'sidebar',
 	];
+
 	return $areas;
 }
 add_filter( 'default_wp_template_part_areas', 'powder_template_parts' );
 
 /**
- * Register block styles.
+ * Register custom block styles.
  */
 function powder_register_block_styles() {
+
+	// Define block style variations.
 	$block_styles = [
-		'core/columns' => array(
+		'core/columns' => [
 			'column-reverse' => __( 'Reverse', 'powder' ),
-		),
-		'core/heading' => array(
+		],
+		'core/heading' => [
 			'balanced' => __( 'Balanced', 'powder' ),
-		),
-		'core/list' => array(
+		],
+		'core/list' => [
 			'no-style' => __( 'No Style', 'powder' ),
-		),
-		'core/paragraph' => array(
+		],
+		'core/paragraph' => [
 			'balanced' => __( 'Balanced', 'powder' ),
-		),
-		'core/post-content' => array(
+		],
+		'core/post-content' => [
 			'indent' => __( 'Indent', 'powder' ),
-		),
-		'core/separator' => array(
+		],
+		'core/separator' => [
 			'extended' => __( 'Extended', 'powder' ),
-		),
-		'core/social-links' => array(
+		],
+		'core/social-links' => [
 			'outline' => __( 'Outline', 'powder' ),
-		),
+		],
 	];
 
 	foreach ( $block_styles as $block => $styles ) {
+
+		// Register styles per block.
 		foreach ( $styles as $style_name => $style_label ) {
 			register_block_style(
 				$block,

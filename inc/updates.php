@@ -1,14 +1,16 @@
 <?php
 /**
- * Theme updates.
+ * Handle theme update checks.
  *
  * @package Powder
  */
 
 /**
- * Check for theme updates.
+ * Check for available theme updates.
  */
 function powder_theme_updates( $transient ) {
+
+	// Define update endpoint.
 	$update_url = 'https://powder.design/powder-2-updates.json';
 
 	$response = wp_remote_get( $update_url );
@@ -16,11 +18,13 @@ function powder_theme_updates( $transient ) {
 		return $transient;
 	}
 
+	// Decode update response.
 	$data = json_decode( wp_remote_retrieve_body( $response ) );
 	if ( ! $data ) {
 		return $transient;
 	}
 
+	// Resolve current version.
 	$theme           = wp_get_theme( 'powder' );
 	$current_version = $theme->get( 'Version' );
 

@@ -1,12 +1,13 @@
 <?php
 /**
- * Register theme pattern categories.
+ * Define pattern categories for Powder.
  *
  * @package Powder
  */
 
 add_action( 'init', function() {
 
+	// Define pattern categories.
 	$categories = [
 		'call-to-action' => [
 			'Call to Action',
@@ -50,6 +51,7 @@ add_action( 'init', function() {
 		],
 	];
 
+	// Register each category.
 	foreach ( $categories as $slug => [ $label, $description ] ) {
 		register_block_pattern_category(
 			'powder-' . $slug,
