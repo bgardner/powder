@@ -1,44 +1,43 @@
 (function () {
-	// Add feature flag class to <html>.
+	'use strict';
+
+	// Feature flag class.
 	document.documentElement.classList.add('has-motion');
 
-	// Store the last scroll position.
-	let lastScrollTop = 0;
+	let lastScrollY = 0; // Track scroll position.
+	let ticking = false; // Throttle flag.
+	const threshold = 40; // Scroll offset.
 
-	// Flag to prevent excessive calls.
-	let ticking = false;
+	function updateScrollState() {
+		const currentY = window.scrollY || document.documentElement.scrollTop;
 
-	// Handle scroll direction and toggle classes.
-	function handleScroll() {
-		const st = window.scrollY || document.documentElement.scrollTop;
-
-		// Only run logic after scroll threshold.
-		if (st > 40) {
-			// Check scroll direction.
-			if (st > lastScrollTop) {
-				// User is scrolling down.
+		if (currentY > threshold) {
+			if (currentY > lastScrollY) {
+				// Scrolling down.
 				document.body.classList.add('scroll-down');
 				document.body.classList.remove('scroll-up');
 			} else {
-				// User is scrolling up.
+				// Scrolling up.
 				document.body.classList.add('scroll-up');
 				document.body.classList.remove('scroll-down');
 			}
 		} else {
-			// Remove scroll direction classes near top.
+			// Near page top.
 			document.body.classList.remove('scroll-up', 'scroll-down');
 		}
 
-		// Update last scroll position, preventing negative values.
-		lastScrollTop = st <= 0 ? 0 : st;
+		// Clamp scroll value.
+		lastScrollY = currentY > 0 ? currentY : 0;
 		ticking = false;
 	}
 
-	// Listen for scroll events with throttling.
-	window.addEventListener('scroll', function () {
+	function onScroll() {
 		if (!ticking) {
-			window.requestAnimationFrame(handleScroll);
+			window.requestAnimationFrame(updateScrollState);
 			ticking = true;
 		}
-	}, false);
+	}
+
+	// Passive scroll listener.
+	window.addEventListener('scroll', onScroll, { passive: true });
 })();
