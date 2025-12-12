@@ -1,36 +1,58 @@
 (function (wp) {
 	'use strict';
-	if (!wp || !wp.hooks || !wp.compose || !wp.element || !(wp.blockEditor || wp.editor) || !wp.components) return; // Exit if core WordPress modules are unavailable.
 
-	// Destructure required WordPress utilities.
+	// Guard required editor APIs.
+	if (
+		!wp ||
+		!wp.hooks ||
+		!wp.compose ||
+		!wp.element ||
+		!(wp.blockEditor || wp.editor) ||
+		!wp.components
+	) return;
+
 	const { addFilter } = wp.hooks;
 	const { createHigherOrderComponent: hoc } = wp.compose;
 	const { createElement: el, Fragment } = wp.element;
 	const { InspectorControls } = wp.blockEditor || wp.editor;
 	const { PanelBody, ToggleControl, RangeControl, SelectControl } = wp.components;
 
-	// Supported block types for motion.
-	const supportedBlocks = [ 'core/group', 'core/columns', 'core/column', 'core/image' ];
+	// Define supported blocks.
+	const supportedBlocks = [
+		'core/group',
+		'core/columns',
+		'core/column',
+		'core/image'
+	];
 
-	// Add custom motion attributes to supported blocks.
+	// Register motion block attributes.
 	function addMotionAttributes(settings, name) {
-		if (!supportedBlocks.includes(name)) return settings; // Apply only to supported blocks.
+		if (!supportedBlocks.includes(name)) return settings;
 
-		settings.attributes = Object.assign({}, settings.attributes, {
-			powderMotion: { type: 'boolean', default: false }, // Toggle motion on/off.
-			powderMotionEffect: { type: 'string', default: 'fadeIn' }, // Default motion type.
-			powderOffset: { type: 'string', default: '' }, // Optional delay (seconds).
-			powderDuration: { type: 'number', default: 0.5 }, // Animation duration (seconds).
-			powderMotionDistance: { type: 'string', default: '20' } // Distance (px) for directional motion.
-		});
+		settings.attributes = {
+			...settings.attributes,
+			powderMotion: { type: 'boolean', default: false }, // Toggle motion.
+			powderMotionEffect: { type: 'string', default: 'fadeIn' }, // Define effect.
+			powderOffset: { type: 'string', default: '' }, // Set delay.
+			powderDuration: { type: 'number', default: 0.5 }, // Set duration.
+			powderMotionDistance: { type: 'string', default: '20' }	// Set distance.
+		};
+
 		return settings;
 	}
-	addFilter('blocks.registerBlockType', 'powder/motion/attributes', addMotionAttributes);
 
-	// Create sidebar controls for motion settings.
-	const withMotionControls = hoc(function (BlockEdit) {
-		return function (props) {
-			if (!supportedBlocks.includes(props.name)) return el(BlockEdit, props); // Limit to supported blocks.
+	addFilter(
+		'blocks.registerBlockType',
+		'powder/motion/attributes',
+		addMotionAttributes
+	);
+
+	// Inject motion inspector controls.
+	const withMotionControls = hoc((BlockEdit) => {
+		return (props) => {
+			if (!supportedBlocks.includes(props.name)) {
+				return el(BlockEdit, props);
+			}
 
 			const { attributes, setAttributes, isSelected } = props;
 			const {
@@ -41,11 +63,18 @@
 				powderMotionDistance = '20'
 			} = attributes;
 
+			// Normalize offset value.
 			let offsetVal = Number(powderOffset || 0);
 			if (Number.isNaN(offsetVal)) offsetVal = 0;
 
+			// Normalize distance value.
 			let distanceVal = parseInt(powderMotionDistance, 10);
 			if (Number.isNaN(distanceVal)) distanceVal = 20;
+
+			const showDistance = (
+				powderMotionEffect === 'fadeInUp' ||
+				powderMotionEffect === 'fadeInDown'
+			);
 
 			return el(
 				Fragment,
@@ -62,7 +91,7 @@
 							checked: !!powderMotion,
 							onChange: (val) => {
 								if (!val) {
-									// Reset all motion-related attributes when toggled off.
+									// Reset motion attributes.
 									setAttributes({
 										powderMotion: false,
 										powderMotionEffect: 'fadeIn',
@@ -70,9 +99,10 @@
 										powderDuration: 0.5,
 										powderMotionDistance: '20'
 									});
-								} else {
-									setAttributes({ powderMotion: true });
+									return;
 								}
+
+								setAttributes({ powderMotion: true });
 							}
 						}),
 						powderMotion && el(SelectControl, {
@@ -101,7 +131,7 @@
 							max: 1.0,
 							step: 0.1
 						}),
-						powderMotion && (powderMotionEffect === 'fadeInUp' || powderMotionEffect === 'fadeInDown') && el(RangeControl, {
+						powderMotion && showDistance && el(RangeControl, {
 							label: 'Distance (px)',
 							value: distanceVal,
 							onChange: (val) => setAttributes({ powderMotionDistance: String(val) }),
@@ -115,11 +145,17 @@
 		};
 	}, 'withMotionControls');
 
-	addFilter('editor.BlockEdit', 'powder/motion/controls', withMotionControls);
+	addFilter(
+		'editor.BlockEdit',
+		'powder/motion/controls',
+		withMotionControls
+	);
 
-	// Add data attributes to block output when motion is active.
+	// Map attributes to markup.
 	function applyExtraProps(extraProps, blockType, attributes) {
-		if (!supportedBlocks.includes(blockType.name) || !attributes?.powderMotion) return extraProps;
+		if (!supportedBlocks.includes(blockType.name) || !attributes?.powderMotion) {
+			return extraProps;
+		}
 
 		extraProps['data-motion'] = attributes.powderMotionEffect || 'fadeInUp';
 		if (attributes.powderOffset) extraProps['data-offset'] = attributes.powderOffset;
@@ -128,6 +164,11 @@
 
 		return extraProps;
 	}
-	addFilter('blocks.getSaveContent.extraProps', 'powder/motion/save-props', applyExtraProps);
+
+	addFilter(
+		'blocks.getSaveContent.extraProps',
+		'powder/motion/save-props',
+		applyExtraProps
+	);
 
 })(window.wp || {});

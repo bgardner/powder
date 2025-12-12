@@ -1,28 +1,29 @@
 (function () {
 	'use strict';
 
-	// Feature flag class.
+	// Flag motion support.
 	document.documentElement.classList.add('has-motion');
 
-	let lastScrollY = 0; // Track scroll position.
-	let ticking = false; // Throttle flag.
-	const threshold = 40; // Scroll offset.
+	let lastScrollY = 0; // Track last scroll.
+	let ticking = false; // Prevent frame spam.
+
+	const threshold = 40; // Define scroll offset.
 
 	function updateScrollState() {
 		const currentY = window.scrollY || document.documentElement.scrollTop;
 
 		if (currentY > threshold) {
 			if (currentY > lastScrollY) {
-				// Scrolling down.
+				// Apply scroll-down state.
 				document.body.classList.add('scroll-down');
 				document.body.classList.remove('scroll-up');
 			} else {
-				// Scrolling up.
+				// Apply scroll-up state.
 				document.body.classList.add('scroll-up');
 				document.body.classList.remove('scroll-down');
 			}
 		} else {
-			// Near page top.
+			// Reset near top.
 			document.body.classList.remove('scroll-up', 'scroll-down');
 		}
 
@@ -32,12 +33,13 @@
 	}
 
 	function onScroll() {
-		if (!ticking) {
-			window.requestAnimationFrame(updateScrollState);
-			ticking = true;
-		}
+		if (ticking) return;
+
+		window.requestAnimationFrame(updateScrollState);
+		ticking = true;
 	}
 
-	// Passive scroll listener.
+	// Attach passive listener.
 	window.addEventListener('scroll', onScroll, { passive: true });
+
 })();
