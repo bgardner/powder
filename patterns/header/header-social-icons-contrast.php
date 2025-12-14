@@ -4,6 +4,7 @@
  * Slug: powder/header-social-icons-contrast
  * Categories: powder-header
  * Block Types: core/template-part/header
+ * Template Types: header
  */
 ?>
 <!-- wp:group {"metadata":{"name":"Header"},"align":"full","style":{"spacing":{"margin":{"top":"0px"},"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base","layout":{"inherit":true,"type":"constrained"}} -->

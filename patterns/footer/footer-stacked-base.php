@@ -4,6 +4,7 @@
  * Slug: powder/footer-stacked
  * Categories: powder-footer
  * Block Types: core/template-part/footer
+ * Template Types: footer
  */
 ?>
 <!-- wp:group {"metadata":{"name":"Footer"},"align":"full","style":{"spacing":{"margin":{"top":"0px"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|40"}}},"layout":{"type":"constrained"}} -->

@@ -4,6 +4,7 @@
  * Slug: powder/header-stacked
  * Categories: powder-header
  * Block Types: core/template-part/header
+ * Template Types: header
  */
 ?>
 <!-- wp:group {"metadata":{"name":"Header"},"align":"full","style":{"spacing":{"margin":{"top":"0px"}}},"layout":{"type":"default"}} -->
