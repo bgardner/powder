@@ -34,9 +34,9 @@ GNU General Public License for more details.
 == Font ==
 
 The included font is licensed under the SIL Open Font License, Version 1.1.
-License URL: https://scripts.sil.org/OFL
+License URL: https://openfontlicense.org/open-font-license-official-text/
 
-Google Sans Font
+Google Sans Flex Font
 https://fonts.google.com/specimen/Google+Sans+Flex
 
 == Sample Images ==
