@@ -416,6 +416,9 @@
 			"core/heading": {
 				"css": "&.is-style-balanced {text-wrap: balance;}"
 			},
+			"core/image": {
+				"css": "&.is-style-inner-border {outline: 1px solid currentColor; outline-offset: -20px;}"
+			},
 			"core/list": {
 				"css": "&.is-style-no-style {list-style-type: none; padding-left: 0;}",
 				"spacing": {

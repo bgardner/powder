@@ -36,6 +36,9 @@ function powder_register_block_styles() {
 		'core/heading' => [
 			'balanced' => __( 'Balanced', 'powder' ),
 		],
+		'core/image' => [
+			'inner-border' => __( 'Inner Border', 'powder' ),
+		],
 		'core/list' => [
 			'no-style' => __( 'No Style', 'powder' ),
 		],
