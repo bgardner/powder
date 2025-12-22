@@ -45,9 +45,6 @@ function powder_register_block_styles() {
 		'core/paragraph' => [
 			'balanced' => __( 'Balanced', 'powder' ),
 		],
-		'core/post-content' => [
-			'indent' => __( 'Indent', 'powder' ),
-		],
 		'core/separator' => [
 			'extended' => __( 'Extended', 'powder' ),
 		],
