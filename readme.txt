@@ -9,11 +9,11 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
 
-Powder is a theme rooted in simplicity and built with purpose. It brings designers and agencies a thoughtfully curated set of patterns, templates, and a tailored color palette.
+The premier block theme for WordPress designers and agencies.
 
 == Community ==
 
-For WordPress designers and developers using the Powder block theme. Share tips, find tutorials, and learn how to build stunning, high-performance websites.
+For WordPress designers and agencies using the Powder block theme. Share tips, find tutorials, and learn how to build stunning, high-performance websites.
 Join the community: https://www.reddit.com/r/PowderTheme/
 
 == Copyright ==
