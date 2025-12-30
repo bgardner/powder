@@ -130,7 +130,6 @@ input[type="radio"] {
 	/* -- Header -- */
 
 	.has-motion .site-header {
-		background-color: var(--wp--preset--color--base);
 		position: sticky;
 		top: 0;
 		transition: transform 0.5s ease;
