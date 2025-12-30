@@ -56,8 +56,8 @@ add_action( 'init', function() {
 		register_block_pattern_category(
 			'powder-' . $slug,
 			[
-				'label'       => __( $label, 'powder' ),
-				'description' => __( $description, 'powder' ),
+				'label'       => $label,
+				'description' => $description,
 			]
 		);
 	}
