@@ -10,12 +10,14 @@
  */
 add_action( 'enqueue_block_editor_assets', function() {
 
+	$theme_version = wp_get_theme( get_template() )->get( 'Version' );
+
 	// Load motion sidebar script.
 	wp_enqueue_script(
 		'powder-motion-sidebar',
 		get_template_directory_uri() . '/assets/js/motion-sidebar.js',
 		[ 'wp-blocks', 'wp-element', 'wp-components', 'wp-editor', 'wp-hooks', 'wp-compose' ],
-		'1.0',
+		$theme_version,
 		true
 	);
 } );
