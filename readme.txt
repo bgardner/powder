@@ -61,6 +61,5 @@ License URL: https://www.apache.org/licenses/LICENSE-2.0
 icon-circle-bolt.svg
 icon-circle-check.svg
 icon-circle-x.svg
-icon-external.svg
 icon-quote-bottom.svg
 icon-quote-top.svg

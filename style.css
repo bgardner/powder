@@ -96,21 +96,6 @@ input[type="radio"] {
 /* Utility
 ---------------------------------------- */
 
-/* -- External Link -- */
-
-a.external::after {
-	background-color: currentColor;
-	content: "";
-	display: inline-block;
-	height: 0.75em;
-	margin-left: 0.1em;
-	mask-image: url("assets/icons/icon-external.svg");
-	mask-repeat: no-repeat;
-	mask-size: contain;
-	vertical-align: middle;
-	width: 0.75em;
-}
-
 /* -- Overflow -- */
 
 .is-style-overflow-hidden {
