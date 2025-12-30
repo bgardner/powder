@@ -11,7 +11,7 @@
 function powder_theme_updates( $transient ) {
 
 	// Define update endpoint.
-	$update_url = 'https://powder.design/powder-2-updates.json';
+	$update_url = 'https://powder.design/powder-theme-updates.json';
 
 	$response = wp_remote_get( $update_url );
 	if ( is_wp_error( $response ) ) {
