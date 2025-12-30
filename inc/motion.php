@@ -26,7 +26,6 @@ add_action( 'enqueue_block_editor_assets', function() {
  * Register motion frontend assets.
  */
 add_action( 'wp_enqueue_scripts', function() {
-	if ( is_admin() ) return;
 
 	// Resolve theme version.
 	$theme   = wp_get_theme( get_template() );
@@ -46,7 +45,8 @@ add_action( 'wp_enqueue_scripts', function() {
 		$version,
 		true
 	);
-}, 5 );
+
+} );
 
 /**
  * Detect motion usage during render.
