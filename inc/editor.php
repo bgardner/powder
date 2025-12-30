@@ -6,7 +6,7 @@
  */
 
 /**
- * Define custom template part areas.
+ * Define template part areas.
  */
 function powder_template_parts( array $areas ) {
 
@@ -24,7 +24,7 @@ function powder_template_parts( array $areas ) {
 add_filter( 'default_wp_template_part_areas', 'powder_template_parts' );
 
 /**
- * Register custom block styles.
+ * Register block styles.
  */
 function powder_register_block_styles() {
 
