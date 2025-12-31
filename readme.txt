@@ -18,7 +18,7 @@ Join the community: https://www.reddit.com/r/PowderTheme/
 
 == Copyright ==
 
-Powder WordPress theme, (C) 2006-2025 Brian Gardner.
+Powder WordPress theme, (C) 2006-2026 Brian Gardner.
 Powder is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
