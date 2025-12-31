@@ -224,17 +224,26 @@
 					"fontFace": [
 						{
 							"fontDisplay": "block",
-							"fontFamily": "Outfit",
+							"fontFamily": "Google Sans",
 							"fontStyle": "normal",
-							"fontWeight": "100 900",
+							"fontWeight": "100 1000",
 							"src": [
-								"file:./assets/fonts/outfit/outfit.woff2"
+								"file:./assets/fonts/google-sans/GoogleSansFlex-Variable.woff2"
+							]
+						},
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Google Sans",
+							"fontStyle": "italic",
+							"fontWeight": "100 1000",
+							"src": [
+								"file:./assets/fonts/google-sans/GoogleSansFlex-Variable.woff2"
 							]
 						}
 					],
-					"fontFamily": "Outfit, sans-serif",
-					"name": "Outfit",
-					"slug": "outfit"
+					"fontFamily": "Google Sans, sans-serif",
+					"name": "Google Sans",
+					"slug": "google-sans"
 				}
 			],
 			"fontSizes": [
@@ -370,7 +379,7 @@
 					"blockGap": "var(--wp--preset--spacing--20)"
 				},
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--x-small)",
+					"fontSize": "var(--wp--preset--font-size--xx-small)",
 					"lineHeight": "var(--wp--custom--line-height--medium)"
 				}
 			},
@@ -486,8 +495,13 @@
 					}
 				},
 				"typography": {
+<<<<<<< HEAD
 					"fontSize": "var(--wp--preset--font-size--large)",
 					"fontWeight": "400",
+=======
+					"fontSize": "var(--wp--preset--font-size--medium)",
+					"fontWeight": "500",
+>>>>>>> parent of 2063a18 (Add back Outfit font.)
 					"lineHeight": "var(--wp--custom--line-height--x-small)"
 				}
 			},
@@ -514,7 +528,11 @@
 			"background": "var(--wp--preset--color--base)",
 			"text": "var(--wp--preset--color--contrast)"
 		},
+<<<<<<< HEAD
 		"css": "::selection { background-color: var(--wp--preset--color--primary); color: var(--wp--preset--color--base); }",
+=======
+		"css": "html {-moz-osx-font-smoothing: grayscale; -webkit-font-smoothing: antialiased;} ::selection {background-color: var(--wp--preset--color--primary); color: var(--wp--preset--color--base);}",
+>>>>>>> parent of 2063a18 (Add back Outfit font.)
 		"elements": {
 			"button": {
 				"border": {
@@ -534,8 +552,8 @@
 					}
 				},
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--x-small)",
-					"fontWeight": "400",
+					"fontSize": "var(--wp--preset--font-size--xx-small)",
+					"fontWeight": "500",
 					"lineHeight": "var(--wp--custom--line-height--medium)"
 				},
 				":focus": {
@@ -560,7 +578,7 @@
 			},
 			"heading": {
 				"typography": {
-					"fontWeight": "400",
+					"fontWeight": "500",
 					"lineHeight": "var(--wp--custom--line-height--x-small)"
 				}
 			},
@@ -657,9 +675,10 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--outfit)",
-			"fontSize": "var(--wp--preset--font-size--medium)",
-			"fontWeight": "300",
+			"fontFamily": "var(--wp--preset--font-family--google-sans)",
+			"fontSize": "var(--wp--preset--font-size--small)",
+			"fontWeight": "400",
+			"letterSpacing": "0.01em",
 			"lineHeight": "var(--wp--custom--line-height--large)"
 		}
 	},
