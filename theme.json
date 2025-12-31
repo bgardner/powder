@@ -228,7 +228,7 @@
 							"fontStyle": "normal",
 							"fontWeight": "100 1000",
 							"src": [
-								"file:./assets/fonts/google-sans/GoogleSansFlex-Variable.woff2"
+								"file:./assets/fonts/google-sans/google-sans.woff2"
 							]
 						},
 						{
@@ -237,7 +237,7 @@
 							"fontStyle": "italic",
 							"fontWeight": "100 1000",
 							"src": [
-								"file:./assets/fonts/google-sans/GoogleSansFlex-Variable.woff2"
+								"file:./assets/fonts/google-sans/google-sans.woff2"
 							]
 						}
 					],
