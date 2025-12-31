@@ -144,17 +144,17 @@
 			"presets": [
 				{
 					"name": "Light",
-					"shadow": "0 0 10px rgb(0, 0, 0, 0.1)",
+					"shadow": "0 0 10px rgba(0, 0, 0, 0.1)",
 					"slug": "light"
 				},
 				{
 					"name": "Natural",
-					"shadow": "5px 5px 10px rgb(0, 0, 0, 0.2)",
+					"shadow": "5px 5px 10px rgba(0, 0, 0, 0.2)",
 					"slug": "natural"
 				},
 				{
 					"name": "Deep",
-					"shadow": "0 0 40px rgb(0, 0, 0, 0.2)",
+					"shadow": "0 0 40px rgba(0, 0, 0, 0.2)",
 					"slug": "deep"
 				},
 				{
