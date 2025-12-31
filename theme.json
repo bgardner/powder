@@ -496,7 +496,11 @@
 				},
 				"typography": {
 <<<<<<< HEAD
+<<<<<<< HEAD
 					"fontSize": "var(--wp--preset--font-size--large)",
+=======
+					"fontSize": "var(--wp--preset--font-size--medium)",
+>>>>>>> parent of 9861fca (Minor style changes.)
 					"fontWeight": "400",
 =======
 					"fontSize": "var(--wp--preset--font-size--medium)",
@@ -529,10 +533,14 @@
 			"text": "var(--wp--preset--color--contrast)"
 		},
 <<<<<<< HEAD
+<<<<<<< HEAD
 		"css": "::selection { background-color: var(--wp--preset--color--primary); color: var(--wp--preset--color--base); }",
 =======
 		"css": "html {-moz-osx-font-smoothing: grayscale; -webkit-font-smoothing: antialiased;} ::selection {background-color: var(--wp--preset--color--primary); color: var(--wp--preset--color--base);}",
 >>>>>>> parent of 2063a18 (Add back Outfit font.)
+=======
+		"css": "html {::selection {background-color: var(--wp--preset--color--primary); color: var(--wp--preset--color--base);}",
+>>>>>>> parent of 9861fca (Minor style changes.)
 		"elements": {
 			"button": {
 				"border": {
