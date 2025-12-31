@@ -486,7 +486,7 @@
 					}
 				},
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--medium)",
+					"fontSize": "var(--wp--preset--font-size--large)",
 					"fontWeight": "400",
 					"lineHeight": "var(--wp--custom--line-height--x-small)"
 				}
@@ -514,7 +514,7 @@
 			"background": "var(--wp--preset--color--base)",
 			"text": "var(--wp--preset--color--contrast)"
 		},
-		"css": "html {::selection {background-color: var(--wp--preset--color--primary); color: var(--wp--preset--color--base);}",
+		"css": "::selection { background-color: var(--wp--preset--color--primary); color: var(--wp--preset--color--base); }",
 		"elements": {
 			"button": {
 				"border": {
