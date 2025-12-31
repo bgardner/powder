@@ -1,13 +1,12 @@
 <?php
 /**
- * Define pattern categories for Powder.
+ * Define pattern categories.
  *
  * @package Powder
  */
 
 add_action( 'init', function() {
 
-	// Define pattern categories.
 	$categories = [
 		'footer' => [
 			'label'       => __( 'Footer', 'powder' ),
@@ -19,7 +18,6 @@ add_action( 'init', function() {
 		],
 	];
 
-	// Register each category.
 	foreach ( $categories as $slug => $data ) {
 		register_block_pattern_category(
 			'powder-' . $slug,
