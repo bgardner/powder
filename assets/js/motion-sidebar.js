@@ -1,7 +1,6 @@
 (function (wp) {
 	'use strict';
 
-	// Guard required editor APIs.
 	if (
 		!wp ||
 		!wp.hooks ||
@@ -17,7 +16,6 @@
 	const { InspectorControls } = wp.blockEditor || wp.editor;
 	const { PanelBody, ToggleControl, RangeControl, SelectControl } = wp.components;
 
-	// Define supported blocks.
 	const supportedBlocks = [
 		'core/group',
 		'core/columns',
@@ -25,17 +23,16 @@
 		'core/image'
 	];
 
-	// Register motion block attributes.
 	function addMotionAttributes(settings, name) {
 		if (!supportedBlocks.includes(name)) return settings;
 
 		settings.attributes = {
 			...settings.attributes,
-			powderMotion: { type: 'boolean', default: false }, // Toggle motion.
-			powderMotionEffect: { type: 'string', default: 'fadeIn' }, // Define effect.
-			powderOffset: { type: 'string', default: '' }, // Set delay.
-			powderDuration: { type: 'number', default: 0.5 }, // Set duration.
-			powderMotionDistance: { type: 'string', default: '20' }	// Set distance.
+			powderMotion: { type: 'boolean', default: false },
+			powderMotionEffect: { type: 'string', default: 'fadeIn' },
+			powderOffset: { type: 'string', default: '' },
+			powderDuration: { type: 'number', default: 0.5 },
+			powderMotionDistance: { type: 'string', default: '20' }
 		};
 
 		return settings;
@@ -47,7 +44,6 @@
 		addMotionAttributes
 	);
 
-	// Inject motion inspector controls.
 	const withMotionControls = hoc((BlockEdit) => {
 		return (props) => {
 			if (!supportedBlocks.includes(props.name)) {
@@ -63,11 +59,9 @@
 				powderMotionDistance = '20'
 			} = attributes;
 
-			// Normalize offset value.
 			let offsetVal = Number(powderOffset || 0);
 			if (Number.isNaN(offsetVal)) offsetVal = 0;
 
-			// Normalize distance value.
 			let distanceVal = parseInt(powderMotionDistance, 10);
 			if (Number.isNaN(distanceVal)) distanceVal = 20;
 
@@ -91,7 +85,6 @@
 							checked: !!powderMotion,
 							onChange: (val) => {
 								if (!val) {
-									// Reset motion attributes.
 									setAttributes({
 										powderMotion: false,
 										powderMotionEffect: 'fadeIn',
@@ -151,7 +144,6 @@
 		withMotionControls
 	);
 
-	// Map attributes to markup.
 	function applyExtraProps(extraProps, blockType, attributes) {
 		if (!supportedBlocks.includes(blockType.name) || !attributes?.powderMotion) {
 			return extraProps;
