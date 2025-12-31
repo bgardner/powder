@@ -125,6 +125,27 @@ input[type="radio"] {
 /* Media Queries
 ---------------------------------------- */
 
+@media only screen and (min-width: 600px) {
+
+	/* -- Header -- */
+
+	.has-motion .site-header {
+		position: sticky;
+		top: 0;
+		transition: transform 0.5s ease;
+		z-index: 1000;
+	}
+	
+	.has-motion body.scroll-down .site-header {
+		transform: translateY(-100%);
+	}
+	
+	.has-motion body.scroll-up .site-header {
+		transform: translateY(0);
+	}
+
+}
+
 @media only screen and (max-width: 600px) {
 
 	/* -- Utility -- */

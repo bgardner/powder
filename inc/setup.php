@@ -25,5 +25,12 @@ function powder_enqueue_style_sheet() {
 		$version
 	);
 
+	wp_enqueue_script(
+		'powder-header',
+		get_template_directory_uri() . '/assets/js/header.js',
+		[],
+		$version,
+		true
+	);
 }
 add_action( 'wp_enqueue_scripts', 'powder_enqueue_style_sheet' );
