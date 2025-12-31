@@ -450,7 +450,7 @@
 			},
 			"core/post-template": {
 				"spacing": {
-					"blockGap": "var(--wp--preset--spacing--60);"
+					"blockGap": "var(--wp--preset--spacing--60)"
 				}
 			},
 			"core/post-title": {
