@@ -1,6 +1,6 @@
 <?php
 /**
- * Register block styles and template part areas.
+ * Register template part areas and block styles.
  *
  * @package Powder
  */
@@ -16,7 +16,6 @@ function powder_template_parts( array $areas ) {
 
 	return $areas;
 }
-
 add_filter( 'default_wp_template_part_areas', 'powder_template_parts' );
 
 function powder_register_block_styles() {
@@ -56,5 +55,4 @@ function powder_register_block_styles() {
 		}
 	}
 }
-
 add_action( 'init', 'powder_register_block_styles' );

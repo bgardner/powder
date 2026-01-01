@@ -30,5 +30,4 @@ function powder_enqueue_style_sheet() {
 		true
 	);
 }
-
 add_action( 'wp_enqueue_scripts', 'powder_enqueue_style_sheet' );

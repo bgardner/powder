@@ -32,5 +32,4 @@ function powder_theme_updates( $transient ) {
 
 	return $transient;
 }
-
 add_filter( 'pre_set_site_transient_update_themes', 'powder_theme_updates' );
