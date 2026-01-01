@@ -1,18 +1,14 @@
 <?php
 /**
- * Add motion support to the block editor and frontend.
+ * Register block motion controls.
  *
  * @package Powder
  */
 
-/**
- * Enqueue motion editor controls.
- */
 add_action( 'enqueue_block_editor_assets', function() {
 
 	$theme_version = wp_get_theme( get_template() )->get( 'Version' );
 
-	// Load motion sidebar script.
 	wp_enqueue_script(
 		'powder-motion-sidebar',
 		get_template_directory_uri() . '/assets/js/motion-sidebar.js',
@@ -22,12 +18,8 @@ add_action( 'enqueue_block_editor_assets', function() {
 	);
 } );
 
-/**
- * Register motion frontend assets.
- */
 add_action( 'wp_enqueue_scripts', function() {
 
-	// Resolve theme version.
 	$theme   = wp_get_theme( get_template() );
 	$version = $theme->get( 'Version' );
 
@@ -48,12 +40,8 @@ add_action( 'wp_enqueue_scripts', function() {
 
 } );
 
-/**
- * Detect motion usage during render.
- */
 add_filter( 'render_block', function( $content, $block ) {
 
-	// Track motion requirement.
 	static $needed = false;
 
 	if (
@@ -80,12 +68,8 @@ add_filter( 'render_block', function( $content, $block ) {
 	return $content;
 }, 10, 2 );
 
-/**
- * Enqueue motion assets conditionally.
- */
 add_action( 'wp_footer', function() {
 
-	// Load assets if required.
 	if ( ! empty( $GLOBALS['powder_motion_needed'] ) ) {
 		wp_enqueue_style( 'powder-motion' );
 		wp_enqueue_script( 'powder-motion' );
