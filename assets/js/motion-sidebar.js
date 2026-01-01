@@ -162,5 +162,4 @@
 		'powder/motion/save-props',
 		applyExtraProps
 	);
-
 })(window.wp || {});

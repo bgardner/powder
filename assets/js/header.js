@@ -5,7 +5,6 @@
 
 	let lastScrollY = 0;
 	let ticking = false;
-
 	const threshold = 40;
 
 	function updateScrollState() {
@@ -35,5 +34,4 @@
 	}
 
 	window.addEventListener('scroll', onScroll, { passive: true });
-
 })();

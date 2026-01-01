@@ -38,11 +38,9 @@ document.documentElement.classList.add('js');
 			const distance = parseInt(el.getAttribute('data-distance') || 20, 10);
 
 			el.style.opacity = '0';
-
 			el.style.setProperty('--powder-motion-distance', `${distance}px`);
 
 			observer.observe(el);
 		});
 	});
-
 })();
