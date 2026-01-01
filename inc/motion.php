@@ -6,7 +6,6 @@
  */
 
 add_action( 'enqueue_block_editor_assets', function() {
-
 	$theme_version = wp_get_theme( get_template() )->get( 'Version' );
 
 	wp_enqueue_script(
@@ -19,7 +18,6 @@ add_action( 'enqueue_block_editor_assets', function() {
 } );
 
 add_action( 'wp_enqueue_scripts', function() {
-
 	$theme   = wp_get_theme( get_template() );
 	$version = $theme->get( 'Version' );
 
@@ -37,11 +35,9 @@ add_action( 'wp_enqueue_scripts', function() {
 		$version,
 		true
 	);
-
 } );
 
 add_filter( 'render_block', function( $content, $block ) {
-
 	static $needed = false;
 
 	if (
@@ -69,7 +65,6 @@ add_filter( 'render_block', function( $content, $block ) {
 }, 10, 2 );
 
 add_action( 'wp_footer', function() {
-
 	if ( ! empty( $GLOBALS['powder_motion_needed'] ) ) {
 		wp_enqueue_style( 'powder-motion' );
 		wp_enqueue_script( 'powder-motion' );

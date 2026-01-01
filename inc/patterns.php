@@ -1,12 +1,11 @@
 <?php
 /**
- * Define pattern categories.
+ * Register pattern categories.
  *
  * @package Powder
  */
 
-add_action( 'init', function() {
-
+function powder_register_pattern_categories() {
 	$categories = [
 		'call-to-action' => [
 			'label'       => __( 'Call to Action', 'powder' ),
@@ -59,5 +58,6 @@ add_action( 'init', function() {
 			]
 		);
 	}
+}
 
-} );
+add_action( 'init', 'powder_register_pattern_categories' );

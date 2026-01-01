@@ -1,12 +1,11 @@
 <?php
 /**
- * Customize the block editor.
+ * Register block styles and template part areas.
  *
  * @package Powder
  */
 
 function powder_template_parts( array $areas ) {
-
 	$areas[] = [
 		'area'        => 'sidebar',
 		'area_tag'    => 'section',
@@ -17,10 +16,10 @@ function powder_template_parts( array $areas ) {
 
 	return $areas;
 }
+
 add_filter( 'default_wp_template_part_areas', 'powder_template_parts' );
 
 function powder_register_block_styles() {
-
 	$block_styles = [
 		'core/columns' => [
 			'column-reverse' => __( 'Reverse', 'powder' ),
@@ -57,4 +56,5 @@ function powder_register_block_styles() {
 		}
 	}
 }
+
 add_action( 'init', 'powder_register_block_styles' );
