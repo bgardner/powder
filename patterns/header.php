@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Header - site title, separator
- * Slug: powder/header-title-separator
+ * Title: Header - site title
+ * Slug: powder/header
  * Categories: powder-header
  * Block Types: core/template-part/header
  * Template Types: header
@@ -11,14 +11,7 @@
 <div class="wp-block-group alignfull has-base-background-color has-background" style="margin-top:0px;padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)">
 	<!-- wp:group {"align":"wide","layout":{"type":"flex","justifyContent":"space-between"}} -->
 	<div class="wp-block-group alignwide">
-		<!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-		<div class="wp-block-group">
-			<!-- wp:site-title {"level":0,"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"small"} /-->
-			<!-- wp:separator {"backgroundColor":"contrast"} -->
-			<hr class="wp-block-separator has-text-color has-contrast-color has-alpha-channel-opacity has-contrast-background-color has-background"/>
-			<!-- /wp:separator -->
-		</div>
-		<!-- /wp:group -->
+		<!-- wp:site-title {"level":0} /-->
 		<!-- wp:navigation {"layout":{"type":"flex","setCascadingProperties":true}} /-->
 	</div>
 	<!-- /wp:group -->
