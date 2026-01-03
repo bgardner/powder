@@ -1,6 +1,6 @@
 <?php
 /**
- * Register template part areas and block styles.
+ * Register template parts and block styles.
  *
  * @package Powder
  */
