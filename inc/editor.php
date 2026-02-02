@@ -23,6 +23,10 @@ function powder_register_block_styles() {
 		'core/columns' => [
 			'column-reverse' => __( 'Reverse', 'powder' ),
 		],
+		'core/group' => [
+			'fadein'   => __( 'Fade In', 'powder' ),
+			'fadeinup' => __( 'Fade In Up', 'powder' ),
+		],
 		'core/heading' => [
 			'balanced' => __( 'Balanced', 'powder' ),
 		],
@@ -56,3 +60,37 @@ function powder_register_block_styles() {
 	}
 }
 add_action( 'init', 'powder_register_block_styles' );
+
+function powder_enqueue_motion_assets() {
+
+	if ( ! is_singular() ) {
+		return;
+	}
+
+	$content = get_post()->post_content ?? '';
+
+	if (
+		strpos( $content, 'is-style-fadein' ) === false &&
+		strpos( $content, 'is-style-fadeinup' ) === false
+	) {
+		return;
+	}
+
+	$version = wp_get_theme( 'powder' )->get( 'Version' );
+
+	wp_enqueue_style(
+		'powder-motion',
+		get_template_directory_uri() . '/assets/css/motion.css',
+		[ 'powder' ],
+		$version
+	);
+
+	wp_enqueue_script(
+		'powder-motion',
+		get_template_directory_uri() . '/assets/js/motion.js',
+		array(),
+		$version,
+		true
+	);
+}
+add_action( 'wp_enqueue_scripts', 'powder_enqueue_motion_assets', 20 );

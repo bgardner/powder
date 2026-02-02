@@ -1,70 +1,70 @@
-/* Motion Effects
+/* Motion
 ---------------------------------------- */
 
-/* Initial hidden state */
-.js [data-motion="fadeIn"]:not(.motion-fadeIn),
-.js [data-motion="fadeInUp"]:not(.motion-fadeInUp),
-.js [data-motion="fadeInDown"]:not(.motion-fadeInDown) {
+/* -- Defaults -- */
+
+:root {
+	--powder-motion-distance: 30px;
+	--powder-motion-duration: 0.5s;
+	--powder-motion-ease: ease-out;
+}
+
+/* -- Reduced motion -- */
+
+@media (prefers-reduced-motion: reduce) {
+	.is-style-fadein,
+	.is-style-fadeinup {
+		animation: none !important;
+		opacity: 1 !important;
+		transform: none !important;
+	}
+}
+
+/* -- Default visible -- */
+
+.is-style-fadein,
+.is-style-fadeinup {
+	opacity: 1;
+	transform: none;
+}
+
+/* -- JS enabled -- */
+
+.powder-motion .is-style-fadein,
+.powder-motion .is-style-fadeinup {
 	opacity: 0;
 }
 
-/* Shared Animation Behavior
----------------------------------------- */
-
-.motion-fadeIn,
-.motion-fadeInUp,
-.motion-fadeInDown {
-	animation-name: motion-fade;
-	animation-timing-function: ease-out;
-	animation-fill-mode: forwards;
-
-	/* Default motion variables */
-	--motion-opacity-from: 0;
-	--motion-translate-from: 0;
+.powder-motion .is-style-fadeinup {
+	transform: translateY(var(--powder-motion-distance));
 }
 
-/* Effect Variations
----------------------------------------- */
-
-.motion-fadeIn {
-	--motion-opacity-from: 0;
-	--motion-translate-from: 0;
+.powder-motion .is-style-fadein.is-inview {
+	animation: fadeIn var(--powder-motion-duration) var(--powder-motion-ease) forwards;
 }
 
-.motion-fadeInUp {
-	--motion-opacity-from: 0;
-	--motion-translate-from: var(--powder-motion-distance, 20px);
+.powder-motion .is-style-fadeinup.is-inview {
+	animation: fadeInUp var(--powder-motion-duration) var(--powder-motion-ease) forwards;
 }
 
-.motion-fadeInDown {
-	--motion-opacity-from: 0;
-	--motion-translate-from: calc(var(--powder-motion-distance, 20px) * -1);
-}
+/* -- Keyframes -- */
 
-/* Unified Keyframes
----------------------------------------- */
-
-@keyframes motion-fade {
+@keyframes fadeIn {
 	from {
-		opacity: var(--motion-opacity-from);
-		transform: translateY(var(--motion-translate-from));
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeInUp {
+	from {
+		opacity: 0;
+		transform: translateY(var(--powder-motion-distance));
 	}
 	to {
 		opacity: 1;
 		transform: translateY(0);
-	}
-}
-
-/* Reduced Motion
----------------------------------------- */
-
-@media (prefers-reduced-motion: reduce) {
-	.motion-fadeIn,
-	.motion-fadeInUp,
-	.motion-fadeInDown {
-		animation: none !important;
-		opacity: 1 !important;
-		transform: none !important;
-		transition: none !important;
 	}
 }
