@@ -12,7 +12,6 @@
 /* -- Reduced motion -- */
 
 @media (prefers-reduced-motion: reduce) {
-	.is-style-fadein,
 	.is-style-fadeinup {
 		animation: none !important;
 		opacity: 1 !important;
@@ -22,7 +21,6 @@
 
 /* -- Default visible -- */
 
-.is-style-fadein,
 .is-style-fadeinup {
 	opacity: 1;
 	transform: none;
@@ -30,7 +28,6 @@
 
 /* -- JS enabled -- */
 
-.powder-motion .is-style-fadein,
 .powder-motion .is-style-fadeinup {
 	opacity: 0;
 }
@@ -39,24 +36,12 @@
 	transform: translateY(var(--powder-motion-distance));
 }
 
-.powder-motion .is-style-fadein.is-inview {
-	animation: fadeIn var(--powder-motion-duration) var(--powder-motion-ease) forwards;
-}
-
 .powder-motion .is-style-fadeinup.is-inview {
 	animation: fadeInUp var(--powder-motion-duration) var(--powder-motion-ease) forwards;
 }
 
 /* -- Keyframes -- */
 
-@keyframes fadeIn {
-	from {
-		opacity: 0;
-	}
-	to {
-		opacity: 1;
-	}
-}
 
 @keyframes fadeInUp {
 	from {

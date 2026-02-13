@@ -24,7 +24,6 @@ function powder_register_block_styles() {
 			'column-reverse' => __( 'Reverse', 'powder' ),
 		],
 		'core/group' => [
-			'fadein'   => __( 'Fade In', 'powder' ),
 			'fadeinup' => __( 'Fade In Up', 'powder' ),
 		],
 		'core/heading' => [
