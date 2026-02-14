@@ -23,8 +23,8 @@ function powder_enqueue_style_sheet() {
 	);
 
 	wp_enqueue_script(
-		'powder-header',
-		get_template_directory_uri() . '/assets/js/header.js',
+		'powder-scroll',
+		get_template_directory_uri() . '/assets/js/scroll.js',
 		array(),
 		$version,
 		true

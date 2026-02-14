@@ -178,34 +178,34 @@ input[type="radio"] {
 /* Media Queries
 ---------------------------------------- */
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px){
 
 	/* Header */
 
-	.scroll-reveal .site-header {
+	.site-header{
 		position: sticky;
 		top: 0;
-		transition: transform 0.5s ease;
 		z-index: 1000;
 	}
 
-	.scroll-reveal body.scroll-down .site-header {
-		transform: translateY(-100%);
+	.scroll-reveal .site-header{
+		transition:transform 0.5s ease;
 	}
 
-	.scroll-reveal body.scroll-up .site-header {
-		transform: translateY(0);
+	.scroll-reveal body.scroll-down .site-header{
+		transform:translateY(-100%);
 	}
 
-	/* Reduced motion */
+	.scroll-reveal body.scroll-up .site-header{
+		transform:translateY(0);
+	}
 
-	@media (prefers-reduced-motion: reduce) {
-		.scroll-reveal .site-header {
-			transition: none !important;
-			transform: none !important;
+	@media (prefers-reduced-motion: reduce){
+		.scroll-reveal .site-header{
+			transition:none !important;
+			transform:none !important;
 		}
 	}
-
 }
 
 @media only screen and (max-width: 600px) {
