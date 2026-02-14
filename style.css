@@ -99,9 +99,9 @@ input[type="radio"] {
 /* Variables */
 
 :root {
-	--has-motion-distance: 30px;
-	--has-motion-duration: 0.5s;
-	--has-motion-ease: ease-out;
+	--powder-motion-distance: 30px;
+	--powder-motion-duration: 0.5s;
+	--powder-motion-ease: ease-out;
 }
 
 /* Default visible */
@@ -115,20 +115,16 @@ input[type="radio"] {
 
 .has-motion .is-style-fadeinup {
 	opacity: 0;
-	transform: translateY(var(--has-motion-distance));
+	transform: translateY(var(--powder-motion-distance));
 }
 
 .has-motion .is-style-fadeinup.is-inview {
-	animation: fadeInUp var(--has-motion-duration) var(--has-motion-ease) forwards;
+	animation: fadeInUp var(--powder-motion-duration) var(--powder-motion-ease) forwards;
 }
 
 /* Keyframes */
 
 @keyframes fadeInUp {
-	from {
-		opacity: 0;
-		transform: translateY(var(--has-motion-distance));
-	}
 	to {
 		opacity: 1;
 		transform: translateY(0);
@@ -178,37 +174,38 @@ input[type="radio"] {
 /* Media Queries
 ---------------------------------------- */
 
-@media only screen and (min-width: 600px){
+@media (min-width: 600px) {
 
 	/* Header */
 
-	.site-header{
+	.site-header {
 		position: sticky;
 		top: 0;
 		z-index: 1000;
 	}
 
-	.scroll-reveal .site-header{
-		transition :transform 0.5s ease;
+	.scroll-reveal .site-header {
+		transition: transform 0.5s ease;
 	}
 
-	.scroll-reveal body.scroll-down .site-header{
+	.scroll-reveal body.scroll-down .site-header {
 		transform: translateY(-100%);
 	}
 
-	.scroll-reveal body.scroll-up .site-header{
+	.scroll-reveal body.scroll-up .site-header {
 		transform: translateY(0);
 	}
 
-	@media (prefers-reduced-motion: reduce){
-		.scroll-reveal .site-header{
+	@media (prefers-reduced-motion: reduce) {
+		.scroll-reveal .site-header {
 			transition: none !important;
 			transform: none !important;
 		}
 	}
+
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
 
 	/* Utilities */
 
@@ -218,7 +215,7 @@ input[type="radio"] {
 
 }
 
-@media only screen and (max-width: 782px) {
+@media (max-width: 782px) {
 
 	/* Columns */
 
