@@ -1,7 +1,7 @@
 (() => {
 	document.documentElement.classList.add('powder-motion');
 
-	const els = document.querySelectorAll('.is-style-fadein, .is-style-fadeinup');
+	const els = document.querySelectorAll('.is-style-fadeinup');
 	if (!els.length || !('IntersectionObserver' in window)) {
 		els.forEach(el => {
 			el.style.opacity = '1';
