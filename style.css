@@ -17,8 +17,15 @@ Tags: block-patterns, block-styles, custom-colors, custom-logo, editor-style, fu
 /* Base
 ---------------------------------------- */
 
-html {
-	scroll-behavior: smooth;
+@media (prefers-reduced-motion: no-preference) {
+	html {
+		scroll-behavior: smooth;
+	}
+}
+
+b,
+strong {
+	font-weight: 600;
 }
 
 a,
@@ -30,11 +37,6 @@ button,
 input,
 textarea {
 	transition: filter 0.2s ease-in-out;
-}
-
-b,
-strong {
-	font-weight: 600;
 }
 
 /* Forms
