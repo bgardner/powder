@@ -136,9 +136,9 @@ input[type="radio"] {
 @media (prefers-reduced-motion: reduce) {
 	.has-motion .is-style-fadeinup,
 	.has-motion .is-style-fadeinup.is-inview {
+		animation: none !important;
 		opacity: 1 !important;
 		transform: none !important;
-		animation: none !important;
 	}
 }
 
@@ -198,8 +198,8 @@ input[type="radio"] {
 
 	@media (prefers-reduced-motion: reduce) {
 		.scroll-reveal .site-header {
-			transition: none !important;
 			transform: none !important;
+			transition: none !important;
 		}
 	}
 
