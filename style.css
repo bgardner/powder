@@ -189,21 +189,21 @@ input[type="radio"] {
 	}
 
 	.scroll-reveal .site-header{
-		transition:transform 0.5s ease;
+		transition :transform 0.5s ease;
 	}
 
 	.scroll-reveal body.scroll-down .site-header{
-		transform:translateY(-100%);
+		transform: translateY(-100%);
 	}
 
 	.scroll-reveal body.scroll-up .site-header{
-		transform:translateY(0);
+		transform: translateY(0);
 	}
 
 	@media (prefers-reduced-motion: reduce){
 		.scroll-reveal .site-header{
-			transition:none !important;
-			transform:none !important;
+			transition: none !important;
+			transform: none !important;
 		}
 	}
 }
