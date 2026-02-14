@@ -69,20 +69,12 @@ function powder_enqueue_motion_assets() {
 	$content = get_post()->post_content ?? '';
 
 	if (
-		strpos( $content, 'is-style-fadein' ) === false &&
 		strpos( $content, 'is-style-fadeinup' ) === false
 	) {
 		return;
 	}
 
 	$version = wp_get_theme( 'powder' )->get( 'Version' );
-
-	wp_enqueue_style(
-		'powder-motion',
-		get_template_directory_uri() . '/assets/css/motion.css',
-		[ 'powder' ],
-		$version
-	);
 
 	wp_enqueue_script(
 		'powder-motion',

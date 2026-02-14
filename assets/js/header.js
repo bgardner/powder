@@ -1,7 +1,7 @@
 (function () {
 	'use strict';
 
-	document.documentElement.classList.add('has-motion');
+	document.documentElement.classList.add('scroll-reveal');
 
 	let lastScrollY = 0;
 	let ticking = false;

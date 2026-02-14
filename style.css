@@ -14,8 +14,7 @@ Text Domain: powder
 Tags: block-patterns, block-styles, custom-colors, custom-logo, editor-style, full-site-editing, one-column, two-columns, wide-blocks
 */
 
-
-/* Defaults
+/* Base
 ---------------------------------------- */
 
 html {
@@ -38,7 +37,8 @@ strong {
 	font-weight: 600;
 }
 
-/* -- Forms -- */
+/* Forms
+---------------------------------------- */
 
 input,
 select,
@@ -72,13 +72,13 @@ input[type="radio"] {
 /* Blocks
 ---------------------------------------- */
 
-/* -- Navigation -- */
+/* Navigation */
 
 .wp-block-navigation__responsive-container.is-menu-open {
 	padding: var(--wp--preset--spacing--30);
 }
 
-/* -- Navigation Submenu -- */
+/* Navigation submenu */
 
 .wp-block-navigation__submenu-container {
 	min-width: 150px !important;
@@ -93,16 +93,69 @@ input[type="radio"] {
 	padding: 5px 10px 0 !important;
 }
 
-/* Utility
+/* Motion
 ---------------------------------------- */
 
-/* -- Overflow -- */
+/* Variables */
+
+:root {
+	--has-motion-distance: 30px;
+	--has-motion-duration: 0.5s;
+	--has-motion-ease: ease-out;
+}
+
+/* Default visible */
+
+.is-style-fadeinup {
+	opacity: 1;
+	transform: none;
+}
+
+/* JS enabled */
+
+.has-motion .is-style-fadeinup {
+	opacity: 0;
+	transform: translateY(var(--has-motion-distance));
+}
+
+.has-motion .is-style-fadeinup.is-inview {
+	animation: fadeInUp var(--has-motion-duration) var(--has-motion-ease) forwards;
+}
+
+/* Keyframes */
+
+@keyframes fadeInUp {
+	from {
+		opacity: 0;
+		transform: translateY(var(--has-motion-distance));
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+/* Reduced motion */
+
+@media (prefers-reduced-motion: reduce) {
+	.has-motion .is-style-fadeinup,
+	.has-motion .is-style-fadeinup.is-inview {
+		opacity: 1 !important;
+		transform: none !important;
+		animation: none !important;
+	}
+}
+
+/* Utilities
+---------------------------------------- */
+
+/* Overflow */
 
 .is-style-overflow-hidden {
 	overflow: hidden;
 }
 
-/* -- Position -- */
+/* Position */
 
 .is-style-position-fixed {
 	position: fixed;
@@ -112,7 +165,7 @@ input[type="radio"] {
 	position: relative;
 }
 
-/* -- Z-Index -- */
+/* Z-index */
 
 .is-style-negative-zindex {
 	z-index: -99;
@@ -127,28 +180,37 @@ input[type="radio"] {
 
 @media only screen and (min-width: 600px) {
 
-	/* -- Header -- */
+	/* Header */
 
-	.has-motion .site-header {
+	.scroll-reveal .site-header {
 		position: sticky;
 		top: 0;
 		transition: transform 0.5s ease;
 		z-index: 1000;
 	}
-	
-	.has-motion body.scroll-down .site-header {
+
+	.scroll-reveal body.scroll-down .site-header {
 		transform: translateY(-100%);
 	}
-	
-	.has-motion body.scroll-up .site-header {
+
+	.scroll-reveal body.scroll-up .site-header {
 		transform: translateY(0);
+	}
+
+	/* Reduced motion */
+
+	@media (prefers-reduced-motion: reduce) {
+		.scroll-reveal .site-header {
+			transition: none !important;
+			transform: none !important;
+		}
 	}
 
 }
 
 @media only screen and (max-width: 600px) {
 
-	/* -- Utility -- */
+	/* Utilities */
 
 	.is-style-hidden-mobile {
 		display: none !important;
@@ -158,7 +220,7 @@ input[type="radio"] {
 
 @media only screen and (max-width: 782px) {
 
-	/* -- Columns -- */
+	/* Columns */
 
 	.wp-block-columns.is-style-column-reverse {
 		flex-direction: column-reverse;

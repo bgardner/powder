@@ -1,5 +1,5 @@
 (() => {
-	document.documentElement.classList.add('powder-motion');
+	document.documentElement.classList.add('has-motion');
 
 	const els = document.querySelectorAll('.is-style-fadeinup');
 	if (!els.length || !('IntersectionObserver' in window)) {
