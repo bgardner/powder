@@ -17,6 +17,13 @@ Tags: block-patterns, block-styles, custom-colors, custom-logo, editor-style, fu
 /* Base
 ---------------------------------------- */
 
+:root {
+	--powder-motion-distance: 30px;
+	--powder-motion-ease: ease-out;
+	--powder-motion-fast: 0.2s;
+	--powder-motion-slow: 0.5s;
+}
+
 @media (prefers-reduced-motion: no-preference) {
 	html {
 		scroll-behavior: smooth;
@@ -31,7 +38,8 @@ strong {
 a,
 button,
 .wp-element-button {
-	transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	transition: background-color var(--powder-motion-fast) var(--powder-motion-ease),
+	            color var(--powder-motion-fast) var(--powder-motion-ease);
 }
 
 /* Forms
@@ -93,14 +101,6 @@ input[type="radio"] {
 /* Motion
 ---------------------------------------- */
 
-/* Variables */
-
-:root {
-	--powder-motion-distance: 30px;
-	--powder-motion-duration: 0.5s;
-	--powder-motion-ease: ease-out;
-}
-
 /* Default visible */
 
 .is-style-fadeinup {
@@ -116,7 +116,7 @@ input[type="radio"] {
 }
 
 .has-motion .is-style-fadeinup.is-inview {
-	animation: fadeInUp var(--powder-motion-duration) var(--powder-motion-ease) forwards;
+	animation: fadeInUp var(--powder-motion-slow) var(--powder-motion-ease) forwards;
 }
 
 /* Keyframes */
@@ -182,7 +182,7 @@ input[type="radio"] {
 	}
 
 	.scroll-reveal .site-header {
-		transition: transform 0.5s ease;
+		transition: transform var(--powder-motion-slow) var(--powder-motion-ease);
 	}
 
 	.scroll-reveal body.scroll-down .site-header {
@@ -193,11 +193,13 @@ input[type="radio"] {
 		transform: translateY(0);
 	}
 
-	@media (prefers-reduced-motion: reduce) {
-		.scroll-reveal .site-header {
-			transform: none !important;
-			transition: none !important;
-		}
+}
+
+@media (min-width: 600px) and (prefers-reduced-motion: reduce) {
+
+	.scroll-reveal .site-header {
+		transform: none !important;
+		transition: none !important;
 	}
 
 }
