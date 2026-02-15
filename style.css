@@ -115,6 +115,25 @@ input[type="radio"] {
 	padding: var(--wp--preset--spacing--30);
 }
 
+.is-style-underline-slide .wp-block-navigation-item__content {
+	position: relative;
+}
+
+.is-style-underline-slide .wp-block-navigation-item__content::after {
+	content: "";
+	position: absolute;
+	inset: auto 0 -2px 0;
+	height: 1px;
+	background: currentColor;
+	transform: scaleX(0);
+	transform-origin: left;
+	transition: transform var(--powder-motion-fast) var(--powder-motion-ease);
+}
+
+.is-style-underline-slide .wp-block-navigation-item__content:is(:hover, :focus-visible)::after {
+	transform: scaleX(1);
+}
+
 /* Navigation submenu */
 
 .wp-block-navigation__submenu-container {

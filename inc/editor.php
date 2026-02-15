@@ -35,6 +35,9 @@ function powder_register_block_styles() {
 		'core/list' => [
 			'no-style' => __( 'No Style', 'powder' ),
 		],
+		'core/navigation' => [
+			'underline-slide' => __( 'Underline', 'powder' ),
+		],
 		'core/paragraph' => [
 			'balanced' => __( 'Balanced', 'powder' ),
 		],
