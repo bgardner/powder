@@ -20,7 +20,7 @@ Tags: block-patterns, block-styles, custom-colors, custom-logo, editor-style, fu
 :root {
 	--powder-motion-distance: 30px;
 	--powder-motion-ease: ease-out;
-	--powder-motion-fast: 0.2s;
+	--powder-motion-fast: 0.25s;
 	--powder-motion-slow: 0.5s;
 }
 
@@ -77,6 +77,38 @@ input[type="radio"] {
 /* Blocks
 ---------------------------------------- */
 
+/* Group */
+
+.is-style-fadeinup {
+	opacity: 1;
+	transform: none;
+}
+
+.has-motion .is-style-fadeinup {
+	opacity: 0;
+	transform: translateY(var(--powder-motion-distance));
+}
+
+.has-motion .is-style-fadeinup.is-inview {
+	animation: fadeInUp var(--powder-motion-slow) var(--powder-motion-ease) forwards;
+}
+
+@keyframes fadeInUp {
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.has-motion .is-style-fadeinup,
+	.has-motion .is-style-fadeinup.is-inview {
+		animation: none !important;
+		opacity: 1 !important;
+		transform: none !important;
+	}
+}
+
 /* Navigation */
 
 .wp-block-navigation__responsive-container.is-menu-open {
@@ -96,47 +128,6 @@ input[type="radio"] {
 
 .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__submenu-container {
 	padding: 5px 10px 0 !important;
-}
-
-/* Motion
----------------------------------------- */
-
-/* Default visible */
-
-.is-style-fadeinup {
-	opacity: 1;
-	transform: none;
-}
-
-/* JS enabled */
-
-.has-motion .is-style-fadeinup {
-	opacity: 0;
-	transform: translateY(var(--powder-motion-distance));
-}
-
-.has-motion .is-style-fadeinup.is-inview {
-	animation: fadeInUp var(--powder-motion-slow) var(--powder-motion-ease) forwards;
-}
-
-/* Keyframes */
-
-@keyframes fadeInUp {
-	to {
-		opacity: 1;
-		transform: translateY(0);
-	}
-}
-
-/* Reduced motion */
-
-@media (prefers-reduced-motion: reduce) {
-	.has-motion .is-style-fadeinup,
-	.has-motion .is-style-fadeinup.is-inview {
-		animation: none !important;
-		opacity: 1 !important;
-		transform: none !important;
-	}
 }
 
 /* Utilities
