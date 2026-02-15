@@ -34,11 +34,6 @@ button,
 	transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
-input,
-textarea {
-	transition: filter 0.2s ease-in-out;
-}
-
 /* Forms
 ---------------------------------------- */
 
