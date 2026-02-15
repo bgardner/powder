@@ -120,11 +120,11 @@ input[type="radio"] {
 }
 
 .is-style-underline-slide .wp-block-navigation-item__content::after {
-	content: "";
-	position: absolute;
-	inset: auto 0 -2px 0;
-	height: 1px;
 	background: currentColor;
+	content: "";
+	height: 1px;
+	inset: auto 0 -2px 0;
+	position: absolute;
 	transform: scaleX(0);
 	transform-origin: left;
 	transition: transform var(--powder-motion-fast) var(--powder-motion-ease);
