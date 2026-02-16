@@ -4,12 +4,11 @@
 	const root=document.documentElement;
 	const body=document.body;
 
-	root.classList.add('scroll-reveal');
-
 	if(window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches){
-		body.classList.remove('scroll-up','scroll-down');
 		return;
 	}
+
+	root.classList.add('scroll-reveal');
 
 	let lastY=window.scrollY||0;
 	let ticking=false;
