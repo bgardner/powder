@@ -18,8 +18,7 @@ function powder_theme_updates( $transient ) {
 		return $transient;
 	}
 
-	$theme           = wp_get_theme( 'powder' );
-	$current_version = $theme->get( 'Version' );
+	$current_version = powder_version();
 
 	if ( version_compare( $current_version, $data->version, '<' ) ) {
 		$transient->response['powder'] = array(

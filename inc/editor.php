@@ -77,7 +77,7 @@ function powder_enqueue_motion_assets() {
 		return;
 	}
 
-	$version = wp_get_theme( 'powder' )->get( 'Version' );
+	$version = powder_version();
 
 	wp_enqueue_script(
 		'powder-motion',
