@@ -13,7 +13,6 @@ function powder_template_parts( array $areas ) {
 		'description' => __( 'The Sidebar template defines a page area that typically contains secondary content, navigation, or social icons.', 'powder' ),
 		'icon'        => 'sidebar',
 	];
-
 	return $areas;
 }
 add_filter( 'default_wp_template_part_areas', 'powder_template_parts' );
@@ -64,16 +63,10 @@ function powder_register_block_styles() {
 add_action( 'init', 'powder_register_block_styles' );
 
 function powder_enqueue_motion_assets() {
+	$post    = get_post();
+	$content = $post->post_content ?? '';
 
-	if ( ! is_singular() ) {
-		return;
-	}
-
-	$content = get_post()->post_content ?? '';
-
-	if (
-		strpos( $content, 'is-style-fadeinup' ) === false
-	) {
+	if ( ! str_contains( $content, 'is-style-fadeinup' ) ) {
 		return;
 	}
 
@@ -82,7 +75,7 @@ function powder_enqueue_motion_assets() {
 	wp_enqueue_script(
 		'powder-motion',
 		get_template_directory_uri() . '/assets/js/motion.js',
-		array(),
+		[],
 		$version,
 		true
 	);
