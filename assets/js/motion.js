@@ -3,12 +3,11 @@
 
 	const root = document.documentElement;
 
+	if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+	if (!('IntersectionObserver' in window)) return;
+
 	const els = document.querySelectorAll('.is-style-fadeinup');
 	if (!els.length) return;
-
-	if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-
-	if (!('IntersectionObserver' in window)) return;
 
 	root.classList.add('has-motion');
 
@@ -18,7 +17,10 @@
 			entry.target.classList.add('is-inview');
 			io.unobserve(entry.target);
 		}
-	}, { threshold: 0.15 });
+	}, {
+		threshold: 0.15,
+		rootMargin: '0px 0px -40px 0px',
+	});
 
 	els.forEach(el => io.observe(el));
 })();
