@@ -21,7 +21,7 @@ function powder_setup() {
 }
 add_action( 'after_setup_theme', 'powder_setup' );
 
-function powder_enqueue_style_sheet() {
+function powder_enqueue_assets() {
 	wp_enqueue_style(
 		'powder',
 		get_template_directory_uri() . '/style.css',
@@ -37,4 +37,4 @@ function powder_enqueue_style_sheet() {
 		true
 	);
 }
-add_action( 'wp_enqueue_scripts', 'powder_enqueue_style_sheet' );
+add_action( 'wp_enqueue_scripts', 'powder_enqueue_assets' );
