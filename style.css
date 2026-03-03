@@ -214,16 +214,6 @@ input[type="radio"] {
 
 }
 
-@media (max-width: 600px) {
-
-	/* Utilities */
-
-	.is-style-hidden-mobile {
-		display: none !important;
-	}
-
-}
-
 @media (max-width: 782px) {
 
 	/* Columns */
