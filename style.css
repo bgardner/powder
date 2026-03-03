@@ -24,6 +24,16 @@ Tags: block-patterns, block-styles, custom-colors, custom-logo, editor-style, fu
 	--powder-motion-slow: 0.5s;
 }
 
+html {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+}
+
+::selection {
+	background-color: var(--wp--preset--color--primary);
+	color: var(--wp--preset--color--base);
+}
+
 @media (prefers-reduced-motion: no-preference) {
 	html {
 		scroll-behavior: smooth;
