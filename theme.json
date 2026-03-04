@@ -587,7 +587,7 @@
 				},
 				":hover": {
 					"color": {
-						"background": "var(--wp--preset--color--base)",
+						"background": "transparent",
 						"text": "var(--wp--preset--color--primary)"
 					}
 				},
