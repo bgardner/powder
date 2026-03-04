@@ -309,18 +309,53 @@
 		"blocks": {
 			"core/button": {
 				"variations": {
+					"fill-light": {
+						"border": {
+							"color": "var(--wp--preset--color--base)"
+						},
+						"color": {
+							"background": "var(--wp--preset--color--base)",
+							"text": "var(--wp--preset--color--contrast)"
+						},
+						":hover": {
+							"color": {
+								"background": "transparent",
+								"text": "var(--wp--preset--color--base)"
+							}
+						}
+					},
 					"outline": {
 						"border": {
-							"color": "currentColor",
-							"style": "solid",
+							"color": "var(--wp--preset--color--contrast)",
 							"width": "1px"
 						},
 						"spacing": {
 							"padding": {
-								"top": "14px",
-								"right": "29px",
-								"bottom": "14px",
-								"left": "29px"
+								"top": "15px",
+								"right": "30px",
+								"bottom": "15px",
+								"left": "30px"
+							}
+						},
+						":hover": {
+							"color": {
+								"background": "var(--wp--preset--color--contrast)",
+								"text": "var(--wp--preset--color--base)"
+							}
+						}
+					},
+					"outline-light": {
+						"border": {
+							"color": "var(--wp--preset--color--base)"
+						},
+						"color": {
+							"background": "transparent",
+							"text": "var(--wp--preset--color--base)"
+						},
+						":hover": {
+							"color": {
+								"background": "var(--wp--preset--color--base)",
+								"text": "var(--wp--preset--color--contrast)"
 							}
 						}
 					}
@@ -527,7 +562,10 @@
 		"elements": {
 			"button": {
 				"border": {
-					"radius": "0"
+					"color": "var(--wp--preset--color--primary)",
+					"radius": "0",
+					"style": "solid",
+					"width": "1px"
 				},
 				"color": {
 					"background": "var(--wp--preset--color--primary)",
@@ -546,6 +584,12 @@
 					"fontSize": "var(--wp--preset--font-size--xx-small)",
 					"fontWeight": "500",
 					"lineHeight": "var(--wp--custom--line-height--medium)"
+				},
+				":hover": {
+					"color": {
+						"background": "var(--wp--preset--color--base)",
+						"text": "var(--wp--preset--color--primary)"
+					}
 				},
 				":focus": {
 					"outline": {
