@@ -79,8 +79,8 @@ input[type="radio"] {
 
 /* Navigation */
 
-.wp-block-navigation__responsive-container.is-menu-open {
-	padding: var(--wp--preset--spacing--30);
+.has-modal-open .wp-block-navigation__responsive-container {
+	padding: var(--wp--preset--spacing--30) !important;
 }
 
 .is-style-underline-slide .wp-block-navigation-item__content {
