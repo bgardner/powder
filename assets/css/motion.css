@@ -1,0 +1,59 @@
+/* Initial hidden state */
+
+.js [data-motion]:not(.motion-ready) {
+	opacity: 0;
+}
+
+/* Animation
+---------------------------------------- */
+
+.motion-fadeIn,
+.motion-fadeInUp {
+	animation-name: powder-motion-fade;
+	animation-duration: var(--powder-motion-slow);
+	animation-delay: var(--powder-motion-delay, 0s);
+	animation-timing-function: var(--powder-motion-ease);
+	animation-fill-mode: both;
+	--motion-opacity-from: 0;
+	--motion-translate-from: 0;
+	will-change: opacity, transform;
+}
+
+/* Effect
+---------------------------------------- */
+
+.motion-fadeInUp {
+	--motion-translate-from: var(--powder-motion-distance);
+}
+
+/* Keyframes
+---------------------------------------- */
+
+@keyframes powder-motion-fade {
+	from {
+		opacity: var(--motion-opacity-from);
+		transform: translateY(var(--motion-translate-from));
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+/* Reduced motion
+---------------------------------------- */
+
+@media (prefers-reduced-motion: reduce) {
+	.js [data-motion] {
+		opacity: 1 !important;
+	}
+
+	.motion-fadeIn,
+	.motion-fadeInUp {
+		animation: none !important;
+		opacity: 1 !important;
+		transform: none !important;
+		transition: none !important;
+		will-change: auto !important;
+	}
+}
