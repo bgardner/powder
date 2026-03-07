@@ -79,6 +79,11 @@
 					"colors": [ "#440099", "#ffffff" ],
 					"name": "Primary and White",
 					"slug": "primary-and-white"
+				},
+				{
+					"colors": [ "#d8ccff", "#ffffff" ],
+					"name": "Secondary and White",
+					"slug": "secondary-and-white"
 				}
 			],
 			"gradients": [
@@ -118,6 +123,11 @@
 					"color": "#440099",
 					"name": "Primary",
 					"slug": "primary"
+				},
+				{
+					"color": "#d8ccff",
+					"name": "Secondary",
+					"slug": "secondary"
 				},
 				{
 					"color": "#f5f5f5",
