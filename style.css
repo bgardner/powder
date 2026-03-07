@@ -77,38 +77,6 @@ input[type="radio"] {
 /* Blocks
 ---------------------------------------- */
 
-/* Group */
-
-.is-style-fadeinup {
-	opacity: 1;
-	transform: none;
-}
-
-.has-motion .is-style-fadeinup {
-	opacity: 0;
-	transform: translateY(var(--powder-motion-distance));
-}
-
-.has-motion .is-style-fadeinup.is-inview {
-	animation: fadeInUp var(--powder-motion-slow) var(--powder-motion-ease) forwards;
-}
-
-@keyframes fadeInUp {
-	to {
-		opacity: 1;
-		transform: translateY(0);
-	}
-}
-
-@media (prefers-reduced-motion: reduce) {
-	.has-motion .is-style-fadeinup,
-	.has-motion .is-style-fadeinup.is-inview {
-		animation: none !important;
-		opacity: 1 !important;
-		transform: none !important;
-	}
-}
-
 /* Navigation */
 
 .wp-block-navigation__responsive-container.is-menu-open {

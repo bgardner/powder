@@ -26,9 +26,6 @@ function powder_register_block_styles() {
 		'core/columns' => [
 			'column-reverse' => __( 'Reverse', 'powder' ),
 		],
-		'core/group' => [
-			'fadeinup' => __( 'Fade In Up', 'powder' ),
-		],
 		'core/heading' => [
 			'balanced' => __( 'Balanced', 'powder' ),
 		],
@@ -65,23 +62,3 @@ function powder_register_block_styles() {
 	}
 }
 add_action( 'init', 'powder_register_block_styles' );
-
-function powder_enqueue_motion_assets() {
-	$post    = get_post();
-	$content = $post->post_content ?? '';
-
-	if ( ! str_contains( $content, 'is-style-fadeinup' ) ) {
-		return;
-	}
-
-	$version = powder_version();
-
-	wp_enqueue_script(
-		'powder-motion',
-		get_template_directory_uri() . '/assets/js/motion.js',
-		[],
-		$version,
-		true
-	);
-}
-add_action( 'wp_enqueue_scripts', 'powder_enqueue_motion_assets', 20 );
