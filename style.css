@@ -98,6 +98,12 @@ input[type="radio"] {
 
 /* Navigation */
 
+.wp-block-navigation__responsive-container-open,
+.wp-block-navigation__responsive-container-close {
+	border: 1px solid currentColor;
+	padding: 2px;
+}
+
 .has-modal-open .wp-block-navigation__responsive-container {
 	padding: var(--wp--preset--spacing--30) !important;
 }
