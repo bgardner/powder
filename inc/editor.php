@@ -30,7 +30,8 @@ function powder_register_block_styles() {
 			'balanced' => __( 'Balanced', 'powder' ),
 		],
 		'core/image' => [
-			'inner-border' => __( 'Inner Border', 'powder' ),
+			'border-inner' => __( 'Border (Inner)', 'powder' ),
+			'border-offset' => __( 'Border (Offset)', 'powder' ),
 		],
 		'core/list' => [
 			'no-style' => __( 'No Style', 'powder' ),

@@ -77,6 +77,25 @@ input[type="radio"] {
 /* Blocks
 ---------------------------------------- */
 
+/* Image */
+
+.wp-block-image.is-style-border-inner {
+	outline: 1px solid currentColor;
+	outline-offset: -20px;
+}
+
+.wp-block-image.is-style-border-offset {
+    position: relative;
+}
+
+.wp-block-image.is-style-border-offset::after {
+	border: 1px solid currentColor;
+	content: "";
+	inset: 20px -20px -20px 20px;
+	position: absolute;
+	pointer-events: none;
+}
+
 /* Navigation */
 
 .has-modal-open .wp-block-navigation__responsive-container {
