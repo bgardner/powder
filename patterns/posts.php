@@ -2,7 +2,6 @@
 /**
  * Title: Stack of posts
  * Slug: powder/posts
- * Categories: powder-posts
  * Inserter: no
  */
 ?>
