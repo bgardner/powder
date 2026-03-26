@@ -15,10 +15,6 @@ function powder_register_pattern_categories() {
 			'label'       => __( 'Content', 'powder' ),
 			'description' => __( 'A collection of content patterns for Powder.', 'powder' ),
 		],
-		'example' => [
-			'label'       => __( 'Example', 'powder' ),
-			'description' => __( 'A collection of example patterns for Powder.', 'powder' ),
-		],
 		'footer' => [
 			'label'       => __( 'Footer', 'powder' ),
 			'description' => __( 'A collection of footer patterns for Powder.', 'powder' ),
