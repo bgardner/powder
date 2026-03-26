@@ -375,7 +375,17 @@
 				}
 			},
 			"core/paragraph": {
-				"css": "&.is-style-balanced {text-wrap: balance;}"
+				"css": "&.is-style-balanced {text-wrap: balance;}",
+				"variations": {
+					"eyebrow": {
+						"typography": {
+							"fontSize": "var(--wp--preset--font-size--xx-small)",
+							"letterSpacing": "0.05em",
+							"lineHeight": "var(--wp--custom--line-height--x-small)",
+							"textTransform": "uppercase"
+						}
+					}
+				}
 			},
 			"core/post-comments-form": {
 				"css": " & .form-submit {margin-bottom: 0;}"
