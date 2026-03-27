@@ -30,7 +30,7 @@ function powder_register_block_styles() {
 		],
 		'core/paragraph' => [
 			'balanced' => __( 'Balanced', 'powder' ),
-			'eyebrow' => __( 'Eyebrow', 'bg' ),
+			'eyebrow' => __( 'Eyebrow', 'powder' ),
 		],
 		'core/separator' => [
 			'extended' => __( 'Extended', 'powder' ),
