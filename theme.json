@@ -363,7 +363,9 @@
 			"core/navigation": {
 				"spacing": {
 					"blockGap": "var(--wp--preset--spacing--20)"
-				},
+				}
+			},
+			"core/navigation-link": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--xx-small)",
 					"lineHeight": "var(--wp--custom--line-height--medium)"
