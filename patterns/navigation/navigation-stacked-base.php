@@ -3,6 +3,8 @@
  * Title: Navigation overlay with image, text, buttons
  * Slug: powder/navigation-stacked
  * Categories: powder-navigation
+ * Block Types: core/template-part/navigation-overlay
+ * Template Types: navigation
  */
 ?>
 <!-- wp:group {"metadata":{"name":"Navigation"},"align":"full","style":{"spacing":{"margin":{"top":"0px"},"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}},"dimensions":{"minHeight":"100vh"}},"backgroundColor":"base","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
