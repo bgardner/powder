@@ -85,10 +85,6 @@ input[type="radio"] {
 	padding: 2px;
 }
 
-.has-modal-open .wp-block-navigation__responsive-container {
-	padding: var(--wp--preset--spacing--30) !important;
-}
-
 /* Navigation submenu */
 
 .wp-block-navigation__submenu-container {
