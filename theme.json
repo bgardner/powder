@@ -681,6 +681,11 @@
 			"title": "Footer"
 		},
 		{
+			"area": "navigation-overlay",
+			"name": "navigation-overlay",
+			"title": "Navigation Overlay"
+		},
+		{
 			"area": "sidebar",
 			"name": "sidebar",
 			"title": "Sidebar"

@@ -31,6 +31,10 @@ function powder_register_pattern_categories() {
 			'label'       => __( 'Hero', 'powder' ),
 			'description' => __( 'A collection of hero patterns for Powder.', 'powder' ),
 		],
+		'navigation' => [
+			'label'       => __( 'Navigation', 'powder' ),
+			'description' => __( 'A collection of navigation patterns for Powder.', 'powder' ),
+		],
 		'pricing' => [
 			'label'       => __( 'Pricing', 'powder' ),
 			'description' => __( 'A collection of pricing patterns for Powder.', 'powder' ),

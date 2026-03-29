@@ -21,7 +21,7 @@
 			<!-- /wp:group -->
 		</div>
 		<!-- /wp:group -->
-		<!-- wp:navigation {"layout":{"type":"flex","setCascadingProperties":true}} /-->
+		<!-- wp:navigation {"overlay":"navigation-overlay","layout":{"type":"flex","setCascadingProperties":true}} /-->
 	</div>
 	<!-- /wp:group -->
 </div>
