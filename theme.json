@@ -641,7 +641,7 @@
 					"width": "1px"
 				},
 				"color": {
-					"background": "var(--wp--preset--color--base)",
+					"background": "transparent",
 					"text": "inherit"
 				},
 				"spacing": {
