@@ -10,7 +10,7 @@
 	<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|30","padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|80","right":"var:preset|spacing|80"}},"typography":{"lineHeight":"1.5"}},"backgroundColor":"base","layout":{"type":"default"}} -->
 	<div class="wp-block-group alignwide has-base-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--80);line-height:1.5">
 		<!-- wp:image {"width":"60px","sizeSlug":"full","linkDestination":"none","align":"center"} -->
-		<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-quote-bottom.svg'; ?>" alt="Quote bottom icon" style="width:60px"/></figure>
+		<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/quote-bottom.svg'; ?>" alt="Quote bottom icon" style="width:60px"/></figure>
 		<!-- /wp:image -->
 		<!-- wp:paragraph {"className":"is-style-balanced","style":{"typography":{"textAlign":"center","lineHeight":"1.25"}},"fontSize":"x-large"} -->
 		<p class="has-text-align-center is-style-balanced has-x-large-font-size" style="line-height:1.25"><?php echo esc_html__( 'Powder is the premier block theme for WordPress designers and agencies, offering an extensive library of patterns.', 'powder' ); ?></p>
@@ -28,7 +28,7 @@
 		<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|20","padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|80","right":"var:preset|spacing|80"}},"typography":{"lineHeight":"1.5"}},"backgroundColor":"base","layout":{"type":"default"}} -->
 		<div class="wp-block-group alignwide has-base-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--80);line-height:1.5">
 			<!-- wp:image {"width":"48px","sizeSlug":"full","linkDestination":"none","align":"center"} -->
-			<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-quote-bottom.svg'; ?>" alt="Quote bottom icon" style="width:48px"/></figure>
+			<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/quote-bottom.svg'; ?>" alt="Quote bottom icon" style="width:48px"/></figure>
 			<!-- /wp:image -->
 			<!-- wp:paragraph {"className":"is-style-balanced","style":{"typography":{"textAlign":"center"}},"fontSize":"x-small"} -->
 			<p class="has-text-align-center is-style-balanced has-x-small-font-size"><?php echo esc_html__( 'Powder is the premier block theme for WordPress designers and agencies, offering an extensive library of patterns.', 'powder' ); ?></p>
@@ -44,7 +44,7 @@
 		<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|20","padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|80","right":"var:preset|spacing|80"}},"typography":{"lineHeight":"1.5"}},"backgroundColor":"base","layout":{"type":"default"}} -->
 		<div class="wp-block-group alignwide has-base-background-color has-background" style="padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--80);line-height:1.5">
 			<!-- wp:image {"width":"48px","sizeSlug":"full","linkDestination":"none","align":"center"} -->
-			<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-quote-bottom.svg'; ?>" alt="Quote bottom icon" style="width:48px"/></figure>
+			<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/quote-bottom.svg'; ?>" alt="Quote bottom icon" style="width:48px"/></figure>
 			<!-- /wp:image -->
 			<!-- wp:paragraph {"className":"is-style-balanced","style":{"typography":{"textAlign":"center"}},"fontSize":"x-small"} -->
 			<p class="has-text-align-center is-style-balanced has-x-small-font-size"><?php echo esc_html__( 'Powder is the premier block theme for WordPress designers and agencies, offering an extensive library of patterns.', 'powder' ); ?></p>
