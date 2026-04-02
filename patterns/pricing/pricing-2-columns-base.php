@@ -51,9 +51,7 @@
 				<div class="wp-block-group">
 					<!-- wp:group {"style":{"spacing":{"blockGap":"10px"},"typography":{"lineHeight":"1"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 					<div class="wp-block-group" style="line-height:1">
-						<!-- wp:image {"width":"20px","height":"20px","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
-						<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-check.svg'; ?>" alt="Circle check icon" style="object-fit:cover;width:20px;height:20px"/></figure>
-						<!-- /wp:image -->
+						<!-- wp:icon {"icon":"core/check","align":"center","style":{"border":{"radius":{"topLeft":"20px","topRight":"20px","bottomLeft":"20px","bottomRight":"20px"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"dimensions":{"width":"20px"}},"backgroundColor":"contrast","textColor":"base","ariaLabel":"Check icon"} /-->
 						<!-- wp:paragraph {"fontSize":"small"} -->
 						<p class="has-small-font-size"><?php echo esc_html__( 'Powder theme', 'powder' ); ?></p>
 						<!-- /wp:paragraph -->
@@ -61,9 +59,7 @@
 					<!-- /wp:group -->
 					<!-- wp:group {"style":{"spacing":{"blockGap":"10px"},"typography":{"lineHeight":"1"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 					<div class="wp-block-group" style="line-height:1">
-						<!-- wp:image {"width":"20px","height":"20px","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
-						<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-check.svg'; ?>" alt="Circle check icon" style="object-fit:cover;width:20px;height:20px"/></figure>
-						<!-- /wp:image -->
+						<!-- wp:icon {"icon":"core/check","align":"center","style":{"border":{"radius":{"topLeft":"20px","topRight":"20px","bottomLeft":"20px","bottomRight":"20px"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"dimensions":{"width":"20px"}},"backgroundColor":"contrast","textColor":"base","ariaLabel":"Check icon"} /-->
 						<!-- wp:paragraph {"fontSize":"small"} -->
 						<p class="has-small-font-size"><?php echo esc_html__( 'Basic support', 'powder' ); ?></p>
 						<!-- /wp:paragraph -->
@@ -71,9 +67,7 @@
 					<!-- /wp:group -->
 					<!-- wp:group {"style":{"spacing":{"blockGap":"10px"},"typography":{"lineHeight":"1"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 					<div class="wp-block-group" style="line-height:1">
-						<!-- wp:image {"width":"20px","height":"20px","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
-						<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-x.svg'; ?>" alt="Circle x icon" style="object-fit:cover;width:20px;height:20px"/></figure>
-						<!-- /wp:image -->
+						<!-- wp:icon {"icon":"core/check","align":"center","style":{"border":{"radius":{"topLeft":"20px","topRight":"20px","bottomLeft":"20px","bottomRight":"20px"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"dimensions":{"width":"20px"}},"backgroundColor":"contrast","textColor":"base","ariaLabel":"Check icon"} /-->
 						<!-- wp:paragraph {"fontSize":"small"} -->
 						<p class="has-small-font-size"><?php echo esc_html__( 'Sample child theme', 'powder' ); ?></p>
 						<!-- /wp:paragraph -->
@@ -81,9 +75,7 @@
 					<!-- /wp:group -->
 					<!-- wp:group {"style":{"spacing":{"blockGap":"10px"},"typography":{"lineHeight":"1"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 					<div class="wp-block-group" style="line-height:1">
-						<!-- wp:image {"width":"20px","height":"20px","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
-						<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-x.svg'; ?>" alt="Circle x icon" style="object-fit:cover;width:20px;height:20px"/></figure>
-						<!-- /wp:image -->
+						<!-- wp:icon {"icon":"core/check","align":"center","style":{"border":{"radius":{"topLeft":"20px","topRight":"20px","bottomLeft":"20px","bottomRight":"20px"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"dimensions":{"width":"20px"}},"backgroundColor":"contrast","textColor":"base","ariaLabel":"Check icon"} /-->
 						<!-- wp:paragraph {"fontSize":"small"} -->
 						<p class="has-small-font-size"><?php echo esc_html__( 'Figma design files', 'powder' ); ?></p>
 						<!-- /wp:paragraph -->
@@ -130,9 +122,7 @@
 				<div class="wp-block-group">
 					<!-- wp:group {"style":{"spacing":{"blockGap":"10px"},"typography":{"lineHeight":"1"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 					<div class="wp-block-group" style="line-height:1">
-						<!-- wp:image {"width":"20px","height":"20px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":["#ffffff","#ffffff"]}}} -->
-						<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-check.svg'; ?>" alt="Circle check icon" style="object-fit:cover;width:20px;height:20px"/></figure>
-						<!-- /wp:image -->
+						<!-- wp:icon {"icon":"core/check","align":"center","style":{"border":{"radius":{"topLeft":"20px","topRight":"20px","bottomLeft":"20px","bottomRight":"20px"}},"dimensions":{"width":"20px"},"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"backgroundColor":"base","textColor":"contrast","ariaLabel":"Check icon"} /-->
 						<!-- wp:paragraph {"fontSize":"small"} -->
 						<p class="has-small-font-size"><?php echo esc_html__( 'Powder theme', 'powder' ); ?></p>
 						<!-- /wp:paragraph -->
@@ -140,9 +130,7 @@
 					<!-- /wp:group -->
 					<!-- wp:group {"style":{"spacing":{"blockGap":"10px"},"typography":{"lineHeight":"1"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 					<div class="wp-block-group" style="line-height:1">
-						<!-- wp:image {"width":"20px","height":"20px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":["#ffffff","#ffffff"]}}} -->
-						<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-check.svg'; ?>" alt="Circle check icon" style="object-fit:cover;width:20px;height:20px"/></figure>
-						<!-- /wp:image -->
+						<!-- wp:icon {"icon":"core/check","align":"center","style":{"border":{"radius":{"topLeft":"20px","topRight":"20px","bottomLeft":"20px","bottomRight":"20px"}},"dimensions":{"width":"20px"},"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"backgroundColor":"base","textColor":"contrast","ariaLabel":"Check icon"} /-->
 						<!-- wp:paragraph {"fontSize":"small"} -->
 						<p class="has-small-font-size"><?php echo esc_html__( 'Premium support', 'powder' ); ?></p>
 						<!-- /wp:paragraph -->
@@ -150,9 +138,7 @@
 					<!-- /wp:group -->
 					<!-- wp:group {"style":{"spacing":{"blockGap":"10px"},"typography":{"lineHeight":"1"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 					<div class="wp-block-group" style="line-height:1">
-						<!-- wp:image {"width":"20px","height":"20px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":["#ffffff","#ffffff"]}}} -->
-						<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-check.svg'; ?>" alt="Circle check icon" style="object-fit:cover;width:20px;height:20px"/></figure>
-						<!-- /wp:image -->
+						<!-- wp:icon {"icon":"core/check","align":"center","style":{"border":{"radius":{"topLeft":"20px","topRight":"20px","bottomLeft":"20px","bottomRight":"20px"}},"dimensions":{"width":"20px"},"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"backgroundColor":"base","textColor":"contrast","ariaLabel":"Check icon"} /-->
 						<!-- wp:paragraph {"fontSize":"small"} -->
 						<p class="has-small-font-size"><?php echo esc_html__( 'Sample child theme', 'powder' ); ?></p>
 						<!-- /wp:paragraph -->
@@ -160,9 +146,7 @@
 					<!-- /wp:group -->
 					<!-- wp:group {"style":{"spacing":{"blockGap":"10px"},"typography":{"lineHeight":"1"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 					<div class="wp-block-group" style="line-height:1">
-						<!-- wp:image {"width":"20px","height":"20px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"color":{"duotone":["#ffffff","#ffffff"]}}} -->
-						<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-circle-check.svg'; ?>" alt="Circle check icon" style="object-fit:cover;width:20px;height:20px"/></figure>
-						<!-- /wp:image -->
+						<!-- wp:icon {"icon":"core/check","align":"center","style":{"border":{"radius":{"topLeft":"20px","topRight":"20px","bottomLeft":"20px","bottomRight":"20px"}},"dimensions":{"width":"20px"},"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"backgroundColor":"base","textColor":"contrast","ariaLabel":"Check icon"} /-->
 						<!-- wp:paragraph {"fontSize":"small"} -->
 						<p class="has-small-font-size"><?php echo esc_html__( 'Figma design files', 'powder' ); ?></p>
 						<!-- /wp:paragraph -->
