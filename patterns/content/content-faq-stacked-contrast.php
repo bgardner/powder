@@ -21,7 +21,7 @@
 	<div class="wp-block-group has-contrast-color has-base-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--30)">
 		<!-- wp:details {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"},"spacing":{"blockGap":"var:preset|spacing|x-small"}}} -->
 		<details class="wp-block-details" style="font-style:normal;font-weight:500">
-			<summary><strong><?php echo esc_html__( 'Why should I purchase the All-Access plan?', 'powder' ); ?></strong></summary>
+			<summary><?php echo esc_html__( 'Why should I purchase the All-Access plan?', 'powder' ); ?></summary>
 			<!-- wp:paragraph {"placeholder":"Type / to add a hidden block","style":{"typography":{"fontStyle":"normal","fontWeight":"400"}}} -->
 			<p style="font-style:normal;font-weight:400"><?php echo esc_html__( 'Powder is the the premier block theme for WordPress designers and agencies, featuring an extensive library of wireframe patterns and versatile templates.', 'powder' ); ?></p>
 			<!-- /wp:paragraph -->
@@ -33,7 +33,7 @@
 	<div class="wp-block-group has-contrast-color has-base-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--30)">
 		<!-- wp:details {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"},"spacing":{"blockGap":"var:preset|spacing|x-small"}}} -->
 		<details class="wp-block-details" style="font-style:normal;font-weight:500">
-			<summary><strong><?php echo esc_html__( 'Why should I purchase the All-Access plan?', 'powder' ); ?></strong></summary>
+			<summary><?php echo esc_html__( 'Why should I purchase the All-Access plan?', 'powder' ); ?></summary>
 			<!-- wp:paragraph {"placeholder":"Type / to add a hidden block","style":{"typography":{"fontStyle":"normal","fontWeight":"400"}}} -->
 			<p style="font-style:normal;font-weight:400"><?php echo esc_html__( 'Powder is the the premier block theme for WordPress designers and agencies, featuring an extensive library of wireframe patterns and versatile templates.', 'powder' ); ?></p>
 			<!-- /wp:paragraph -->
@@ -45,7 +45,7 @@
 	<div class="wp-block-group has-contrast-color has-base-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--30)">
 		<!-- wp:details {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"},"spacing":{"blockGap":"var:preset|spacing|x-small"}}} -->
 		<details class="wp-block-details" style="font-style:normal;font-weight:500">
-			<summary><strong><?php echo esc_html__( 'Why should I purchase the All-Access plan?', 'powder' ); ?></strong></summary>
+			<summary><?php echo esc_html__( 'Why should I purchase the All-Access plan?', 'powder' ); ?></summary>
 			<!-- wp:paragraph {"placeholder":"Type / to add a hidden block","style":{"typography":{"fontStyle":"normal","fontWeight":"400"}}} -->
 			<p style="font-style:normal;font-weight:400"><?php echo esc_html__( 'Powder is the the premier block theme for WordPress designers and agencies, featuring an extensive library of wireframe patterns and versatile templates.', 'powder' ); ?></p>
 			<!-- /wp:paragraph -->
@@ -57,7 +57,7 @@
 	<div class="wp-block-group has-contrast-color has-base-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--30)">
 		<!-- wp:details {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"},"spacing":{"blockGap":"var:preset|spacing|x-small"}}} -->
 		<details class="wp-block-details" style="font-style:normal;font-weight:500">
-			<summary><strong><?php echo esc_html__( 'Why should I purchase the All-Access plan?', 'powder' ); ?></strong></summary>
+			<summary><?php echo esc_html__( 'Why should I purchase the All-Access plan?', 'powder' ); ?></summary>
 			<!-- wp:paragraph {"placeholder":"Type / to add a hidden block","style":{"typography":{"fontStyle":"normal","fontWeight":"400"}}} -->
 			<p style="font-style:normal;font-weight:400"><?php echo esc_html__( 'Powder is the the premier block theme for WordPress designers and agencies, featuring an extensive library of wireframe patterns and versatile templates.', 'powder' ); ?></p>
 			<!-- /wp:paragraph -->
@@ -69,7 +69,7 @@
 	<div class="wp-block-group has-contrast-color has-base-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--20);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--30)">
 		<!-- wp:details {"style":{"typography":{"fontStyle":"normal","fontWeight":"500"},"spacing":{"blockGap":"var:preset|spacing|x-small"}}} -->
 		<details class="wp-block-details" style="font-style:normal;font-weight:500">
-			<summary><strong><?php echo esc_html__( 'Why should I purchase the All-Access plan?', 'powder' ); ?></strong></summary>
+			<summary><?php echo esc_html__( 'Why should I purchase the All-Access plan?', 'powder' ); ?></summary>
 			<!-- wp:paragraph {"placeholder":"Type / to add a hidden block","style":{"typography":{"fontStyle":"normal","fontWeight":"400"}}} -->
 			<p style="font-style:normal;font-weight:400"><?php echo esc_html__( 'Powder is the the premier block theme for WordPress designers and agencies, featuring an extensive library of wireframe patterns and versatile templates.', 'powder' ); ?></p>
 			<!-- /wp:paragraph -->
