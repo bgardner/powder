@@ -20,7 +20,7 @@
 			<div class="wp-block-group is-style-position-relative is-style-positive-zindex has-base-background-color has-background" style="margin-top:-200px;padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--40)">
 				<!-- wp:group {"tagName":"header","className":"entry-header","style":{"spacing":{"blockGap":"10px","padding":{"bottom":"var:preset|spacing|20","top":"var:preset|spacing|20"}}},"layout":{"type":"constrained","contentSize":""}} -->
 				<header class="wp-block-group entry-header" style="padding-top:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20)">
-					<!-- wp:post-title {"textAlign":"center","level":1,"fontSize":"xx-large"} /-->
+					<!-- wp:post-title {"textAlign":"center","level":1,"className":"is-style-balanced","fontSize":"xx-large"} /-->
 					<!-- wp:separator {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40"}}}} -->
 					<hr class="wp-block-separator has-alpha-channel-opacity" style="margin-top:var(--wp--preset--spacing--40)"/>
 					<!-- /wp:separator -->

@@ -32,6 +32,9 @@ function powder_register_block_styles() {
 			'balanced' => __( 'Balanced', 'powder' ),
 			'eyebrow' => __( 'Eyebrow', 'powder' ),
 		],
+		'core/post-title' => [
+			'balanced' => __( 'Balanced', 'powder' ),
+		],
 		'core/separator' => [
 			'extended' => __( 'Extended', 'powder' ),
 		],
