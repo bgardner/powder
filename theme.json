@@ -398,6 +398,7 @@
 				}
 			},
 			"core/post-title": {
+				"css": "&.is-style-balanced {text-wrap: balance;}",
 				"elements": {
 					"link": {
 						"color": {
