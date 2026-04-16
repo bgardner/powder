@@ -356,6 +356,16 @@
 					}
 				}
 			},
+			"core/image": {
+				"variations": {
+					"frame": {
+						"css": "&.is-style-frame {outline: 1px solid currentColor;outline-offset: -20px;}"
+					},
+					"offset": {
+						"css": "&.is-style-offset {position: relative;} &.is-style-offset::after {border: 1px solid currentColor;content: '';inset: 20px -20px -20px 20px;position: absolute;pointer-events: none;}"
+					}
+				}
+			},
 			"core/list": {
 				"spacing": {
 					"padding": {
@@ -401,6 +411,16 @@
 			},
 			"core/post-comments-form": {
 				"css": "& .form-submit { margin-bottom: 0; }"
+			},
+			"core/post-featured-image": {
+				"variations": {
+					"frame": {
+						"css": "&.is-style-frame {outline: 1px solid currentColor;outline-offset: -20px;}"
+					},
+					"offset": {
+						"css": "&.is-style-offset {position: relative;} &.is-style-offset::after {border: 1px solid currentColor;content: '';inset: 20px -20px -20px 20px;position: absolute;pointer-events: none;}"
+					}
+				}
 			},
 			"core/post-template": {
 				"spacing": {

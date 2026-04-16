@@ -25,12 +25,20 @@ function powder_register_block_styles() {
 		'core/heading' => [
 			'balanced' => __( 'Balanced', 'powder' ),
 		],
+		'core/image' => [
+			'frame' => __( 'Frame', 'powder' ),
+			'offset' => __( 'Offset', 'powder' ),
+		],
 		'core/list' => [
 			'no-style' => __( 'No Style', 'powder' ),
 		],
 		'core/paragraph' => [
 			'balanced' => __( 'Balanced', 'powder' ),
 			'eyebrow' => __( 'Eyebrow', 'powder' ),
+		],
+		'core/post-featured-image' => [
+			'frame' => __( 'Frame', 'powder' ),
+			'offset' => __( 'Offset', 'powder' ),
 		],
 		'core/post-title' => [
 			'balanced' => __( 'Balanced', 'powder' ),
