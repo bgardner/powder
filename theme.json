@@ -447,13 +447,6 @@
 					"fontSize": "var(--wp--preset--font-size--x-small)"
 				}
 			},
-			"core/query-pagination": {
-				"spacing": {
-					"margin": {
-						"top": "var(--wp--preset--spacing--30) !important;"
-					}
-				}
-			},
 			"core/query-title": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--large)"
