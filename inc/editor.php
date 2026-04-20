@@ -23,9 +23,6 @@ function powder_register_block_styles() {
 		'core/post-title' => [
 			'balanced' => __( 'Balanced', 'powder' ),
 		],
-		'core/separator' => [
-			'extended' => __( 'Extended', 'powder' ),
-		],
 		'core/social-links' => [
 			'outline' => __( 'Outline', 'powder' ),
 		],
