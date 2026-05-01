@@ -5,53 +5,55 @@
  * @package Powder
  */
 
-function powder_register_pattern_categories() {
-	$categories = [
-		'call-to-action' => [
+function powder_settings_get_pattern_categories() {
+	return [
+		'powder-call-to-action' => [
 			'label'       => __( 'Call to Action', 'powder' ),
-			'description' => __( 'A collection of call to action patterns for Powder.', 'powder' ),
+			'description' => __( 'Encourage your viewers or readers to take an immediate action.', 'powder' ),
 		],
-		'content' => [
+		'powder-content' => [
 			'label'       => __( 'Content', 'powder' ),
-			'description' => __( 'A collection of content patterns for Powder.', 'powder' ),
+			'description' => __( 'Present detailed information about products, services, and more.', 'powder' ),
 		],
-		'footer' => [
+		'powder-footer' => [
 			'label'       => __( 'Footer', 'powder' ),
-			'description' => __( 'A collection of footer patterns for Powder.', 'powder' ),
+			'description' => __( 'Connect with website visitors and display relevant information.', 'powder' ),
 		],
-		'gallery' => [
+		'powder-gallery' => [
 			'label'       => __( 'Gallery', 'powder' ),
-			'description' => __( 'A collection of gallery patterns for Powder.', 'powder' ),
+			'description' => __( 'Deliver stunning visuals with clarity and make sharing seamless.', 'powder' ),
 		],
-		'header' => [
+		'powder-header' => [
 			'label'       => __( 'Header', 'powder' ),
-			'description' => __( 'A collection of header patterns for Powder.', 'powder' ),
+			'description' => __( 'Simplify the browsing experience and establish brand presence.', 'powder' ),
 		],
-		'hero' => [
+		'powder-hero' => [
 			'label'       => __( 'Hero', 'powder' ),
-			'description' => __( 'A collection of hero patterns for Powder.', 'powder' ),
+			'description' => __( 'Showcase value propositions and core services front and center.', 'powder' ),
 		],
-		'navigation' => [
+		'powder-navigation' => [
 			'label'       => __( 'Navigation', 'powder' ),
-			'description' => __( 'A collection of navigation patterns for Powder.', 'powder' ),
+			'description' => __( 'An overlay to guide visitors with site title, links, social icons.', 'powder' ),
 		],
-		'pricing' => [
+		'powder-pricing' => [
 			'label'       => __( 'Pricing', 'powder' ),
-			'description' => __( 'A collection of pricing patterns for Powder.', 'powder' ),
+			'description' => __( 'Provide product details and prices for simple comparison.', 'powder' ),
 		],
-		'team' => [
+		'powder-team' => [
 			'label'       => __( 'Team', 'powder' ),
-			'description' => __( 'A collection of team patterns for Powder.', 'powder' ),
+			'description' => __( 'Present a list of members of your company or organization.', 'powder' ),
 		],
-		'testimonials' => [
+		'powder-testimonials' => [
 			'label'       => __( 'Testimonials', 'powder' ),
-			'description' => __( 'A collection of testimonial patterns for Powder.', 'powder' ),
+			'description' => __( 'Spotlight friendly words, customer reviews, and success stories.', 'powder' ),
 		],
 	];
+}
 
-	foreach ( $categories as $slug => $data ) {
+function powder_settings_register_pattern_categories() {
+	foreach ( powder_settings_get_pattern_categories() as $slug => $data ) {
 		register_block_pattern_category(
-			'powder-' . $slug,
+			$slug,
 			[
 				'label'       => $data['label'],
 				'description' => $data['description'],
@@ -59,4 +61,4 @@ function powder_register_pattern_categories() {
 		);
 	}
 }
-add_action( 'init', 'powder_register_pattern_categories' );
+add_action( 'init', 'powder_settings_register_pattern_categories' );

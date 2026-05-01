@@ -1,0 +1,138 @@
+/* Powder Settings */
+
+#wpcontent {
+	padding-left: 0;
+}
+
+.powder-settings.wrap {
+	margin: 0;
+}
+
+.powder-settings-panel {
+	background: #ffffff;
+	border-radius: 8px;
+	min-height: calc(100vh - 96px);
+	overflow: hidden;
+}
+
+.powder-settings-panel > h1 {
+	border-bottom: 1px solid #e0e0e0;
+	font-size: 20px;
+	line-height: 1.4;
+	margin: 0;
+	padding: 22px 24px;
+}
+
+.powder-settings-body {
+	padding: 24px;
+}
+
+.powder-settings-section-header {
+	align-items: flex-start;
+	display: flex;
+	gap: 16px;
+	justify-content: space-between;
+	margin-bottom: 16px;
+}
+
+.powder-settings-section-header h2 {
+	font-size: 14px;
+	line-height: 1.3;
+	margin: 0 0 4px;
+}
+
+.powder-settings-section-header p {
+	color: #646970;
+	margin: 0;
+}
+
+.powder-settings-count {
+	color: #646970;
+	font-size: 12px;
+	white-space: nowrap;
+}
+
+.powder-settings-table {
+	background: #ffffff;
+	border: 1px solid #e0e0e0;
+	border-radius: 4px;
+	overflow: hidden;
+}
+
+.powder-settings-list {
+	padding: 0;
+}
+
+.powder-settings-row {
+	align-items: center;
+	border-bottom: 1px solid #e0e0e0;
+	display: grid;
+	gap: 16px;
+	grid-template-columns: minmax(0, 1fr) auto;
+	padding: 14px 16px;
+}
+
+.powder-settings-row:last-child {
+	border-bottom: 0;
+}
+
+.powder-settings-content h3 {
+	font-size: 13px;
+	line-height: 1.3;
+	margin: 0 0 4px;
+}
+
+.powder-settings-content p {
+	color: #646970;
+	font-size: 13px;
+	line-height: 1.4;
+	margin: 0;
+}
+
+.powder-settings-toggle .components-base-control {
+	margin-bottom: 0;
+}
+
+.powder-settings-toggle .components-flex {
+	justify-content: flex-end;
+}
+
+.powder-settings-actions {
+	align-items: center;
+	display: flex;
+	gap: 14px;
+	margin-top: 16px;
+}
+
+.powder-settings-actions .components-button.is-primary {
+	justify-content: center;
+	min-width: 112px;
+}
+
+.powder-settings-message {
+	color: #008a20;
+	display: inline-block;
+	font-size: 13px;
+	min-height: 20px;
+}
+
+.powder-settings-message.is-error {
+	color: #d63638;
+}
+
+@media (max-width: 782px) {
+	.powder-settings-section-header,
+	.powder-settings-row {
+		align-items: flex-start;
+		grid-template-columns: 1fr;
+	}
+
+	.powder-settings-section-header {
+		display: block;
+	}
+
+	.powder-settings-count {
+		display: inline-block;
+		margin-top: 8px;
+	}
+}
