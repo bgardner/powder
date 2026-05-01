@@ -311,6 +311,9 @@
 							"lineHeight": "var(--wp--custom--line-height--x-small)",
 							"textTransform": "uppercase"
 						}
+					},
+					"indent": {
+						"css": "&.is-style-indent { text-indent: var(--wp--preset--spacing--30); }"
 					}
 				}
 			},
@@ -413,7 +416,12 @@
 					"style": "solid",
 					"width": "1px 0 0"
 				},
-				"css": ":not(.is-style-wide):not(.is-style-dots) { width: 80px; }"
+				"css": ":not(.is-style-wide):not(.is-style-dots) { width: 60px; }",
+				"variations": {
+					"extended": {
+						"css": "&.is-style-extended { width: 180px; }"
+					}
+				}
 			},
 			"core/site-title": {
 				"elements": {
@@ -439,6 +447,9 @@
 				"variations": {
 					"outline": {
 						"css": "& li.wp-block-social-link { background-color: transparent; border: 1px solid currentColor; color: currentColor; }"
+					},
+					"square": {
+						"css": "& .wp-block-social-link { border-radius: 0; }"
 					}
 				}
 			},
