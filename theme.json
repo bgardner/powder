@@ -7,62 +7,22 @@
 			"core/button": {
 				"spacing": {
 					"spacingSizes": [
-						{
-							"name": "xSmall",
-							"size": "10px",
-							"slug": "x-small"
-						},
-						{
-							"name": "Small",
-							"size": "15px",
-							"slug": "small"
-						},
-						{
-							"name": "Medium",
-							"size": "20px",
-							"slug": "medium"
-						},
-						{
-							"name": "Large",
-							"size": "30px",
-							"slug": "large"
-						},
-						{
-							"name": "xLarge",
-							"size": "40px",
-							"slug": "x-large"
-						}
+						{ "name": "xSmall", "size": "10px", "slug": "x-small" },
+						{ "name": "Small", "size": "15px", "slug": "small" },
+						{ "name": "Medium", "size": "20px", "slug": "medium" },
+						{ "name": "Large", "size": "30px", "slug": "large" },
+						{ "name": "xLarge", "size": "40px", "slug": "x-large" }
 					]
 				}
 			}
 		},
 		"border": {
 			"radiusSizes": [
-				{
-					"name": "xSmall",
-					"size": "4px",
-					"slug": "x-small"
-				},
-				{
-					"name": "Small",
-					"size": "8px",
-					"slug": "small"
-				},
-				{
-					"name": "Medium",
-					"size": "12px",
-					"slug": "medium"
-				},
-				{
-					"name": "Large",
-					"size": "20px",
-					"slug": "large"
-				},
-				{
-					"name": "xLarge",
-					"size": "40px",
-					"slug": "x-large"
-				}
+				{ "name": "xSmall", "size": "4px", "slug": "x-small" },
+				{ "name": "Small", "size": "8px", "slug": "small" },
+				{ "name": "Medium", "size": "12px", "slug": "medium" },
+				{ "name": "Large", "size": "20px", "slug": "large" },
+				{ "name": "xLarge", "size": "40px", "slug": "x-large" }
 			]
 		},
 		"color": {
@@ -132,75 +92,23 @@
 		"shadow": {
 			"defaultPresets": false,
 			"presets": [
-				{
-					"name": "Light",
-					"shadow": "0 0 10px rgba(0, 0, 0, 0.1)",
-					"slug": "light"
-				},
-				{
-					"name": "Natural",
-					"shadow": "5px 5px 10px rgba(0, 0, 0, 0.2)",
-					"slug": "natural"
-				},
-				{
-					"name": "Deep",
-					"shadow": "0 0 40px rgba(0, 0, 0, 0.2)",
-					"slug": "deep"
-				},
-				{
-					"name": "Solid",
-					"shadow": "5px 5px 0 currentColor",
-					"slug": "solid"
-				}
+				{ "name": "Light", "shadow": "0 0 5px rgba(0, 0, 0, 0.1)", "slug": "light" },
+				{ "name": "Natural", "shadow": "5px 5px 10px rgba(0, 0, 0, 0.2)", "slug": "natural" },
+				{ "name": "Deep", "shadow": "0 0 40px rgba(0, 0, 0, 0.2)", "slug": "deep" },
+				{ "name": "Solid", "shadow": "5px 5px 0 currentColor", "slug": "solid" }
 			]
 		},
 		"spacing": {
 			"defaultSpacingSizes": false,
 			"spacingSizes": [
-				{
-					"name": "20",
-					"size": "clamp(15px, 2vw, 20px)",
-					"slug": "20"
-				},
-				{
-					"name": "30",
-					"size": "clamp(25px, 3vw, 30px)",
-					"slug": "30"
-				},
-				{
-					"name": "40",
-					"size": "clamp(30px, 4vw, 40px)",
-					"slug": "40"
-				},
-				{
-					"name": "50",
-					"size": "clamp(35px, 5vw, 50px)",
-					"slug": "50"
-				},
-				{
-					"name": "60",
-					"size": "clamp(40px, 6vw, 60px)",
-					"slug": "60"
-				},
-				{
-					"name": "70",
-					"size": "clamp(50px, 7vw, 70px)",
-					"slug": "70"
-				},
-				{
-					"name": "80",
-					"size": "clamp(60px, 8vw, 80px)",
-					"slug": "80"
-				}
+				{ "name": "20", "size": "clamp(15px, 2vw, 20px)", "slug": "20" },
+				{ "name": "30", "size": "clamp(25px, 3vw, 30px)", "slug": "30" },
+				{ "name": "40", "size": "clamp(30px, 4vw, 40px)", "slug": "40" },
+				{ "name": "60", "size": "clamp(40px, 6vw, 60px)", "slug": "60" },
+				{ "name": "80", "size": "clamp(60px, 8vw, 80px)", "slug": "80" },
+				{ "name": "100", "size": "clamp(70px, 10vw, 100px)", "slug": "100" }
 			],
-			"units": [
-				"%",
-				"px",
-				"em",
-				"rem",
-				"vh",
-				"vw"
-			]
+			"units": [ "%", "px", "em", "rem", "vh", "vw" ]
 		},
 		"typography": {
 			"defaultFontSizes": false,
@@ -702,36 +610,12 @@
 		}
 	},
 	"templateParts": [
-		{
-			"area": "header",
-			"name": "header",
-			"title": "Header"
-		},
-		{
-			"area": "footer",
-			"name": "footer",
-			"title": "Footer"
-		},
-		{
-			"area": "navigation-overlay",
-			"name": "navigation-overlay",
-			"title": "Navigation Overlay"
-		}
+		{ "area": "header", "name": "header", "title": "Header" },
+		{ "area": "footer", "name": "footer", "title": "Footer" },
+		{ "area": "navigation-overlay", "name": "navigation-overlay", "title": "Navigation Overlay" }
 	],
 	"customTemplates": [
-		{
-			"name": "blank",
-			"postTypes": [
-				"page"
-			],
-			"title": "Blank"
-		},
-		{
-			"name": "no-title",
-			"postTypes": [
-				"page"
-			],
-			"title": "No Title"
-		}
+		{ "name": "blank", "postTypes": [ "page" ], "title": "Blank" },
+		{ "name": "no-title", "postTypes": [ "page" ], "title": "No Title" }
 	]
 }
