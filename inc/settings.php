@@ -61,7 +61,7 @@ function powder_settings_page() {
 	?>
 	<div class="wrap powder-settings">
 		<div class="powder-settings-panel">
-			<h1><?php esc_html_e( 'Powder', 'powder' ); ?></h1>
+			<h1><?php esc_html_e( 'Powder Settings', 'powder' ); ?></h1>
 			<div class="powder-settings-body">
 				<div id="powder-settings-app"></div>
 			</div>
