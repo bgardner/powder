@@ -19,6 +19,7 @@ Tags: block-patterns, block-styles, custom-colors, custom-logo, editor-style, fu
 
 :root {
 	--powder-motion-distance: 30px;
+	--powder-motion-scale: 1.05;
 	--powder-motion-ease: ease-out;
 	--powder-motion-fast: 0.25s;
 	--powder-motion-slow: 0.5s;

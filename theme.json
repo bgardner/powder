@@ -356,6 +356,13 @@
 					}
 				}
 			},
+			"core/image": {
+				"variations": {
+					"zoom": {
+						"css": "&.is-style-zoom { overflow: hidden; } &.is-style-zoom img { transition: transform var(--powder-motion-slow) var(--powder-motion-ease); } &.is-style-zoom:hover img { transform: scale(var(--powder-motion-scale)); }"
+					}
+				}
+			},
 			"core/list": {
 				"spacing": {
 					"padding": {
@@ -401,6 +408,13 @@
 			},
 			"core/post-comments-form": {
 				"css": "& .form-submit { margin-bottom: 0; }"
+			},
+			"core/post-featured-image": {
+				"variations": {
+					"zoom": {
+						"css": "&.is-style-zoom { overflow: hidden; } &.is-style-zoom img { transition: transform var(--powder-motion-slow) var(--powder-motion-ease); } &.is-style-zoom:hover img { transform: scale(var(--powder-motion-scale)); }"
+					}
+				}
 			},
 			"core/post-template": {
 				"spacing": {
