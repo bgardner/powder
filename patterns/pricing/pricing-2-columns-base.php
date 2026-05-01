@@ -25,8 +25,8 @@
 	<div class="wp-block-columns alignwide">
 		<!-- wp:column {"width":""} -->
 		<div class="wp-block-column">
-			<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","right":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|60"}}},"backgroundColor":"neutral","layout":{"type":"constrained"}} -->
-			<div class="wp-block-group has-neutral-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)">
+			<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","right":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|60"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"backgroundColor":"contrast","textColor":"base","layout":{"type":"constrained"}} -->
+			<div class="wp-block-group has-base-color has-contrast-background-color has-text-color has-background has-link-color" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)">
 				<!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"constrained"}} -->
 				<div class="wp-block-group">
 					<!-- wp:paragraph {"className":"is-style-eyebrow"} -->
@@ -51,7 +51,7 @@
 				<div class="wp-block-group">
 					<!-- wp:group {"style":{"spacing":{"blockGap":"10px"},"typography":{"lineHeight":"1"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 					<div class="wp-block-group" style="line-height:1">
-						<!-- wp:icon {"icon":"core/check","align":"center","style":{"border":{"radius":{"topLeft":"20px","topRight":"20px","bottomLeft":"20px","bottomRight":"20px"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"dimensions":{"width":"20px"}},"backgroundColor":"contrast","textColor":"base","ariaLabel":"Check icon"} /-->
+						<!-- wp:icon {"icon":"core/check","align":"center","style":{"border":{"radius":{"topLeft":"20px","topRight":"20px","bottomLeft":"20px","bottomRight":"20px"}},"dimensions":{"width":"20px"},"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"backgroundColor":"base","textColor":"contrast","ariaLabel":"Check icon"} /-->
 						<!-- wp:paragraph {"fontSize":"small"} -->
 						<p class="has-small-font-size"><?php echo esc_html__( 'Powder theme', 'powder' ); ?></p>
 						<!-- /wp:paragraph -->
@@ -59,7 +59,7 @@
 					<!-- /wp:group -->
 					<!-- wp:group {"style":{"spacing":{"blockGap":"10px"},"typography":{"lineHeight":"1"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 					<div class="wp-block-group" style="line-height:1">
-						<!-- wp:icon {"icon":"core/check","align":"center","style":{"border":{"radius":{"topLeft":"20px","topRight":"20px","bottomLeft":"20px","bottomRight":"20px"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"dimensions":{"width":"20px"}},"backgroundColor":"contrast","textColor":"base","ariaLabel":"Check icon"} /-->
+						<!-- wp:icon {"icon":"core/check","align":"center","style":{"border":{"radius":{"topLeft":"20px","topRight":"20px","bottomLeft":"20px","bottomRight":"20px"}},"dimensions":{"width":"20px"},"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"backgroundColor":"base","textColor":"contrast","ariaLabel":"Check icon"} /-->
 						<!-- wp:paragraph {"fontSize":"small"} -->
 						<p class="has-small-font-size"><?php echo esc_html__( 'Basic support', 'powder' ); ?></p>
 						<!-- /wp:paragraph -->
@@ -67,7 +67,7 @@
 					<!-- /wp:group -->
 					<!-- wp:group {"style":{"spacing":{"blockGap":"10px"},"typography":{"lineHeight":"1"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 					<div class="wp-block-group" style="line-height:1">
-						<!-- wp:icon {"icon":"core/check","align":"center","style":{"border":{"radius":{"topLeft":"20px","topRight":"20px","bottomLeft":"20px","bottomRight":"20px"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"dimensions":{"width":"20px"}},"backgroundColor":"contrast","textColor":"base","ariaLabel":"Check icon"} /-->
+						<!-- wp:icon {"icon":"core/check","align":"center","style":{"border":{"radius":{"topLeft":"20px","topRight":"20px","bottomLeft":"20px","bottomRight":"20px"}},"dimensions":{"width":"20px"},"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"backgroundColor":"base","textColor":"contrast","ariaLabel":"Check icon"} /-->
 						<!-- wp:paragraph {"fontSize":"small"} -->
 						<p class="has-small-font-size"><?php echo esc_html__( 'Sample child theme', 'powder' ); ?></p>
 						<!-- /wp:paragraph -->
@@ -75,7 +75,7 @@
 					<!-- /wp:group -->
 					<!-- wp:group {"style":{"spacing":{"blockGap":"10px"},"typography":{"lineHeight":"1"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 					<div class="wp-block-group" style="line-height:1">
-						<!-- wp:icon {"icon":"core/check","align":"center","style":{"border":{"radius":{"topLeft":"20px","topRight":"20px","bottomLeft":"20px","bottomRight":"20px"}},"elements":{"link":{"color":{"text":"var:preset|color|base"}}},"dimensions":{"width":"20px"}},"backgroundColor":"contrast","textColor":"base","ariaLabel":"Check icon"} /-->
+						<!-- wp:icon {"icon":"core/check","align":"center","style":{"border":{"radius":{"topLeft":"20px","topRight":"20px","bottomLeft":"20px","bottomRight":"20px"}},"dimensions":{"width":"20px"},"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"backgroundColor":"base","textColor":"contrast","ariaLabel":"Check icon"} /-->
 						<!-- wp:paragraph {"fontSize":"small"} -->
 						<p class="has-small-font-size"><?php echo esc_html__( 'Figma design files', 'powder' ); ?></p>
 						<!-- /wp:paragraph -->
@@ -85,8 +85,8 @@
 				<!-- /wp:group -->
 				<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40"}}}} -->
 				<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--40)">
-					<!-- wp:button {"width":100} -->
-					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link wp-element-button" href="#"><?php echo esc_html__( 'Get Basic →', 'powder' ); ?></a></div>
+					<!-- wp:button {"backgroundColor":"base","textColor":"contrast","width":100,"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}}} -->
+					<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-contrast-color has-base-background-color has-text-color has-background has-link-color wp-element-button" href="#"><?php echo esc_html__( 'Get Basic →', 'powder' ); ?></a></div>
 					<!-- /wp:button -->
 				</div>
 				<!-- /wp:buttons -->
