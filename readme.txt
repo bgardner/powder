@@ -3,7 +3,7 @@ Contributors: bgardner
 Requires at least: 7.0
 Tested up to: 7.0
 Requires PHP: 7.4
-Stable tag: 2.1-beta
+Stable tag: 3.0-beta
 License: GNU General Public License v3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -13,7 +13,7 @@ The premier block theme for WordPress designers and agencies.
 
 Powder is distributed as open-source software under the GPL, but it is offered commercially as a professionally curated and maintained theme.
 
-Purchasing Powder Pro supports ongoing development, updates, documentation, and long-term stewardship of the design system.
+Purchasing Powder supports ongoing development, updates, documentation, and long-term stewardship of the design system.
 
 == Community ==
 
