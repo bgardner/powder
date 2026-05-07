@@ -30,16 +30,8 @@
 			"defaultGradients": false,
 			"defaultPalette": false,
 			"duotone": [
-				{
-					"colors": [ "#000000", "#ffffff" ],
-					"name": "Black and White",
-					"slug": "black-and-white"
-				},
-				{
-					"colors": [ "#440099", "#ffffff" ],
-					"name": "Primary and White",
-					"slug": "primary-and-white"
-				}
+				{ "colors": [ "#000000", "#ffffff" ], "name": "Black / White", "slug": "black-white" },
+				{ "colors": [ "#440099", "#ffffff" ], "name": "Brand / White", "slug": "brand-white" }
 			],
 			"gradients": [
 				{
@@ -77,18 +69,9 @@
 			]
 		},
 		"custom": {
-			"lineHeight": {
-				"x-small": 1.1,
-				"small": 1.25,
-				"medium": 1.5,
-				"large": 1.75,
-				"x-large": 2
-			}
+			"lineHeight": { "x-small": 1, "small": 1.25, "medium": 1.5, "large": 1.75, "x-large": 2 }
 		},
-		"layout": {
-			"contentSize": "600px",
-			"wideSize": "1280px"
-		},
+		"layout": { "contentSize": "600px", "wideSize": "1280px" },
 		"shadow": {
 			"defaultPresets": false,
 			"presets": [
@@ -113,10 +96,7 @@
 		"typography": {
 			"defaultFontSizes": false,
 			"dropCap": false,
-			"fluid": {
-				"maxViewportWidth": "1280px",
-				"minViewportWidth": "600px"
-			},
+			"fluid": { "maxViewportWidth": "1280px", "minViewportWidth": "600px" },
 			"fontFamilies": [
 				{
 					"fontFace": [
