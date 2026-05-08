@@ -59,8 +59,8 @@ textarea {
 
 input:not([type="submit"]):focus,
 textarea:focus {
-	border-color: var(--wp--preset--color--brand);
-	outline: 1px solid var(--wp--preset--color--brand);
+	border-color: var(--wp--preset--color--primary);
+	outline: 1px solid var(--wp--preset--color--primary);
 }
 
 input[type="checkbox"],
