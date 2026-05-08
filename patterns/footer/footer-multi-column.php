@@ -1,14 +1,14 @@
 <?php
 /**
- * Title: Footer - multi-column
+ * Title: Footer - heading, columns, text, social icons
  * Slug: powder/footer-multi-column
  * Categories: powder-footer
  * Block Types: core/template-part/footer
  * Template Types: footer
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Footer"},"align":"full","style":{"spacing":{"margin":{"top":"0px"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull" style="margin-top:0px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
+<!-- wp:group {"metadata":{"name":"Footer"},"align":"full","style":{"spacing":{"margin":{"top":"0px"},"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}},"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"backgroundColor":"base","textColor":"contrast","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-contrast-color has-base-background-color has-text-color has-background has-link-color" style="margin-top:0px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
 	<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"0","padding":{"right":"0","left":"0"}}},"layout":{"type":"constrained","wideSize":"600px","justifyContent":"left"}} -->
 	<div class="wp-block-group alignwide" style="padding-right:0;padding-left:0">
 		<!-- wp:heading {"style":{"typography":{"fontSize":"48px"}}} -->
@@ -130,11 +130,11 @@
 		<!-- /wp:group -->
 		<!-- wp:social-links {"openInNewTab":true,"size":"has-small-icon-size","className":"is-style-outline","style":{"spacing":{"blockGap":{"left":"5px"}}}} -->
 		<ul class="wp-block-social-links has-small-icon-size is-style-outline">
-			<!-- wp:social-link {"url":"https://x.com/","service":"x"} /-->
 			<!-- wp:social-link {"url":"https://www.linkedin.com/","service":"linkedin"} /-->
+			<!-- wp:social-link {"url":"https://x.com/","service":"x"} /-->
+			<!-- wp:social-link {"url":"https://www.youtube.com/","service":"youtube"} /-->
 			<!-- wp:social-link {"url":"https://instagram.com/","service":"instagram"} /-->
 			<!-- wp:social-link {"url":"https://www.facebook.com/","service":"facebook"} /-->
-			<!-- wp:social-link {"url":"https://www.threads.net/","service":"threads"} /-->
 		</ul>
 		<!-- /wp:social-links -->
 	</div>

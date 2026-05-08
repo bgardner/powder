@@ -1,14 +1,14 @@
 <?php
 /**
- * Title: Footer - mega
+ * Title: Footer - site logo, text, buttons, social icons
  * Slug: powder/footer-mega
  * Categories: powder-footer
  * Block Types: core/template-part/footer
  * Template Types: footer
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Footer"},"align":"full","style":{"spacing":{"margin":{"top":"0"},"blockGap":"0px","padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"fontSize":"x-small","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-x-small-font-size" style="margin-top:0;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
+<!-- wp:group {"metadata":{"name":"Footer"},"align":"full","style":{"spacing":{"margin":{"top":"0"},"blockGap":"0px","padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}},"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"backgroundColor":"base","textColor":"contrast","fontSize":"x-small","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-contrast-color has-base-background-color has-text-color has-background has-link-color has-x-small-font-size" style="margin-top:0;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
 	<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"10px","padding":{"bottom":"var(--wp--preset--spacing--60)"}}}} -->
 	<div class="wp-block-group alignwide" style="padding-bottom:var(--wp--preset--spacing--60)">
 		<!-- wp:image {"align":"center","width":40,"height":40,"sizeSlug":"full","linkDestination":"custom"} -->
@@ -85,11 +85,11 @@
 		<!-- /wp:group -->
 		<!-- wp:social-links {"openInNewTab":true,"size":"has-small-icon-size","className":"is-style-outline","style":{"spacing":{"blockGap":{"left":"5px"}}}} -->
 		<ul class="wp-block-social-links has-small-icon-size is-style-outline">
-			<!-- wp:social-link {"url":"https://x.com/","service":"x"} /-->
 			<!-- wp:social-link {"url":"https://www.linkedin.com/","service":"linkedin"} /-->
+			<!-- wp:social-link {"url":"https://x.com/","service":"x"} /-->
+			<!-- wp:social-link {"url":"https://www.youtube.com/","service":"youtube"} /-->
 			<!-- wp:social-link {"url":"https://instagram.com/","service":"instagram"} /-->
 			<!-- wp:social-link {"url":"https://www.facebook.com/","service":"facebook"} /-->
-			<!-- wp:social-link {"url":"https://www.threads.net/","service":"threads"} /-->
 		</ul>
 		<!-- /wp:social-links -->
 	</div>

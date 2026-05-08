@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Header - site title, social icons
+ * Title: Header - site title, navigation, social icons
  * Slug: powder/header-social-icons-contrast
  * Categories: powder-header
  * Block Types: core/template-part/header
@@ -19,11 +19,11 @@
 		<!-- wp:navigation {"overlay":"navigation-overlay","layout":{"type":"flex","setCascadingProperties":true}} /-->
 		<!-- wp:social-links {"openInNewTab":true,"size":"has-small-icon-size","metadata":{"blockVisibility":{"viewport":{"tablet":false,"mobile":false}}},"className":"is-style-outline","style":{"layout":{"selfStretch":"fixed","flexSize":"200px"},"spacing":{"blockGap":{"left":"5px"}}},"layout":{"type":"flex","justifyContent":"right"}} -->
 		<ul class="wp-block-social-links has-small-icon-size is-style-outline">
-			<!-- wp:social-link {"url":"https://x.com/","service":"x"} /-->
 			<!-- wp:social-link {"url":"https://www.linkedin.com/","service":"linkedin"} /-->
+			<!-- wp:social-link {"url":"https://x.com/","service":"x"} /-->
+			<!-- wp:social-link {"url":"https://www.youtube.com/","service":"youtube"} /-->
 			<!-- wp:social-link {"url":"https://instagram.com/","service":"instagram"} /-->
 			<!-- wp:social-link {"url":"https://www.facebook.com/","service":"facebook"} /-->
-			<!-- wp:social-link {"url":"https://www.threads.net/","service":"threads"} /-->
 		</ul>
 		<!-- /wp:social-links -->
 	</div>
