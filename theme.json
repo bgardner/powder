@@ -182,6 +182,15 @@
 					"name": "xxLarge",
 					"size": "36px",
 					"slug": "xx-large"
+				},
+				{
+					"fluid": {
+						"min": "36px",
+						"max": "48px"
+					},
+					"name": "xxLarge",
+					"size": "48px",
+					"slug": "xxx-large"
 				}
 			]
 		},
