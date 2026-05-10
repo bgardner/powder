@@ -25,8 +25,9 @@
 			<!-- /wp:paragraph -->
 			<!-- wp:social-links {"openInNewTab":true,"size":"has-small-icon-size","align":"center","className":"is-style-outline","style":{"spacing":{"blockGap":{"left":"5px"},"margin":{"top":"15px"}}}} -->
 			<ul class="wp-block-social-links aligncenter has-small-icon-size is-style-outline" style="margin-top:15px">
-				<!-- wp:social-link {"url":"https://x.com/","service":"x"} /-->
 				<!-- wp:social-link {"url":"https://www.linkedin.com/","service":"linkedin"} /-->
+				<!-- wp:social-link {"url":"https://x.com/","service":"x"} /-->
+				<!-- wp:social-link {"url":"https://www.youtube.com/","service":"youtube"} /-->
 				<!-- wp:social-link {"url":"https://instagram.com/","service":"instagram"} /-->
 				<!-- wp:social-link {"url":"https://www.facebook.com/","service":"facebook"} /-->
 			</ul>
@@ -46,8 +47,9 @@
 			<!-- /wp:paragraph -->
 			<!-- wp:social-links {"openInNewTab":true,"size":"has-small-icon-size","align":"center","className":"is-style-outline","style":{"spacing":{"blockGap":{"left":"5px"},"margin":{"top":"15px"}}}} -->
 			<ul class="wp-block-social-links aligncenter has-small-icon-size is-style-outline" style="margin-top:15px">
-				<!-- wp:social-link {"url":"https://x.com/","service":"x"} /-->
 				<!-- wp:social-link {"url":"https://www.linkedin.com/","service":"linkedin"} /-->
+				<!-- wp:social-link {"url":"https://x.com/","service":"x"} /-->
+				<!-- wp:social-link {"url":"https://www.youtube.com/","service":"youtube"} /-->
 				<!-- wp:social-link {"url":"https://instagram.com/","service":"instagram"} /-->
 				<!-- wp:social-link {"url":"https://www.facebook.com/","service":"facebook"} /-->
 			</ul>
@@ -67,8 +69,9 @@
 			<!-- /wp:paragraph -->
 			<!-- wp:social-links {"openInNewTab":true,"size":"has-small-icon-size","align":"center","className":"is-style-outline","style":{"spacing":{"blockGap":{"left":"5px"},"margin":{"top":"15px"}}}} -->
 			<ul class="wp-block-social-links aligncenter has-small-icon-size is-style-outline" style="margin-top:15px">
-				<!-- wp:social-link {"url":"https://x.com/","service":"x"} /-->
 				<!-- wp:social-link {"url":"https://www.linkedin.com/","service":"linkedin"} /-->
+				<!-- wp:social-link {"url":"https://x.com/","service":"x"} /-->
+				<!-- wp:social-link {"url":"https://www.youtube.com/","service":"youtube"} /-->
 				<!-- wp:social-link {"url":"https://instagram.com/","service":"instagram"} /-->
 				<!-- wp:social-link {"url":"https://www.facebook.com/","service":"facebook"} /-->
 			</ul>
@@ -88,8 +91,9 @@
 			<!-- /wp:paragraph -->
 			<!-- wp:social-links {"openInNewTab":true,"size":"has-small-icon-size","align":"center","className":"is-style-outline","style":{"spacing":{"blockGap":{"left":"5px"},"margin":{"top":"15px"}}}} -->
 			<ul class="wp-block-social-links aligncenter has-small-icon-size is-style-outline" style="margin-top:15px">
-				<!-- wp:social-link {"url":"https://x.com/","service":"x"} /-->
 				<!-- wp:social-link {"url":"https://www.linkedin.com/","service":"linkedin"} /-->
+				<!-- wp:social-link {"url":"https://x.com/","service":"x"} /-->
+				<!-- wp:social-link {"url":"https://www.youtube.com/","service":"youtube"} /-->
 				<!-- wp:social-link {"url":"https://instagram.com/","service":"instagram"} /-->
 				<!-- wp:social-link {"url":"https://www.facebook.com/","service":"facebook"} /-->
 			</ul>

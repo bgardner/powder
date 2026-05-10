@@ -25,8 +25,8 @@
 		<!-- /wp:paragraph -->
 		<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|20"}}}} -->
 		<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--20)">
-			<!-- wp:button {"backgroundColor":"base","textColor":"contrast","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}}} -->
-			<div class="wp-block-button"><a class="wp-block-button__link has-contrast-color has-base-background-color has-text-color has-background has-link-color wp-element-button"><?php echo esc_html__( 'Contact Us →', 'powder' ); ?></a></div>
+			<!-- wp:button -->
+			<div class="wp-block-button"><a class="wp-block-button__link wp-element-button"><?php echo esc_html__( 'Contact Us →', 'powder' ); ?></a></div>
 			<!-- /wp:button -->
 		</div>
 		<!-- /wp:buttons -->
