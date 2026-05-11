@@ -413,7 +413,7 @@
 					"style": "solid",
 					"width": "1px 0 0"
 				},
-				"css": ":not(.is-style-wide):not(.is-style-dots) { width: 60px; }",
+				"css": ":not(.is-style-wide):not(.is-style-dots) { width: 80px; }",
 				"variations": {
 					"extended": {
 						"css": "&.is-style-extended { width: 180px; }"
