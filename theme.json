@@ -7,7 +7,6 @@
 			"core/button": {
 				"spacing": {
 					"spacingSizes": [
-						{ "name": "xSmall", "size": "10px", "slug": "x-small" },
 						{ "name": "Small", "size": "15px", "slug": "small" },
 						{ "name": "Medium", "size": "20px", "slug": "medium" },
 						{ "name": "Large", "size": "30px", "slug": "large" },
@@ -18,11 +17,10 @@
 		},
 		"border": {
 			"radiusSizes": [
-				{ "name": "xSmall", "size": "4px", "slug": "x-small" },
-				{ "name": "Small", "size": "8px", "slug": "small" },
-				{ "name": "Medium", "size": "12px", "slug": "medium" },
-				{ "name": "Large", "size": "20px", "slug": "large" },
-				{ "name": "xLarge", "size": "40px", "slug": "x-large" }
+				{ "name": "Small", "size": "4px", "slug": "small" },
+				{ "name": "Medium", "size": "8px", "slug": "medium" },
+				{ "name": "Large", "size": "12px", "slug": "large" },
+				{ "name": "xLarge", "size": "20px", "slug": "x-large" }
 			]
 		},
 		"color": {
