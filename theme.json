@@ -208,9 +208,9 @@
 						},
 						"spacing": {
 							"padding": {
-								"top": "14px",
+								"top": "19px",
 								"right": "29px",
-								"bottom": "14px",
+								"bottom": "19px",
 								"left": "29px"
 							}
 						}
@@ -490,16 +490,16 @@
 				"css": "{ width: auto; }",
 				"spacing": {
 					"padding": {
-						"top": "15px",
+						"top": "20px",
 						"right": "30px",
-						"bottom": "15px",
+						"bottom": "20px",
 						"left": "30px"
 					}
 				},
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--xx-small)",
 					"fontWeight": "500",
-					"lineHeight": "var(--wp--custom--line-height--medium)"
+					"lineHeight": "var(--wp--custom--line-height--x-small)"
 				},
 				":focus": {
 					"outline": {
