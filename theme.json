@@ -32,57 +32,21 @@
 				{ "colors": [ "#000000", "#ffffff" ], "name": "Black / White", "slug": "black-white" },
 				{ "colors": [ "#440099", "#ffffff" ], "name": "Primary / White", "slug": "primary-white" }
 			],
-			"gradients": [
-				{
-					"gradient": "linear-gradient(to top, var(--wp--preset--color--contrast) 0%, var(--wp--preset--color--contrast-50) 100%)",
-					"name": "Fade Up",
-					"slug": "fade-up"
-				},
-				{
-					"gradient": "linear-gradient(to bottom, var(--wp--preset--color--contrast) 0%, var(--wp--preset--color--contrast-50) 100%)",
-					"name": "Fade Down",
-					"slug": "fade-down"
-				},
-				{
-					"gradient": "linear-gradient(to left, var(--wp--preset--color--contrast) 0%, var(--wp--preset--color--contrast-50) 100%)",
-					"name": "Fade Left",
-					"slug": "fade-left"
-				},
-				{
-					"gradient": "linear-gradient(to right, var(--wp--preset--color--contrast) 0%, var(--wp--preset--color--contrast-50) 100%)",
-					"name": "Fade Right",
-					"slug": "fade-right"
-				},
-				{
+			"gradients": [				{
 					"gradient": "linear-gradient(to top, var(--wp--preset--color--contrast) 50%, var(--wp--preset--color--base) 50%)",
-					"name": "base Top",
-					"slug": "base-top"
+					"name": "White Top",
+					"slug": "white-top"
 				},
 				{
 					"gradient": "linear-gradient(to bottom, var(--wp--preset--color--contrast) 50%, var(--wp--preset--color--base) 50%)",
-					"name": "contrast Top",
-					"slug": "contrast-top"
+					"name": "Black Top",
+					"slug": "black-top"
 				}
 			],
 			"palette": [
 				{ "color": "#ffffff", "name": "Base", "slug": "base" },
-				{ "color": "#ffffffcc", "name": "Base 80", "slug": "base-80" },
-				{ "color": "#ffffff99", "name": "Base 60", "slug": "base-60" },
-				{ "color": "#ffffff80", "name": "Base 50", "slug": "base-50" },
-				{ "color": "#ffffff66", "name": "Base 40", "slug": "base-40" },
-				{ "color": "#ffffff33", "name": "Base 20", "slug": "base-20" },
 				{ "color": "#000000", "name": "Contrast", "slug": "contrast" },
-				{ "color": "#000000cc", "name": "Contrast 80", "slug": "contrast-80" },
-				{ "color": "#00000099", "name": "Contrast 60", "slug": "contrast-60" },
-				{ "color": "#00000080", "name": "Contrast 50", "slug": "contrast-50" },
-				{ "color": "#00000066", "name": "Contrast 40", "slug": "contrast-40" },
-				{ "color": "#00000033", "name": "Contrast 20", "slug": "contrast-20" },
-				{ "color": "#440099", "name": "Primary", "slug": "primary" },
-				{ "color": "#440099cc", "name": "Primary 80", "slug": "primary-80" },
-				{ "color": "#44009999", "name": "Primary 60", "slug": "primary-60" },
-				{ "color": "#44009980", "name": "Primary 50", "slug": "primary-50" },
-				{ "color": "#44009966", "name": "Primary 40", "slug": "primary-40" },
-				{ "color": "#44009933", "name": "Primary 20", "slug": "primary-20" }
+				{ "color": "#440099", "name": "Primary", "slug": "primary" }
 			]
 		},
 		"custom": {
