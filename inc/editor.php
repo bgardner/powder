@@ -14,19 +14,12 @@ function powder_register_block_styles() {
 			'balanced' => __( 'Balanced', 'powder' ),
 			'eyebrow' => __( 'Eyebrow', 'powder' ),
 		],
-		'core/image' => [
-			'zoom' => __( 'Zoom', 'powder' ),
-		],
 		'core/list' => [
 			'no-style' => __( 'No Style', 'powder' ),
 		],
 		'core/paragraph' => [
 			'balanced' => __( 'Balanced', 'powder' ),
 			'eyebrow' => __( 'Eyebrow', 'powder' ),
-			'indent' => __( 'Indent', 'powder' ),
-		],
-		'core/post-featured-image' => [
-			'zoom' => __( 'Zoom', 'powder' ),
 		],
 		'core/post-title' => [
 			'balanced' => __( 'Balanced', 'powder' ),
