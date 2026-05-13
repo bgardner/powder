@@ -7,6 +7,10 @@
 
 function powder_register_block_styles() {
 	$block_styles = [
+		'core/button' => [
+			'fill-alt' => __( 'Fill (Alt)', 'powder' ),
+			'outline-alt' => __( 'Outline (Alt)', 'powder' ),
+		],
 		'core/columns' => [
 			'column-reverse' => __( 'Reverse', 'powder' ),
 		],
