@@ -319,6 +319,9 @@
 							"lineHeight": "var(--wp--custom--line-height--medium)",
 							"textTransform": "uppercase"
 						}
+					},
+					"indent": {
+						"css": "&.is-style-indent { text-indent: var(--wp--preset--spacing--30); }"
 					}
 				}
 			},
