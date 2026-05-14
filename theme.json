@@ -752,7 +752,9 @@
 		{ "area": "navigation-overlay", "name": "navigation-overlay", "title": "Navigation Overlay" }
 	],
 	"customTemplates": [
-		{ "name": "blank", "postTypes": [ "page" ], "title": "Blank" },
-		{ "name": "no-title", "postTypes": [ "page" ], "title": "No Title" }
+		{ "name": "page-blank", "postTypes": [ "page" ], "title": "Blank" },
+		{ "name": "page-boxed", "postTypes": [ "page" ], "title": "Boxed" },
+		{ "name": "page-no-title", "postTypes": [ "page" ], "title": "No Title" },
+		{ "name": "single-boxed", "postTypes": [ "post" ], "title": "Boxed" }
 	]
 }
