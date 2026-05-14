@@ -30,8 +30,8 @@
 			<!-- wp:image {"width":"48px","sizeSlug":"full","linkDestination":"none","align":"center"} -->
 			<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/quote-bottom.svg'; ?>" alt="Quote bottom icon" style="width:48px"/></figure>
 			<!-- /wp:image -->
-			<!-- wp:paragraph {"className":"is-style-balanced","style":{"typography":{"textAlign":"center"}},"fontSize":"x-small"} -->
-			<p class="has-text-align-center is-style-balanced has-x-small-font-size"><?php echo esc_html__( 'Powder is the premier block theme for WordPress designers and agencies, offering an extensive library of patterns.', 'powder' ); ?></p>
+			<!-- wp:paragraph {"className":"is-style-balanced","style":{"typography":{"textAlign":"center"}}} -->
+			<p class="has-text-align-center is-style-balanced"><?php echo esc_html__( 'Powder is the premier block theme for WordPress designers and agencies, offering an extensive library of patterns.', 'powder' ); ?></p>
 			<!-- /wp:paragraph -->
 			<!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.05em","fontStyle":"normal","fontWeight":"500","textAlign":"center"}},"fontSize":"x-small"} -->
 			<p class="has-text-align-center has-x-small-font-size" style="font-style:normal;font-weight:500;letter-spacing:0.05em;text-transform:uppercase"><?php echo esc_html__( 'Jennifer Kayne', 'powder' ); ?></p>
@@ -46,8 +46,8 @@
 			<!-- wp:image {"width":"48px","sizeSlug":"full","linkDestination":"none","align":"center"} -->
 			<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/quote-bottom.svg'; ?>" alt="Quote bottom icon" style="width:48px"/></figure>
 			<!-- /wp:image -->
-			<!-- wp:paragraph {"className":"is-style-balanced","style":{"typography":{"textAlign":"center"}},"fontSize":"x-small"} -->
-			<p class="has-text-align-center is-style-balanced has-x-small-font-size"><?php echo esc_html__( 'Powder is the premier block theme for WordPress designers and agencies, offering an extensive library of patterns.', 'powder' ); ?></p>
+			<!-- wp:paragraph {"className":"is-style-balanced","style":{"typography":{"textAlign":"center"}}} -->
+			<p class="has-text-align-center is-style-balanced"><?php echo esc_html__( 'Powder is the premier block theme for WordPress designers and agencies, offering an extensive library of patterns.', 'powder' ); ?></p>
 			<!-- /wp:paragraph -->
 			<!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","letterSpacing":"0.05em","fontStyle":"normal","fontWeight":"500","textAlign":"center"}},"fontSize":"x-small"} -->
 			<p class="has-text-align-center has-x-small-font-size" style="font-style:normal;font-weight:500;letter-spacing:0.05em;text-transform:uppercase"><?php echo esc_html__( 'Jennifer Kayne', 'powder' ); ?></p>

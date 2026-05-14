@@ -13,7 +13,7 @@
 	<div class="wp-block-group alignwide">
 		<!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 		<div class="wp-block-group">
-			<!-- wp:site-title {"level":0,"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"small"} /-->
+			<!-- wp:site-title {"level":0,"style":{"typography":{"textTransform":"uppercase"}}} /-->
 			<!-- wp:separator {"backgroundColor":"base"} -->
 			<hr class="wp-block-separator has-text-color has-contrast-color has-alpha-channel-opacity has-base-background-color has-background"/>
 			<!-- /wp:separator -->

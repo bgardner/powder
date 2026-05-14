@@ -25,8 +25,8 @@
 			<!-- wp:heading {"textAlign":"center","style":{"typography":{"textTransform":"uppercase"}},"fontSize":"x-small"} -->
 			<h2 class="wp-block-heading has-text-align-center has-x-small-font-size" style="text-transform:uppercase"><?php echo esc_html__( 'Feature Headline', 'powder' ); ?></h2>
 			<!-- /wp:heading -->
-			<!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-			<p class="has-text-align-center has-small-font-size"><?php echo esc_html__( 'Design beautiful WordPress websites with the stylish Powder theme.', 'powder' ); ?></p>
+			<!-- wp:paragraph {"style":{"typography":{"textAlign":"center"}}} -->
+			<p class="has-text-align-center"><?php echo esc_html__( 'Design beautiful WordPress websites with the stylish Powder theme.', 'powder' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->
@@ -36,8 +36,8 @@
 			<!-- wp:heading {"textAlign":"center","style":{"typography":{"textTransform":"uppercase"}},"fontSize":"x-small"} -->
 			<h2 class="wp-block-heading has-text-align-center has-x-small-font-size" style="text-transform:uppercase"><?php echo esc_html__( 'Feature Headline', 'powder' ); ?></h2>
 			<!-- /wp:heading -->
-			<!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-			<p class="has-text-align-center has-small-font-size"><?php echo esc_html__( 'Design beautiful WordPress websites with the stylish Powder theme.', 'powder' ); ?></p>
+			<!-- wp:paragraph {"style":{"typography":{"textAlign":"center"}}} -->
+			<p class="has-text-align-center"><<?php echo esc_html__( 'Design beautiful WordPress websites with the stylish Powder theme.', 'powder' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->
@@ -47,8 +47,8 @@
 			<!-- wp:heading {"textAlign":"center","style":{"typography":{"textTransform":"uppercase"}},"fontSize":"x-small"} -->
 			<h2 class="wp-block-heading has-text-align-center has-x-small-font-size" style="text-transform:uppercase"><?php echo esc_html__( 'Feature Headline', 'powder' ); ?></h2>
 			<!-- /wp:heading -->
-			<!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-			<p class="has-text-align-center has-small-font-size"><?php echo esc_html__( 'Design beautiful WordPress websites with the stylish Powder theme.', 'powder' ); ?></p>
+			<!-- wp:paragraph {"style":{"typography":{"textAlign":"center"}}} -->
+			<p class="has-text-align-center"><<?php echo esc_html__( 'Design beautiful WordPress websites with the stylish Powder theme.', 'powder' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->
@@ -58,8 +58,8 @@
 			<!-- wp:heading {"textAlign":"center","style":{"typography":{"textTransform":"uppercase"}},"fontSize":"x-small"} -->
 			<h2 class="wp-block-heading has-text-align-center has-x-small-font-size" style="text-transform:uppercase"><?php echo esc_html__( 'Feature Headline', 'powder' ); ?></h2>
 			<!-- /wp:heading -->
-			<!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-			<p class="has-text-align-center has-small-font-size"><?php echo esc_html__( 'Design beautiful WordPress websites with the stylish Powder theme.', 'powder' ); ?></p>
+			<!-- wp:paragraph {"style":{"typography":{"textAlign":"center"}}} -->
+			<p class="has-text-align-center"><<?php echo esc_html__( 'Design beautiful WordPress websites with the stylish Powder theme.', 'powder' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->
@@ -69,8 +69,8 @@
 			<!-- wp:heading {"textAlign":"center","style":{"typography":{"textTransform":"uppercase"}},"fontSize":"x-small"} -->
 			<h2 class="wp-block-heading has-text-align-center has-x-small-font-size" style="text-transform:uppercase"><?php echo esc_html__( 'Feature Headline', 'powder' ); ?></h2>
 			<!-- /wp:heading -->
-			<!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-			<p class="has-text-align-center has-small-font-size"><?php echo esc_html__( 'Design beautiful WordPress websites with the stylish Powder theme.', 'powder' ); ?></p>
+			<!-- wp:paragraph {"style":{"typography":{"textAlign":"center"}}} -->
+			<p class="has-text-align-center"><<?php echo esc_html__( 'Design beautiful WordPress websites with the stylish Powder theme.', 'powder' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->
@@ -80,8 +80,8 @@
 			<!-- wp:heading {"textAlign":"center","style":{"typography":{"textTransform":"uppercase"}},"fontSize":"x-small"} -->
 			<h2 class="wp-block-heading has-text-align-center has-x-small-font-size" style="text-transform:uppercase"><?php echo esc_html__( 'Feature Headline', 'powder' ); ?></h2>
 			<!-- /wp:heading -->
-			<!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-			<p class="has-text-align-center has-small-font-size"><?php echo esc_html__( 'Design beautiful WordPress websites with the stylish Powder theme.', 'powder' ); ?></p>
+			<!-- wp:paragraph {"style":{"typography":{"textAlign":"center"}}} -->
+			<p class="has-text-align-center"><<?php echo esc_html__( 'Design beautiful WordPress websites with the stylish Powder theme.', 'powder' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->

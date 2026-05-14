@@ -11,8 +11,8 @@
 	<div class="wp-block-columns alignwide are-vertically-aligned-center">
 		<!-- wp:column {"verticalAlignment":"center","width":"30%","style":{"spacing":{"blockGap":"var:preset|spacing|20"},"typography":{"lineHeight":"1.5"}},"fontSize":"small"} -->
 		<div class="wp-block-column is-vertically-aligned-center has-small-font-size" style="line-height:1.5;flex-basis:30%">
-			<!-- wp:heading {"fontSize":"xx-large"} -->
-			<h2 class="wp-block-heading has-xx-large-font-size"><?php echo esc_html__( 'My Images', 'powder' ); ?></h2>
+			<!-- wp:heading {"fontSize":"large"} -->
+			<h2 class="wp-block-heading has-large-font-size"><?php echo esc_html__( 'My Images', 'powder' ); ?></h2>
 			<!-- /wp:heading -->
 			<!-- wp:paragraph -->
 			<p><?php echo esc_html__( 'Powder reclaims its minimalist roots by embracing simplicity and the purity of form and function. Its signature approach transcends conventional WordPress design standards, offering a canvas where creativity flourishes.', 'powder' ); ?></p>
