@@ -8,8 +8,12 @@
 function powder_register_block_styles() {
 	$block_styles = [
 		'core/button' => [
-			'fill-alt' => __( 'Fill (Alt)', 'powder' ),
-			'outline-alt' => __( 'Outline (Alt)', 'powder' ),
+			'fill-white' => __( 'White', 'powder' ),
+			'outline-white' => __( 'White Line', 'powder' ),
+			'fill-black' => __( 'Black', 'powder' ),
+			'outline-black' => __( 'Black Line', 'powder' ),
+			'fill-accent' => __( 'Accent', 'powder' ),
+			'outline-accent' => __( 'Accent Line', 'powder' ),
 		],
 		'core/columns' => [
 			'column-reverse' => __( 'Reverse', 'powder' ),
