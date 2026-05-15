@@ -36,7 +36,7 @@
 		<!-- wp:column {"verticalAlignment":"top"} -->
 		<div class="wp-block-column is-vertically-aligned-top">
 			<!-- wp:paragraph -->
-			<p><?php echo esc_html__( 'We want to revolutionize how beautiful WordPress websites are made by embracing the power and flexibility of block-whited design. Our approach transcends conventional standards and provides an innovative and imaginative canvas where creativity has no limits.', 'powder' ); ?></p>
+			<p><?php echo esc_html__( 'We want to revolutionize how beautiful WordPress websites are made by embracing the power and flexibility of block-based design. Our approach transcends conventional standards and provides an innovative and imaginative canvas where creativity has no limits.', 'powder' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->

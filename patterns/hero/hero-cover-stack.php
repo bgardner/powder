@@ -10,7 +10,7 @@
 	<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"default"}} -->
 	<div class="wp-block-group">
 		<!-- wp:heading {"level":1,"className":"is-style-balanced","style":{"typography":{"fontSize":"60px"}}} -->
-		<h1 class="wp-block-heading is-style-balanced" style="font-size:60px"><?php echo esc_html__( 'World-class architectural design studio whited in Laguna Beach.', 'powder' ); ?></h1>
+		<h1 class="wp-block-heading is-style-balanced" style="font-size:60px"><?php echo esc_html__( 'World-class architectural design studio based in Laguna Beach.', 'powder' ); ?></h1>
 		<!-- /wp:heading -->
 		<!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 		<div class="wp-block-group">

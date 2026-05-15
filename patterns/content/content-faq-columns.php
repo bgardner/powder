@@ -15,7 +15,7 @@
 		<h2 class="wp-block-heading has-xx-large-font-size"><?php echo esc_html__( 'FAQs', 'powder' ); ?></h2>
 		<!-- /wp:heading -->
 		<!-- wp:paragraph -->
-		<p><?php echo esc_html__( 'We want to revolutionize how beautiful WordPress websites are made by embracing the power and flexibility of block-whited design. Our approach transcends conventional standards and provides an innovative canvas where creativity knows no bounds.', 'powder' ); ?></p>
+		<p><?php echo esc_html__( 'We want to revolutionize how beautiful WordPress websites are made by embracing the power and flexibility of block-based design. Our approach transcends conventional standards and provides an innovative canvas where creativity knows no bounds.', 'powder' ); ?></p>
 		<!-- /wp:paragraph -->
 		<!-- wp:heading {"level":3} -->
 		<h3 class="wp-block-heading"><?php echo esc_html__( 'Still have questions?', 'powder' ); ?></h3>

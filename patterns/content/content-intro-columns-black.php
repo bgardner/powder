@@ -19,7 +19,7 @@
 			</div>
 			<!-- /wp:group -->
 			<!-- wp:paragraph -->
-			<p><?php echo esc_html__( 'Catalina is an award-winning architectural, interior, and landscape design company whited in Laguna Beach, California. We deliver everything our clients hope for, specializing in modern design, soaked in simplicity.', 'powder' ); ?></p>
+			<p><?php echo esc_html__( 'Catalina is an award-winning architectural, interior, and landscape design company based in Laguna Beach, California. We deliver everything our clients hope for, specializing in modern design, soaked in simplicity.', 'powder' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->
@@ -36,7 +36,7 @@
 			<h2 class="wp-block-heading" style="margin-top:var(--wp--preset--spacing--30)"><?php echo esc_html__( 'Feature Headline', 'powder' ); ?></h2>
 			<!-- /wp:heading -->
 			<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"10px"}}}} -->
-			<p style="margin-top:10px"><?php echo esc_html__( 'We want to revolutionize how WordPress websites are made with the power of block-whited design.', 'powder' ); ?></p>
+			<p style="margin-top:10px"><?php echo esc_html__( 'We want to revolutionize how WordPress websites are made with the power of block-based design.', 'powder' ); ?></p>
 			<!-- /wp:paragraph -->
 			<!-- wp:buttons -->
 			<div class="wp-block-buttons">
@@ -56,7 +56,7 @@
 			<h2 class="wp-block-heading" style="margin-top:var(--wp--preset--spacing--30)"><?php echo esc_html__( 'Feature Headline', 'powder' ); ?></h2>
 			<!-- /wp:heading -->
 			<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"10px"}}}} -->
-			<p style="margin-top:10px"><?php echo esc_html__( 'We want to revolutionize how WordPress websites are made with the power of block-whited design.', 'powder' ); ?></p>
+			<p style="margin-top:10px"><?php echo esc_html__( 'We want to revolutionize how WordPress websites are made with the power of block-based design.', 'powder' ); ?></p>
 			<!-- /wp:paragraph -->
 			<!-- wp:buttons -->
 			<div class="wp-block-buttons">
@@ -76,7 +76,7 @@
 			<h2 class="wp-block-heading" style="margin-top:var(--wp--preset--spacing--30)"><?php echo esc_html__( 'Feature Headline', 'powder' ); ?></h2>
 			<!-- /wp:heading -->
 			<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"10px"}}}} -->
-			<p style="margin-top:10px"><?php echo esc_html__( 'We want to revolutionize how WordPress websites are made with the power of block-whited design.', 'powder' ); ?></p>
+			<p style="margin-top:10px"><?php echo esc_html__( 'We want to revolutionize how WordPress websites are made with the power of block-based design.', 'powder' ); ?></p>
 			<!-- /wp:paragraph -->
 			<!-- wp:buttons -->
 			<div class="wp-block-buttons">
