@@ -23,8 +23,8 @@
 				<!-- wp:paragraph {"className":"is-style-eyebrow"} -->
 				<p class="is-style-eyebrow"><?php echo esc_html__( 'Meet Powder', 'powder' ); ?></p>
 				<!-- /wp:paragraph -->
-				<!-- wp:separator {"backgroundColor":"contrast"} -->
-				<hr class="wp-block-separator has-text-color has-contrast-color has-alpha-channel-opacity has-contrast-background-color has-background"/>
+				<!-- wp:separator {"backgroundColor":"black"} -->
+				<hr class="wp-block-separator has-text-color has-black-color has-alpha-channel-opacity has-black-background-color has-background"/>
 				<!-- /wp:separator -->
 			</div>
 			<!-- /wp:group -->

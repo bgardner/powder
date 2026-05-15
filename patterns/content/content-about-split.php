@@ -12,8 +12,8 @@
 		<!-- wp:paragraph {"className":"is-style-eyebrow"} -->
 		<p class="is-style-eyebrow"><?php echo esc_html__( 'Meet Powder', 'powder' ); ?></p>
 		<!-- /wp:paragraph -->
-		<!-- wp:separator {"backgroundColor":"contrast"} -->
-		<hr class="wp-block-separator has-text-color has-contrast-color has-alpha-channel-opacity has-contrast-background-color has-background"/>
+		<!-- wp:separator {"backgroundColor":"black"} -->
+		<hr class="wp-block-separator has-text-color has-black-color has-alpha-channel-opacity has-black-background-color has-background"/>
 		<!-- /wp:separator -->
 	</div>
 	<!-- /wp:group -->
@@ -36,7 +36,7 @@
 		<!-- wp:column {"verticalAlignment":"top"} -->
 		<div class="wp-block-column is-vertically-aligned-top">
 			<!-- wp:paragraph -->
-			<p><?php echo esc_html__( 'We want to revolutionize how beautiful WordPress websites are made by embracing the power and flexibility of block-based design. Our approach transcends conventional standards and provides an innovative and imaginative canvas where creativity has no limits.', 'powder' ); ?></p>
+			<p><?php echo esc_html__( 'We want to revolutionize how beautiful WordPress websites are made by embracing the power and flexibility of block-whited design. Our approach transcends conventional standards and provides an innovative and imaginative canvas where creativity has no limits.', 'powder' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->
