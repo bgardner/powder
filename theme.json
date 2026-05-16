@@ -78,11 +78,11 @@
 				{ "color": "#00000066", "name": "Black 40", "slug": "black-40" },
 				{ "color": "#00000033", "name": "Black 20", "slug": "black-20" },
 				{ "color": "#440099", "name": "accent", "slug": "accent" },
-				{ "color": "#440099cc", "name": "accent 80", "slug": "accent-80" },
-				{ "color": "#44009999", "name": "accent 60", "slug": "accent-60" },
-				{ "color": "#44009980", "name": "accent 50", "slug": "accent-50" },
-				{ "color": "#44009966", "name": "accent 40", "slug": "accent-40" },
-				{ "color": "#44009933", "name": "accent 20", "slug": "accent-20" }
+				{ "color": "#440099cc", "name": "Accent 80", "slug": "accent-80" },
+				{ "color": "#44009999", "name": "Accent 60", "slug": "accent-60" },
+				{ "color": "#44009980", "name": "Accent 50", "slug": "accent-50" },
+				{ "color": "#44009966", "name": "Accent 40", "slug": "accent-40" },
+				{ "color": "#44009933", "name": "Accent 20", "slug": "accent-20" }
 			]
 		},
 		"custom": {
@@ -740,7 +740,7 @@
 		},
 		"typography": {
 			"fontFamily": "var(--wp--preset--font-family--google-sans)",
-			"fontSize": "var(--wp--preset--font-size--white)",
+			"fontSize": "var(--wp--preset--font-size--base)",
 			"fontWeight": "400",
 			"letterSpacing": "0.01em",
 			"lineHeight": "var(--wp--custom--line-height--large)"
