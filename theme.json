@@ -34,26 +34,6 @@
 			],
 			"gradients": [
 				{
-					"gradient": "linear-gradient(to top, var(--wp--preset--color--black) 0%, var(--wp--preset--color--black-50) 100%)",
-					"name": "Fade Up",
-					"slug": "fade-up"
-				},
-				{
-					"gradient": "linear-gradient(to bottom, var(--wp--preset--color--black) 0%, var(--wp--preset--color--black-50) 100%)",
-					"name": "Fade Down",
-					"slug": "fade-down"
-				},
-				{
-					"gradient": "linear-gradient(to left, var(--wp--preset--color--black) 0%, var(--wp--preset--color--black-50) 100%)",
-					"name": "Fade Left",
-					"slug": "fade-left"
-				},
-				{
-					"gradient": "linear-gradient(to right, var(--wp--preset--color--black) 0%, var(--wp--preset--color--black-50) 100%)",
-					"name": "Fade Right",
-					"slug": "fade-right"
-				},
-				{
 					"gradient": "linear-gradient(to top, var(--wp--preset--color--black) 50%, var(--wp--preset--color--white) 50%)",
 					"name": "White Top",
 					"slug": "white-top"
@@ -66,23 +46,8 @@
 			],
 			"palette": [
 				{ "color": "#ffffff", "name": "White", "slug": "white" },
-				{ "color": "#ffffffcc", "name": "White 80", "slug": "white-80" },
-				{ "color": "#ffffff99", "name": "White 60", "slug": "white-60" },
-				{ "color": "#ffffff80", "name": "White 50", "slug": "white-50" },
-				{ "color": "#ffffff66", "name": "White 40", "slug": "white-40" },
-				{ "color": "#ffffff33", "name": "White 20", "slug": "white-20" },
 				{ "color": "#000000", "name": "Black", "slug": "black" },
-				{ "color": "#000000cc", "name": "Black 80", "slug": "black-80" },
-				{ "color": "#00000099", "name": "Black 60", "slug": "black-60" },
-				{ "color": "#00000080", "name": "Black 50", "slug": "black-50" },
-				{ "color": "#00000066", "name": "Black 40", "slug": "black-40" },
-				{ "color": "#00000033", "name": "Black 20", "slug": "black-20" },
-				{ "color": "#440099", "name": "accent", "slug": "accent" },
-				{ "color": "#440099cc", "name": "Accent 80", "slug": "accent-80" },
-				{ "color": "#44009999", "name": "Accent 60", "slug": "accent-60" },
-				{ "color": "#44009980", "name": "Accent 50", "slug": "accent-50" },
-				{ "color": "#44009966", "name": "Accent 40", "slug": "accent-40" },
-				{ "color": "#44009933", "name": "Accent 20", "slug": "accent-20" }
+				{ "color": "#440099", "name": "accent", "slug": "accent" }
 			]
 		},
 		"custom": {
@@ -380,13 +345,6 @@
 					}
 				}
 			},
-			"core/image": {
-				"variations": {
-					"zoom": {
-						"css": "&.is-style-zoom { overflow: hidden; } &.is-style-zoom img { transition: transform var(--suede-motion-slow) var(--suede-motion-ease); } &.is-style-zoom:hover img { transform: scale(var(--suede-motion-scale)); }"
-					}
-				}
-			},
 			"core/list": {
 				"spacing": {
 					"padding": {
@@ -434,21 +392,11 @@
 							"lineHeight": "var(--wp--custom--line-height--medium)",
 							"textTransform": "uppercase"
 						}
-					},
-					"indent": {
-						"css": "&.is-style-indent { text-indent: var(--wp--preset--spacing--30); }"
 					}
 				}
 			},
 			"core/post-comments-form": {
 				"css": "& .form-submit { margin-bottom: 0; }"
-			},
-			"core/post-featured-image": {
-				"variations": {
-					"zoom": {
-						"css": "&.is-style-zoom { overflow: hidden; } &.is-style-zoom img { transition: transform var(--suede-motion-slow) var(--suede-motion-ease); } &.is-style-zoom:hover img { transform: scale(var(--suede-motion-scale)); }"
-					}
-				}
 			},
 			"core/post-template": {
 				"spacing": {
@@ -570,9 +518,6 @@
 				"variations": {
 					"outline": {
 						"css": "& li.wp-block-social-link { background-color: transparent; border: 1px solid currentColor; color: currentColor; }"
-					},
-					"square": {
-						"css": "& .wp-block-social-link { border-radius: 0; }"
 					}
 				}
 			},
@@ -753,8 +698,6 @@
 	],
 	"customTemplates": [
 		{ "name": "page-blank", "postTypes": [ "page" ], "title": "Blank" },
-		{ "name": "page-boxed", "postTypes": [ "page" ], "title": "Boxed" },
-		{ "name": "page-no-title", "postTypes": [ "page" ], "title": "No Title" },
-		{ "name": "single-boxed", "postTypes": [ "post" ], "title": "Boxed" }
+		{ "name": "page-no-title", "postTypes": [ "page" ], "title": "No Title" }
 	]
 }
