@@ -15,7 +15,7 @@
 		<div class="wp-block-cover is-style-gradient has-white-color has-text-color has-link-color" style="padding-bottom:140px;min-height:400px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-100 has-background-dim has-background-gradient has-fade-down-gradient-background"></span><div class="wp-block-cover__inner-container">
 			<!-- wp:group {"tagName":"header","align":"wide","className":"entry-header","style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"constrained","contentSize":"800px"}} -->
 			<header class="wp-block-group alignwide entry-header">
-				<!-- wp:post-title {"textAlign":"center","level":1,"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"fontSize":"x-large"} /-->
+				<!-- wp:post-title {"textAlign":"center","level":1,"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"fontSize":"xx-large"} /-->
 				<!-- wp:group {"layout":{"type":"flex","justifyContent":"center"},"style":{"spacing":{"blockGap":"5px"}},"fontSize":"x-small"} -->
 				<div class="wp-block-group has-x-small-font-size">
 					<!-- wp:post-date /-->
