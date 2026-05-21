@@ -1,9 +1,9 @@
 === Powder ===
 Contributors: bgardner
-Requires at least: 7.0
-Tested up to: 7.0
+Requires at least: 6.9
+Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 3.0-beta
+Stable tag: 2.0
 License: GNU General Public License v3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -12,7 +12,6 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 The premier block theme for WordPress designers and agencies.
 
 Powder is distributed as open-source software under the GPL, but it is offered commercially as a professionally curated and maintained theme.
-
 Purchasing Powder supports ongoing development, updates, documentation, and long-term stewardship of the design system.
 
 == Community ==
@@ -43,13 +42,7 @@ License URL: https://openfontlicense.org/open-font-license-official-text/
 Google Sans Flex Font
 https://fonts.google.com/specimen/Google+Sans+Flex
 
-== Images ==
-
-The following images are available through Google Material Icons and declared under Apache Open Source License, Version 2.0.
-License URL: https://www.apache.org/licenses/LICENSE-2.0
-
-quote-bottom.svg
-quote-top.svg
+== Sample Images ==
 
 The following images are self-designed and declared under GPL License, Version 3.0.
 License URL: https://www.gnu.org/licenses/gpl-3.0.html
@@ -62,3 +55,14 @@ sample-logo-dark.svg
 sample-logo-light.svg
 site-logo-dark.svg
 site-logo-light.svg
+
+== Sample Icons ==
+
+The following icons are available through Google Material Icons and declared under Apache Open Source License, Version 2.0.
+License URL: https://www.apache.org/licenses/LICENSE-2.0
+
+icon-circle-bolt.svg
+icon-circle-check.svg
+icon-circle-x.svg
+icon-quote-bottom.svg
+icon-quote-top.svg

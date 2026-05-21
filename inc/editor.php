@@ -1,35 +1,44 @@
 <?php
 /**
- * Register block styles.
+ * Register template parts and block styles.
  *
  * @package Powder
  */
 
+function powder_template_parts( array $areas ) {
+	$areas[] = [
+		'area'        => 'sidebar',
+		'area_tag'    => 'section',
+		'label'       => __( 'Sidebar', 'powder' ),
+		'description' => __( 'The Sidebar template defines a page area that typically contains secondary content, navigation, or social icons.', 'powder' ),
+		'icon'        => 'sidebar',
+	];
+
+	return $areas;
+}
+add_filter( 'default_wp_template_part_areas', 'powder_template_parts' );
+
 function powder_register_block_styles() {
 	$block_styles = [
-		'core/button' => [
-			'fill-white' => __( 'White', 'powder' ),
-			'outline-white' => __( 'White Line', 'powder' ),
-			'fill-black' => __( 'Black', 'powder' ),
-			'outline-black' => __( 'Black Line', 'powder' ),
-			'fill-accent' => __( 'Accent', 'powder' ),
-			'outline-accent' => __( 'Accent Line', 'powder' ),
-		],
 		'core/columns' => [
 			'column-reverse' => __( 'Reverse', 'powder' ),
 		],
+		'core/group' => [
+			'fadeinup' => __( 'Fade In Up', 'powder' ),
+		],
 		'core/heading' => [
 			'balanced' => __( 'Balanced', 'powder' ),
-			'eyebrow' => __( 'Eyebrow', 'powder' ),
+		],
+		'core/image' => [
+			'inner-border' => __( 'Inner Border', 'powder' ),
 		],
 		'core/list' => [
 			'no-style' => __( 'No Style', 'powder' ),
 		],
-		'core/paragraph' => [
-			'balanced' => __( 'Balanced', 'powder' ),
-			'eyebrow' => __( 'Eyebrow', 'powder' ),
+		'core/navigation' => [
+			'underline-slide' => __( 'Underline', 'powder' ),
 		],
-		'core/post-title' => [
+		'core/paragraph' => [
 			'balanced' => __( 'Balanced', 'powder' ),
 		],
 		'core/separator' => [
@@ -53,3 +62,29 @@ function powder_register_block_styles() {
 	}
 }
 add_action( 'init', 'powder_register_block_styles' );
+
+function powder_enqueue_motion_assets() {
+
+	if ( ! is_singular() ) {
+		return;
+	}
+
+	$content = get_post()->post_content ?? '';
+
+	if (
+		strpos( $content, 'is-style-fadeinup' ) === false
+	) {
+		return;
+	}
+
+	$version = powder_version();
+
+	wp_enqueue_script(
+		'powder-motion',
+		get_template_directory_uri() . '/assets/js/motion.js',
+		array(),
+		$version,
+		true
+	);
+}
+add_action( 'wp_enqueue_scripts', 'powder_enqueue_motion_assets', 20 );

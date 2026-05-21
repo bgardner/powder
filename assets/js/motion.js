@@ -1,91 +1,24 @@
-document.documentElement.classList.add('js');
-
 (function () {
 	'use strict';
 
-	const EFFECTS = ['fadeIn', 'fadeInUp'];
+	const root = document.documentElement;
 
-	const DEFAULTS = {
-		effect: 'fadeIn',
-		delay: 0,
-		distance: 20
-	};
+	const els = document.querySelectorAll('.is-style-fadeinup');
+	if (!els.length) return;
 
-	const LIMITS = {
-		delay: { min: 0, max: 0.6 },
-		distance: { min: 20, max: 60 }
-	};
+	if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
-	const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+	if (!('IntersectionObserver' in window)) return;
 
-	const onReady = (fn) => {
-		if (document.readyState === 'loading') {
-			document.addEventListener('DOMContentLoaded', fn);
-			return;
+	root.classList.add('has-motion');
+
+	const io = new IntersectionObserver((entries) => {
+		for (const entry of entries) {
+			if (!entry.isIntersecting) continue;
+			entry.target.classList.add('is-inview');
+			io.unobserve(entry.target);
 		}
-		fn();
-	};
+	}, { threshold: 0.15 });
 
-	const clamp = (value, min, max) => Math.min(Math.max(value, min), max);
-
-	const parseNumber = (value, fallback) => {
-		const parsed = parseFloat(value);
-		return Number.isNaN(parsed) ? fallback : parsed;
-	};
-
-	const getEffect = (value) => (
-		EFFECTS.includes(value) ? value : DEFAULTS.effect
-	);
-
-	const getDelay = (value) => (
-		clamp(parseNumber(value, DEFAULTS.delay), LIMITS.delay.min, LIMITS.delay.max)
-	);
-
-	const getDistance = (value) => (
-		clamp(parseNumber(value, DEFAULTS.distance), LIMITS.distance.min, LIMITS.distance.max)
-	);
-
-	const revealImmediately = (elements) => {
-		elements.forEach((el) => {
-			el.classList.add('motion-ready');
-		});
-	};
-
-	onReady(() => {
-		const elements = Array.from(document.querySelectorAll('[data-motion]'));
-
-		if (!elements.length) {
-			return;
-		}
-
-		if (prefersReducedMotion.matches) {
-			revealImmediately(elements);
-			return;
-		}
-
-		const observer = new IntersectionObserver((entries) => {
-			entries.forEach((entry) => {
-				if (!entry.isIntersecting) {
-					return;
-				}
-
-				const el = entry.target;
-				const effect = getEffect(el.getAttribute('data-motion'));
-				const delay = getDelay(el.getAttribute('data-delay'));
-				const distance = getDistance(el.getAttribute('data-distance'));
-
-				el.style.setProperty('--powder-motion-delay', `${delay}s`);
-				el.style.setProperty('--powder-motion-distance', `${distance}px`);
-
-				el.classList.add('motion-ready', `motion-${effect}`);
-				observer.unobserve(el);
-			});
-		}, {
-			threshold: 0.15
-		});
-
-		elements.forEach((el) => {
-			observer.observe(el);
-		});
-	});
+	els.forEach(el => io.observe(el));
 })();

@@ -4,14 +4,14 @@ Theme URI: https://powder.design/
 Author: Brian Gardner
 Author URI: https://briangardner.com/
 Description: The premier block theme for WordPress designers and agencies.
-Version: 3.0-beta
-Requires at least: 7.0
-Tested up to: 7.0
+Version: 2.0
+Requires at least: 6.9
+Tested up to: 6.9
 Requires PHP: 7.4
 License: GNU General Public License v3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: powder
-Tags: block-patterns, block-styles, custom-colors, custom-logo, editor-style, full-site-editing, one-column, wide-blocks
+Tags: block-patterns, block-styles, custom-colors, custom-logo, editor-style, full-site-editing, one-column, two-columns, wide-blocks
 */
 
 /* Base
@@ -19,7 +19,6 @@ Tags: block-patterns, block-styles, custom-colors, custom-logo, editor-style, fu
 
 :root {
 	--powder-motion-distance: 30px;
-	--powder-motion-scale: 1.05;
 	--powder-motion-ease: ease-out;
 	--powder-motion-fast: 0.25s;
 	--powder-motion-slow: 0.5s;
@@ -59,8 +58,8 @@ textarea {
 
 input:not([type="submit"]):focus,
 textarea:focus {
-	border-color: var(--wp--preset--color--accent);
-	outline: 1px solid var(--wp--preset--color--accent);
+	border-color: var(--wp--preset--color--primary);
+	outline: 1px solid var(--wp--preset--color--primary);
 }
 
 input[type="checkbox"],
@@ -78,12 +77,61 @@ input[type="radio"] {
 /* Blocks
 ---------------------------------------- */
 
+/* Group */
+
+.is-style-fadeinup {
+	opacity: 1;
+	transform: none;
+}
+
+.has-motion .is-style-fadeinup {
+	opacity: 0;
+	transform: translateY(var(--powder-motion-distance));
+}
+
+.has-motion .is-style-fadeinup.is-inview {
+	animation: fadeInUp var(--powder-motion-slow) var(--powder-motion-ease) forwards;
+}
+
+@keyframes fadeInUp {
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.has-motion .is-style-fadeinup,
+	.has-motion .is-style-fadeinup.is-inview {
+		animation: none !important;
+		opacity: 1 !important;
+		transform: none !important;
+	}
+}
+
 /* Navigation */
 
-.wp-block-navigation__responsive-container-open,
-.wp-block-navigation__responsive-container-close {
-	border: 1px solid currentColor;
-	padding: 2px;
+.wp-block-navigation__responsive-container.is-menu-open {
+	padding: var(--wp--preset--spacing--30);
+}
+
+.is-style-underline-slide .wp-block-navigation-item__content {
+	position: relative;
+}
+
+.is-style-underline-slide .wp-block-navigation-item__content::after {
+	background: currentColor;
+	content: "";
+	height: 1px;
+	inset: auto 0 -2px 0;
+	position: absolute;
+	transform: scaleX(0);
+	transform-origin: left;
+	transition: transform var(--powder-motion-fast) var(--powder-motion-ease);
+}
+
+.is-style-underline-slide .wp-block-navigation-item__content:is(:hover, :focus-visible)::after {
+	transform: scaleX(1);
 }
 
 /* Navigation submenu */
@@ -162,6 +210,16 @@ input[type="radio"] {
 	.scroll-reveal .site-header {
 		transform: none !important;
 		transition: none !important;
+	}
+
+}
+
+@media (max-width: 600px) {
+
+	/* Utilities */
+
+	.is-style-hidden-mobile {
+		display: none !important;
 	}
 
 }

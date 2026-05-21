@@ -26,12 +26,12 @@ function powder_theme_updates( $transient ) {
 	}
 
 	if ( version_compare( powder_version(), $data->version, '<' ) ) {
-		$transient->response['powder'] = [
+		$transient->response['powder'] = array(
 			'theme'       => 'powder',
 			'new_version' => $data->version,
 			'url'         => 'https://powder.design/changelog/',
 			'package'     => $data->download_url,
-		];
+		);
 	}
 
 	return $transient;
