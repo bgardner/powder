@@ -380,7 +380,11 @@
 				}
 			},
 			"core/heading": {
-				"css": "&.is-style-balanced {text-wrap: balance;}"
+				"variations": {
+					"balanced": {
+						"css": "&.is-style-balanced { text-wrap: balance; }"
+					}
+				}
 			},
 			"core/image": {
 				"variations": {
@@ -390,10 +394,14 @@
 				}
 			},
 			"core/list": {
-				"css": "&.is-style-no-style {list-style-type: none; padding-left: 0;}",
 				"spacing": {
 					"padding": {
-						"left": "var(--wp--preset--spacing--30)"
+						"left": "var(--wp--preset--spacing--20)"
+					}
+				},
+				"variations": {
+					"no-style": {
+						"css": "&.is-style-no-style { list-style-type: none; padding-left: 0; }"
 					}
 				}
 			},
@@ -413,7 +421,11 @@
 				}
 			},
 			"core/paragraph": {
-				"css": "&.is-style-balanced {text-wrap: balance;}"
+				"variations": {
+					"balanced": {
+						"css": "&.is-style-balanced { text-wrap: balance; }"
+					}
+				}
 			},
 			"core/post-comments-form": {
 				"css": " & .form-submit {margin-bottom: 0;}"
@@ -512,7 +524,12 @@
 					"style": "solid",
 					"width": "1px 0 0"
 				},
-				"css": ":not(.is-style-wide):not(.is-style-dots) {width: 80px;} &.is-style-extended {width: 180px;}"
+				"css": ":not(.is-style-wide):not(.is-style-dots) { width: 80px; }",
+				"variations": {
+					"extended": {
+						"css": "&.is-style-extended { width: 180px; }"
+					}
+				}
 			},
 			"core/site-title": {
 				"elements": {
@@ -532,9 +549,13 @@
 				}
 			},
 			"core/social-links": {
-				"css": ".is-style-outline li.wp-block-social-link {background-color: transparent;border: 1px solid currentColor;color: currentColor;}",
 				"spacing": {
 					"blockGap": "10px"
+				},
+				"variations": {
+					"outline": {
+						"css": "& li.wp-block-social-link { background-color: transparent; border: 1px solid currentColor; color: currentColor; }"
+					}
 				}
 			},
 			"core/table": {
