@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Footer - stacked
+ * Title: Footer - heading, text, button
  * Slug: powder/footer-stacked-contrast
  * Categories: powder-footer
  * Block Types: core/template-part/footer

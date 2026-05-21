@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Footer - mega
- * Slug: powder/footer-mega
+ * Title: Footer - site logo, text, buttons, social icons
+s * Slug: powder/footer-mega
  * Categories: powder-footer
  * Block Types: core/template-part/footer
  * Template Types: footer

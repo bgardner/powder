@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Header - site logo
+ * Title: Header - site logo, navigation
  * Slug: powder/header-site-logo
  * Categories: powder-header
  * Block Types: core/template-part/header

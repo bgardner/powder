@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Header - site title, social icons
+ * Title: Header - site title, navigation, social icons
  * Slug: powder/header-social-icons
  * Categories: powder-header
  * Block Types: core/template-part/header

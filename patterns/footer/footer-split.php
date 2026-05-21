@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Footer - split
+ * Title: Footer - site logo, site title, text, social icons
  * Slug: powder/footer-split
  * Categories: powder-footer
  * Block Types: core/template-part/footer

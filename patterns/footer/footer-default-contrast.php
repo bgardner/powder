@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Footer - default
+ * Title: Footer - text, social icons
  * Slug: powder/footer-contrast
  * Categories: powder-footer
  * Block Types: core/template-part/footer

@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Footer - multi-column
+ * Title: Footer - heading, columns, text, social icons
  * Slug: powder/footer-multi-column-contrast
  * Categories: powder-footer
  * Block Types: core/template-part/footer

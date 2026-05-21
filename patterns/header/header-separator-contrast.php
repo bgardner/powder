@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Header - site title, separator
+ * Title: Header - site title, separator, navigation
  * Slug: powder/header-separator-contrast
  * Categories: powder-header
  * Block Types: core/template-part/header
