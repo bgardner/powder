@@ -38,11 +38,11 @@
 		<!-- /wp:buttons -->
 		<!-- wp:social-links {"openInNewTab":true,"size":"has-small-icon-size","align":"center","className":"is-style-outline","style":{"spacing":{"margin":{"top":"var:preset|spacing|30"},"blockGap":{"left":"5px"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
 		<ul class="wp-block-social-links aligncenter has-small-icon-size is-style-outline" style="margin-top:var(--wp--preset--spacing--30)">
-			<!-- wp:social-link {"url":"https://x.com/","service":"x"} /-->
 			<!-- wp:social-link {"url":"https://www.linkedin.com/","service":"linkedin"} /-->
+			<!-- wp:social-link {"url":"https://x.com/","service":"x"} /-->
+			<!-- wp:social-link {"url":"https://www.youtube.com/","service":"youtube"} /-->
 			<!-- wp:social-link {"url":"https://instagram.com/","service":"instagram"} /-->
 			<!-- wp:social-link {"url":"https://www.facebook.com/","service":"facebook"} /-->
-			<!-- wp:social-link {"url":"https://www.threads.net/","service":"threads"} /-->
 		</ul>
 		<!-- /wp:social-links -->
 	</div>
