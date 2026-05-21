@@ -88,31 +88,51 @@
 					"slug": "base-contrast"
 				},
 				{
-					"gradient": "linear-gradient(90deg, var(--wp--preset--color--base) 50%, var(--wp--preset--color--contrast) 50%)",
-					"name": "Base to Contrast (90)",
-					"slug": "base-contrast-90"
-				},
-				{
 					"gradient": "linear-gradient(var(--wp--preset--color--contrast) 50%, var(--wp--preset--color--base) 50%)",
 					"name": "Contrast to Base",
 					"slug": "contrast-base"
 				},
 				{
-					"gradient": "linear-gradient(90deg, var(--wp--preset--color--contrast) 50%, var(--wp--preset--color--base) 50%)",
-					"name": "Contrast to Base (90)",
-					"slug": "contrast-base-90"
+					"gradient": "linear-gradient(to top, var(--wp--preset--color--contrast) 0%, var(--wp--preset--color--contrast-50) 100%)",
+					"name": "Fade Up",
+					"slug": "fade-up"
+				},
+				{
+					"gradient": "linear-gradient(to bottom, var(--wp--preset--color--contrast) 0%, var(--wp--preset--color--contrast-50) 100%)",
+					"name": "Fade Down",
+					"slug": "fade-down"
+				},
+				{
+					"gradient": "linear-gradient(to left, var(--wp--preset--color--contrast) 0%, var(--wp--preset--color--contrast-50) 100%)",
+					"name": "Fade Left",
+					"slug": "fade-left"
+				},
+				{
+					"gradient": "linear-gradient(to right, var(--wp--preset--color--contrast) 0%, var(--wp--preset--color--contrast-50) 100%)",
+					"name": "Fade Right",
+					"slug": "fade-right"
 				}
 			],
 			"palette": [
+				{
+					"color": "#000000",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#00000080",
+					"name": "Contrast 50",
+					"slug": "contrast-50"
+				},
 				{
 					"color": "#ffffff",
 					"name": "Base",
 					"slug": "base"
 				},
 				{
-					"color": "#000000",
-					"name": "Contrast",
-					"slug": "contrast"
+					"color": "#ffffff80",
+					"name": "Base 50",
+					"slug": "base-50"
 				},
 				{
 					"color": "#440099",
@@ -120,9 +140,9 @@
 					"slug": "primary"
 				},
 				{
-					"color": "#f5f5f5",
-					"name": "Neutral",
-					"slug": "neutral"
+					"color": "#44009980",
+					"name": "Primary 50",
+					"slug": "primary-50"
 				}
 			]
 		},
@@ -144,7 +164,7 @@
 			"presets": [
 				{
 					"name": "Light",
-					"shadow": "0 0 10px rgba(0, 0, 0, 0.1)",
+					"shadow": "0 0 5px rgba(0, 0, 0, 0.1)",
 					"slug": "light"
 				},
 				{
