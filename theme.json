@@ -91,26 +91,6 @@
 					"gradient": "linear-gradient(var(--wp--preset--color--contrast) 50%, var(--wp--preset--color--base) 50%)",
 					"name": "Contrast to Base",
 					"slug": "contrast-base"
-				},
-				{
-					"gradient": "linear-gradient(to top, var(--wp--preset--color--contrast) 0%, var(--wp--preset--color--contrast-50) 100%)",
-					"name": "Fade Up",
-					"slug": "fade-up"
-				},
-				{
-					"gradient": "linear-gradient(to bottom, var(--wp--preset--color--contrast) 0%, var(--wp--preset--color--contrast-50) 100%)",
-					"name": "Fade Down",
-					"slug": "fade-down"
-				},
-				{
-					"gradient": "linear-gradient(to left, var(--wp--preset--color--contrast) 0%, var(--wp--preset--color--contrast-50) 100%)",
-					"name": "Fade Left",
-					"slug": "fade-left"
-				},
-				{
-					"gradient": "linear-gradient(to right, var(--wp--preset--color--contrast) 0%, var(--wp--preset--color--contrast-50) 100%)",
-					"name": "Fade Right",
-					"slug": "fade-right"
 				}
 			],
 			"palette": [
@@ -120,29 +100,14 @@
 					"slug": "contrast"
 				},
 				{
-					"color": "#00000080",
-					"name": "Contrast 50",
-					"slug": "contrast-50"
-				},
-				{
 					"color": "#ffffff",
 					"name": "Base",
 					"slug": "base"
 				},
 				{
-					"color": "#ffffff80",
-					"name": "Base 50",
-					"slug": "base-50"
-				},
-				{
 					"color": "#440099",
 					"name": "Primary",
 					"slug": "primary"
-				},
-				{
-					"color": "#44009980",
-					"name": "Primary 50",
-					"slug": "primary-50"
 				}
 			]
 		},
