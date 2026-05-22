@@ -15,6 +15,7 @@ function powder_register_block_styles() {
 		],
 		'core/heading' => [
 			'balanced' => __( 'Balanced', 'powder' ),
+			'eyebrow' => __( 'Eyebrow', 'powder' ),
 		],
 		'core/image' => [
 			'zoom' => __( 'Zoom', 'powder' ),
@@ -24,6 +25,8 @@ function powder_register_block_styles() {
 		],
 		'core/paragraph' => [
 			'balanced' => __( 'Balanced', 'powder' ),
+			'eyebrow' => __( 'Eyebrow', 'powder' ),
+			'indent' => __( 'Indent', 'powder' ),
 		],
 		'core/post-featured-image' => [
 			'zoom' => __( 'Zoom', 'powder' ),
