@@ -1,14 +1,15 @@
 ( function( wp ) {
-	const { useState } = wp.element;
+	const { useState, createElement: el, createRoot, Fragment } = wp.element;
 	const { Button, ToggleControl } = wp.components;
 	const { __, sprintf } = wp.i18n;
 	const apiFetch = wp.apiFetch;
 	const settings = window.PowderSettings || {};
-	const el = wp.element.createElement;
 
-	apiFetch.use(
-		apiFetch.createNonceMiddleware( settings.nonce )
-	);
+	if ( settings.nonce ) {
+		apiFetch.use(
+			apiFetch.createNonceMiddleware( settings.nonce )
+		);
+	}
 
 	function App() {
 		const [ disabled, setDisabled ] = useState( settings.disabledPatternCategories || [] );
@@ -22,6 +23,7 @@
 		const toggleCategory = ( slug ) => {
 			setMessage( '' );
 			setError( false );
+
 			setDisabled( ( current ) => {
 				return current.includes( slug )
 					? current.filter( ( item ) => item !== slug )
@@ -30,6 +32,12 @@
 		};
 
 		const save = () => {
+			if ( ! settings.restPath ) {
+				setError( true );
+				setMessage( __( 'Pattern settings could not be saved.', 'powder' ) );
+				return;
+			}
+
 			setSaving( true );
 			setMessage( '' );
 			setError( false );
@@ -65,7 +73,7 @@
 		};
 
 		return el(
-			wp.element.Fragment,
+			Fragment,
 			null,
 			el(
 				'div',
@@ -90,33 +98,39 @@
 			el(
 				'div',
 				{ className: 'powder-settings-table' },
-				el(
-					'div',
-					{ className: 'powder-settings-list' },
-					entries.map( ( [ slug, category ] ) => {
-						const enabled = ! disabled.includes( slug );
+				entries.length
+					? el(
+						'div',
+						{ className: 'powder-settings-list' },
+						entries.map( ( [ slug, category ] ) => {
+							const enabled = ! disabled.includes( slug );
 
-						return el(
-							'div',
-							{ className: 'powder-settings-row', key: slug },
-							el(
+							return el(
 								'div',
-								{ className: 'powder-settings-content' },
-								el( 'h3', null, category.label ),
-								el( 'p', null, category.description )
-							),
-							el(
-								'div',
-								{ className: 'powder-settings-toggle' },
-								el( ToggleControl, {
-									checked: enabled,
-									label: enabled ? __( 'Enabled', 'powder' ) : __( 'Disabled', 'powder' ),
-									onChange: () => toggleCategory( slug ),
-								} )
-							)
-						);
-					} )
-				)
+								{ className: 'powder-settings-row', key: slug },
+								el(
+									'div',
+									{ className: 'powder-settings-content' },
+									el( 'h3', null, category.label ),
+									el( 'p', null, category.description )
+								),
+								el(
+									'div',
+									{ className: 'powder-settings-toggle' },
+									el( ToggleControl, {
+										checked: enabled,
+										label: enabled ? __( 'Enabled', 'powder' ) : __( 'Disabled', 'powder' ),
+										onChange: () => toggleCategory( slug ),
+									} )
+								)
+							);
+						} )
+					)
+					: el(
+						'p',
+						{ className: 'powder-settings-empty' },
+						__( 'No pattern categories were found.', 'powder' )
+					)
 			),
 			el(
 				'div',
@@ -126,7 +140,7 @@
 					{
 						variant: 'primary',
 						isBusy: saving,
-						disabled: saving,
+						disabled: saving || ! entries.length,
 						onClick: save,
 					},
 					__( 'Save Changes', 'powder' )
@@ -135,6 +149,7 @@
 					Button,
 					{
 						variant: 'link',
+						disabled: ! entries.length,
 						onClick: enabledCount === entries.length ? disableAll : enableAll,
 					},
 					enabledCount === entries.length ? __( 'Disable All', 'powder' ) : __( 'Enable All', 'powder' )
@@ -148,8 +163,11 @@
 		);
 	}
 
-	wp.element.render(
-		el( App ),
-		document.getElementById( 'powder-settings-app' )
-	);
+	const root = document.getElementById( 'powder-settings-app' );
+
+	if ( root && createRoot ) {
+		createRoot( root ).render(
+			el( App )
+		);
+	}
 } )( window.wp );

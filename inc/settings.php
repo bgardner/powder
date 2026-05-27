@@ -76,10 +76,59 @@ function powder_settings_register_page() {
 		__( 'Powder', 'powder' ),
 		'manage_options',
 		'powder',
-		'powder_settings_page'
+		'powder_settings_page',
+		99
 	);
 }
 add_action( 'admin_menu', 'powder_settings_register_page' );
+
+function powder_settings_reorder_page() {
+	global $submenu;
+
+	if ( empty( $submenu['themes.php'] ) || ! is_array( $submenu['themes.php'] ) ) {
+		return;
+	}
+
+	$powder = null;
+
+	foreach ( $submenu['themes.php'] as $index => $item ) {
+		if ( isset( $item[2] ) && 'powder' === $item[2] ) {
+			$powder = $item;
+			unset( $submenu['themes.php'][ $index ] );
+			break;
+		}
+	}
+
+	if ( ! $powder ) {
+		return;
+	}
+
+	$submenu['themes.php'] = array_values( $submenu['themes.php'] );
+
+	$new_menu     = [];
+	$inserted     = false;
+	$font_targets = [
+		'gutenberg-manage-fonts',
+		'site-editor.php?path=/wp_global_styles',
+		'site-editor.php?path=/wp_global_styles&canvas=edit',
+	];
+
+	foreach ( $submenu['themes.php'] as $item ) {
+		$new_menu[] = $item;
+
+		if ( ! $inserted && isset( $item[2] ) && in_array( $item[2], $font_targets, true ) ) {
+			$new_menu[] = $powder;
+			$inserted   = true;
+		}
+	}
+
+	if ( ! $inserted ) {
+		$new_menu[] = $powder;
+	}
+
+	$submenu['themes.php'] = $new_menu;
+}
+add_action( 'admin_menu', 'powder_settings_reorder_page', 999 );
 
 function powder_settings_register_rest_route() {
 	register_rest_route(
