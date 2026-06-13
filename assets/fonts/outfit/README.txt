@@ -1,22 +1,26 @@
-Google Sans Flex Variable Font
-==============================
+Outfit Variable Font
+====================
 
-This download contains Google Sans Flex as both a variable font and static fonts.
+This download contains Outfit as both a variable font and static fonts.
 
-Google Sans Flex is a variable font with these axes:
-  GRAD
-  ROND
-  opsz
-  slnt
-  wdth
+Outfit is a variable font with this axis:
   wght
 
 This means all the styles are contained in a single file:
-  GoogleSansFlex-VariableFont_GRAD,ROND,opsz,slnt,wdth,wght.ttf
+  Outfit-VariableFont_wght.ttf
 
 If your app fully supports variable fonts, you can now pick intermediate styles
 that aren’t available as static fonts. Not all apps support variable fonts, and
-in those cases you can use the static font files for Google Sans Flex:
+in those cases you can use the static font files for Outfit:
+  static/Outfit-Thin.ttf
+  static/Outfit-ExtraLight.ttf
+  static/Outfit-Light.ttf
+  static/Outfit-Regular.ttf
+  static/Outfit-Medium.ttf
+  static/Outfit-SemiBold.ttf
+  static/Outfit-Bold.ttf
+  static/Outfit-ExtraBold.ttf
+  static/Outfit-Black.ttf
 
 Get started
 -----------

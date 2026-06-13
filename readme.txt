@@ -40,8 +40,8 @@ GNU General Public License for more details.
 The included font is licensed under the SIL Open Font License, Version 1.1.
 License URL: https://openfontlicense.org/open-font-license-official-text/
 
-Google Sans Flex Font
-https://fonts.google.com/specimen/Google+Sans+Flex
+Outfit Font
+https://fonts.google.com/specimen/Outfit
 
 == Images ==
 
