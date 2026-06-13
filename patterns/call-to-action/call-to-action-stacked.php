@@ -9,8 +9,8 @@
 <div class="wp-block-group alignfull" style="margin-top:0px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
 	<!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 	<div class="wp-block-group">
-		<!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","lineHeight":"1"}},"fontSize":"x-small"} -->
-		<p class="has-x-small-font-size" style="line-height:1;text-transform:uppercase"><?php echo esc_html__( 'Meet Powder', 'powder' ); ?></p>
+		<!-- wp:paragraph {"className":"is-style-eyebrow"} -->
+		<p class="is-style-eyebrow"><?php echo esc_html__( 'Meet Powder', 'powder' ); ?></p>
 		<!-- /wp:paragraph -->
 		<!-- wp:separator -->
 		<hr class="wp-block-separator has-alpha-channel-opacity"/>

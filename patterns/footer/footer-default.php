@@ -7,8 +7,8 @@
  * Template Types: footer
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Footer"},"align":"full","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"fontSize":"x-small","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-x-small-font-size" style="margin-top:0;padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)">
+<!-- wp:group {"metadata":{"name":"Footer"},"align":"full","style":{"spacing":{"margin":{"top":"0"},"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"fontSize":"small","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-small-font-size" style="margin-top:0;padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)">
 	<!-- wp:group {"align":"wide","layout":{"type":"flex","allowOrientation":false,"justifyContent":"space-between"}} -->
 	<div class="wp-block-group alignwide">
 		<!-- wp:group {"style":{"spacing":{"blockGap":"5px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
@@ -18,7 +18,7 @@
 				<!-- wp:paragraph -->
 				<p>&copy; <?php echo esc_html( gmdate( 'Y' ) ); ?></p>
 				<!-- /wp:paragraph -->
-				<!-- wp:site-title {"level":0,"isLink":false,"style":{"typography":{"fontStyle":"normal","fontWeight":"400","lineHeight":"1.75"}},"fontSize":"x-small"} /-->
+				<!-- wp:site-title {"level":0,"isLink":false,"style":{"typography":{"fontStyle":"normal","fontWeight":"400","lineHeight":"1.75"}},"fontSize":"small"} /-->
 			</div>
 			<!-- /wp:group -->
 			<!-- wp:paragraph -->

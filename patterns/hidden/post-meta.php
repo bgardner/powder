@@ -5,8 +5,8 @@
  * Inserter: no
  */
 ?>
-<!-- wp:group {"layout":{"type":"flex"},"style":{"spacing":{"blockGap":"5px"}},"fontSize":"x-small"} -->
-<div class="wp-block-group has-x-small-font-size">
+<!-- wp:group {"layout":{"type":"flex"},"style":{"spacing":{"blockGap":"5px"}},"fontSize":"small"} -->
+<div class="wp-block-group has-small-font-size">
 	<!-- wp:post-date /-->
 	<!-- wp:paragraph -->
 	<p>·</p>

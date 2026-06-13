@@ -9,8 +9,8 @@
 <div class="wp-block-group alignfull" style="margin-top:0;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
 	<!-- wp:group {"align":"wide","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"bottom"}} -->
 	<div class="wp-block-group alignwide">
-		<!-- wp:heading {"fontSize":"xx-large"} -->
-		<h2 class="wp-block-heading has-xx-large-font-size"><?php echo esc_html__( 'My Images', 'powder' ); ?></h2>
+		<!-- wp:heading {"fontSize":"large"} -->
+		<h2 class="wp-block-heading has-large-font-size"><?php echo esc_html__( 'My Images', 'powder' ); ?></h2>
 		<!-- /wp:heading -->
 		<!-- wp:paragraph {"fontSize":"x-small"} -->
 		<p class="has-x-small-font-size"><a href="#"><?php echo esc_html__( 'View Gallery →', 'powder' ); ?></a></p>

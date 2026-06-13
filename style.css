@@ -58,8 +58,8 @@ textarea {
 
 input:not([type="submit"]):focus,
 textarea:focus {
-	border-color: var(--wp--preset--color--primary);
-	outline: 1px solid var(--wp--preset--color--primary);
+	border-color: var(--wp--preset--color--accent);
+	outline: 1px solid var(--wp--preset--color--accent);
 }
 
 input[type="checkbox"],
@@ -79,8 +79,10 @@ input[type="radio"] {
 
 /* Navigation */
 
-.wp-block-navigation__responsive-container.is-menu-open {
-	padding: var(--wp--preset--spacing--30);
+.wp-block-navigation__responsive-container-open,
+.wp-block-navigation__responsive-container-close {
+	border: 1px solid currentColor;
+	padding: 2px;
 }
 
 /* Navigation submenu */
@@ -103,27 +105,33 @@ input[type="radio"] {
 
 /* Overflow */
 
-.is-style-overflow-hidden {
+.overflow-hidden {
 	overflow: hidden;
 }
 
 /* Position */
 
-.is-style-position-fixed {
+.position-fixed {
 	position: fixed;
 }
 
-.is-style-position-relative {
+.position-relative {
 	position: relative;
+}
+
+/* Underline */
+
+.no-underline {
+	text-decoration: none;
 }
 
 /* Z-index */
 
-.is-style-negative-zindex {
+.z-index-negative {
 	z-index: -99;
 }
 
-.is-style-positive-zindex {
+.z-index-positive {
 	z-index: 99;
 }
 

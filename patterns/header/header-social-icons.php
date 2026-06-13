@@ -7,8 +7,8 @@
  * Template Types: header
  */
 ?>
-<!-- wp:group {"metadata":{"name":"Header"},"align":"full","style":{"spacing":{"margin":{"top":"0px"},"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}},"backgroundColor":"base","layout":{"inherit":true,"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-base-background-color has-background" style="margin-top:0px;padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)">
+<!-- wp:group {"metadata":{"name":"Header"},"align":"full","style":{"spacing":{"margin":{"top":"0px"},"padding":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}},"elements":{"link":{"color":{"text":"var:preset|color|black"}}}},"backgroundColor":"white","textColor":"black","layout":{"inherit":true,"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-black-color has-white-background-color has-text-color has-background has-link-color" style="margin-top:0px;padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)">
 	<!-- wp:group {"align":"wide","layout":{"type":"flex","justifyContent":"space-between"}} -->
 	<div class="wp-block-group alignwide">
 		<!-- wp:group {"style":{"spacing":{"blockGap":"15px"},"layout":{"selfStretch":"fixed","flexSize":"200px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
@@ -16,7 +16,7 @@
 			<!-- wp:site-title {"level":0} /-->	
 		</div>
 		<!-- /wp:group -->
-		<!-- wp:navigation {"layout":{"type":"flex","setCascadingProperties":true}} /-->
+		<!-- wp:navigation {"overlay":"navigation-overlay","layout":{"type":"flex","setCascadingProperties":true}} /-->
 		<!-- wp:social-links {"openInNewTab":true,"size":"has-small-icon-size","metadata":{"blockVisibility":{"viewport":{"tablet":false,"mobile":false}}},"className":"is-style-outline","style":{"layout":{"selfStretch":"fixed","flexSize":"200px"},"spacing":{"blockGap":{"left":"5px"}}},"layout":{"type":"flex","justifyContent":"right"}} -->
 		<ul class="wp-block-social-links has-small-icon-size is-style-outline">
 			<!-- wp:social-link {"url":"https://www.linkedin.com/","service":"linkedin"} /-->
