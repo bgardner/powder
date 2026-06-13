@@ -37,15 +37,15 @@
 						<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1","textAlign":"center"}},"fontSize":"x-large"} -->
 						<p class="has-text-align-center has-x-large-font-size" style="line-height:1">$95</p>
 						<!-- /wp:paragraph -->
-						<!-- wp:paragraph {"fontSize":"x-small"} -->
-						<p class="has-x-small-font-size">/ <?php echo esc_html__( 'year', 'powder' ); ?></p>
+						<!-- wp:paragraph {"fontSize":"small"} -->
+						<p class="has-small-font-size">/ <?php echo esc_html__( 'year', 'powder' ); ?></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
 				</div>
 				<!-- /wp:group -->
-				<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|20"}},"typography":{"lineHeight":"1.5"}},"fontSize":"x-small"} -->
-				<p class="has-x-small-font-size" style="margin-top:var(--wp--preset--spacing--20);line-height:1.5"><?php echo esc_html__( 'Perfect for WordPress designers who are curious or just getting started.', 'powder' ); ?></p>
+				<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|20"}},"typography":{"lineHeight":"1.5"}},"fontSize":"small"} -->
+				<p class="has-small-font-size" style="margin-top:var(--wp--preset--spacing--20);line-height:1.5"><?php echo esc_html__( 'Perfect for WordPress designers who are curious or just getting started.', 'powder' ); ?></p>
 				<!-- /wp:paragraph -->
 				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained"}} -->
 				<div class="wp-block-group">
@@ -108,15 +108,15 @@
 						<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1","textAlign":"center"}},"fontSize":"x-large"} -->
 						<p class="has-text-align-center has-x-large-font-size" style="line-height:1">$295</p>
 						<!-- /wp:paragraph -->
-						<!-- wp:paragraph {"fontSize":"x-small"} -->
-						<p class="has-x-small-font-size">/ <?php echo esc_html__( 'once', 'powder' ); ?></p>
+						<!-- wp:paragraph {"fontSize":"small"} -->
+						<p class="has-small-font-size">/ <?php echo esc_html__( 'once', 'powder' ); ?></p>
 						<!-- /wp:paragraph -->
 					</div>
 					<!-- /wp:group -->
 				</div>
 				<!-- /wp:group -->
-				<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.5"},"spacing":{"margin":{"top":"var:preset|spacing|20"}}},"fontSize":"x-small"} -->
-				<p class="has-x-small-font-size" style="margin-top:var(--wp--preset--spacing--20);line-height:1.5"><?php echo esc_html__( 'Perfect for WordPress designers who want the deal of a lifetime. Literally.', 'powder' ); ?></p>
+				<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.5"},"spacing":{"margin":{"top":"var:preset|spacing|20"}}},"fontSize":"small"} -->
+				<p class="has-small-font-size" style="margin-top:var(--wp--preset--spacing--20);line-height:1.5"><?php echo esc_html__( 'Perfect for WordPress designers who want the deal of a lifetime. Literally.', 'powder' ); ?></p>
 				<!-- /wp:paragraph -->
 				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"constrained"}} -->
 				<div class="wp-block-group">
