@@ -11,8 +11,8 @@
 	<div class="wp-block-columns are-vertically-aligned-center">
 		<!-- wp:column {"verticalAlignment":"center","style":{"spacing":{"blockGap":"var:preset|spacing|20"}}} -->
 		<div class="wp-block-column is-vertically-aligned-center">
-			<!-- wp:heading {"fontSize":"large"} -->
-			<h2 class="wp-block-heading has-large-font-size"><?php echo esc_html__( 'Jennifer Kayne', 'powder' ); ?></h2>
+			<!-- wp:heading {"fontSize":"x-large"} -->
+			<h2 class="wp-block-heading has-x-large-font-size"><?php echo esc_html__( 'Jennifer Kayne', 'powder' ); ?></h2>
 			<!-- /wp:heading -->
 			<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"5px"}}},"fontSize":"x-small"} -->
 			<p class="has-x-small-font-size" style="margin-top:5px"><?php echo esc_html__( 'Chief Executive Officer', 'powder' ); ?></p>

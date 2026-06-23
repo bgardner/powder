@@ -20,16 +20,16 @@
 		<div class="wp-block-column is-vertically-aligned-center">
 			<!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 			<div class="wp-block-group">
-				<!-- wp:paragraph {"className":"is-style-eyebrow"} -->
-				<p class="is-style-eyebrow"><?php echo esc_html__( 'Meet Powder', 'powder' ); ?></p>
+				<!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"500","lineHeight":"1"}},"fontSize":"x-small"} -->
+				<p class="has-x-small-font-size" style="font-style:normal;font-weight:500;line-height:1;text-transform:uppercase"><?php echo esc_html__( 'Meet Powder', 'powder' ); ?></p>
 				<!-- /wp:paragraph -->
-				<!-- wp:separator {"backgroundColor":"black"} -->
-				<hr class="wp-block-separator has-text-color has-black-color has-alpha-channel-opacity has-black-background-color has-background"/>
+				<!-- wp:separator {"backgroundColor":"contrast"} -->
+				<hr class="wp-block-separator has-text-color has-contrast-color has-alpha-channel-opacity has-contrast-background-color has-background"/>
 				<!-- /wp:separator -->
 			</div>
 			<!-- /wp:group -->
-				<!-- wp:heading {"style":{"typography":{"fontSize":"48px"},"spacing":{"margin":{"top":"var:preset|spacing|20"}}}} -->
-				<h2 class="wp-block-heading" style="margin-top:var(--wp--preset--spacing--20);font-size:48px"><?php echo esc_html__( 'Design and build stunning websites with Powder.', 'powder' ); ?></h2>
+			<!-- wp:heading {"style":{"typography":{"fontSize":"48px"}}} -->
+			<h2 class="wp-block-heading" style="font-size:48px"><?php echo esc_html__( 'Design and build stunning websites with Powder.', 'powder' ); ?></h2>
 			<!-- /wp:heading -->
 			<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|20"}}}} -->
 			<p style="margin-top:var(--wp--preset--spacing--20)"><?php echo esc_html__( 'Rooted in simplicity and built with purpose, it brings an abundance of patterns, versatile templates, and a tailored color palette.', 'powder' ); ?></p>

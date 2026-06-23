@@ -7,10 +7,6 @@
 
 function powder_register_block_styles() {
 	$block_styles = [
-		'core/button' => [
-			'fill-alt' => __( 'Fill (Alt)', 'powder' ),
-			'outline-alt' => __( 'Outline (Alt)', 'powder' ),
-		],
 		'core/columns' => [
 			'column-reverse' => __( 'Reverse', 'powder' ),
 		],
@@ -29,22 +25,14 @@ function powder_register_block_styles() {
 			'eyebrow' => __( 'Eyebrow', 'powder' ),
 			'indent' => __( 'Indent', 'powder' ),
 		],
-		'core/post-excerpt' => [
-			'balanced' => __( 'Balanced', 'powder' ),
-		],
 		'core/post-featured-image' => [
 			'zoom' => __( 'Zoom', 'powder' ),
 		],
-		'core/post-title' => [
-			'balanced' => __( 'Balanced', 'powder' ),
-		],
 		'core/separator' => [
 			'extended' => __( 'Extended', 'powder' ),
-			'short' => __( 'Short', 'powder' ),
 		],
 		'core/social-links' => [
 			'outline' => __( 'Outline', 'powder' ),
-			'square' => __( 'Square', 'powder' ),
 		],
 	];
 

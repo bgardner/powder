@@ -1,16 +1,17 @@
 /*
 Theme Name: Powder
-Theme URI: https://briangardner.com/powder/
+Theme URI: https://powder.design/
 Author: Brian Gardner
 Author URI: https://briangardner.com/
-Description: A worldview shaped through simplicity in design.
-Version: 3.0-beta
+Description: The premier block theme for WordPress designers and agencies.
+Version: 2.1
 Requires at least: 7.0
 Tested up to: 7.0
 Requires PHP: 7.4
 License: GNU General Public License v3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: powder
+Tags: block-patterns, block-styles, custom-colors, custom-logo, editor-style, full-site-editing, one-column, two-columns, wide-blocks
 */
 
 /* Base
@@ -58,8 +59,8 @@ textarea {
 
 input:not([type="submit"]):focus,
 textarea:focus {
-	border-color: var(--wp--preset--color--accent);
-	outline: 1px solid var(--wp--preset--color--accent);
+	border-color: var(--wp--preset--color--primary);
+	outline: 1px solid var(--wp--preset--color--primary);
 }
 
 input[type="checkbox"],
@@ -79,10 +80,8 @@ input[type="radio"] {
 
 /* Navigation */
 
-.wp-block-navigation__responsive-container-open,
-.wp-block-navigation__responsive-container-close {
-	border: 1px solid currentColor;
-	padding: 2px;
+.wp-block-navigation__responsive-container.is-menu-open {
+	padding: var(--wp--preset--spacing--30);
 }
 
 /* Navigation submenu */
@@ -105,33 +104,27 @@ input[type="radio"] {
 
 /* Overflow */
 
-.overflow-hidden {
+.is-style-overflow-hidden {
 	overflow: hidden;
 }
 
 /* Position */
 
-.position-fixed {
+.is-style-position-fixed {
 	position: fixed;
 }
 
-.position-relative {
+.is-style-position-relative {
 	position: relative;
-}
-
-/* Underline */
-
-.no-underline {
-	text-decoration: none;
 }
 
 /* Z-index */
 
-.z-index-negative {
+.is-style-negative-zindex {
 	z-index: -99;
 }
 
-.z-index-positive {
+.is-style-positive-zindex {
 	z-index: 99;
 }
 

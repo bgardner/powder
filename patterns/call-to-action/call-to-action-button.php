@@ -9,13 +9,13 @@
 <div class="wp-block-group alignfull" style="margin-top:0px;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
 	<!-- wp:group {"align":"wide","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 	<div class="wp-block-group alignwide">
-		<!-- wp:paragraph {"className":"is-style-balanced","style":{"typography":{"lineHeight":"1.25"},"layout":{"selfStretch":"fixed","flexSize":"960px"}},"fontSize":"large"} -->
-		<p class="is-style-balanced has-large-font-size" style="line-height:1.25"><?php echo esc_html__( 'We want to revolutionize how WordPress websites are made by embracing block-based design.', 'powder' ); ?></p>
+		<!-- wp:paragraph {"className":"is-style-balanced","style":{"typography":{"lineHeight":"1.25"},"layout":{"selfStretch":"fixed","flexSize":"960px"}},"fontSize":"xx-large"} -->
+		<p class="is-style-balanced has-xx-large-font-size" style="line-height:1.25"><?php echo esc_html__( 'We want to revolutionize how WordPress websites are made by embracing block-based design.', 'powder' ); ?></p>
 		<!-- /wp:paragraph -->
 		<!-- wp:buttons -->
 		<div class="wp-block-buttons">
-			<!-- wp:button {"fontSize":"base"} -->
-			<div class="wp-block-button has-custom-font-size has-base-font-size"><a class="wp-block-button__link wp-element-button"><?php echo esc_html__( 'Learn More →', 'powder' ); ?></a></div>
+			<!-- wp:button {"fontSize":"small"} -->
+			<div class="wp-block-button has-custom-font-size has-small-font-size"><a class="wp-block-button__link wp-element-button"><?php echo esc_html__( 'Learn More →', 'powder' ); ?></a></div>
 			<!-- /wp:button -->
 		</div>
 		<!-- /wp:buttons -->

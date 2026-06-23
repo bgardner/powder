@@ -117,14 +117,14 @@
 				<!-- wp:paragraph -->
 				<p>&copy; <?php echo esc_html( gmdate( 'Y' ) ); ?></p>
 				<!-- /wp:paragraph -->
-				<!-- wp:site-title {"level":0,"isLink":false,"style":{"typography":{"fontStyle":"normal","fontWeight":"300","lineHeight":"1.75"}},"fontSize":"x-small"} /-->
+				<!-- wp:site-title {"level":0,"isLink":false,"style":{"typography":{"fontStyle":"normal","fontWeight":"400","lineHeight":"1.75"}},"fontSize":"x-small"} /-->
 			</div>
 			<!-- /wp:group -->
 			<!-- wp:paragraph -->
 			<p> · </p>
 			<!-- /wp:paragraph -->
 			<!-- wp:paragraph -->
-			<p><a href="https://briangardner.com/powder/">Powder Theme</a> by <a href="https://briangardner.com/">Brian Gardner</a></p>
+			<p><a href="https://powder.design/">Powder Theme</a> by <a href="https://briangardner.com/">Brian Gardner</a></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->

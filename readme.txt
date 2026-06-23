@@ -3,7 +3,7 @@ Contributors: bgardner
 Requires at least: 7.0
 Tested up to: 7.0
 Requires PHP: 7.4
-Stable tag: 3.0-beta
+Stable tag: 2.1
 License: GNU General Public License v3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -40,8 +40,8 @@ GNU General Public License for more details.
 The included font is licensed under the SIL Open Font License, Version 1.1.
 License URL: https://openfontlicense.org/open-font-license-official-text/
 
-Outfit Font
-https://fonts.google.com/specimen/Outfit
+Google Sans Flex Font
+https://fonts.google.com/specimen/Google+Sans+Flex
 
 == Images ==
 

@@ -5,8 +5,8 @@
  * Categories: powder-hero
  */
 ?>
-<!-- wp:cover {"metadata":{"name":"Hero Cover"},"overlayColor":"white","isUserOverlayColor":true,"minHeight":600,"isDark":false,"align":"full","style":{"spacing":{"blockGap":"10px","margin":{"top":"0"}}},"layout":{"type":"constrained","wideSize":"1280px"}} -->
-<div class="wp-block-cover alignfull is-light" style="margin-top:0;min-height:600px"><span aria-hidden="true" class="wp-block-cover__background has-white-background-color has-background-dim-100 has-background-dim"></span><div class="wp-block-cover__inner-container">
+<!-- wp:cover {"metadata":{"name":"Hero Cover"},"overlayColor":"base","isUserOverlayColor":true,"minHeight":600,"isDark":false,"align":"full","style":{"spacing":{"blockGap":"10px","margin":{"top":"0"}}},"layout":{"type":"constrained","wideSize":"1280px"}} -->
+<div class="wp-block-cover alignfull is-light" style="margin-top:0;min-height:600px"><span aria-hidden="true" class="wp-block-cover__background has-base-background-color has-background-dim-100 has-background-dim"></span><div class="wp-block-cover__inner-container">
 	<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"default"}} -->
 	<div class="wp-block-group">
 		<!-- wp:heading {"level":1,"className":"is-style-balanced","style":{"typography":{"fontSize":"60px"}}} -->
@@ -14,8 +14,8 @@
 		<!-- /wp:heading -->
 		<!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 		<div class="wp-block-group">
-			<!-- wp:separator {"backgroundColor":"black"} -->
-			<hr class="wp-block-separator has-text-color has-black-color has-alpha-channel-opacity has-black-background-color has-background"/>
+			<!-- wp:separator {"backgroundColor":"contrast"} -->
+			<hr class="wp-block-separator has-text-color has-contrast-color has-alpha-channel-opacity has-contrast-background-color has-background"/>
 			<!-- /wp:separator -->
 			<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1"}}} -->
 			<p style="line-height:1"><?php echo esc_html__( 'Transform your space with our stylish design solutions.', 'powder' ); ?></p>

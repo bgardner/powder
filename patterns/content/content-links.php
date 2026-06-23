@@ -14,8 +14,8 @@
 		<!-- /wp:image -->
 		<!-- wp:group {"style":{"spacing":{"blockGap":"5px","margin":{"top":"var:preset|spacing|20"}}},"layout":{"type":"constrained"}} -->
 		<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--20)">
-			<!-- wp:heading {"level":1,"className":"wp-block-heading","style":{"typography":{"textAlign":"center"}}} -->
-			<h1 class="wp-block-heading has-text-align-center"><?php echo esc_html__( 'Your Name', 'powder' ); ?></h1>
+			<!-- wp:heading {"textAlign":"center","level":1,"className":"wp-block-heading","fontSize":"x-large"} -->
+			<h1 class="wp-block-heading has-text-align-center has-x-large-font-size"><?php echo esc_html__( 'Your Name', 'powder' ); ?></h1>
 			<!-- /wp:heading -->
 			<!-- wp:paragraph {"align":"center","fontSize":"small"} -->
 			<p class="has-text-align-center has-small-font-size"><?php echo esc_html__( 'A little something about yourself.', 'powder' ); ?></p>
@@ -48,7 +48,7 @@
 		</ul>
 		<!-- /wp:social-links -->
 		<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}},"fontSize":"x-small"} -->
-		<p class="has-text-align-center has-x-small-font-size" style="margin-top:var(--wp--preset--spacing--60)"><a href="https://briangardner.com/powder/">Made with Powder</a></p>
+		<p class="has-text-align-center has-x-small-font-size" style="margin-top:var(--wp--preset--spacing--60)"><a href="https://powder.design/">Made with Powder</a></p>
 		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:group -->

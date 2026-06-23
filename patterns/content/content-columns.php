@@ -9,11 +9,11 @@
 <div class="wp-block-group alignfull" style="margin-top:0;padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
 	<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"15px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 	<div class="wp-block-group alignwide">
-		<!-- wp:paragraph {"className":"is-style-eyebrow"} -->
-		<p class="is-style-eyebrow"><?php echo esc_html__( 'Meet Powder', 'powder' ); ?></p>
+		<!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"400"}},"fontSize":"x-small"} -->
+		<p class="has-x-small-font-size" style="font-style:normal;font-weight:400;text-transform:uppercase"><?php echo esc_html__( 'Meet Powder', 'powder' ); ?></p>
 		<!-- /wp:paragraph -->
-		<!-- wp:separator {"backgroundColor":"black"} -->
-		<hr class="wp-block-separator has-text-color has-black-color has-alpha-channel-opacity has-black-background-color has-background"/>
+		<!-- wp:separator {"backgroundColor":"contrast"} -->
+		<hr class="wp-block-separator has-text-color has-contrast-color has-alpha-channel-opacity has-contrast-background-color has-background"/>
 		<!-- /wp:separator -->
 	</div>
 	<!-- /wp:group -->

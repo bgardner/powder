@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Bold testimonial with text, images
- * Slug: powder/testimonials-single-bold
+ * Slug: powder/testimonials-bold-single
  * Categories: powder-testimonials
  */
 ?>
@@ -21,7 +21,7 @@
 	</div>
 	<!-- /wp:group -->
 	<!-- wp:image {"width":"60px","sizeSlug":"full","linkDestination":"none","align":"center"} -->
-	<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/images/quote-bottom.svg'; ?>" alt="Quote bottom icon" style="width:60px"/></figure>
+	<figure class="wp-block-image aligncenter size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ) . '/assets/icons/icon-quote-bottom.svg'; ?>" alt="Quote bottom icon" style="width:60px"/></figure>
 	<!-- /wp:image -->
 </div>
 <!-- /wp:group -->

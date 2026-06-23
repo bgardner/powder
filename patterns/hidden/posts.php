@@ -2,6 +2,7 @@
 /**
  * Title: Stack of posts
  * Slug: powder/posts
+ * Categories: powder-posts
  * Inserter: no
  */
 ?>
@@ -22,8 +23,8 @@
 			</article>
 			<!-- /wp:group -->
 		<!-- /wp:post-template -->
-		<!-- wp:group {"layout":{"type":"default"}} -->
-		<div class="wp-block-group">
+		<!-- wp:group {"style":{"spacing":{"margin":{"top":"0"}}},"layout":{"type":"constrained"}} -->
+		<div class="wp-block-group" style="margin-top:0">
 			<!-- wp:query-pagination {"layout":{"type":"flex","justifyContent":"space-between"}} -->
 				<!-- wp:query-pagination-previous /-->
 				<!-- wp:query-pagination-next /-->

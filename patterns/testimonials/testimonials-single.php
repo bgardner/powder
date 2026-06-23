@@ -10,8 +10,8 @@
 	<!-- wp:paragraph {"align":"center","fontSize":"small"} -->
 	<p class="has-text-align-center has-small-font-size">★ ★ ★ ★ ★</p>
 	<!-- /wp:paragraph -->
-	<!-- wp:paragraph {"align":"center","className":"is-style-balanced","style":{"spacing":{"margin":{"top":"10px"}},"typography":{"lineHeight":"1.5"}},"fontSize":"medium"} -->
-	<p class="has-text-align-center is-style-balanced has-medium-font-size" style="margin-top:10px;line-height:1.5"><?php echo esc_html__( '“Powder is the premier block theme for WordPress designers and agencies, offering an extensive library of patterns.”', 'powder' ); ?></p>
+	<!-- wp:paragraph {"align":"center","className":"is-style-balanced","style":{"spacing":{"margin":{"top":"10px"}},"typography":{"lineHeight":"1.5"}},"fontSize":"large"} -->
+	<p class="has-text-align-center is-style-balanced has-large-font-size" style="margin-top:10px;line-height:1.5"><?php echo esc_html__( '“Powder is the premier block theme for WordPress designers and agencies, offering an extensive library of patterns.”', 'powder' ); ?></p>
 	<!-- /wp:paragraph -->
 	<!-- wp:group {"style":{"spacing":{"blockGap":"10px"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
 	<div class="wp-block-group">
