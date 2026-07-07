@@ -10,7 +10,7 @@ function powder_theme_updates( $transient ) {
 	$data      = get_transient( $cache_key );
 
 	if ( false === $data ) {
-		$response = wp_remote_get( 'https://powder.design/powder-theme-updates.json' );
+		$response = wp_remote_get( 'https://briangardner.com/powder/powder-theme-updates.json' );
 
 		if ( is_wp_error( $response ) ) {
 			return $transient;
@@ -29,7 +29,7 @@ function powder_theme_updates( $transient ) {
 		$transient->response['powder'] = array(
 			'theme'       => 'powder',
 			'new_version' => $data->version,
-			'url'         => 'https://powder.design/changelog/',
+			'url'         => 'https://briangardner.com/powder/changelog/',
 			'package'     => $data->download_url,
 		);
 	}
