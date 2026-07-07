@@ -10,7 +10,7 @@ function powder_theme_updates( $transient ) {
 	$data      = get_transient( $cache_key );
 
 	if ( false === $data ) {
-		$response = wp_remote_get( 'https://briangardner.com/powder/powder-theme-updates.json' );
+		$response = wp_remote_get( 'https://briangardner.com/powder-theme-updates.json' );
 
 		if ( is_wp_error( $response ) ) {
 			return $transient;
